@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html dir="rtl" lang="he">
+<head>
+    <meta charset="utf-8"/>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+    <title>חדשני | בשדרוג מערכות</title>
+    <link rel="icon" href="assets/CHADSHANI_LOGO_v4.png" type="image/png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="assets/tailwind.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@700&family=Heebo:wght@400;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:FILL@0..1&icon_names=construction,sync,auto_awesome,rocket_launch&display=swap" />
+    
+    <style>
+        :root { --brand: #0d9488; }
+        body, html {
+            height: 100%;
+            margin: 0;
+            font-family: 'Heebo', sans-serif;
+            overflow: hidden;
+            background: #020617;
+        }
+        .hero-bg {
+            position: fixed;
+            inset: 0;
+            background: url('assets/maintenance_hero.png') no-repeat center center;
+            background-size: cover;
+            filter: brightness(0.4) saturate(1.2);
+            z-index: -1;
+            transform: scale(1.1);
+            animation: slowPan 20s linear infinite alternate;
+        }
+        @keyframes slowPan {
+            from { transform: scale(1.1) translate(0, 0); }
+            to { transform: scale(1.1) translate(-1%, -1%); }
+        }
+        .container {
+            height: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 1.5rem;
+        }
+        .maintenance-card {
+            background: linear-gradient(135deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.05) 100%);
+            backdrop-filter: blur(40px) saturate(180%);
+            -webkit-backdrop-filter: blur(40px) saturate(180%);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            border-radius: 3rem;
+            padding: 3rem;
+            max-width: 600px;
+            width: 100%;
+            text-align: center;
+            box-shadow: 0 24px 80px rgba(0, 0, 0, 0.5);
+            position: relative;
+            overflow: hidden;
+        }
+        .scan-line {
+            position: absolute;
+            top: 0;
+            left: -100%;
+            width: 200%;
+            height: 100%;
+            background: linear-gradient(90deg, transparent 0%, rgba(13, 148, 136, 0.2) 50%, transparent 100%);
+            transform: skewX(-20deg);
+            animation: scan 3s cubic-bezier(0.4, 0, 0.2, 1) infinite;
+            pointer-events: none;
+        }
+        @keyframes scan {
+            from { left: -100%; }
+            to { left: 100%; }
+        }
+        .logo {
+            height: 100px;
+            margin-bottom: 2rem;
+            filter: drop-shadow(0 0 20px rgba(13, 148, 136, 0.4));
+        }
+        h1 {
+            font-family: 'Space Grotesk', sans-serif;
+            font-weight: 900;
+            font-size: 2.5rem;
+            color: white;
+            margin-bottom: 1rem;
+            letter-spacing: -0.02em;
+        }
+        p {
+            color: #94a3b8;
+            font-size: 1.125rem;
+            line-height: 1.6;
+            margin-bottom: 2.5rem;
+            font-weight: 500;
+        }
+        .progress-container {
+            background: rgba(255, 255, 255, 0.05);
+            height: 8px;
+            border-radius: 999px;
+            width: 100%;
+            margin-bottom: 1rem;
+            overflow: hidden;
+            position: relative;
+        }
+        .progress-bar {
+            height: 100%;
+            background: linear-gradient(90deg, #0d9488, #2dd4bf);
+            width: 95%;
+            border-radius: 999px;
+            position: relative;
+            transition: width 1s ease-in-out;
+        }
+        .progress-glow {
+            position: absolute;
+            right: 0;
+            top: 50%;
+            transform: translateY(-50%);
+            width: 20px;
+            height: 20px;
+            background: rgba(45, 212, 191, 0.5);
+            filter: blur(10px);
+            border-radius: 50%;
+        }
+        .status-pill {
+            display: inline-flex;
+            align-items: center;
+            gap: 0.5rem;
+            background: rgba(13, 148, 136, 0.15);
+            color: #2dd4bf;
+            padding: 0.5rem 1.25rem;
+            border-radius: 999px;
+            font-size: 0.75rem;
+            font-weight: 900;
+            text-transform: uppercase;
+            letter-spacing: 0.1em;
+            border: 1px solid rgba(13, 148, 136, 0.3);
+            margin-bottom: 1.5rem;
+        }
+        .dots span {
+            animation: blink 1.4s infinite both;
+        }
+        .dots span:nth-child(2) { animation-delay: 0.2s; }
+        .dots span:nth-child(3) { animation-delay: 0.4s; }
+        @keyframes blink {
+            0% { opacity: 0.2; }
+            20% { opacity: 1; }
+            100% { opacity: 0.2; }
+        }
+    </style>
+</head>
+<body>
+    <div class="hero-bg"></div>
+    <div class="container">
+        <div class="maintenance-card">
+            <div class="scan-line"></div>
+            
+            <img src="assets/CHADSHANI_LOGO_v4.png" alt="חדשני" class="logo mx-auto">
+            
+            <div class="status-pill">
+                <span class="material-symbols-outlined text-[14px]">construction</span>
+                <span>שדרוג מערכות בתהליך</span>
+            </div>
+            
+            <h1>חדשני עובר אבולוציה</h1>
+            <p>אנחנו מעדכנים את המערכות כדי להעניק לך את מודיעין השוק המדויק והמהיר ביותר. <br> אנחנו ממש בצעדים האחרונים.</p>
+            
+            <div class="progress-box px-4">
+                <div class="flex justify-between items-end mb-2 text-[10px] font-black uppercase tracking-widest text-teal-400">
+                    <span>תהליך הצפנה וסנכרון</span>
+                    <span>95%</span>
+                </div>
+                <div class="progress-container">
+                    <div class="progress-bar">
+                        <div class="progress-glow"></div>
+                    </div>
+                </div>
+                <div class="text-[9px] text-slate-500 font-bold italic">
+                    מבצע נגיעות אחרונות בנכסים<span class="dots"><span>.</span><span>.</span><span>.</span></span>
+                </div>
+            </div>
+
+            <div class="mt-12 flex justify-center gap-6">
+                <div class="flex flex-col items-center gap-1">
+                    <span class="material-symbols-outlined text-teal-500/50">sync</span>
+                    <span class="text-[9px] text-slate-500 font-black">AI UPDATING</span>
+                </div>
+                <div class="flex flex-col items-center gap-1">
+                    <span class="material-symbols-outlined text-teal-500/50">auto_awesome</span>
+                    <span class="text-[9px] text-slate-500 font-black">PREMIUM UX</span>
+                </div>
+                <div class="flex flex-col items-center gap-1">
+                    <span class="material-symbols-outlined text-teal-500/50">rocket_launch</span>
+                    <span class="text-[9px] text-slate-500 font-black">LIVE SOON</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
