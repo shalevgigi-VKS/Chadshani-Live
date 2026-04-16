@@ -437,6 +437,58 @@
                     <div id="micro-news-grid" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6"><!-- JS --></div>
                 </section>
 
+                <!-- Day Traders Section -->
+                <section class="glass-card rounded-[3rem] p-8 md:p-10">
+                    <div class="flex flex-row items-center gap-3 mb-6">
+                        <span class="material-symbols-outlined text-red-600 page-h2-icon">speed</span>
+                        <h2 class="page-h2 !text-red-700 !decoration-red-500/20">סוחרים יומיים — מה לעקוב היום</h2>
+                    </div>
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                        <div class="bg-green-50 p-5 rounded-[2rem] border border-green-200">
+                            <h3 class="text-sm font-black text-green-700 mb-3 border-b border-green-200 pb-2">📈 תרחיש שורי</h3>
+                            <div id="day-trader-bull" class="text-xs text-slate-700 leading-relaxed space-y-2">
+                                <p>טוען נתונים...</p>
+                            </div>
+                        </div>
+                        <div class="bg-red-50 p-5 rounded-[2rem] border border-red-200">
+                            <h3 class="text-sm font-black text-red-700 mb-3 border-b border-red-200 pb-2">📉 תרחיש דובי</h3>
+                            <div id="day-trader-bear" class="text-xs text-slate-700 leading-relaxed space-y-2">
+                                <p>טוען נתונים...</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="day-trader-watchlist" class="mt-6 bg-slate-50 p-5 rounded-[2rem] border border-slate-200">
+                        <h3 class="text-sm font-black text-slate-600 mb-3">🎯 מניות מעקב ליום המסחר</h3>
+                        <div id="day-trader-tickers" class="grid grid-cols-1 sm:grid-cols-2 gap-3"><!-- JS --></div>
+                    </div>
+                </section>
+
+                <!-- Swing Traders Section -->
+                <section class="glass-card rounded-[3rem] p-8 md:p-10">
+                    <div class="flex flex-row items-center gap-3 mb-6">
+                        <span class="material-symbols-outlined text-indigo-600 page-h2-icon">trending_up</span>
+                        <h2 class="page-h2 !text-indigo-700 !decoration-indigo-500/20">סוחרי סווינג — סטאפים ל-3–7 ימים</h2>
+                    </div>
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                        <div class="bg-blue-50 p-5 rounded-[2rem] border border-blue-200">
+                            <h3 class="text-sm font-black text-blue-700 mb-3 border-b border-blue-200 pb-2">📈 תרחיש שורי</h3>
+                            <div id="swing-trader-bull" class="text-xs text-slate-700 leading-relaxed space-y-2">
+                                <p>טוען נתונים...</p>
+                            </div>
+                        </div>
+                        <div class="bg-amber-50 p-5 rounded-[2rem] border border-amber-200">
+                            <h3 class="text-sm font-black text-amber-700 mb-3 border-b border-amber-200 pb-2">📉 תרחיש דובי</h3>
+                            <div id="swing-trader-bear" class="text-xs text-slate-700 leading-relaxed space-y-2">
+                                <p>טוען נתונים...</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="swing-trader-watchlist" class="mt-6 bg-slate-50 p-5 rounded-[2rem] border border-slate-200">
+                        <h3 class="text-sm font-black text-slate-600 mb-3">🎯 סטאפים לסווינג השבוע</h3>
+                        <div id="swing-trader-tickers" class="grid grid-cols-1 sm:grid-cols-2 gap-3"><!-- JS --></div>
+                    </div>
+                </section>
+
             </div>
 
             <!-- PAGE: SECTORS -->
@@ -884,6 +936,50 @@
                         </div>
                     </div>
                 `).join('');
+            }
+
+            // Day Traders + Swing Traders — populate from existing data
+            if (wl && s8) {
+                // Day traders: bull = rising watchlist, bear = conclusion risks
+                const dtBull = document.getElementById('day-trader-bull');
+                const dtBear = document.getElementById('day-trader-bear');
+                const dtTickers = document.getElementById('day-trader-tickers');
+                if (dtBull && wl.rising) {
+                    dtBull.innerHTML = (wl.rising || []).slice(0, 3).map(i =>
+                        `<p><strong>${i.ticker}</strong> — ${i.reason}. <span class="text-green-600 font-bold">${i.signal}</span></p>`
+                    ).join('');
+                }
+                if (dtBear && wl.falling) {
+                    dtBear.innerHTML = (wl.falling || []).slice(0, 3).map(i =>
+                        `<p><strong>${i.ticker}</strong> — ${i.reason}. <span class="text-red-600 font-bold">${i.signal}</span></p>`
+                    ).join('');
+                }
+                if (dtTickers) {
+                    const allWl = [...(wl.rising || []), ...(wl.falling || [])];
+                    dtTickers.innerHTML = allWl.map(i => `
+                        <div class="flex justify-between items-center p-2 rounded-xl bg-white border border-slate-100">
+                            <span class="font-black text-sm">${i.ticker}</span>
+                            <span class="text-xs ${i.signal === 'BUY' ? 'text-green-600' : 'text-red-600'} font-bold">${i.signal}</span>
+                            <span class="text-[10px] text-slate-500">${i.note}</span>
+                        </div>
+                    `).join('');
+                }
+
+                // Swing traders: from conclusion + bitcoin outlook
+                const swBull = document.getElementById('swing-trader-bull');
+                const swBear = document.getElementById('swing-trader-bear');
+                const swTickers = document.getElementById('swing-trader-tickers');
+                if (swBull) swBull.innerHTML = `<p>${s8.opportunities || ''}</p>`;
+                if (swBear) swBear.innerHTML = `<p>${s8.risks || ''}</p>`;
+                if (swTickers && wl.rising) {
+                    swTickers.innerHTML = (wl.rising || []).map(i => `
+                        <div class="flex justify-between items-center p-2 rounded-xl bg-white border border-slate-100">
+                            <span class="font-black text-sm">${i.ticker}</span>
+                            <span class="text-xs text-blue-600 font-bold">SWING</span>
+                            <span class="text-[10px] text-slate-500">${i.reason}</span>
+                        </div>
+                    `).join('');
+                }
             }
 
             // Page 2: Sectors
