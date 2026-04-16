@@ -266,24 +266,24 @@
     </section>
 
     <!-- Unified Sticky Navigation Bar — below slider, works on all devices -->
-    <nav id="unified-nav" class="sticky top-0 z-50 flex flex-row justify-center items-center gap-1 md:gap-3 px-2 py-2 bg-white/95 backdrop-blur-2xl border-b border-slate-100 shadow-sm" dir="rtl">
-        <a href="javascript:void(0)" id="nav-macro" class="nav-item mobile-nav-item flex items-center gap-1.5 px-3 py-2 md:px-5 md:py-2.5 text-slate-600 hover:bg-slate-100 rounded-xl transition-all active" onclick="showPage('macro')">
+    <nav id="unified-nav" class="sticky top-0 z-50 flex flex-row justify-center items-center gap-0.5 md:gap-3 px-1 py-2 bg-white/95 backdrop-blur-2xl border-b border-slate-100 shadow-sm overflow-x-auto" dir="rtl">
+        <a href="javascript:void(0)" id="nav-macro" class="nav-item mobile-nav-item flex items-center gap-1 px-2 py-1.5 md:px-5 md:py-2.5 text-slate-600 hover:bg-slate-100 rounded-xl transition-all whitespace-nowrap active" onclick="showPage('macro')">
             <span class="material-symbols-outlined text-[18px] md:text-[20px]">public</span>
             <span class="font-bold text-[11px] md:text-sm">שוק ההון</span>
         </a>
-        <a href="javascript:void(0)" id="nav-sectors" class="nav-item mobile-nav-item flex items-center gap-1.5 px-3 py-2 md:px-5 md:py-2.5 text-slate-600 hover:bg-slate-100 rounded-xl transition-all" onclick="showPage('sectors')">
+        <a href="javascript:void(0)" id="nav-sectors" class="nav-item mobile-nav-item flex items-center gap-1 px-2 py-1.5 md:px-5 md:py-2.5 text-slate-600 hover:bg-slate-100 rounded-xl transition-all whitespace-nowrap" onclick="showPage('sectors')">
             <span class="material-symbols-outlined text-[18px] md:text-[20px]">account_tree</span>
             <span class="font-bold text-[11px] md:text-sm">סקטורים</span>
         </a>
-        <a href="javascript:void(0)" id="nav-crypto" class="nav-item mobile-nav-item flex items-center gap-1.5 px-3 py-2 md:px-5 md:py-2.5 text-slate-600 hover:bg-slate-100 rounded-xl transition-all" onclick="showPage('crypto')">
+        <a href="javascript:void(0)" id="nav-crypto" class="nav-item mobile-nav-item flex items-center gap-1 px-2 py-1.5 md:px-5 md:py-2.5 text-slate-600 hover:bg-slate-100 rounded-xl transition-all whitespace-nowrap" onclick="showPage('crypto')">
             <span class="material-symbols-outlined text-[18px] md:text-[20px]">currency_bitcoin</span>
             <span class="font-bold text-[11px] md:text-sm">קריפטו</span>
         </a>
-        <a href="javascript:void(0)" id="nav-ai" class="nav-item mobile-nav-item flex items-center gap-1.5 px-3 py-2 md:px-5 md:py-2.5 text-slate-600 hover:bg-slate-100 rounded-xl transition-all" onclick="showPage('ai')">
+        <a href="javascript:void(0)" id="nav-ai" class="nav-item mobile-nav-item flex items-center gap-1 px-2 py-1.5 md:px-5 md:py-2.5 text-slate-600 hover:bg-slate-100 rounded-xl transition-all whitespace-nowrap" onclick="showPage('ai')">
             <span class="material-symbols-outlined text-[18px] md:text-[20px]">psychology</span>
             <span class="font-bold text-[11px] md:text-sm">מודיעין AI</span>
         </a>
-        <a href="javascript:void(0)" id="nav-about" class="nav-item mobile-nav-item flex items-center gap-1.5 px-3 py-2 md:px-5 md:py-2.5 text-slate-600 hover:bg-slate-100 rounded-xl transition-all" onclick="showPage('about')">
+        <a href="javascript:void(0)" id="nav-about" class="nav-item mobile-nav-item flex items-center gap-1 px-2 py-1.5 md:px-5 md:py-2.5 text-slate-600 hover:bg-slate-100 rounded-xl transition-all whitespace-nowrap" onclick="showPage('about')">
             <span class="material-symbols-outlined text-[18px] md:text-[20px]">auto_stories</span>
             <span class="font-bold text-[11px] md:text-sm">אודותיי</span>
         </a>
@@ -531,9 +531,9 @@
             </div>
 
             <!-- PAGE: CRYPTO -->
-            <div id="page-crypto" class="page-view hidden space-y-10" dir="rtl">
+            <div id="page-crypto" class="page-view hidden space-y-10 flex flex-col" dir="rtl">
                 <!-- Crypto Advanced Market Intelligence (v3.2.16) -->
-                <section class="grid grid-cols-1 gap-8">
+                <section class="grid grid-cols-1 gap-8 order-2 md:order-1">
                     <div class="glass-card rounded-[3rem] p-8 md:p-10 relative overflow-hidden">
                         <div class="absolute top-0 right-0 w-2 h-full bg-purple-600 blur-[2px]"></div>
                         <div class="flex items-center gap-3 mb-6">
@@ -541,7 +541,7 @@
                             <h2 class="page-h2">מרכז מודיעין קריפטו</h2>
                         </div>
                         <!-- Crypto Global Market Overview -->
-                        <div id="crypto-global-bar" class="grid grid-cols-2 md:grid-cols-4 gap-3 mb-6 hidden">
+                        <div id="crypto-global-bar" class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-3 mb-6 hidden">
                             <div class="bg-purple-50 rounded-2xl p-3 text-center border border-purple-100">
                                 <div class="text-[9px] font-black text-purple-400 uppercase tracking-widest mb-1">שווי שוק כולל</div>
                                 <div id="cg-market-cap" class="text-sm font-black text-purple-700 font-headline">--</div>
@@ -560,14 +560,14 @@
                                 <div id="cg-volume" class="text-sm font-black text-slate-700 font-headline">--</div>
                             </div>
                         </div>
-                        <div id="crypto-market-grid" class="grid grid-cols-2 md:grid-cols-4 gap-4 md:gap-5">
+                        <div id="crypto-market-grid" class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-4 md:gap-5">
                             <!-- Populated by JS -->
                         </div>
                     </div>
                 </section>
 
                 <!-- Crypto Strategic Deep-Dive -->
-                <section class="grid grid-cols-1 lg:grid-cols-2 gap-8">
+                <section class="grid grid-cols-1 lg:grid-cols-2 gap-8 order-1 md:order-2">
                     <div class="surface-container-low rounded-[3rem] p-10 border border-amber-200 bg-amber-50/20">
                         <h2 class="page-h2 mb-6 flex items-center gap-3 !text-amber-900 !decoration-amber-500/20">
                             <span class="material-symbols-outlined text-amber-600 page-h2-icon">auto_stories</span>
@@ -581,7 +581,7 @@
                                 </div>
                                 <p id="crypto-narrative" class="text-sm text-slate-800 leading-relaxed font-medium text-justify"></p>
                             </div>
-                            <div class="grid grid-cols-1 md:grid-cols-2 gap-5">
+                            <div class="grid grid-cols-1 gap-5">
                                 <div class="bg-blue-50/50 p-5 rounded-[2rem] border border-blue-100">
                                     <div class="flex items-center gap-2 mb-2">
                                         <span class="material-symbols-outlined text-blue-500 text-base">trending_up</span>
