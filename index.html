@@ -938,47 +938,76 @@
                 `).join('');
             }
 
-            // Day Traders + Swing Traders — populate from existing data
-            if (wl && s8) {
-                // Day traders: bull = rising watchlist, bear = conclusion risks
+            // Day Traders + Swing Traders
+            {
+                const dt = d.section_9_day_traders;
+                const sw = d.section_10_swing_traders;
                 const dtBull = document.getElementById('day-trader-bull');
                 const dtBear = document.getElementById('day-trader-bear');
                 const dtTickers = document.getElementById('day-trader-tickers');
-                if (dtBull && wl.rising) {
-                    dtBull.innerHTML = (wl.rising || []).slice(0, 3).map(i =>
-                        `<p><strong>${i.ticker}</strong> — ${i.reason}. <span class="text-green-600 font-bold">${i.signal}</span></p>`
-                    ).join('');
-                }
-                if (dtBear && wl.falling) {
-                    dtBear.innerHTML = (wl.falling || []).slice(0, 3).map(i =>
-                        `<p><strong>${i.ticker}</strong> — ${i.reason}. <span class="text-red-600 font-bold">${i.signal}</span></p>`
-                    ).join('');
-                }
-                if (dtTickers) {
-                    const allWl = [...(wl.rising || []), ...(wl.falling || [])];
-                    dtTickers.innerHTML = allWl.map(i => `
-                        <div class="flex justify-between items-center p-2 rounded-xl bg-white border border-slate-100">
-                            <span class="font-black text-sm">${i.ticker}</span>
-                            <span class="text-xs ${i.signal === 'BUY' ? 'text-green-600' : 'text-red-600'} font-bold">${i.signal}</span>
-                            <span class="text-[10px] text-slate-500">${i.note}</span>
-                        </div>
-                    `).join('');
-                }
-
-                // Swing traders: from conclusion + bitcoin outlook
                 const swBull = document.getElementById('swing-trader-bull');
                 const swBear = document.getElementById('swing-trader-bear');
                 const swTickers = document.getElementById('swing-trader-tickers');
-                if (swBull) swBull.innerHTML = `<p>${s8.opportunities || ''}</p>`;
-                if (swBear) swBear.innerHTML = `<p>${s8.risks || ''}</p>`;
-                if (swTickers && wl.rising) {
-                    swTickers.innerHTML = (wl.rising || []).map(i => `
-                        <div class="flex justify-between items-center p-2 rounded-xl bg-white border border-slate-100">
-                            <span class="font-black text-sm">${i.ticker}</span>
-                            <span class="text-xs text-blue-600 font-bold">SWING</span>
-                            <span class="text-[10px] text-slate-500">${i.reason}</span>
-                        </div>
-                    `).join('');
+
+                // Day traders — use dedicated section if exists, fallback to watchlist
+                if (dt) {
+                    if (dtBull) dtBull.innerHTML = `<p>${dt.bull_case || ''}</p>`;
+                    if (dtBear) dtBear.innerHTML = `<p>${dt.bear_case || ''}</p>`;
+                    if (dtTickers && dt.watchlist) {
+                        dtTickers.innerHTML = dt.watchlist.map(i => `
+                            <div class="flex justify-between items-center p-2 rounded-xl bg-white border border-slate-100">
+                                <span class="font-black text-sm">${i.ticker}</span>
+                                <span class="text-[10px] text-green-600 font-bold">כניסה: ${i.entry || '—'}</span>
+                                <span class="text-[10px] text-blue-600">יעד: ${i.target || '—'}</span>
+                                <span class="text-[10px] text-red-500">סטופ: ${i.stop || '—'}</span>
+                            </div>
+                        `).join('');
+                    }
+                } else if (wl) {
+                    // Fallback: use watchlist data
+                    if (dtBull && wl.rising) dtBull.innerHTML = (wl.rising || []).slice(0, 3).map(i =>
+                        `<p><strong>${i.ticker}</strong> — ${i.reason}. <span class="text-green-600 font-bold">${i.signal}</span></p>`
+                    ).join('');
+                    if (dtBear && wl.falling) dtBear.innerHTML = (wl.falling || []).slice(0, 3).map(i =>
+                        `<p><strong>${i.ticker}</strong> — ${i.reason}. <span class="text-red-600 font-bold">${i.signal}</span></p>`
+                    ).join('');
+                    if (dtTickers) {
+                        const allWl = [...(wl.rising || []), ...(wl.falling || [])];
+                        dtTickers.innerHTML = allWl.map(i => `
+                            <div class="flex justify-between items-center p-2 rounded-xl bg-white border border-slate-100">
+                                <span class="font-black text-sm">${i.ticker}</span>
+                                <span class="text-xs ${i.signal === 'BUY' ? 'text-green-600' : 'text-red-600'} font-bold">${i.signal}</span>
+                                <span class="text-[10px] text-slate-500">${i.note}</span>
+                            </div>
+                        `).join('');
+                    }
+                }
+
+                // Swing traders — use dedicated section if exists, fallback to conclusion
+                if (sw) {
+                    if (swBull) swBull.innerHTML = `<p>${sw.bull_case || ''}</p>`;
+                    if (swBear) swBear.innerHTML = `<p>${sw.bear_case || ''}</p>`;
+                    if (swTickers && sw.setups) {
+                        swTickers.innerHTML = sw.setups.map(i => `
+                            <div class="flex justify-between items-center p-2 rounded-xl bg-white border border-slate-100">
+                                <span class="font-black text-sm">${i.ticker}</span>
+                                <span class="text-[10px] text-indigo-600 font-bold">${i.pattern || ''}</span>
+                                <span class="text-[10px] text-slate-500">${i.timeframe || ''}</span>
+                            </div>
+                        `).join('');
+                    }
+                } else if (s8) {
+                    if (swBull) swBull.innerHTML = `<p>${s8.opportunities || ''}</p>`;
+                    if (swBear) swBear.innerHTML = `<p>${s8.risks || ''}</p>`;
+                    if (swTickers && wl && wl.rising) {
+                        swTickers.innerHTML = (wl.rising || []).map(i => `
+                            <div class="flex justify-between items-center p-2 rounded-xl bg-white border border-slate-100">
+                                <span class="font-black text-sm">${i.ticker}</span>
+                                <span class="text-xs text-indigo-600 font-bold">SWING</span>
+                                <span class="text-[10px] text-slate-500">${i.reason}</span>
+                            </div>
+                        `).join('');
+                    }
                 }
             }
 
