@@ -531,43 +531,9 @@
             </div>
 
             <!-- PAGE: CRYPTO -->
-            <div id="page-crypto" class="page-view hidden space-y-10 flex flex-col" dir="rtl">
-                <!-- Crypto Advanced Market Intelligence (v3.2.16) -->
-                <section class="grid grid-cols-1 gap-8 order-2 md:order-1">
-                    <div class="glass-card rounded-[3rem] p-8 md:p-10 relative overflow-hidden">
-                        <div class="absolute top-0 right-0 w-2 h-full bg-purple-600 blur-[2px]"></div>
-                        <div class="flex items-center gap-3 mb-6">
-                            <span class="material-symbols-outlined text-purple-600 page-h2-icon">query_stats</span>
-                            <h2 class="page-h2">מרכז מודיעין קריפטו</h2>
-                        </div>
-                        <!-- Crypto Global Market Overview -->
-                        <div id="crypto-global-bar" class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-3 mb-6 hidden">
-                            <div class="bg-purple-50 rounded-2xl p-3 text-center border border-purple-100">
-                                <div class="text-[9px] font-black text-purple-400 uppercase tracking-widest mb-1">שווי שוק כולל</div>
-                                <div id="cg-market-cap" class="text-sm font-black text-purple-700 font-headline">--</div>
-                                <div id="cg-change-24h" class="text-[9px] font-bold mt-0.5">--</div>
-                            </div>
-                            <div class="bg-orange-50 rounded-2xl p-3 text-center border border-orange-100">
-                                <div class="text-[9px] font-black text-orange-400 uppercase tracking-widest mb-1">דומיננטיות BTC</div>
-                                <div id="cg-btc-dom" class="text-sm font-black text-orange-600 font-headline">--%</div>
-                            </div>
-                            <div class="bg-blue-50 rounded-2xl p-3 text-center border border-blue-100">
-                                <div class="text-[9px] font-black text-blue-400 uppercase tracking-widest mb-1">דומיננטיות ETH</div>
-                                <div id="cg-eth-dom" class="text-sm font-black text-blue-600 font-headline">--%</div>
-                            </div>
-                            <div class="bg-slate-50 rounded-2xl p-3 text-center border border-slate-100">
-                                <div class="text-[9px] font-black text-slate-400 uppercase tracking-widest mb-1">נפח 24h</div>
-                                <div id="cg-volume" class="text-sm font-black text-slate-700 font-headline">--</div>
-                            </div>
-                        </div>
-                        <div id="crypto-market-grid" class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-4 md:gap-5">
-                            <!-- Populated by JS -->
-                        </div>
-                    </div>
-                </section>
-
-                <!-- Crypto Strategic Deep-Dive -->
-                <section class="grid grid-cols-1 lg:grid-cols-2 gap-8 order-1 md:order-2">
+            <div id="page-crypto" class="page-view hidden space-y-10" dir="rtl">
+                <!-- Crypto Strategic Deep-Dive — FIRST on mobile (narrative before coins) -->
+                <section class="grid grid-cols-1 lg:grid-cols-2 gap-8">
                     <div class="surface-container-low rounded-[3rem] p-10 border border-amber-200 bg-amber-50/20">
                         <h2 class="page-h2 mb-6 flex items-center gap-3 !text-amber-900 !decoration-amber-500/20">
                             <span class="material-symbols-outlined text-amber-600 page-h2-icon">auto_stories</span>
@@ -625,6 +591,39 @@
                             <div class="flex flex-wrap gap-3 justify-center" id="crypto-conclusion-badges">
                                 <!-- Populated dynamically by JS based on F&G value -->
                             </div>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- Crypto Market Intelligence — coins grid (AFTER narrative on mobile) -->
+                <section class="grid grid-cols-1 gap-8">
+                    <div class="glass-card rounded-[3rem] p-8 md:p-10 relative overflow-hidden">
+                        <div class="absolute top-0 right-0 w-2 h-full bg-purple-600 blur-[2px]"></div>
+                        <div class="flex items-center gap-3 mb-6">
+                            <span class="material-symbols-outlined text-purple-600 page-h2-icon">query_stats</span>
+                            <h2 class="page-h2">מרכז מודיעין קריפטו</h2>
+                        </div>
+                        <div id="crypto-global-bar" class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-3 mb-6 hidden">
+                            <div class="bg-purple-50 rounded-2xl p-3 text-center border border-purple-100">
+                                <div class="text-[9px] font-black text-purple-400 uppercase tracking-widest mb-1">שווי שוק כולל</div>
+                                <div id="cg-market-cap" class="text-sm font-black text-purple-700 font-headline">--</div>
+                                <div id="cg-change-24h" class="text-[9px] font-bold mt-0.5">--</div>
+                            </div>
+                            <div class="bg-orange-50 rounded-2xl p-3 text-center border border-orange-100">
+                                <div class="text-[9px] font-black text-orange-400 uppercase tracking-widest mb-1">דומיננטיות BTC</div>
+                                <div id="cg-btc-dom" class="text-sm font-black text-orange-600 font-headline">--%</div>
+                            </div>
+                            <div class="bg-blue-50 rounded-2xl p-3 text-center border border-blue-100">
+                                <div class="text-[9px] font-black text-blue-400 uppercase tracking-widest mb-1">דומיננטיות ETH</div>
+                                <div id="cg-eth-dom" class="text-sm font-black text-blue-600 font-headline">--%</div>
+                            </div>
+                            <div class="bg-slate-50 rounded-2xl p-3 text-center border border-slate-100">
+                                <div class="text-[9px] font-black text-slate-400 uppercase tracking-widest mb-1">נפח 24h</div>
+                                <div id="cg-volume" class="text-sm font-black text-slate-700 font-headline">--</div>
+                            </div>
+                        </div>
+                        <div id="crypto-market-grid" class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-4 md:gap-5">
+                            <!-- Populated by JS -->
                         </div>
                     </div>
                 </section>
