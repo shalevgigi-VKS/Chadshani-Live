@@ -269,23 +269,23 @@
     <nav id="unified-nav" class="sticky top-0 z-50 flex flex-row justify-center items-center gap-0.5 md:gap-3 px-1 py-2 bg-white/95 backdrop-blur-2xl border-b border-slate-100 shadow-sm overflow-x-auto" dir="rtl">
         <a href="javascript:void(0)" id="nav-macro" class="nav-item mobile-nav-item flex items-center gap-1 px-3 py-2.5 sm:px-4 md:px-5 md:py-2.5 text-slate-600 hover:bg-slate-100 rounded-xl transition-all whitespace-nowrap active" onclick="showPage('macro')">
             <span class="material-symbols-outlined text-[16px] md:text-[20px]">public</span>
-            <span class="hidden sm:inline font-bold text-xs md:text-sm">שוק ההון</span>
+            <span class="text-[7px] sm:text-xs md:text-sm font-bold">שוק ההון</span>
         </a>
         <a href="javascript:void(0)" id="nav-sectors" class="nav-item mobile-nav-item flex items-center gap-1 px-3 py-2.5 sm:px-4 md:px-5 md:py-2.5 text-slate-600 hover:bg-slate-100 rounded-xl transition-all whitespace-nowrap" onclick="showPage('sectors')">
             <span class="material-symbols-outlined text-[16px] md:text-[20px]">account_tree</span>
-            <span class="hidden sm:inline font-bold text-xs md:text-sm">סקטורים</span>
+            <span class="text-[7px] sm:text-xs md:text-sm font-bold">סקטורים</span>
         </a>
         <a href="javascript:void(0)" id="nav-crypto" class="nav-item mobile-nav-item flex items-center gap-1 px-3 py-2.5 sm:px-4 md:px-5 md:py-2.5 text-slate-600 hover:bg-slate-100 rounded-xl transition-all whitespace-nowrap" onclick="showPage('crypto')">
             <span class="material-symbols-outlined text-[16px] md:text-[20px]">currency_bitcoin</span>
-            <span class="hidden sm:inline font-bold text-xs md:text-sm">קריפטו</span>
+            <span class="text-[7px] sm:text-xs md:text-sm font-bold">קריפטו</span>
         </a>
         <a href="javascript:void(0)" id="nav-ai" class="nav-item mobile-nav-item flex items-center gap-1 px-3 py-2.5 sm:px-4 md:px-5 md:py-2.5 text-slate-600 hover:bg-slate-100 rounded-xl transition-all whitespace-nowrap" onclick="showPage('ai')">
             <span class="material-symbols-outlined text-[16px] md:text-[20px]">psychology</span>
-            <span class="hidden sm:inline font-bold text-xs md:text-sm">מודיעין AI</span>
+            <span class="text-[7px] sm:text-xs md:text-sm font-bold">מודיעין AI</span>
         </a>
         <a href="javascript:void(0)" id="nav-about" class="nav-item mobile-nav-item flex items-center gap-1 px-3 py-2.5 sm:px-4 md:px-5 md:py-2.5 text-slate-600 hover:bg-slate-100 rounded-xl transition-all whitespace-nowrap" onclick="showPage('about')">
             <span class="material-symbols-outlined text-[16px] md:text-[20px]">auto_stories</span>
-            <span class="hidden sm:inline font-bold text-xs md:text-sm">אודותיי</span>
+            <span class="text-[7px] sm:text-xs md:text-sm font-bold">אודותיי</span>
         </a>
     </nav>
 
@@ -416,11 +416,11 @@
                             <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
                                 <div class="bg-red-50/50 p-6 rounded-3xl border-r-4 border-red-500 text-right">
                                     <span class="text-[10px] font-black text-red-600 uppercase tracking-widest block mb-2 underline">סיכונים</span>
-                                    <p id="macro-risks" class="text-sm mt-1 text-slate-800 leading-relaxed font-bold text-justify"></p>
+                                    <p id="macro-risks" class="text-sm mt-1 text-slate-800 leading-relaxed font-normal text-justify"></p>
                                 </div>
                                 <div class="bg-green-50/50 p-6 rounded-3xl border-r-4 border-green-600 text-right">
                                     <span class="text-[10px] font-black text-green-600 uppercase tracking-widest block mb-2 underline">הזדמנויות</span>
-                                    <p id="macro-opps" class="text-sm mt-1 text-slate-800 leading-relaxed font-bold text-justify"></p>
+                                    <p id="macro-opps" class="text-sm mt-1 text-slate-800 leading-relaxed font-normal text-justify"></p>
                                 </div>
                             </div>
                         </div>
@@ -437,62 +437,17 @@
                     <div id="micro-news-grid" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6"><!-- JS --></div>
                 </section>
 
-                <!-- Day Traders Section -->
-                <section class="glass-card rounded-[3rem] p-8 md:p-10">
-                    <div class="flex flex-row items-center gap-3 mb-6">
-                        <span class="material-symbols-outlined text-red-600 page-h2-icon">speed</span>
-                        <h2 class="page-h2 !text-red-700 !decoration-red-500/20">סוחרים יומיים — מה לעקוב היום</h2>
-                    </div>
-                    <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
-                        <div class="bg-green-50 p-5 rounded-[2rem] border border-green-200">
-                            <h3 class="text-sm font-black text-green-700 mb-3 border-b border-green-200 pb-2">📈 תרחיש שורי</h3>
-                            <div id="day-trader-bull" class="text-xs text-slate-700 leading-relaxed space-y-2">
-                                <p>טוען נתונים...</p>
-                            </div>
-                        </div>
-                        <div class="bg-red-50 p-5 rounded-[2rem] border border-red-200">
-                            <h3 class="text-sm font-black text-red-700 mb-3 border-b border-red-200 pb-2">📉 תרחיש דובי</h3>
-                            <div id="day-trader-bear" class="text-xs text-slate-700 leading-relaxed space-y-2">
-                                <p>טוען נתונים...</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div id="day-trader-watchlist" class="mt-6 bg-slate-50 p-5 rounded-[2rem] border border-slate-200">
-                        <h3 class="text-sm font-black text-slate-600 mb-3">🎯 מניות מעקב ליום המסחר</h3>
-                        <div id="day-trader-tickers" class="grid grid-cols-1 sm:grid-cols-2 gap-3"><!-- JS --></div>
-                    </div>
-                </section>
-
-                <!-- Swing Traders Section -->
-                <section class="glass-card rounded-[3rem] p-8 md:p-10">
-                    <div class="flex flex-row items-center gap-3 mb-6">
-                        <span class="material-symbols-outlined text-indigo-600 page-h2-icon">trending_up</span>
-                        <h2 class="page-h2 !text-indigo-700 !decoration-indigo-500/20">סוחרי סווינג — סטאפים ל-3–7 ימים</h2>
-                    </div>
-                    <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
-                        <div class="bg-blue-50 p-5 rounded-[2rem] border border-blue-200">
-                            <h3 class="text-sm font-black text-blue-700 mb-3 border-b border-blue-200 pb-2">📈 תרחיש שורי</h3>
-                            <div id="swing-trader-bull" class="text-xs text-slate-700 leading-relaxed space-y-2">
-                                <p>טוען נתונים...</p>
-                            </div>
-                        </div>
-                        <div class="bg-amber-50 p-5 rounded-[2rem] border border-amber-200">
-                            <h3 class="text-sm font-black text-amber-700 mb-3 border-b border-amber-200 pb-2">📉 תרחיש דובי</h3>
-                            <div id="swing-trader-bear" class="text-xs text-slate-700 leading-relaxed space-y-2">
-                                <p>טוען נתונים...</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div id="swing-trader-watchlist" class="mt-6 bg-slate-50 p-5 rounded-[2rem] border border-slate-200">
-                        <h3 class="text-sm font-black text-slate-600 mb-3">🎯 סטאפים לסווינג השבוע</h3>
-                        <div id="swing-trader-tickers" class="grid grid-cols-1 sm:grid-cols-2 gap-3"><!-- JS --></div>
-                    </div>
-                </section>
-
             </div>
 
             <!-- PAGE: SECTORS -->
             <div id="page-sectors" class="page-view hidden space-y-10">
+                <!-- Date+time badge (PREFERENCES.md iron law 2026-04-17) -->
+                <div class="flex justify-end mb-2">
+                    <div class="flex items-center gap-2 bg-white/80 backdrop-blur px-4 py-2 rounded-2xl border border-slate-100 shadow-sm text-xs font-black text-slate-500">
+                        <span class="material-symbols-outlined text-sm text-emerald-500">sync_saved_locally</span>
+                        <span id="page-sectors-date" class="tabular-nums"></span>
+                    </div>
+                </div>
                 <section class="glass-card rounded-[3rem] p-8 md:p-10">
                     <div class="flex flex-col md:flex-row justify-between items-start md:items-end mb-10 gap-4">
                         <div class="flex flex-row items-center gap-3">
@@ -577,13 +532,20 @@
                             <span class="material-symbols-outlined text-blue-500 text-base">insights</span>
                             <span class="text-[10px] font-black text-blue-600 uppercase tracking-widest">ניתוח ומשמעות למשקיע</span>
                         </div>
-                        <p id="sp500-context" class="text-xs text-slate-700 leading-relaxed font-bold text-justify"></p>
+                        <p id="sp500-context" class="text-xs text-slate-700 leading-relaxed font-normal text-justify"></p>
                     </div>
                 </section>
             </div>
 
             <!-- PAGE: CRYPTO -->
             <div id="page-crypto" class="page-view hidden space-y-10" dir="rtl">
+                <!-- Date+time badge (PREFERENCES.md iron law 2026-04-17) -->
+                <div class="flex justify-end mb-2">
+                    <div class="flex items-center gap-2 bg-white/80 backdrop-blur px-4 py-2 rounded-2xl border border-purple-100 shadow-sm text-xs font-black text-purple-500">
+                        <span class="material-symbols-outlined text-sm">sync_saved_locally</span>
+                        <span id="page-crypto-date" class="tabular-nums"></span>
+                    </div>
+                </div>
                 <!-- Crypto Strategic Deep-Dive — FIRST on mobile (narrative before coins) -->
                 <section class="grid grid-cols-1 lg:grid-cols-2 gap-8">
                     <div class="surface-container-low rounded-[3rem] p-10 border border-amber-200 bg-amber-50/20">
@@ -693,10 +655,76 @@
                         <div id="crypto-cycle-label" class="text-center mt-4 text-sm font-black text-purple-700"></div>
                     </div>
                 </section>
+
+                <!-- Day Traders Section (crypto page — iron law from PREFERENCES.md 2026-04-17) -->
+                <section class="glass-card rounded-[3rem] p-8 md:p-10">
+                    <div class="flex flex-row items-center gap-3 mb-6">
+                        <span class="material-symbols-outlined text-red-600 page-h2-icon">speed</span>
+                        <h2 class="page-h2 !text-red-700 !decoration-red-500/20">סוחרים יומיים — מה לעקוב היום</h2>
+                    </div>
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                        <div class="bg-green-50 p-5 rounded-[2rem] border border-green-200">
+                            <h3 class="text-sm font-black text-green-700 mb-3 border-b border-green-200 pb-2">תרחיש שורי</h3>
+                            <div id="day-trader-bull" class="text-xs text-slate-700 leading-relaxed space-y-2">
+                                <p>טוען נתונים...</p>
+                            </div>
+                        </div>
+                        <div class="bg-red-50 p-5 rounded-[2rem] border border-red-200">
+                            <h3 class="text-sm font-black text-red-700 mb-3 border-b border-red-200 pb-2">תרחיש דובי</h3>
+                            <div id="day-trader-bear" class="text-xs text-slate-700 leading-relaxed space-y-2">
+                                <p>טוען נתונים...</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="day-trader-watchlist" class="mt-6 bg-slate-50 p-5 rounded-[2rem] border border-slate-200">
+                        <h3 class="text-sm font-black text-slate-600 mb-3">מניות מעקב ליום המסחר</h3>
+                        <div id="day-trader-tickers" class="grid grid-cols-1 sm:grid-cols-2 gap-3"><!-- JS --></div>
+                    </div>
+                </section>
+
+                <!-- Swing Traders Section (crypto page — iron law from PREFERENCES.md 2026-04-17) -->
+                <section class="glass-card rounded-[3rem] p-8 md:p-10">
+                    <div class="flex flex-row items-center gap-3 mb-6">
+                        <span class="material-symbols-outlined text-indigo-600 page-h2-icon">trending_up</span>
+                        <h2 class="page-h2 !text-indigo-700 !decoration-indigo-500/20">סוחרי סווינג — סטאפים ל-3–7 ימים</h2>
+                    </div>
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                        <div class="bg-blue-50 p-5 rounded-[2rem] border border-blue-200">
+                            <h3 class="text-sm font-black text-blue-700 mb-3 border-b border-blue-200 pb-2">תרחיש שורי</h3>
+                            <div id="swing-trader-bull" class="text-xs text-slate-700 leading-relaxed space-y-2">
+                                <p>טוען נתונים...</p>
+                            </div>
+                        </div>
+                        <div class="bg-amber-50 p-5 rounded-[2rem] border border-amber-200">
+                            <h3 class="text-sm font-black text-amber-700 mb-3 border-b border-amber-200 pb-2">תרחיש דובי</h3>
+                            <div id="swing-trader-bear" class="text-xs text-slate-700 leading-relaxed space-y-2">
+                                <p>טוען נתונים...</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="swing-trader-watchlist" class="mt-6 bg-slate-50 p-5 rounded-[2rem] border border-slate-200">
+                        <h3 class="text-sm font-black text-slate-600 mb-3">סטאפים לסווינג השבוע</h3>
+                        <div id="swing-trader-tickers" class="grid grid-cols-1 sm:grid-cols-2 gap-3"><!-- JS --></div>
+                    </div>
+                    <!-- Screenshot button for crypto page (PREFERENCES.md iron law 2026-04-17) -->
+                    <div class="mt-8 flex justify-center">
+                        <button onclick="screenshotCryptoPage()" class="flex items-center gap-2 px-6 py-3 bg-purple-600 text-white text-sm font-black rounded-2xl hover:bg-purple-700 transition-all shadow-lg shadow-purple-500/20">
+                            <span class="material-symbols-outlined text-base">sync_saved_locally</span>
+                            צלם תמונת דף קריפטו
+                        </button>
+                    </div>
+                </section>
             </div>
 
             <!-- PAGE: AI -->
             <div id="page-ai" class="page-view hidden space-y-10">
+                <!-- Date+time badge (PREFERENCES.md iron law 2026-04-17) -->
+                <div class="flex justify-end mb-2">
+                    <div class="flex items-center gap-2 bg-white/80 backdrop-blur px-4 py-2 rounded-2xl border border-blue-100 shadow-sm text-xs font-black text-blue-500">
+                        <span class="material-symbols-outlined text-sm">sync_saved_locally</span>
+                        <span id="page-ai-date" class="tabular-nums"></span>
+                    </div>
+                </div>
                 <section class="grid grid-cols-1 gap-8">
                     <!-- AI Frontier -->
                     <div class="glass-card rounded-[3rem] p-8 md:p-10 relative overflow-hidden">
@@ -716,6 +744,13 @@
 
             <!-- PAGE: ABOUT -->
             <div id="page-about" class="page-view hidden space-y-10">
+                <!-- Date+time badge (PREFERENCES.md iron law 2026-04-17) -->
+                <div class="flex justify-end mb-2">
+                    <div class="flex items-center gap-2 bg-white/80 backdrop-blur px-4 py-2 rounded-2xl border border-teal-100 shadow-sm text-xs font-black text-teal-600">
+                        <span class="material-symbols-outlined text-sm">sync_saved_locally</span>
+                        <span id="page-about-date" class="tabular-nums"></span>
+                    </div>
+                </div>
                 <section class="glass-card p-8 md:p-12 rounded-[3rem] border-0 shadow-2xl bg-white">
                     <!-- 3-column: Photo | Text | Photo — explicit inline flex, no RTL order tricks -->
                     <div style="display:flex;flex-direction:row;align-items:flex-start;gap:2rem;flex-wrap:wrap;justify-content:center;">
@@ -728,10 +763,10 @@
                             <div style="display:inline-block;background:#0d9488;color:white;padding:0.35rem 1.25rem;border-radius:9999px;font-size:0.625rem;font-weight:900;text-transform:uppercase;letter-spacing:0.15em;">אודותיי / ABOUT ME</div>
                             <h2 class="page-h2" style="font-size:2rem;margin:0;">שלו גיגי</h2>
                             <p style="font-size:0.875rem;font-weight:700;text-transform:uppercase;letter-spacing:0.1em;color:#0d9488;">&ldquo;אנליסט פיננסי ראשי&rdquo;</p>
-                            <p style="font-size:0.875rem;color:#334155;line-height:1.8;font-weight:700;text-align:justify;">
+                            <p style="font-size:0.875rem;color:#334155;line-height:1.8;font-weight:400;text-align:justify;">
                                 בעולם שבו המידע זורם בלי הפסקה, האתגר האמיתי הוא לזהות את הסיגנל מתוך הרעש. לא סתם עוד פעם מספיק לעקוב אחרי אתרים שונים ולפספס בין מקורות - בניתי את <strong style="color:#0d9488">חדשני</strong> כדי שהכל יהיה במקום אחד, ספיר, מסודר וענייני. ניתוח שוק מעמיק, מודיעין AI עדכני, קריפטו בזמן אמת - הכל בלחיצה אחת.
                             </p>
-                            <p style="font-size:0.8rem;color:#475569;line-height:1.8;font-weight:700;text-align:justify;">
+                            <p style="font-size:0.8rem;color:#475569;line-height:1.8;font-weight:400;text-align:justify;">
                                 חדשני אינו סתם אגרגטור כתבות - זהו טרמינל מודיעין חי שרץ שעתיים ביום באמצעות AI ונתונים בזמן אמת. כל בוקר המערכת סורקת את השוק הגלובלי, קוראת עשרות מקורות, מנתחת נתונים בזמן אמת ומרכזת את הכל לדוח אחד שקריא, מקיף, מעשיר ועשוי לפעולה. מהשוק המקרו ועד לסנטימנט הקריפטו, מחזית ה-AI ועד לקרבות התאגדיים - חדשני מספק את כל ההקשרים, פעמיים ביום, כל יום.
                             </p>
                             <div style="display:flex;flex-wrap:wrap;gap:0.5rem;justify-content:flex-end;">
@@ -1242,7 +1277,7 @@
                     {name:'Google',color:'#0891b2',border:'border-cyan-200',bg:'rgba(8,145,178,0.04)',keys:['Google','Gemini']},
                     {name:'אחרים',color:'#64748b',border:'border-slate-200',bg:'rgba(100,116,139,0.04)',keys:['Meta','xAI','Grok','Llama','Perplexity','Microsoft'],equal:true}
                 ];
-                function mkUpdHtml(a){return Array.isArray(a.updates)?'<ul class="list-disc list-inside space-y-1">'+a.updates.map(function(u){return '<li class="text-xs text-slate-500 leading-relaxed font-bold">'+u+'</li>';}).join('')+'</ul>':'<p class="text-xs text-slate-500 font-bold">'+(a.update||'')+'</p>';}
+                function mkUpdHtml(a){return Array.isArray(a.updates)?'<ul class="list-disc list-inside space-y-1">'+a.updates.map(function(u){return '<li class="text-xs text-slate-500 leading-relaxed font-normal">'+u+'</li>';}).join('')+'</ul>':'<p class="text-xs text-slate-500 font-normal">'+(a.update||'')+'</p>';}
                 function mkLogo(cn,grp){var domKey=Object.keys(aiLogoMap).find(function(k){return cn.includes(k);});return domKey?'https://www.google.com/s2/favicons?domain='+aiLogoMap[domKey]+'&sz=64':'https://ui-avatars.com/api/?name='+encodeURIComponent(cn.slice(0,2))+'&background='+grp.color.replace('#','')+'&color=fff&bold=true&size=64';}
                 function mkStatus(a){return a.status==='Beta'?'bg-amber-50 text-amber-600 border-amber-200':'bg-emerald-50 text-emerald-600 border-emerald-200';}
                 var out='';
@@ -1508,6 +1543,60 @@
             }).catch(function(){document.getElementById('cnn-fng-label').textContent='לא זמין';});
         }
         fetchCnnFng();
+
+        // Date+time badge updater — runs on all pages (PREFERENCES.md iron law 2026-04-17)
+        function updatePageDateBadges() {
+            var now = new Date();
+            var istTime = new Date(now.toLocaleString("en-US", {timeZone: "Asia/Jerusalem"}));
+            var dateStr = istTime.toLocaleDateString('he-IL', {day: '2-digit', month: 'long', year: 'numeric'});
+            var timeStr = istTime.toLocaleTimeString('he-IL', {hour: '2-digit', minute: '2-digit', hour12: false});
+            var badge = dateStr + ' | ' + timeStr;
+            ['page-sectors-date','page-crypto-date','page-ai-date','page-about-date'].forEach(function(id){
+                var el = document.getElementById(id);
+                if (el) el.textContent = badge;
+            });
+        }
+        updatePageDateBadges();
+        setInterval(updatePageDateBadges, 60000);
+
+        // Screenshot function for crypto page (PREFERENCES.md iron law 2026-04-17)
+        function screenshotCryptoPage() {
+            var btn = document.querySelector('button[onclick="screenshotCryptoPage()"]');
+            if (btn) { btn.disabled = true; btn.textContent = 'מכין תמונה...'; }
+            if (typeof html2canvas === 'undefined') {
+                var s = document.createElement('script');
+                s.src = 'https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js';
+                s.onload = function() { doScreenshot(btn); };
+                s.onerror = function() {
+                    alert('שגיאה בטעינת html2canvas');
+                    if (btn) { btn.disabled = false; btn.textContent = 'צלם תמונת דף קריפטו'; }
+                };
+                document.head.appendChild(s);
+            } else {
+                doScreenshot(btn);
+            }
+        }
+        function doScreenshot(btn) {
+            var cryptoPage = document.getElementById('page-crypto');
+            html2canvas(cryptoPage, {
+                scale: 2,
+                useCORS: true,
+                backgroundColor: '#eef2ff',
+                scrollY: -window.scrollY
+            }).then(function(canvas) {
+                var now = new Date();
+                var ts = now.toISOString().slice(0,16).replace('T','-').replace(':','-');
+                var link = document.createElement('a');
+                link.download = 'chadshani-crypto-' + ts + '.png';
+                link.href = canvas.toDataURL('image/png');
+                link.click();
+            }).catch(function(e) {
+                console.error('Screenshot error:', e);
+                alert('שגיאה בצילום המסך');
+            }).finally(function() {
+                if (btn) { btn.disabled = false; btn.innerHTML = '<span class="material-symbols-outlined text-base">sync_saved_locally</span> צלם תמונת דף קריפטו'; }
+            });
+        }
     </script>
 </body>
 </html>
