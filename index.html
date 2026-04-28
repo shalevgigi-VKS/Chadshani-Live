@@ -16,8 +16,11 @@
     <meta name="twitter:description" content="ניתוח מעמיק של שוקי ההון, AI, קריפטו וסקטורים — עדכון יומי 07:00 + 19:00 IST">
     <meta name="twitter:image" content="https://shalevgigi-vks.github.io/Chadshani-Live/assets/CHADSHANI_LOGO_v4.png">
     <title>Chadshani v4.1 | מודיעין שוק אג'נטי</title>
-    <link rel="icon" href="assets/CHADSHANI_LOGO_v4.png" type="image/png">
-    <link rel="apple-touch-icon" href="assets/CHADSHANI_LOGO_v4.png">
+    <!-- Favicon (PREFERENCES.md — לוגו בלשונית הדפדפן) -->
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/CHADSHANI_LOGO_v4.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/CHADSHANI_LOGO_v4.png">
+    <link rel="shortcut icon" type="image/png" href="assets/CHADSHANI_LOGO_v4.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/CHADSHANI_LOGO_v4.png">
     <!-- Tailwind CDN (fallback to local build if present) -->
     <link rel="stylesheet" href="assets/tailwind.min.css" onerror="this.remove()">
     <script src="https://cdn.tailwindcss.com"></script>
@@ -258,9 +261,8 @@
         .ai-grp-line { flex: 1; height: 1px; }
         /* Sector bars */
         .sec-perf-bar { height: 10px; border-radius: 5px; transition: width .8s ease; }
-        /* Hide old sectors grid AND its wrapper section */
+        /* Hide ONLY old sectors-grid container (legacy) — keep modern sector-breadth visible */
         #sectors-grid { display: none !important; }
-        #page-sectors > section:first-child { display: none !important; }
         /* Sector breadth: 1-col mobile, 3-col desktop */
         #sector-breadth { display: grid !important; grid-template-columns: 1fr !important; gap: 1rem; margin-bottom: 2rem; }
         @media (min-width: 768px) { #sector-breadth { grid-template-columns: repeat(2,1fr) !important; } }
@@ -326,10 +328,6 @@
                 <a href="javascript:void(0)" onclick="showPage('ai')" id="nav-ai" class="nav-item flex items-center gap-2 text-slate-600 px-3 py-1.5">
                     <span class="material-symbols-outlined text-lg">psychology</span>
                     <span>בינה מלאכותית</span>
-                </a>
-                <a href="javascript:void(0)" onclick="showPage('traders')" id="nav-traders" class="nav-item flex items-center gap-2 text-slate-600 px-3 py-1.5">
-                    <span class="material-symbols-outlined text-lg">candlestick_chart</span>
-                    <span>סוחרים</span>
                 </a>
                 <a href="javascript:void(0)" onclick="showPage('about')" id="nav-about" class="nav-item flex items-center gap-2 text-slate-600 px-3 py-1.5">
                     <span class="material-symbols-outlined text-lg">info</span>
@@ -571,37 +569,13 @@
                     <!-- Injected via renderBitcoinDetail() -->
                 </div>
             </section>
-        </div>
 
-        <!-- PAGE: AI -->
-        <div id="page-ai" class="page-view hidden animate-in">
-            <section class="mb-12">
+            <!-- TRADERS (in-Crypto per PREFERENCES.md line 76) -->
+            <section class="mb-12 pt-8 border-t-2 border-slate-100">
                 <div class="flex flex-col md:flex-row justify-between items-start md:items-center gap-4 mb-10">
                     <div>
-                        <h2 class="text-3xl md:text-4xl font-900 text-slate-800 tracking-tight">מעקב מודלים וטכנולוגיה</h2>
-                        <p class="text-slate-500 font-500 mt-2">מודיעין תחרותי על השחקנים הגדולים ב-AI</p>
-                    </div>
-                    <div class="text-[10px] font-900 text-slate-400 bg-slate-100 px-3 py-1.5 rounded-full uppercase tracking-widest border border-slate-200">
-                        Update: <span id="page-ai-date">--/-- | --:--</span>
-                    </div>
-                </div>
-
-                <div id="ai-models-grid" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-                    <!-- Injected AI Data -->
-                </div>
-            </section>
-        </div>
-
-        <!-- PAGE: TRADERS -->
-        <div id="page-traders" class="page-view hidden animate-in">
-            <section class="mb-12">
-                <div class="flex flex-col md:flex-row justify-between items-start md:items-center gap-4 mb-10">
-                    <div>
-                        <h2 class="text-3xl md:text-4xl font-900 text-slate-800 tracking-tight">מסחר יומי ושבועי</h2>
-                        <p class="text-slate-500 font-500 mt-2">תרחישים, רשימת מעקב וסטאפים לסוחרים</p>
-                    </div>
-                    <div class="text-[10px] font-900 text-slate-400 bg-slate-100 px-3 py-1.5 rounded-full uppercase tracking-widest border border-slate-200">
-                        Update: <span id="page-traders-date">--/-- | --:--</span>
+                        <h2 class="text-3xl md:text-4xl font-900 text-slate-800 tracking-tight">מסחר יומי וסווינג</h2>
+                        <p class="text-slate-500 font-500 mt-2">תרחישים, רשימת מעקב וסטאפים — מסונכרן עם עדכון הקריפטו</p>
                     </div>
                 </div>
 
@@ -659,16 +633,39 @@
             </section>
         </div>
 
+        <!-- PAGE: AI -->
+        <div id="page-ai" class="page-view hidden animate-in">
+            <section class="mb-12">
+                <div class="flex flex-col md:flex-row justify-between items-start md:items-center gap-4 mb-10">
+                    <div>
+                        <h2 class="text-3xl md:text-4xl font-900 text-slate-800 tracking-tight">מעקב מודלים וטכנולוגיה</h2>
+                        <p class="text-slate-500 font-500 mt-2">מודיעין תחרותי על השחקנים הגדולים ב-AI</p>
+                    </div>
+                    <div class="text-[10px] font-900 text-slate-400 bg-slate-100 px-3 py-1.5 rounded-full uppercase tracking-widest border border-slate-200">
+                        Update: <span id="page-ai-date">--/-- | --:--</span>
+                    </div>
+                </div>
+
+                <div id="ai-models-grid" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+                    <!-- Injected AI Data -->
+                </div>
+            </section>
+        </div>
+
         <!-- PAGE: ABOUT -->
         <div id="page-about" class="page-view hidden animate-in">
             <section class="max-w-4xl mx-auto py-10">
                 <div class="text-center mb-16">
                     <h2 class="text-4xl font-900 text-slate-800 mb-6 page-h2">על המערכת</h2>
-                    <!-- Profile image: portrait 3:4 ratio per PREFERENCES.md -->
-                    <div class="flex justify-center mb-6">
+                    <!-- Two portrait images (3:4) per PREFERENCES.md — restored 2026-04-28 -->
+                    <div class="grid grid-cols-2 gap-6 max-w-md mx-auto mb-8">
                         <div class="relative">
-                            <img src="assets/SHALEV.webp" alt="שלו גיגי — בעל המערכת" style="aspect-ratio:3/4;object-fit:cover;width:160px;border-radius:1.25rem;" class="shadow-xl border-4 border-teal-100" onerror="this.onerror=null;this.src='assets/SHALEV2.webp';this.onerror=function(){this.src='assets/SHALEV.PNG'}">
+                            <img src="assets/SHALEV.webp" alt="שלו גיגי — בעל המערכת" style="aspect-ratio:3/4;object-fit:cover;width:100%;border-radius:1.25rem;" class="shadow-xl border-4 border-teal-100" onerror="this.onerror=null;this.src='assets/SHALEV.PNG'">
                             <span class="absolute bottom-2 left-1/2 -translate-x-1/2 bg-teal-600 text-white text-[10px] font-900 px-3 py-1 rounded-full uppercase tracking-widest">אודותיי</span>
+                        </div>
+                        <div class="relative">
+                            <img src="assets/SHALEV2.webp" alt="שלו גיגי — דיוקן שני" style="aspect-ratio:3/4;object-fit:cover;width:100%;border-radius:1.25rem;" class="shadow-xl border-4 border-teal-100" onerror="this.onerror=null;this.src='assets/SHALEV2.png'">
+                            <span class="absolute bottom-2 left-1/2 -translate-x-1/2 bg-teal-600 text-white text-[10px] font-900 px-3 py-1 rounded-full uppercase tracking-widest">המייסד</span>
                         </div>
                     </div>
                     <p class="text-sm text-slate-600 font-700 mb-2">שלו גיגי — מפתח עצמאי ועיצוב</p>
@@ -1986,7 +1983,7 @@
             var datePart = dt.toLocaleDateString('he-IL', { day: '2-digit', month: '2-digit' });
             var timePart = dt.toLocaleTimeString('he-IL', { hour: '2-digit', minute: '2-digit', hour12: false });
             var badge = datePart + ' | ' + timePart;
-            ['page-sectors-date', 'page-crypto-date', 'page-ai-date', 'page-traders-date', 'page-about-date'].forEach(function(id) {
+            ['page-sectors-date', 'page-crypto-date', 'page-ai-date', 'page-about-date'].forEach(function(id) {
                 var el = document.getElementById(id);
                 if (el) el.textContent = badge;
             });
