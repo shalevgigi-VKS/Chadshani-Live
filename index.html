@@ -179,18 +179,27 @@
         /* Mobile specific fixes (PREFERENCES.md iron law 2026-04-17) */
         @media (max-width: 768px) {
             #market-slider-container { top: 64px; }
-            #unified-nav { top: 105px; padding: 0.5rem; }
+            #unified-nav { top: 105px; padding: 0.25rem 0; }
+            /* Static nav — all buttons visible, no horizontal scroll */
             .nav-scroll {
-                display: flex;
-                overflow-x: auto;
-                scroll-behavior: smooth;
-                -webkit-overflow-scrolling: touch;
-                scrollbar-width: none;
-                gap: 1.5rem;
-                padding: 0 0.5rem;
+                display: flex !important;
+                justify-content: center;
+                flex-wrap: nowrap;
+                overflow: hidden;
+                gap: 0.25rem;
+                padding: 0 0.25rem;
             }
-            .nav-scroll::-webkit-scrollbar { display: none; }
-            .nav-item { flex: 0 0 auto; white-space: nowrap; font-size: 0.9rem; }
+            .nav-item {
+                flex: 1 1 0;
+                min-width: 0;
+                white-space: nowrap;
+                font-size: 0.65rem;
+                padding: 0.25rem 0.15rem !important;
+                gap: 2px !important;
+                justify-content: center;
+            }
+            .nav-item .material-symbols-outlined { font-size: 1rem !important; }
+            .nav-item span:not(.material-symbols-outlined) { font-size: 0.65rem; }
             
             #main-header .container { padding: 0 1rem; }
             .page-padding { padding-top: 10px; }
@@ -201,16 +210,19 @@
             }
         }
 
-        /* Market slider infinite scroll */
+        /* Market slider — seamless RTL marquee (no jump) */
         @keyframes marketScroll {
             0%   { transform: translateX(0); }
             100% { transform: translateX(-50%); }
         }
         .animate-scroll {
-            animation: marketScroll 30s linear infinite;
+            animation: marketScroll 60s linear infinite;
             width: max-content;
+            will-change: transform;
+            padding: 0;
         }
-        .animate-scroll:hover { animation-play-state: paused; }
+        .animate-scroll > * { padding-left: 1rem; padding-right: 1rem; }
+        /* Marquee never pauses (per user request) */
         #market-slider-container { overflow: hidden; }
 
         /* Custom Tilt (Apple style) */
@@ -279,7 +291,7 @@
 
     <!-- Header (Triple Sticky Part 1) -->
     <header id="main-header" class="glass-dark border-b border-gray-100">
-        <div class="container mx-auto px-4 h-16 flex items-center justify-between">
+        <div class="container max-w-7xl mx-auto px-4 h-16 flex items-center justify-between">
             <div class="flex items-center gap-3">
                 <a href="javascript:void(0)" onclick="showPage('macro')" class="flex items-center gap-3">
                     <img src="assets/CHADSHANI_LOGO_v4.png" alt="חדשני v4.1" class="w-12 h-12 md:w-14 md:h-14 rounded-xl object-contain drop-shadow-md hover:scale-105 transition-all duration-300" onerror="this.outerHTML='<div class=&quot;w-10 h-10 bg-teal-600 rounded-xl flex items-center justify-center shadow-lg shadow-teal-200&quot;><span class=&quot;material-symbols-outlined text-white text-2xl font-bold&quot;>analytics</span></div>'">
@@ -304,14 +316,16 @@
 
     <!-- Market Slider (Triple Sticky Part 2) -->
     <div id="market-slider-container" class="glass h-[41px] flex items-center overflow-hidden">
-        <div id="market-slider" class="flex whitespace-nowrap animate-scroll items-center gap-8 px-4">
-            <!-- Data Injected Here -->
+        <div class="container max-w-7xl mx-auto overflow-hidden">
+            <div id="market-slider" class="flex whitespace-nowrap animate-scroll items-center">
+                <!-- Data Injected Here. Each item has its own px-4 via CSS for seamless loop. -->
+            </div>
         </div>
     </div>
 
     <!-- Unified Nav (Triple Sticky Part 3) -->
     <nav id="unified-nav" class="glass-dark border-b border-gray-100/50">
-        <div class="container mx-auto px-4">
+        <div class="container max-w-7xl mx-auto px-4">
             <div class="nav-scroll h-12 flex items-center justify-center gap-8">
                 <a href="javascript:void(0)" onclick="showPage('macro')" id="nav-macro" class="nav-item active flex items-center gap-2 text-slate-600 px-3 py-1.5">
                     <span class="material-symbols-outlined text-lg">dashboard</span>
@@ -337,7 +351,7 @@
         </div>
     </nav>
 
-    <main id="main-content" class="container mx-auto px-4 py-6 md:py-10">
+    <main id="main-content" class="container max-w-7xl mx-auto px-4 py-6 md:py-10">
         
         <!-- PAGE: MACRO -->
         <div id="page-macro" class="page-view animate-in">
@@ -348,9 +362,8 @@
                         <h2 class="text-3xl md:text-4xl font-900 text-slate-800 tracking-tight page-h2">תמונת מצב יומית</h2>
                         <p class="text-slate-500 font-500 mt-2">ניתוח אג'נטי של זרימות הון וסנטימנט גלובלי</p>
                     </div>
-                    <div class="flex items-center gap-2 bg-white p-1 rounded-2xl shadow-sm border border-slate-100">
-                        <button class="px-4 py-2 rounded-xl bg-teal-600 text-white font-800 text-sm shadow-lg shadow-teal-100">ראשי</button>
-                        <button class="px-4 py-2 rounded-xl text-slate-500 font-700 text-sm hover:bg-slate-50">היסטוריה</button>
+                    <div class="text-[11px] font-900 text-slate-400 bg-slate-50 px-3 py-1.5 rounded-full uppercase tracking-widest border border-slate-200">
+                        עדכון אחרון נכון ל: <span id="page-macro-date">--/-- | --:--</span>
                     </div>
                 </div>
 
@@ -442,7 +455,7 @@
                         <p class="text-slate-500 font-500 mt-2">מעקב זרימת הון בין ETF מרכזיים</p>
                     </div>
                     <div class="text-[10px] font-900 text-slate-400 bg-slate-100 px-3 py-1.5 rounded-full uppercase tracking-widest border border-slate-200">
-                        Last Update: <span id="page-sectors-date">--/-- | --:--</span>
+                        עדכון אחרון נכון ל: <span id="page-sectors-date">--/-- | --:--</span>
                     </div>
                 </div>
 
@@ -495,7 +508,7 @@
                     </div>
                     <div class="flex items-center gap-3">
                         <div class="text-[10px] font-900 text-slate-400 bg-slate-100 px-3 py-1.5 rounded-full uppercase tracking-widest border border-slate-200">
-                            Update: <span id="page-crypto-date">--/-- | --:--</span>
+                            עדכון אחרון נכון ל: <span id="page-crypto-date">--/-- | --:--</span>
                         </div>
                         <button onclick="screenshotCryptoPage()" class="p-2 bg-white border border-slate-200 rounded-xl text-slate-600 hover:text-teal-600 transition-all shadow-sm flex items-center gap-2 text-xs font-900">
                             <span class="material-symbols-outlined text-base">sync_saved_locally</span>
@@ -642,7 +655,7 @@
                         <p class="text-slate-500 font-500 mt-2">מודיעין תחרותי על השחקנים הגדולים ב-AI</p>
                     </div>
                     <div class="text-[10px] font-900 text-slate-400 bg-slate-100 px-3 py-1.5 rounded-full uppercase tracking-widest border border-slate-200">
-                        Update: <span id="page-ai-date">--/-- | --:--</span>
+                        עדכון אחרון נכון ל: <span id="page-ai-date">--/-- | --:--</span>
                     </div>
                 </div>
 
@@ -674,6 +687,35 @@
                     </p>
                 </div>
 
+                <!-- WHY: Origin story (per PREFERENCES — restored 2026-04-28) -->
+                <div class="premium-card p-8 md:p-10 mb-16 bg-white tilt-active">
+                    <div class="flex items-center gap-3 mb-6">
+                        <span class="w-10 h-10 rounded-2xl bg-teal-50 text-teal-600 flex items-center justify-center">
+                            <span class="material-symbols-outlined text-xl">lightbulb</span>
+                        </span>
+                        <h3 class="text-2xl font-900 text-slate-800">למה נוצר חדשני?</h3>
+                    </div>
+                    <div class="space-y-4 text-slate-600 leading-relaxed">
+                        <p class="text-base font-500">
+                            כל בוקר וערב אני, כמו רבים אחרים, מוצא את עצמי קורא עשרות מקורות חדשות פיננסיות —
+                            וול-סטריט ג׳ורנל, רויטרס, בלומברג, גלובס, קואינדסק — ומנסה לזקק מתוך אלפי כותרות
+                            את <strong>מה באמת קורה היום בשווקים</strong>. זה גוזל שעה-שעתיים יומיות, וגם אז
+                            התמונה לרוב נשארת חלקית.
+                        </p>
+                        <p class="text-base font-500">
+                            <strong>חדשני נולד מהצורך הזה</strong>: מערכת אוטונומית שמחליפה את העבודה הידנית
+                            הזו — קוראת בעצמה מאות מקורות, מסננת רעש, מזהה נרטיבים מתהווים, ומפיקה
+                            תקציר מודיעיני יומי בעברית פשוטה, מובנית ומיועדת למשקיע הפרטי.
+                        </p>
+                        <p class="text-base font-500">
+                            המטרה היא לא להחליף את ההחלטה — אלא <strong>לתת בידי המשתמש את אותו יתרון מידע
+                            שהיה רק בידי קרנות גידור וטריידינג-דסקים גדולים</strong>. שני עדכונים ביום, 07:00 ו-19:00
+                            (שעון ישראל), שווה ערך לישיבת בוקר וערב במחלקת מחקר. בלי תשלום, בלי רעש,
+                            בלי הסחות — רק תמצית של מה שחשוב באמת.
+                        </p>
+                    </div>
+                </div>
+
                 <div class="grid grid-cols-1 md:grid-cols-2 gap-8 mb-16">
                     <div class="premium-card p-8 tilt-active">
                         <div class="w-12 h-12 bg-teal-50 text-teal-600 rounded-2xl flex items-center justify-center mb-6">
@@ -700,7 +742,7 @@
                     <p class="text-slate-400 font-700 uppercase tracking-widest text-xs mb-4">Chadshani Intelligence Engine</p>
                     <p class="text-lg text-slate-300 font-500 max-w-2xl mx-auto">מערכת חדשני נועדה לספק יתרון מודיעיני למשקיעים על ידי זיקוק רעש וזיהוי תבניות שוק בזמן אמת.</p>
                     <div class="mt-10 pt-10 border-t border-slate-800 text-xs text-slate-500 font-900 uppercase tracking-tighter">
-                        Last Generated: <span id="page-about-date">--/-- | --:--</span>
+                        עדכון אחרון נכון ל: <span id="page-about-date">--/-- | --:--</span>
                     </div>
                 </div>
             </section>
@@ -708,7 +750,7 @@
     </main>
 
     <footer class="mt-20 py-10 border-t border-slate-200">
-        <div class="container mx-auto px-4 text-center">
+        <div class="container max-w-7xl mx-auto px-4 text-center">
             <p class="text-sm font-800 text-slate-400 uppercase tracking-widest">© 2026 Chadshani Intelligence System | v4.1 Production</p>
         </div>
     </footer>
@@ -1681,20 +1723,59 @@
                 `;
             }
 
-            // News
-            document.getElementById('news-grid').innerHTML = news.map(n => `
-                <div class="premium-card p-6 bg-white tilt-active flex flex-col">
-                    <h4 class="text-lg font-900 text-slate-800 mb-4 leading-tight">${n.title}</h4>
-                    <p class="text-sm text-slate-500 font-500 mb-6 flex-1">${n.body}</p>
-                    <div class="pt-4 border-t border-slate-50">
-                        <div class="flex items-center gap-2 text-teal-600 font-900 text-[10px] uppercase tracking-widest mb-2">
-                            <span class="material-symbols-outlined text-sm">lightbulb</span>
-                            So What?
-                        </div>
-                        <p class="text-xs font-700 text-slate-700">${n.so_what}</p>
+            // News — newspaper-style: lead story (large) + 5-7 cards with source/time/sentiment chips
+            const newsEl = document.getElementById('news-grid');
+            if (newsEl && news && news.length) {
+                const lead = news[0];
+                const rest = news.slice(1, 7);
+                const sentimentChip = (s) => {
+                    const tone = (s || '').toLowerCase();
+                    if (tone.includes('bull') || tone.includes('חיובי') || tone.includes('positive')) return '<span class="text-[10px] font-900 px-2 py-0.5 rounded-full bg-emerald-50 text-emerald-600">חיובי</span>';
+                    if (tone.includes('bear') || tone.includes('שלילי') || tone.includes('negative') || tone.includes('סיכון')) return '<span class="text-[10px] font-900 px-2 py-0.5 rounded-full bg-rose-50 text-rose-600">שלילי</span>';
+                    return '<span class="text-[10px] font-900 px-2 py-0.5 rounded-full bg-slate-100 text-slate-500">ניטרלי</span>';
+                };
+                const meta = (n) => `
+                    <div class="flex flex-wrap items-center gap-2 mb-3">
+                        ${n.source ? `<span class="text-[10px] font-900 text-teal-700 bg-teal-50 px-2 py-0.5 rounded-full uppercase tracking-widest">${n.source}</span>` : ''}
+                        ${n.time || n.timestamp ? `<span class="text-[10px] font-700 text-slate-400">${n.time || n.timestamp}</span>` : ''}
+                        ${sentimentChip(n.sentiment || n.tone || n.so_what || '')}
                     </div>
-                </div>
-            `).join('');
+                `;
+                let html = `
+                    <div class="md:col-span-2 lg:col-span-3 premium-card p-8 bg-gradient-to-br from-slate-50 to-white tilt-active">
+                        <div class="flex items-center gap-2 mb-4">
+                            <span class="text-[10px] font-900 text-rose-600 bg-rose-50 px-3 py-1 rounded-full uppercase tracking-widest animate-pulse">סיפור הדגל</span>
+                            ${lead.source ? `<span class="text-[10px] font-900 text-teal-700 bg-teal-50 px-2 py-0.5 rounded-full uppercase tracking-widest">${lead.source}</span>` : ''}
+                            ${lead.time || lead.timestamp ? `<span class="text-[10px] font-700 text-slate-400">${lead.time || lead.timestamp}</span>` : ''}
+                            ${sentimentChip(lead.sentiment || lead.tone || lead.so_what || '')}
+                        </div>
+                        <h3 class="text-2xl md:text-3xl font-900 text-slate-800 mb-4 leading-tight">${lead.title}</h3>
+                        <p class="text-base text-slate-600 font-500 mb-6 leading-relaxed">${lead.body}</p>
+                        <div class="pt-4 border-t border-slate-100">
+                            <div class="flex items-center gap-2 text-teal-600 font-900 text-[11px] uppercase tracking-widest mb-2">
+                                <span class="material-symbols-outlined text-sm">lightbulb</span>
+                                So What?
+                            </div>
+                            <p class="text-sm font-700 text-slate-700">${lead.so_what}</p>
+                        </div>
+                    </div>
+                `;
+                html += rest.map(n => `
+                    <div class="premium-card p-6 bg-white tilt-active flex flex-col">
+                        ${meta(n)}
+                        <h4 class="text-lg font-900 text-slate-800 mb-3 leading-tight">${n.title}</h4>
+                        <p class="text-sm text-slate-500 font-500 mb-4 flex-1">${n.body}</p>
+                        <div class="pt-3 border-t border-slate-50">
+                            <div class="flex items-center gap-2 text-teal-600 font-900 text-[10px] uppercase tracking-widest mb-1">
+                                <span class="material-symbols-outlined text-sm">lightbulb</span>
+                                So What?
+                            </div>
+                            <p class="text-xs font-700 text-slate-700">${n.so_what}</p>
+                        </div>
+                    </div>
+                `).join('');
+                newsEl.innerHTML = html;
+            }
         }
 
         function updateGauge(id, g) {
@@ -1822,7 +1903,46 @@
         }
 
         function renderAI(models) {
-            document.getElementById('ai-models-grid').innerHTML = models.map(m => `
+            // Dedup: group by parent company (prefix before "/"), merge unique updates by 4-shingles + minimum-2-shared-words signature
+            const norm = (s) => s.replace(/\s+/g,' ').replace(/["'`׳״.,;:!?()\[\]{}\-—–]/g,'').trim().toLowerCase();
+            const sig = (s) => {
+                const words = norm(s).split(' ').filter(w => w.length > 3);
+                return words.slice(0, 4).sort().join(' ');
+            };
+            const isSimilar = (s, seen) => {
+                const ws = new Set(norm(s).split(' ').filter(w => w.length > 3));
+                if (ws.size < 3) return true;
+                for (const prev of seen) {
+                    let shared = 0;
+                    for (const w of ws) if (prev.has(w)) shared++;
+                    if (shared >= Math.min(3, ws.size - 1)) return true;
+                }
+                return false;
+            };
+            const grouped = {};
+            models.forEach(m => {
+                const parent = (m.company || '').split('/')[0].trim();
+                if (!grouped[parent]) {
+                    grouped[parent] = { company: parent, products: [], updates: [], seenWordSets: [], last: m.last_known_update, status: m.status };
+                }
+                if (m.product && m.product !== 'חדשות החברה' && !grouped[parent].products.includes(m.product)) {
+                    grouped[parent].products.push(m.product);
+                }
+                (m.updates || []).forEach(u => {
+                    if (!isSimilar(u, grouped[parent].seenWordSets)) {
+                        grouped[parent].seenWordSets.push(new Set(norm(u).split(' ').filter(w => w.length > 3)));
+                        grouped[parent].updates.push({ text: u });
+                    }
+                });
+            });
+            const merged = Object.values(grouped).map(g => ({
+                company: g.company,
+                product: g.products.length ? g.products.join(' · ') : 'עדכוני חברה',
+                updates: g.updates.slice(0, 5).map(x => x.text),
+                last_known_update: g.last,
+                status: g.status
+            }));
+            document.getElementById('ai-models-grid').innerHTML = merged.map(m => `
                 <div class="premium-card p-6 bg-white tilt-active">
                     <div class="flex justify-between items-start mb-6">
                         <div>
@@ -1840,7 +1960,7 @@
                         `).join('')}
                     </ul>
                     <div class="mt-6 pt-4 border-t border-slate-50 text-[10px] font-900 text-slate-400">
-                        LAST UPDATE: ${m.last_known_update}
+                        עדכון אחרון נכון ל: ${m.last_known_update}
                     </div>
                 </div>
             `).join('');
@@ -1983,7 +2103,7 @@
             var datePart = dt.toLocaleDateString('he-IL', { day: '2-digit', month: '2-digit' });
             var timePart = dt.toLocaleTimeString('he-IL', { hour: '2-digit', minute: '2-digit', hour12: false });
             var badge = datePart + ' | ' + timePart;
-            ['page-sectors-date', 'page-crypto-date', 'page-ai-date', 'page-about-date'].forEach(function(id) {
+            ['page-macro-date', 'page-sectors-date', 'page-crypto-date', 'page-ai-date', 'page-about-date'].forEach(function(id) {
                 var el = document.getElementById(id);
                 if (el) el.textContent = badge;
             });
