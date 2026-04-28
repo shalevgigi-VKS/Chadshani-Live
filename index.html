@@ -1637,27 +1637,16 @@
                           dataTime.toLocaleTimeString('he-IL', {hour:'2-digit', minute:'2-digit', hour12: false});
             document.getElementById('current-update-time').textContent = timeStr;
 
-            // Slider
-            renderSlider(data.markets);
-            
-            // Macro
-            renderMacro(data.section_1_situation, data.section_2_news);
-            
-            // Sectors
-            renderSectors(data.section_3_sectors, data.section_5_semis, data.section_6_software);
-            
-            // Crypto
-            renderCrypto(data.section_4_crypto, data.section_4_crypto_brief, data.section_4_bitcoin, data.section_2_news);
-            
-            // AI
-            renderAI(data.section_7_ai);
-
-            // Traders
-            if (data.section_9_day_traders) renderDayTraders(data.section_9_day_traders);
-            if (data.section_10_swing_traders) renderSwingTraders(data.section_10_swing_traders);
-
-            // Fix sticky offsets
-            fixStickyOffsets();
+            // Render with per-section error isolation — never let one section break the others
+            const safe = (label, fn) => { try { fn(); } catch (e) { console.error('[' + label + '] render failed:', e); } };
+            safe('slider',  () => renderSlider(data.markets || {}));
+            safe('macro',   () => renderMacro(data.section_1_situation || {}, data.section_2_news || []));
+            safe('sectors', () => renderSectors(data.section_3_sectors || [], data.section_5_semis || [], data.section_6_software || []));
+            safe('crypto',  () => renderCrypto(data.section_4_crypto || [], data.section_4_crypto_brief || {}, data.section_4_bitcoin || {}, data.section_2_news || []));
+            safe('ai',      () => renderAI(data.section_7_ai || []));
+            if (data.section_9_day_traders)   safe('day-traders',   () => renderDayTraders(data.section_9_day_traders));
+            if (data.section_10_swing_traders) safe('swing-traders', () => renderSwingTraders(data.section_10_swing_traders));
+            safe('sticky',  () => fixStickyOffsets());
         }
 
         function renderSlider(markets) {
@@ -1684,21 +1673,25 @@
         }
 
         function renderMacro(sit, news) {
-            document.getElementById('macro-headline').textContent = sit.headline;
-            document.getElementById('macro-analysis').textContent = sit.analysis;
-            
+            sit = sit || {};
+            if (sit.headline) document.getElementById('macro-headline').textContent = sit.headline;
+            if (sit.analysis) document.getElementById('macro-analysis').textContent = sit.analysis;
+
             // Cards
-            document.getElementById('macro-cards').innerHTML = sit.cards.map(c => `
-                <div class="p-4 rounded-2xl bg-white/50 border border-slate-100">
-                    <h4 class="text-[10px] font-900 text-slate-400 uppercase tracking-widest mb-2">${c.label}</h4>
-                    <p class="text-xs font-700 text-slate-700 leading-relaxed">${c.value}</p>
-                </div>
-            `).join('');
+            if (Array.isArray(sit.cards)) {
+                document.getElementById('macro-cards').innerHTML = sit.cards.map(c => `
+                    <div class="p-4 rounded-2xl bg-white/50 border border-slate-100">
+                        <h4 class="text-[10px] font-900 text-slate-400 uppercase tracking-widest mb-2">${c.label}</h4>
+                        <p class="text-xs font-700 text-slate-700 leading-relaxed">${c.value}</p>
+                    </div>
+                `).join('');
+            }
 
             // Gauges
-            updateGauge('vix', sit.gauges.vix);
-            updateGauge('stock-fg', sit.gauges.fear_greed_stock);
-            updateGauge('crypto-fg', sit.gauges.fear_greed_crypto);
+            var gauges = sit.gauges || {};
+            if (gauges.vix) updateGauge('vix', gauges.vix);
+            if (gauges.fear_greed_stock) updateGauge('stock-fg', gauges.fear_greed_stock);
+            if (gauges.fear_greed_crypto) updateGauge('crypto-fg', gauges.fear_greed_crypto);
             
             // Alert
             if (sit.alert) {
@@ -1866,10 +1859,11 @@
                 }).join('');
             }
 
-            document.getElementById('crypto-narrative').textContent = brief.daily_narrative;
-            document.getElementById('crypto-smart-money').textContent = brief.smart_money;
-            document.getElementById('crypto-whale-activity').textContent = brief.whale_activity;
-            document.getElementById('crypto-conclusion').textContent = brief.conclusion;
+            var safeBrief = brief || {};
+            document.getElementById('crypto-narrative').textContent = safeBrief.daily_narrative || '';
+            document.getElementById('crypto-smart-money').textContent = safeBrief.smart_money || '';
+            document.getElementById('crypto-whale-activity').textContent = safeBrief.whale_activity || '';
+            document.getElementById('crypto-conclusion').textContent = safeBrief.conclusion || '';
 
             document.getElementById('crypto-assets-grid').innerHTML = assets.map(a => `
                 <div class="p-5 rounded-2xl bg-white border border-slate-100 shadow-sm hover:border-teal-200 transition-all">
