@@ -1013,6 +1013,24 @@
             }
         }
 
+        // formatSubheadings: wraps "תרחיש שורי"/"תרחיש דובי"/"מסקנה" etc as underlined h3 subheadings.
+        // Per PREFERENCES rule C5 + D3: subheadings must be h3 with text-decoration:underline,
+        // not plain inline text. Used by renderBitcoin/renderDayTraders/renderSwingTraders.
+        function formatSubheadings(text) {
+            if (!text) return '';
+            const SUBHEADS = ['תרחיש שורי', 'תרחיש דובי', 'מסקנה', 'סיכום', 'תוצאה', 'אסטרטגיה', 'המלצה'];
+            let out = String(text);
+            SUBHEADS.forEach(label => {
+                // Match the label as standalone phrase followed by colon or newline,
+                // wrap in h3.subheading
+                const re = new RegExp('(?:^|\\n|\\.\\s+)(' + label + ')(?=[\\s:.\\-—])', 'g');
+                out = out.replace(re, m => '\n<h3 class="subheading" style="font-weight:900;text-decoration:underline;text-decoration-color:rgba(13,148,136,0.5);text-underline-offset:4px;margin-top:1.25rem;margin-bottom:0.5rem;color:#0d9488;">' + label + '</h3>\n');
+            });
+            // Convert plain newlines to <br> for readability inside <p>
+            out = out.replace(/\n+/g, '<br>');
+            return out;
+        }
+
         function renderAll(d) {
             if (!d) return;
 
