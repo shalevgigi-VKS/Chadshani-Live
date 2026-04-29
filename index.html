@@ -190,7 +190,18 @@
         #page-sectors .page-h2  { color: #059669; text-decoration-color: rgba(5,150,105,0.28); }
         #page-crypto .page-h2   { color: #7c3aed; text-decoration-color: rgba(124,58,237,0.28); }
         #page-ai .page-h2       { color: #0891b2; text-decoration-color: rgba(8,145,178,0.28); }
-        /* #page-watchlist removed */
+        /* REQ-D 2026-04-29: ALL subheadings underlined (user recurring request) */
+        h3.subheading, .page-h3, h4.subheading, .page-h4,
+        section h3:not(.no-underline), section h4:not(.no-underline) {
+            text-decoration: underline;
+            text-decoration-color: rgba(13,148,136,0.45);
+            text-underline-offset: 4px;
+            font-weight: 800;
+        }
+        #page-macro h3:not(.no-underline), #page-macro h4:not(.no-underline) { text-decoration-color: rgba(0,80,212,0.35); }
+        #page-sectors h3:not(.no-underline), #page-sectors h4:not(.no-underline) { text-decoration-color: rgba(5,150,105,0.35); }
+        #page-crypto h3:not(.no-underline), #page-crypto h4:not(.no-underline) { text-decoration-color: rgba(124,58,237,0.35); }
+        #page-ai h3:not(.no-underline), #page-ai h4:not(.no-underline) { text-decoration-color: rgba(8,145,178,0.35); }
         .card-label {
             font-size: 10px;
             font-weight: 900;
@@ -296,7 +307,7 @@
     </section>
 
     <!-- Unified Sticky Navigation Bar — below slider, works on all devices -->
-    <nav id="unified-nav" class="container max-w-7xl mx-auto sticky top-0 z-[40] flex flex-row justify-center items-center gap-0.5 md:gap-3 px-1 py-2 bg-white/95 backdrop-blur-2xl border-b border-slate-100 shadow-sm overflow-x-auto" dir="rtl">
+    <nav id="unified-nav" class="container max-w-7xl mx-auto sticky top-[120px] md:top-[170px] z-[40] flex flex-row justify-center items-center gap-0.5 md:gap-3 px-1 py-2 bg-white/95 backdrop-blur-2xl border-b border-slate-100 shadow-sm overflow-x-auto" dir="rtl">
         <a href="javascript:void(0)" id="nav-macro" class="nav-item mobile-nav-item flex items-center gap-1 px-3 py-2.5 sm:px-4 md:px-5 md:py-2.5 text-slate-600 hover:bg-slate-100 rounded-xl transition-all whitespace-nowrap active" onclick="showPage('macro')">
             <span class="material-symbols-outlined text-[16px] md:text-[20px]">public</span>
             <span class="text-[7px] sm:text-xs md:text-sm font-bold">שוק ההון</span>
@@ -456,16 +467,7 @@
                         </div>
                     </div>
 
-                    <!-- Watchlist Section (PREFERENCES.md 2026-04-16) -->
-                    <div class="glass-card rounded-[3rem] p-8 border border-blue-100">
-                        <div class="flex items-center gap-3 mb-6">
-                            <span class="material-symbols-outlined text-blue-600">visibility</span>
-                            <h2 class="page-h2">מעקב טיקרים</h2>
-                        </div>
-                        <div id="macro-watchlist" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
-                            <!-- Populated by JS -->
-                        </div>
-                    </div>
+                    <!-- מעקב טיקרים REMOVED 2026-04-29 per recurring user request "אסור מעקב טיקרים" -->
                 </section>
 
                 </section>
@@ -1101,47 +1103,8 @@
                 document.getElementById('macro-opps').textContent = s8.opportunities;
             }
 
-            // Watchlist (rule N1): build from semis + software top movers
-            // since section_8_watchlist isn't in the schema. Sort by abs(change),
-            // pick top 3 risers + top 3 fallers. Each shows ticker + signal + price.
-            const buildWatchlist = () => {
-                const all = [...(d.section_5_semis || []), ...(d.section_6_software || [])];
-                const parsed = all.map(x => ({
-                    ticker: x.ticker,
-                    note: x.note ? String(x.note).split('.')[0].slice(0, 60) : '',
-                    price: x.price || '',
-                    changeNum: parseFloat(String(x.change || '0').replace('%','').replace('+','')),
-                    changeStr: x.change || '',
-                })).filter(x => x.ticker && !isNaN(x.changeNum));
-                const risers = parsed.filter(x => x.changeNum > 0).sort((a,b) => b.changeNum - a.changeNum).slice(0, 3);
-                const fallers = parsed.filter(x => x.changeNum < 0).sort((a,b) => a.changeNum - b.changeNum).slice(0, 3);
-                return [...risers, ...fallers].map(x => ({
-                    ticker: x.ticker,
-                    note: x.note,
-                    signal: x.changeNum > 0 ? 'עולה' : 'יורד',
-                    reason: `${x.price} (${x.changeStr})`,
-                }));
-            };
-            const wl = { __derived: true };
-            if (wl) {
-                const container = document.getElementById('macro-watchlist');
-                const items = buildWatchlist();
-                if(container) container.innerHTML = items.map(i => `
-                    <div class="flex justify-between items-center p-3 hover:bg-slate-50 rounded-2xl transition-all border border-transparent hover:border-slate-100">
-                        <div class="flex items-center gap-3">
-                            <img src="https://financialmodelingprep.com/image-stock/${i.ticker}.png" class="w-8 h-8 rounded-lg shadow-sm border border-slate-100" onerror="this.onerror=null; this.src='https://ui-avatars.com/api/?name=${i.ticker}&background=0050d4&color=fff&bold=true'">
-                            <div class="flex flex-col items-start px-2">
-                                <span class="font-headline font-black text-slate-800 leading-none mb-1">${i.ticker}</span>
-                                <span class="text-[10px] text-slate-500 font-bold uppercase leading-tight">${i.note}</span>
-                            </div>
-                        </div>
-                        <div class="text-right">
-                             <div class="text-xs font-bold ${i.signal === 'עולה' || i.signal === 'BUY' ? 'text-green-600' : 'text-red-600'}">${i.signal}</div>
-                             <div class="text-[10px] text-slate-500">${i.reason}</div>
-                        </div>
-                    </div>
-                `).join('');
-            }
+            // macro-watchlist REMOVED 2026-04-29 per user feedback (recurring request, dozens of times).
+            // Do not re-add. See feedback_chadshani_recurring_requests_2026_04_29.md.
 
             // Day Traders + Swing Traders
             {
