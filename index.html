@@ -1736,8 +1736,8 @@ window.INLINE_DATA = {
                             <p class="text-slate-600 font-500 text-sm">${sit.alert.description}</p>
                         </div>
                         <div class="shrink-0 bg-white px-6 py-3 rounded-2xl border border-rose-100">
-                            <div class="text-[10px] font-900 text-slate-400 uppercase mb-1">Impact Potential</div>
-                            <div class="text-rose-600 font-900">${sit.alert.impact}</div>
+                            <div class="text-[10px] font-900 text-slate-400 uppercase mb-1">עוצמת השפעה</div>
+                            <div class="text-rose-600 font-900">${translateImpact(sit.alert.impact)}</div>
                         </div>
                     </div>
                 `;
@@ -1749,16 +1749,17 @@ window.INLINE_DATA = {
                 const lead = news[0];
                 const rest = news.slice(1, 7);
                 const sentimentChip = (s) => {
-                    const tone = (s || '').toLowerCase();
+                    if (!s) return '';
+                    const tone = String(s).toLowerCase();
                     if (tone.includes('bull') || tone.includes('חיובי') || tone.includes('positive')) return '<span class="text-[10px] font-900 px-2 py-0.5 rounded-full bg-emerald-50 text-emerald-600">חיובי</span>';
                     if (tone.includes('bear') || tone.includes('שלילי') || tone.includes('negative') || tone.includes('סיכון')) return '<span class="text-[10px] font-900 px-2 py-0.5 rounded-full bg-rose-50 text-rose-600">שלילי</span>';
-                    return '<span class="text-[10px] font-900 px-2 py-0.5 rounded-full bg-slate-100 text-slate-500">ניטרלי</span>';
+                    return '<span class="text-[10px] font-900 px-2 py-0.5 rounded-full bg-slate-100 text-slate-400 opacity-70">ניטרלי</span>';
                 };
                 const meta = (n) => `
                     <div class="flex flex-wrap items-center gap-2 mb-3">
                         ${n.source ? `<span class="text-[10px] font-900 text-teal-700 bg-teal-50 px-2 py-0.5 rounded-full uppercase tracking-widest">${n.source}</span>` : ''}
                         ${n.time || n.timestamp ? `<span class="text-[10px] font-700 text-slate-400">${n.time || n.timestamp}</span>` : ''}
-                        ${sentimentChip(n.sentiment || n.tone || n.so_what || '')}
+                        ${sentimentChip(n.sentiment || n.tone || '')}
                     </div>
                 `;
                 let html = `
@@ -1767,7 +1768,7 @@ window.INLINE_DATA = {
                             <span class="text-[10px] font-900 text-rose-600 bg-rose-50 px-3 py-1 rounded-full uppercase tracking-widest animate-pulse">סיפור הדגל</span>
                             ${lead.source ? `<span class="text-[10px] font-900 text-teal-700 bg-teal-50 px-2 py-0.5 rounded-full uppercase tracking-widest">${lead.source}</span>` : ''}
                             ${lead.time || lead.timestamp ? `<span class="text-[10px] font-700 text-slate-400">${lead.time || lead.timestamp}</span>` : ''}
-                            ${sentimentChip(lead.sentiment || lead.tone || lead.so_what || '')}
+                            ${sentimentChip(lead.sentiment || lead.tone || '')}
                         </div>
                         <h3 class="text-2xl md:text-3xl font-900 text-slate-800 mb-4 leading-tight">${lead.title}</h3>
                         <p class="text-base text-slate-600 font-500 mb-6 leading-relaxed">${lead.body}</p>
@@ -1826,6 +1827,41 @@ window.INLINE_DATA = {
                 'greed': 'חמדנות', 'extreme greed': 'חמדנות קיצונית'
             };
             return map[String(z).toLowerCase()] || z;
+        }
+
+        function translateImpact(s) {
+            if (!s) return '';
+            var map = {
+                'HIGH VOLATILITY':'תנודתיות גבוהה',
+                'MEDIUM VOLATILITY':'תנודתיות בינונית',
+                'LOW VOLATILITY':'תנודתיות נמוכה',
+                'HIGH':'גבוה','MEDIUM':'בינוני','LOW':'נמוך'
+            };
+            return map[String(s).toUpperCase()] || s;
+        }
+
+        function realPrice(p) {
+            if (!p) return '--';
+            var s = String(p).trim();
+            if (s === '$XXX' || s === 'XXX' || s === 'XX' || s === '$XX' || /^\$X+$/i.test(s)) return '--';
+            return s;
+        }
+
+        function translatePattern(p) {
+            if (!p) return '';
+            var map = {
+                'bull flag':'דגל שורי','bear flag':'דגל דובי','cup & handle':'ספל וידית','cup and handle':'ספל וידית',
+                'breakout':'פריצה','breakdown':'שבירה','consolidation':'התכנסות','reversal':'היפוך',
+                'double top':'תקרה כפולה','double bottom':'רצפה כפולה','head and shoulders':'ראש וכתפיים',
+                'inverse head and shoulders':'ראש וכתפיים הפוך','triangle':'משולש','wedge':'יתד',
+                'channel':'תעלה','support':'תמיכה','resistance':'התנגדות'
+            };
+            var out = String(p);
+            Object.keys(map).forEach(function(k){
+                var re = new RegExp(k.replace(/[.*+?^${}()|[\]\\]/g,'\\$&'),'gi');
+                out = out.replace(re, map[k]);
+            });
+            return out;
         }
 
         function renderSectors(sectors, semis, software) {
@@ -2071,9 +2107,9 @@ window.INLINE_DATA = {
                         '<span class="w-12 h-12 rounded-xl bg-slate-800 text-white flex items-center justify-center font-900 text-xs shrink-0">' + w.ticker + '</span>' +
                         '<div class="flex-1">' +
                             '<div class="flex flex-wrap gap-4 text-xs font-700 text-slate-500 mb-1">' +
-                                '<span>כניסה: <span class="text-slate-800">' + (w.entry||'--') + '</span></span>' +
-                                '<span>יעד: <span class="text-emerald-600">' + (w.target||'--') + '</span></span>' +
-                                '<span>סטופ: <span class="text-rose-600">' + (w.stop||'--') + '</span></span>' +
+                                '<span>כניסה: <span class="text-slate-800">' + realPrice(w.entry) + '</span></span>' +
+                                '<span>יעד: <span class="text-emerald-600">' + realPrice(w.target) + '</span></span>' +
+                                '<span>סטופ: <span class="text-rose-600">' + realPrice(w.stop) + '</span></span>' +
                             '</div>' +
                             '<p class="text-xs text-slate-500 leading-relaxed">' + (w.reason||'') + '</p>' +
                         '</div>' +
@@ -2094,11 +2130,11 @@ window.INLINE_DATA = {
                         '<span class="w-12 h-12 rounded-xl bg-purple-800 text-white flex items-center justify-center font-900 text-xs shrink-0">' + s.ticker + '</span>' +
                         '<div class="flex-1">' +
                             '<div class="flex flex-wrap gap-4 text-xs font-700 text-slate-500 mb-1">' +
-                                '<span class="text-purple-600 font-900">' + (s.pattern||'') + '</span>' +
+                                '<span class="text-purple-600 font-900">' + translatePattern(s.pattern) + '</span>' +
                                 '<span>' + (s.timeframe||'') + '</span>' +
-                                '<span>כניסה: <span class="text-slate-800">' + (s.entry||'--') + '</span></span>' +
-                                '<span>יעד: <span class="text-emerald-600">' + (s.target||'--') + '</span></span>' +
-                                '<span>סטופ: <span class="text-rose-600">' + (s.stop||'--') + '</span></span>' +
+                                '<span>כניסה: <span class="text-slate-800">' + realPrice(s.entry) + '</span></span>' +
+                                '<span>יעד: <span class="text-emerald-600">' + realPrice(s.target) + '</span></span>' +
+                                '<span>סטופ: <span class="text-rose-600">' + realPrice(s.stop) + '</span></span>' +
                             '</div>' +
                             '<p class="text-xs text-slate-500 leading-relaxed">' + (s.reason||'') + '</p>' +
                         '</div>' +
