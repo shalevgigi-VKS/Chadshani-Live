@@ -1258,8 +1258,20 @@
             }
                 renderSectorPerf(s3);
 
-            // S&P 500 Constituent Changes
-            const s9 = d.section_9_sp500_changes;
+            // S&P 500 Constituent Changes — REQ-B: hide section if LLM returned placeholders
+            const s9raw = d.section_9_sp500_changes;
+            const PLACEHOLDER_NAMES = /^חברת [XYZWא-ת]$|^Company [XYZW]$/i;
+            const PLACEHOLDER_TICKERS = /^(XYZ|ABC|DEF|GHI|JKL|MNO)$/i;
+            const isPlaceholderEntry = e => PLACEHOLDER_NAMES.test((e?.name || '').trim()) || PLACEHOLDER_TICKERS.test((e?.ticker || '').trim());
+            const cleanS9 = s9raw ? {
+                ...s9raw,
+                added: (s9raw.added || []).filter(e => !isPlaceholderEntry(e)),
+                removed: (s9raw.removed || []).filter(e => !isPlaceholderEntry(e)),
+            } : null;
+            const s9 = cleanS9 && (cleanS9.added.length || cleanS9.removed.length) ? cleanS9 : null;
+            // Hide entire section when no real data (no point showing empty/placeholder boxes)
+            const sp500SectionEl = document.getElementById('sp500-changes-section') || document.querySelector('section:has(#sp500-added)');
+            if (!s9 && sp500SectionEl) sp500SectionEl.classList.add('hidden');
             if (s9 && (s9.added?.length || s9.removed?.length)) {
                 const section = document.getElementById('sp500-changes-section');
                 if (section) section.classList.remove('hidden');
