@@ -17,9 +17,12 @@
 
     <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
     <title>חדשני v4.6</title>
-    <!-- Favicon -->
-    <link rel="icon" href="assets/CHADSHANI_LOGO_v4.png" type="image/png">
-    
+    <!-- Favicon (rule #5: 4 links — 32x32, 16x16, shortcut, apple-touch) -->
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/CHADSHANI_LOGO_v4.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/CHADSHANI_LOGO_v4.png">
+    <link rel="shortcut icon" type="image/png" href="assets/CHADSHANI_LOGO_v4.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/CHADSHANI_LOGO_v4.png">
+
     <!-- Preconnect for font CDN — eliminates DNS+TLS latency -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -241,7 +244,7 @@
 
     <!-- Top Sticky Header -->
     <header class="bg-white/85 dark:bg-slate-900/85 backdrop-blur-xl sticky top-0 z-[60] shadow-[0_16px_64px_-12px_rgba(0,0,0,0.04)]">
-        <div class="flex flex-row justify-between items-center w-full px-4 md:px-6 py-3">
+        <div class="container max-w-7xl mx-auto flex flex-row justify-between items-center w-full px-4 md:px-6 py-3">
             <!-- Brand Section -->
             <div class="flex items-center gap-4">
                 <div class="relative group">
@@ -293,7 +296,7 @@
     </section>
 
     <!-- Unified Sticky Navigation Bar — below slider, works on all devices -->
-    <nav id="unified-nav" class="sticky top-0 z-[40] flex flex-row justify-center items-center gap-0.5 md:gap-3 px-1 py-2 bg-white/95 backdrop-blur-2xl border-b border-slate-100 shadow-sm overflow-x-auto" dir="rtl">
+    <nav id="unified-nav" class="container max-w-7xl mx-auto sticky top-0 z-[40] flex flex-row justify-center items-center gap-0.5 md:gap-3 px-1 py-2 bg-white/95 backdrop-blur-2xl border-b border-slate-100 shadow-sm overflow-x-auto" dir="rtl">
         <a href="javascript:void(0)" id="nav-macro" class="nav-item mobile-nav-item flex items-center gap-1 px-3 py-2.5 sm:px-4 md:px-5 md:py-2.5 text-slate-600 hover:bg-slate-100 rounded-xl transition-all whitespace-nowrap active" onclick="showPage('macro')">
             <span class="material-symbols-outlined text-[16px] md:text-[20px]">public</span>
             <span class="text-[7px] sm:text-xs md:text-sm font-bold">שוק ההון</span>
@@ -320,7 +323,7 @@
         <!-- Sidebar REMOVED — unified nav above replaces it -->
 
         <!-- Main Content -->
-        <main class="flex-1 min-h-screen p-2 md:p-8 lg:p-10">
+        <main class="container max-w-7xl mx-auto flex-1 min-h-screen p-2 md:p-8 lg:p-10">
 
             <div id="page-macro" class="page-view space-y-10">
             <!-- Unified Dashboard Top Bar (Macro page only) -->
@@ -855,10 +858,10 @@
                 <section class="glass-card p-8 md:p-12 rounded-[3rem] border-0 shadow-2xl bg-white">
                     <!-- 3-column: Photo | Text | Photo — explicit inline flex, no RTL order tricks -->
                     <div style="display:flex;flex-direction:row;align-items:flex-start;gap:2rem;flex-wrap:wrap;justify-content:center;">
-                        <!-- Photo 1 (right) -->
-                        <img src="assets/SHALEV.PNG" alt="שלו גיגי" loading="lazy"
+                        <!-- Photo 1 (right) — webp with PNG fallback (rule #4) -->
+                        <img src="assets/SHALEV.webp" alt="שלו גיגי — בעל המערכת" loading="lazy"
                             style="width:200px;height:267px;border-radius:2.5rem;object-fit:cover;flex-shrink:0;box-shadow:0 25px 50px -12px rgba(0,0,0,0.25);border:4px solid white;"
-                            onerror="this.onerror=null;this.src=\'https://ui-avatars.com/api/?name=SG&background=0d9488&color=fff&bold=true&size=300\'">
+                            onerror="this.onerror=null;this.src='assets/SHALEV.PNG'">
                         <!-- Text (center) -->
                         <div style="flex:1;min-width:220px;text-align:right;direction:rtl;display:flex;flex-direction:column;justify-content:center;gap:1rem;padding:0.5rem 0;">
                             <div style="display:inline-block;background:#0d9488;color:white;padding:0.35rem 1.25rem;border-radius:9999px;font-size:0.625rem;font-weight:900;text-transform:uppercase;letter-spacing:0.15em;">אודותיי / ABOUT ME</div>
@@ -877,10 +880,10 @@
                                 <span class="about-tag bg-emerald-50 border border-emerald-100 text-emerald-600">Strategy</span>
                             </div>
                         </div>
-                        <!-- Photo 2 (left) -->
-                        <img src="assets/SHALEV2.png" alt="שלו גיגי" loading="lazy"
+                        <!-- Photo 2 (left) — webp with PNG fallback (rule #4) -->
+                        <img src="assets/SHALEV2.webp" alt="שלו גיגי — דיוקן שני" loading="lazy"
                             style="width:200px;height:267px;border-radius:2.5rem;object-fit:cover;flex-shrink:0;box-shadow:0 25px 50px -12px rgba(3,105,161,0.3);border:4px solid white;"
-                            onerror="this.onerror=null;this.src=\'https://ui-avatars.com/api/?name=SG&background=0369a1&color=fff&bold=true&size=300\'">
+                            onerror="this.onerror=null;this.src='assets/SHALEV2.png'">
                     </div>
                 </section>
             </div>
