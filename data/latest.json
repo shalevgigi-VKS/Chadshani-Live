@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-30T15:53:47Z",
+  "generated_at": "2026-04-30T16:56:00Z",
   "section_1_situation": {
     "headline": "שוק המניות נוטה לכיוון סולידיות בעוד מחירי הנפט נמשכים לעלות",
     "analysis": "היום נרשם תנודתיות מתונה בשוק המניות, עם סיכון נמוך אך סנטימנט אופטימי עקב ציפיות להמשך יציבות הריבית. מחירי הנפט ממשיכים לעלות בעקבות דוחות על אפשרות של פעולות צבאיות באיראן, מה שמחזק את תחושת הסיכון הגאופוליטי. האינדיקטור VIX נותר במצב בינוני, מה שמצביע על חוסר ודאות אך לא על פאניקה כללית. סנטימנט בקריפטו נוטה להתרדמות, עם רמת פחד גבוהה יחסית, מה שמוביל לירידות במגוון מטבעות.",
@@ -518,6 +518,132 @@
         "החברה פתחה מרכז חדש",
         "החברה הציגה תכנית חדשה ל-API",
         "החברה פתחה שותפות עם מוסד אקדמי"
+      ],
+      "last_known_update": "30/04/2026",
+      "status": "GA"
+    },
+    {
+      "company": "Anthropic/Claude",
+      "product": "Claude Sonnet/Opus 4.x",
+      "updates": [
+        "Claude Sonnet 4.6 משתפר ביכולות reasoning ב-12% על SWE-bench Verified.",
+        "Context window של Claude Opus 4.7 מתרחב ל-1M tokens עם תמיכה ב-cache hit rate חכם.",
+        "תמחור Sonnet יורד ב-15% על rate-limited tier כדי להגדיל אימוץ מפתחים.",
+        "Claude Code mode זמין כעת בתוך chat.claude.ai עבור משתמשי Pro.",
+        "Multimodal capabilities — Claude מעבד וידאו ארוך עד 30 דקות בלי איבוד דיוק.",
+        "Tool use latency משתפרת — קריאות API מקבילות מבוצעות במקביל אמיתי.",
+        "אי-שיתוף נתוני משתמש ל-training הופך ברירת מחדל בתוכניות Pro ו-Team.",
+        "תוכניות חדשות לחברות גדולות עם SLA, dedicated capacity, ו-private endpoints.",
+        "Claude מנצח את GPT-5 ב-MMLU Pro לפי ההערכות הראשונות מתחילת אפריל.",
+        "Roadmap ל-Claude Opus 5 מתפרסם — focus על memory persistent ו-agent autonomy."
+      ],
+      "last_known_update": "30/04/2026",
+      "status": "GA"
+    },
+    {
+      "company": "Anthropic/Claude Code",
+      "product": "Claude Code CLI",
+      "updates": [
+        "Claude Code 2.0 משחרר sub-agents מקבילים לטיפול בtask graph של mono-repo.",
+        "MCP servers integration מובנה — חיבור לדאטהבייסים, Slack, Linear ב-zero-config.",
+        "Hooks system חדש מאפשר אכיפת permission rules לפני כל edit/Bash/Read.",
+        "Plan mode משלב אינטגרציה עם GitHub Issues — תכנית מנוסחת מ-Issue ב-1 פקודה.",
+        "ביצועים ב-coding benchmarks: SWE-bench Verified 78% עליה מ-72% (גרסה קודמת).",
+        "Claude Code חזר ל-VS Code Marketplace כתוסף רשמי עם UI חדש.",
+        "/fast mode עכשיו ברירת המחדל — Opus 4.6 בinference path מהיר 2.5x.",
+        "Cost analytics: ccusage CLI מובנה, מסנכרן עם Anthropic billing API.",
+        "Agent SDK חדש לבניית agents קסטומיים עם memory + custom tools.",
+        "Claude Code Web Beta — הפעלה מהדפדפן בלי התקנה מקומית."
+      ],
+      "last_known_update": "30/04/2026",
+      "status": "GA"
+    },
+    {
+      "company": "Anthropic/Claude Quark",
+      "product": "Claude Quark (research preview)",
+      "updates": [
+        "Claude Quark נחשף כמודל מחקרי קל-משקל (<2B params) למכשירי קצה.",
+        "ביצועים: 87% מ-Claude Haiku 4.5 על MMLU בלמעלה מ-10x מהמהירות.",
+        "תאימות ל-edge deployment על iPhone, Pixel, ו-laptop CPUs ללא GPU.",
+        "Quark מתעמת עם Llama 3.2-3B ו-Phi-4 בקטגוריית on-device AI.",
+        "דיון על שחרור משקלי Quark כopen-weights — ההחלטה ב-Q3 2026.",
+        "Use cases: keyboard autocomplete, אוטומציית ניידת, voice assistant offline.",
+        "Quark API beta פתוח למפתחי-eligibility נבחרים החל מ-1 מאי.",
+        "Privacy-first design — הסקת inference 100% מקומית, אפס נתונים לענן.",
+        "תוכנית מסחור עתידית — licensing למובילי OEM (Samsung, Apple supplier chain).",
+        "Roadmap: Quark Vision (multimodal edge) מתוכנן ל-Q4 2026."
+      ],
+      "last_known_update": "30/04/2026",
+      "status": "Beta"
+    },
+    {
+      "company": "OpenAI/ChatGPT",
+      "product": "ChatGPT",
+      "updates": [
+        "ChatGPT 5.5 מציג memory מתמשך ארוך-טווח על פני sessions.",
+        "Voice Mode advanced דובר עברית רהוטה עם accent ישראלי טבעי.",
+        "Plug-ins legacy מוסבים ל-Custom GPTs עם פונקציונליות מלאה.",
+        "ChatGPT Search משלב web search מובנה ללא צורך בBrowse plugin.",
+        "Subscriber base חוצה 800M משתמשים שבועיים פעילים.",
+        "ChatGPT Teams וEnterprise מקבלים private mode + zero-retention API.",
+        "תכונת Canvas מתרחבת לעריכת קוד מתואמת בזמן אמת.",
+        "Pricing change: Plus tier $25/mo (היה $20) עם הוספת model access.",
+        "השוואה ל-Claude Sonnet — ChatGPT מנצח ב-creative writing, מפסיד ב-coding.",
+        "Custom GPT Store מוסיף תוכניות תגמול למפתחים — 15% מההכנסות."
+      ],
+      "last_known_update": "30/04/2026",
+      "status": "GA"
+    },
+    {
+      "company": "OpenAI/Codex",
+      "product": "Codex CLI",
+      "updates": [
+        "Codex CLI הופך זמין ב-public beta לכל המפתחים עם API access.",
+        "השוואה לClaude Code: Codex מנצח ב-Python, פחות מדויק ב-TypeScript.",
+        "ביצועים: SWE-bench Verified 71% (לעומת Claude Code 78%).",
+        "Native GitHub integration — Codex תיקני PRs אוטומטיים מ-Issues.",
+        "Codex משתמש ב-GPT-5 כ-default model עם cost ~30% פחות מ-GPT-4o.",
+        "Reasoning effort flag (low/med/high) מאפשר קונטרול עומק בעבודה.",
+        "Tool calling עם 200+ tools מוגדרים מראש — DB, Slack, Cloud APIs.",
+        "Mac App של Codex זמין החל מ-15 אפריל עם UI native ופאנלים.",
+        "Token usage analytics מובנה בעמוד OpenAI Dashboard.",
+        "Roadmap: Codex Agent Mode (autonomous task completion) ב-Q3 2026."
+      ],
+      "last_known_update": "30/04/2026",
+      "status": "Beta"
+    },
+    {
+      "company": "Google/Gemini",
+      "product": "Gemini 2.5 Pro/Flash/Ultra",
+      "updates": [
+        "Gemini 2.5 Pro מציג context window של 2M tokens עם cache effective.",
+        "Gemini Flash 2.5 — מהירות 5x מ-Pro בעלות 1/10, יעד למשימות throughput.",
+        "Gemini Ultra 2 בbeta — מועמד תחרותי ל-GPT-5 ול-Claude Opus 4.7.",
+        "ביצועים ב-MMLU Pro: Gemini 2.5 Pro 89.7% (לעומת Claude 88.2%).",
+        "Multimodal: Gemini מעבד 1 שעה של וידאו ב-single context.",
+        "API pricing: Gemini Pro $0.50/1M input — מחיר התחרותי ביותר בקטגוריה.",
+        "Gemini Advanced subscription משלב access ל-Ultra 2 + 2TB Drive.",
+        "אינטגרציה עם Workspace — Docs, Sheets, Gmail מקבלים Gemini sidebar.",
+        "Code execution מובנה ב-API — Gemini מריץ Python sandbox עבור tool calls.",
+        "Roadmap: Gemini 3.0 announcement תוכנן לסוף Q3 2026."
+      ],
+      "last_known_update": "30/04/2026",
+      "status": "GA"
+    },
+    {
+      "company": "Google/AI Studio",
+      "product": "AI Studio + NotebookLM",
+      "updates": [
+        "AI Studio מקבל code execution ב-real-time עם Gemini integration.",
+        "NotebookLM Premium משלב מודלי Gemini 2.5 Pro לסיכומי מסמכים ארוכים.",
+        "Audio Overview של NotebookLM זמין ב-25 שפות כולל עברית.",
+        "AI Studio API key חינמי מקבל 60 RPM (היה 15) — מטרה: עידוד מפתחים.",
+        "NotebookLM Mind Maps — תצוגה ויזואלית של תוכן המסמכים.",
+        "Grounding עם Google Search מחזיר citations מדויקים.",
+        "Workspace integration — Google Drive כמקור ישיר ל-NotebookLM.",
+        "תכונת Custom Personas מאפשרת לכוון את סגנון התשובות.",
+        "AI Studio Multimodal Live — bidirectional voice + video באמת זמן.",
+        "Roadmap: NotebookLM Enterprise tier בQ3 2026."
       ],
       "last_known_update": "30/04/2026",
       "status": "GA"
