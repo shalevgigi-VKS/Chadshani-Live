@@ -1196,22 +1196,27 @@
                         `).join('');
                     }
                 } else if (wl) {
-                    // Fallback: use watchlist data
-                    if (dtBull && wl.rising) dtBull.innerHTML = (wl.rising || []).slice(0, 3).map(i =>
+                    // Fallback: use watchlist data — but FILTER to crypto-only (IRON LAW L13).
+                    // 2026-04-30: user complained NVDA/META/AMAT/TSM appearing on crypto page.
+                    const CRYPTO_WL = new Set(['BTC','ETH','SOL','XRP','ADA','LINK','TAO','KAS','DOGE','AVAX','MATIC','DOT','ATOM','NEAR','INJ','RUNE','FET','RNDR','ARB','OP','SUI','APT','SEI','TIA','JTO','PEPE','SHIB','BONK']);
+                    const isCrypto = (i) => i && i.ticker && CRYPTO_WL.has(String(i.ticker).toUpperCase());
+                    const cryptoRising = (wl.rising || []).filter(isCrypto);
+                    const cryptoFalling = (wl.falling || []).filter(isCrypto);
+                    if (dtBull) dtBull.innerHTML = cryptoRising.slice(0, 3).map(i =>
                         `<p><strong>${i.ticker}</strong> — ${i.reason}. <span class="text-green-600 font-bold">${i.signal}</span></p>`
-                    ).join('');
-                    if (dtBear && wl.falling) dtBear.innerHTML = (wl.falling || []).slice(0, 3).map(i =>
+                    ).join('') || '<p class="text-slate-400">אין מטבעות עולים בולטים היום</p>';
+                    if (dtBear) dtBear.innerHTML = cryptoFalling.slice(0, 3).map(i =>
                         `<p><strong>${i.ticker}</strong> — ${i.reason}. <span class="text-red-600 font-bold">${i.signal}</span></p>`
-                    ).join('');
+                    ).join('') || '<p class="text-slate-400">אין מטבעות יורדים בולטים היום</p>';
                     if (dtTickers) {
-                        const allWl = [...(wl.rising || []), ...(wl.falling || [])];
-                        dtTickers.innerHTML = allWl.map(i => `
+                        const allCrypto = [...cryptoRising, ...cryptoFalling];
+                        dtTickers.innerHTML = allCrypto.map(i => `
                             <div class="flex justify-between items-center p-2 rounded-xl bg-white border border-slate-100">
                                 <span class="font-black text-sm">${i.ticker}</span>
                                 <span class="text-xs ${i.signal === 'BUY' ? 'text-green-600' : 'text-red-600'} font-bold">${i.signal}</span>
                                 <span class="text-[10px] text-slate-500">${i.note}</span>
                             </div>
-                        `).join('');
+                        `).join('') || '<p class="text-slate-400 text-xs">אין סיגנלים פעילים</p>';
                     }
                 }
 
@@ -1232,13 +1237,16 @@
                     if (swBull) swBull.innerHTML = `<p>${s8.opportunities || ''}</p>`;
                     if (swBear) swBear.innerHTML = `<p>${s8.risks || ''}</p>`;
                     if (swTickers && wl && wl.rising) {
-                        swTickers.innerHTML = (wl.rising || []).map(i => `
+                        // 2026-04-30: filter to crypto-only (IRON LAW L13)
+                        const CRYPTO_WL2 = new Set(['BTC','ETH','SOL','XRP','ADA','LINK','TAO','KAS','DOGE','AVAX','MATIC','DOT','ATOM','NEAR','INJ','RUNE','FET','RNDR','ARB','OP','SUI','APT','SEI','TIA','JTO','PEPE','SHIB','BONK']);
+                        const cryptoOnly = (wl.rising || []).filter(i => i && i.ticker && CRYPTO_WL2.has(String(i.ticker).toUpperCase()));
+                        swTickers.innerHTML = cryptoOnly.map(i => `
                             <div class="flex justify-between items-center p-2 rounded-xl bg-white border border-slate-100">
                                 <span class="font-black text-sm">${i.ticker}</span>
                                 <span class="text-xs text-indigo-600 font-bold">SWING</span>
                                 <span class="text-[10px] text-slate-500">${i.reason}</span>
                             </div>
-                        `).join('');
+                        `).join('') || '<p class="text-slate-400 text-xs">אין סטאפים פעילים</p>';
                     }
                 }
             }
