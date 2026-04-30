@@ -17,8 +17,11 @@
 
     <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
     <title>חדשני v4.7</title>
-    <!-- Favicon -->
-    <link rel="icon" href="assets/CHADSHANI_LOGO_v4.png" type="image/png">
+    <!-- Favicon: 4 links (REQ rule #5) -->
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/CHADSHANI_LOGO_v4.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/CHADSHANI_LOGO_v4.png">
+    <link rel="shortcut icon" href="assets/CHADSHANI_LOGO_v4.png" type="image/png">
+    <link rel="apple-touch-icon" href="assets/CHADSHANI_LOGO_v4.png">
     
     <!-- Preconnect for font CDN — eliminates DNS+TLS latency -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -186,9 +189,8 @@
             z-index: 10;
         }
         .tilt-active:hover::before { opacity: 1; }
-        /* Nav active teal */
-        .nav-item.active { color: var(--brand) !important; background: rgba(13,148,136,0.07) !important; border-radius: 0.75rem; }
-        .mobile-nav-item.active { color: var(--brand) !important; }
+        /* 2026-04-30: stale teal nav-active rules REMOVED — colorful nav (REQ-30E)
+           is the source of truth at #unified-nav .nav-item.active above (lines ~125-131). */
         /* Page headings teal */
         #page-macro .page-h2, #page-about .page-h2 { color: var(--brand) !important; text-decoration-color: rgba(13,148,136,0.25) !important; }
         /* Conic gauge - all 4 gauges uniform size */
@@ -346,26 +348,26 @@
     </section>
 
     <!-- Unified Sticky Navigation Bar — below slider, works on all devices -->
-    <nav id="unified-nav" class="sticky top-0 z-[40] flex flex-row justify-center items-center gap-0.5 md:gap-3 px-1 py-2 bg-white/95 backdrop-blur-2xl border-b border-slate-100 shadow-sm overflow-x-auto" dir="rtl">
-        <a href="javascript:void(0)" id="nav-macro" class="nav-item mobile-nav-item flex items-center gap-1 px-3 py-2.5 sm:px-4 md:px-5 md:py-2.5 text-slate-600 hover:bg-slate-100 rounded-xl transition-all whitespace-nowrap active" onclick="showPage('macro')">
-            <span class="material-symbols-outlined text-[16px] md:text-[20px]">public</span>
-            <span class="text-[7px] sm:text-xs md:text-sm font-bold">שוק ההון</span>
+    <nav id="unified-nav" class="sticky top-0 z-[40] flex flex-row w-full justify-between md:justify-center items-stretch gap-1 md:gap-4 px-2 md:px-4 py-2 md:py-3 bg-white/95 backdrop-blur-2xl border-b border-slate-100 shadow-sm" dir="rtl">
+        <a href="javascript:void(0)" id="nav-macro" class="nav-item mobile-nav-item flex flex-1 md:flex-initial items-center justify-center gap-1 md:gap-2 px-1 md:px-6 py-2 md:py-3 rounded-xl whitespace-nowrap active" onclick="showPage('macro')">
+            <span class="material-symbols-outlined text-[18px] md:text-[24px]">public</span>
+            <span class="text-[10px] sm:text-xs md:text-base font-bold">שוק ההון</span>
         </a>
-        <a href="javascript:void(0)" id="nav-sectors" class="nav-item mobile-nav-item flex items-center gap-1 px-3 py-2.5 sm:px-4 md:px-5 md:py-2.5 text-slate-600 hover:bg-slate-100 rounded-xl transition-all whitespace-nowrap" onclick="showPage('sectors')">
-            <span class="material-symbols-outlined text-[16px] md:text-[20px]">account_tree</span>
-            <span class="text-[7px] sm:text-xs md:text-sm font-bold">סקטורים</span>
+        <a href="javascript:void(0)" id="nav-sectors" class="nav-item mobile-nav-item flex flex-1 md:flex-initial items-center justify-center gap-1 md:gap-2 px-1 md:px-6 py-2 md:py-3 rounded-xl whitespace-nowrap" onclick="showPage('sectors')">
+            <span class="material-symbols-outlined text-[18px] md:text-[24px]">account_tree</span>
+            <span class="text-[10px] sm:text-xs md:text-base font-bold">סקטורים</span>
         </a>
-        <a href="javascript:void(0)" id="nav-crypto" class="nav-item mobile-nav-item flex items-center gap-1 px-3 py-2.5 sm:px-4 md:px-5 md:py-2.5 text-slate-600 hover:bg-slate-100 rounded-xl transition-all whitespace-nowrap" onclick="showPage('crypto')">
-            <span class="material-symbols-outlined text-[16px] md:text-[20px]">currency_bitcoin</span>
-            <span class="text-[7px] sm:text-xs md:text-sm font-bold">קריפטו</span>
+        <a href="javascript:void(0)" id="nav-crypto" class="nav-item mobile-nav-item flex flex-1 md:flex-initial items-center justify-center gap-1 md:gap-2 px-1 md:px-6 py-2 md:py-3 rounded-xl whitespace-nowrap" onclick="showPage('crypto')">
+            <span class="material-symbols-outlined text-[18px] md:text-[24px]">currency_bitcoin</span>
+            <span class="text-[10px] sm:text-xs md:text-base font-bold">קריפטו</span>
         </a>
-        <a href="javascript:void(0)" id="nav-ai" class="nav-item mobile-nav-item flex items-center gap-1 px-3 py-2.5 sm:px-4 md:px-5 md:py-2.5 text-slate-600 hover:bg-slate-100 rounded-xl transition-all whitespace-nowrap" onclick="showPage('ai')">
-            <span class="material-symbols-outlined text-[16px] md:text-[20px]">psychology</span>
-            <span class="text-[7px] sm:text-xs md:text-sm font-bold">מודיעין AI</span>
+        <a href="javascript:void(0)" id="nav-ai" class="nav-item mobile-nav-item flex flex-1 md:flex-initial items-center justify-center gap-1 md:gap-2 px-1 md:px-6 py-2 md:py-3 rounded-xl whitespace-nowrap" onclick="showPage('ai')">
+            <span class="material-symbols-outlined text-[18px] md:text-[24px]">psychology</span>
+            <span class="text-[10px] sm:text-xs md:text-base font-bold">מודיעין AI</span>
         </a>
-        <a href="javascript:void(0)" id="nav-about" class="nav-item mobile-nav-item flex items-center gap-1 px-3 py-2.5 sm:px-4 md:px-5 md:py-2.5 text-slate-600 hover:bg-slate-100 rounded-xl transition-all whitespace-nowrap" onclick="showPage('about')">
-            <span class="material-symbols-outlined text-[16px] md:text-[20px]">auto_stories</span>
-            <span class="text-[7px] sm:text-xs md:text-sm font-bold">אודותיי</span>
+        <a href="javascript:void(0)" id="nav-about" class="nav-item mobile-nav-item flex flex-1 md:flex-initial items-center justify-center gap-1 md:gap-2 px-1 md:px-6 py-2 md:py-3 rounded-xl whitespace-nowrap" onclick="showPage('about')">
+            <span class="material-symbols-outlined text-[18px] md:text-[24px]">auto_stories</span>
+            <span class="text-[10px] sm:text-xs md:text-base font-bold">אודותיי</span>
         </a>
     </nav>
 
