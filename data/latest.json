@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-07T14:36:40Z",
+  "generated_at": "2026-05-07T16:01:45Z",
   "section_1_situation": {
     "headline": "שוק המניות נוטה לכיוון סולידיות בעוד מחירי הנפט נמשכים לעלות",
     "analysis": "היום נרשם תנודתיות מתונה בשוק המניות, עם סיכון נמוך אך סנטימנט אופטימי עקב ציפיות להמשך יציבות הריבית. מחירי הנפט ממשיכים לעלות בעקבות דוחות על אפשרות של פעולות צבאיות באיראן, מה שמחזק את תחושת הסיכון הגאופוליטי. האינדיקטור VIX נותר במצב בינוני, מה שמצביע על חוסר ודאות אך לא על פאניקה כללית. סנטימנט בקריפטו נוטה להתרדמות, עם רמת פחד גבוהה יחסית, מה שמוביל לירידות במגוון מטבעות. (ניתוח זה משלים נתו",
@@ -28,76 +28,76 @@
         "zone": "medium",
         "label": "VIX במצב בינוני",
         "description": "רמת ה-VIX נותרת במישור בינוני, מה שמצביע על אי ודאות אך לא על פאניקה כללית. גורמים כגון ציפיות ריבית וחדשות גאופוליטיות משפיעים על רמת התסכול של המשקיעים.",
-        "value": "18.53"
+        "value": "17.24"
       },
       "fear_greed_stock": {
         "label": "חמדנות",
         "zone": "greed",
         "description": "המדד של שוק המניות מצביע על רמת חמדנות גבוהה, מה שמוביל למגמת קנייה חזקה. גורמים כגון ציפיות ריבית יציבה ונתוני תעסוקה חיוביים מחזקים את הסנטימנט.",
-        "value": "63"
+        "value": "68"
       },
       "fear_greed_crypto": {
         "label": "פחד",
         "zone": "fear",
         "description": "המדד של שוק הקריפטו מצביע על רמת פחד גבוהה, מה שמוביל לירידות במגוון מטבעות. גורמים כגון חוסר אמון בשוק והסתכנות גאופוליטית משפיעים על הסנטימנט.",
-        "value": "29"
+        "value": "47"
       }
     }
   },
   "section_2_news": [
     {
-      "title": "הנפט מגיע לרמות הגבוהות ביותר מאז 2022 בעקבות דוח על אפשרות של פעולות צבאיות באיראן",
-      "body": "במהלך המסחר היום הנפט ממשיך לעלות בעקבות דוחות על אפשרות של פעולות צבאיות באיראן, מה שמחזק את תחושת הסיכון הגאופוליטי. מחירי הנפט הגיעו לרמות הגבוהות ביותר מאז 2022, אך נרשמה ירידה קלה לאחר מכן.",
-      "so_what": "ההשלכה הישירה: עליית אלוקציה לשבבי AI ובעלי תזרים מזומנים יציב.",
-      "sentiment": "negative"
+      "title": "Portugal and Italy will not suspend digital border checks for Brits",
+      "body": "Portugal and Italy will not suspend digital border checks for Brits. Reports had suggested the countries were set to follow the example of Greece, which effectively suspended biometric checks for UK nationals.",
+      "so_what": "ההשלכה הישירה: עליית הקצאה לשבבי בינה מלאכותית ובעלי תזרים מזומנים יציב.",
+      "source": "BBC Business"
     },
     {
-      "title": "הפחתת כמות החיילים בגרמניה עשויה להשפיע על שוק המניות",
-      "body": "על רקע נתונים שפורסמו לאחרונה, ההחלטה של ארה\"ב להוריד את כמות החיילים בגרמניה עשויה להשפיע על שוק המניות, במיוחד על חברות בתחום ההגנה והטכנולוגיה.",
-      "so_what": "המהלך מחזק את משקלם של ספקי ענן גדולים בתיק הצמיחה למניות מובילות-AI.",
-      "sentiment": "neutral"
+      "title": "Shell latest oil giant to see profits surge due to Iran war impact",
+      "body": "Shell latest oil giant to see profits surge due to Iran war impact. The energy giant's profits jump by nearly a quarter as it benefits from the recent volatility in the oil price. המידע נאסף ממקורות חדשות מובילים. התרחיש דורש מעקב צמוד אחר נתוני המאקרו והגיאופוליטיקה. השפעה אפשרית על מדדי המניות והאג\"ח בטווח הקרוב.",
+      "so_what": "המהלך מחזק את משקלם של ענקיות הענן בתיק הצמיחה למניות מובילות בתחום הבינה המלאכותית.",
+      "source": "BBC Business"
     },
     {
-      "title": "Meta מציגה תוצאות רווח גבוהות אך משקיעים מודאגים מהוצאות ה-AI",
-      "body": "בהמשך למגמה ארוכת-טווח, Meta דיווחה על רווח גבוה אך משקיעים מודאגים מהוצאות ה-AI.",
-      "so_what": "הזדמנות במניות תשתית — נטוורק, חשמל, מרחב הנתונים.",
-      "sentiment": "negative"
+      "title": "Major rail disruption expected in southern England until end of day",
+      "body": "Major rail disruption expected in southern England until end of day. A radio fault has been resolved but passengers could continue to face long delays, warns National Rail.. המידע נאסף ממקורות חדשות מובילים. התרחיש דורש מעקב צמוד אחר נתוני המאקרו והגיאופוליטיקה. השפעה אפשרית על מדדי המניות והאג\"ח בטווח הקרוב.",
+      "so_what": "הזדמנות במניות תשתית — רשת תקשורת, חשמל, ומרכזי נתונים.",
+      "source": "BBC Business"
     },
     {
-      "title": "הוצאות ה-AI של Amazon ממשיכות לגדול",
-      "body": "אנליסטים בכירים מציינים כי הוצאות ה-AI של Amazon ממשיכות לגדול, מה שמחזק את תחושת הסיכון הגאופוליטי.",
-      "so_what": "השפעה ניכרת על הערכת שווי מכפלות שווי של חברות AI טהורות; אפשר מימוש רווחים חלקי.",
-      "sentiment": "negative"
+      "title": "'We had people come just to see it'",
+      "body": "'We had people come just to see it'. Amazon delivers its first UK parcels by drone: The unmanned aircraft can drop off 100 parcels a day within a 12km radius of Amazon's hub.. המידע נאסף ממקורות חדשות מובילים. התרחיש דורש מעקב צמוד אחר נתוני המאקרו והגיאופוליטיקה. השפעה אפשרית על מדדי המניות והאג\"ח בטווח הקרוב.",
+      "so_what": "השפעה ניכרת על מכפילי השווי של חברות בינה מלאכותית טהורות; ניתן לשקול מימוש רווחים חלקי.",
+      "source": "BBC Business"
     },
     {
-      "title": "הוצאות ה-AI של Microsoft ממשיכות לגדול",
-      "body": "בהקשר רחב יותר, הוצאות ה-AI של Microsoft ממשיכות לגדול, מה שמחזק את תחושת הסיכון הגאופוליטי.",
-      "so_what": "סיכון רגולטורי עשוי להאט קצב ההרחבה האירופאית; משקיעים אמריקאים בעמדה דפנסיבית.",
-      "sentiment": "negative"
+      "title": "Paul Tudor Jones says U.S. is late to regulating AI",
+      "body": "Paul Tudor Jones says U.S. is late to regulating AI. 'We should have already done it': The U.S. is locked into a heated rivalry with China and a race to lead AI innovation.. המידע נאסף ממקורות חדשות מובילים. התרחיש דורש מעקב צמוד אחר נתוני המאקרו והגיאופוליטיקה. השפעה אפשרית על מדדי המניות והאג\"ח בטווח הקרוב.",
+      "so_what": "סיכון רגולטורי עשוי להאט את קצב ההרחבה האירופאית; משקיעים אמריקאים בעמדה הגנתית.",
+      "source": "CNBC Top"
     },
     {
-      "title": "הוצאות ה-AI של Google ממשיכות לגדול",
-      "body": "במקביל לתנועות ב-S&P 500, הוצאות ה-AI של Google ממשיכות לגדול, מה שמחזק את תחושת הסיכון הגאופוליטי.",
-      "so_what": "תזרים מזומנים מוסדי חזק תומך ברמות תמיכה הנוכחיות בטווח קצר.",
-      "sentiment": "negative"
+      "title": "OpenAI trial",
+      "body": "OpenAI trial. Mother of Musk's children says he offered Altman a Tesla board seat: Shivon Zilis, a former OpenAI board member who has four children with Musk, testified that the Tesla CEO wanted the AI startup to join his EV company.",
+      "so_what": "תזרים מזומנים מוסדי חזק תומך ברמות התמיכה הנוכחיות בטווח קצר.",
+      "source": "CNBC Top"
     },
     {
-      "title": "הוצאות ה-AI של Meta ממשיכות לגדול",
-      "body": "בעקבות הצהרות בכירים, הוצאות ה-AI של Meta ממשיכות לגדול, מה שמחזק את תחושת הסיכון הגאופוליטי.",
-      "so_what": "מתח גיאופוליטי מעלה ביקוש לנכסי מקלט (זהב, BTC); אנרגיה כדפנסיב טווח-קצר.",
-      "sentiment": "negative"
+      "title": "Ryan Cohen's mysterious bank letter backing GameStop's eBay bid reveals a big issue with deal",
+      "body": "Ryan Cohen's mysterious bank letter backing GameStop's eBay bid reveals a big issue with deal. The combined company would need to maintain an investment-grade credit profile, GameStop's mysterious financing letter said.",
+      "so_what": "מתח גיאופוליטי מעלה ביקוש לנכסי מקלט כמו זהב וביטקוין; אנרגיה כהשקעה הגנתית בטווח קצר.",
+      "source": "CNBC Top"
     },
     {
-      "title": "פדרל ריזרב מאותת על שמירה על ריבית גבוהה לטווח ארוך יותר",
-      "body": "ניתוח of-chain מראה שבנק הפדרל ריזרב האמריקאי מסר אותות ברורים שמדיניות הריבית הגבוהה תישמר לתקופה ארוכה מהצפוי, על רקע אינפלציה דביקה בשוק העבודה והוצאות צרכניות חזקות. החלטה זו משפיעה ישירות על שוקי האשראי, נדל\"ן וצריכה מחזורית.",
-      "so_what": "מציע לבחון רוטציה סקטוריאלית מ-צמיחה ל-ערך ב-איזון מחדש הקרוב.",
-      "sentiment": "negative"
+      "title": "Boeing CEO Kelly Ortberg set to join Trump on China visit next week",
+      "body": "Boeing CEO Kelly Ortberg set to join Trump on China visit next week. Boeing CEO Kelly Ortberg is expected to join President Donald Trump on his visit to China next week, a source familiar with the planemaker's plans told CNBC.",
+      "so_what": "מציע לבחון מעבר ממניות צמיחה למניות ערך באיזון התיק הקרוב.",
+      "source": "CNBC Top"
     },
     {
-      "title": "Nvidia ו-AMD מובילות את ראלי השבבים לקראת דוחות הרבעון",
-      "body": "הזרימות המוסדיות מצביעות על Nvidia ו-AMD ממשיכות לשבור שיאים בשוק השבבים על רקע ביקוש מואץ ל-AI accelerators ממרכזי נתונים גלובליים. אנליסטים צופים זינוק של 60-80% ברווחים השנתיים, עם תחזית חיובית גם ל-2026.",
-      "so_what": "ההיגיון הסיכון-תשואה מצדיק גידול חשיפה לסקטור ספציפי.",
-      "sentiment": "positive"
+      "title": "This 'win-win' hedge trade is getting popular with traders",
+      "body": "This 'win-win' hedge trade is getting popular with traders. The trade is fairly simple: sell downside protection in semiconductor names where volatility is expensive, and buy downside protection in the S&P 500, where it's relatively cheap.",
+      "so_what": "ההיגיון של היחס בין הסיכון לתשואה מצדיק גידול בחשיפה לסקטור ספציפי.",
+      "source": "CNBC Finance"
     }
   ],
   "section_3_sectors": [
@@ -105,37 +105,37 @@
       "etf": "XLK",
       "name": "טכנולוגיה",
       "name_en": "Technology",
-      "flow_direction": "out",
+      "flow_direction": "in",
       "note": "שוק הטכנולוגיה ממשיך להצטבר, עם גידול משמעותי במניות AI וחברות ענק",
-      "change": "-0.82%",
-      "flow_amount": "-$693M"
+      "change": "+0.77%",
+      "flow_amount": "+$751M"
     },
     {
       "etf": "XLF",
       "name": "פיננסים",
       "name_en": "Financials",
-      "flow_direction": "in",
+      "flow_direction": "neutral",
       "note": "שוק הפיננסים נשאר יציב, עם גידול קבוע במניות בנקיות",
-      "change": "+0.37%",
-      "flow_amount": "+$176M"
+      "change": "-0.07%",
+      "flow_amount": "-$65M"
     },
     {
       "etf": "XLE",
       "name": "אנרגיה",
       "name_en": "Energy",
-      "flow_direction": "neutral",
+      "flow_direction": "out",
       "note": "שוק האנרגיה מאבד משקיעים בעקבות עליית מחירי הנפט",
-      "change": "+0.05%",
-      "flow_amount": "+$21M"
+      "change": "-2.20%",
+      "flow_amount": "-$922M"
     },
     {
       "etf": "XLY",
       "name": "צריכה מחזורית",
       "name_en": "Consumer Discretionary",
-      "flow_direction": "out",
+      "flow_direction": "neutral",
       "note": "שוק הצריכה מחזורית נשאר יציב",
-      "change": "-0.23%",
-      "flow_amount": "-$49M"
+      "change": "-0.07%",
+      "flow_amount": "-$35M"
     },
     {
       "etf": "XLU",
@@ -143,44 +143,44 @@
       "name_en": "Utilities",
       "flow_direction": "out",
       "note": "שוק התשתיות נשאר יציב",
-      "change": "-0.19%",
-      "flow_amount": "-$45M"
+      "change": "-1.08%",
+      "flow_amount": "-$270M"
     },
     {
       "etf": "XLB",
       "name": "חומרי גלם",
       "name_en": "Materials",
-      "flow_direction": "in",
+      "flow_direction": "out",
       "note": "שוק החומרים נשאר יציב",
-      "change": "+0.83%",
-      "flow_amount": "+$54M"
+      "change": "-1.14%",
+      "flow_amount": "-$87M"
     },
     {
       "etf": "XLRE",
       "name": "נדל",
       "name_en": "Real Estate",
-      "flow_direction": "in",
+      "flow_direction": "out",
       "note": "שוק הנדל\"ן נשאר יציב",
-      "change": "+1.07%",
-      "flow_amount": "+$78M"
+      "change": "-0.69%",
+      "flow_amount": "-$55M"
     },
     {
       "etf": "XLP",
       "name": "צריכה בסיסית",
       "name_en": "Consumer Staples",
-      "flow_direction": "neutral",
+      "flow_direction": "out",
       "note": "שוק הצריכה הבסיסית נשאר יציב",
-      "change": "+0.02%",
-      "flow_amount": "+$4M"
+      "change": "-0.26%",
+      "flow_amount": "-$45M"
     },
     {
       "etf": "XLC",
       "name": "תקשורת",
       "name_en": "Communication",
-      "flow_direction": "neutral",
+      "flow_direction": "in",
       "note": "שוק התקשורת נשאר יציב",
-      "change": "-0.12%",
-      "flow_amount": "-$30M"
+      "change": "+0.41%",
+      "flow_amount": "+$92M"
     },
     {
       "etf": "XLV",
@@ -188,8 +188,8 @@
       "name_en": "Healthcare",
       "flow_direction": "out",
       "note": "שוק נוטע עם ירידה ב-VIX",
-      "change": "-0.67%",
-      "flow_amount": "-$260M"
+      "change": "-0.46%",
+      "flow_amount": "-$193M"
     },
     {
       "etf": "XLI",
@@ -197,58 +197,58 @@
       "name_en": "Industrials",
       "flow_direction": "out",
       "note": "שוק נוטע עם ירידה ב-VIX",
-      "change": "-0.69%",
-      "flow_amount": "-$195M"
+      "change": "-1.20%",
+      "flow_amount": "-$377M"
     }
   ],
   "section_4_crypto": [
     {
       "ticker": "BTC",
       "note": "ביטקוין (BTC) נסחר במחיר $76,093.57 עם שינוי 24 שעות של +0.42%. מומנטום חיובי על רקע זרימות ETF מוסדיות; רמת תמיכה BTC ב-$$76,093.57. ביטקוין מתפקד כהאסט הראשי בקטגוריית הקריפטו. גורמי השפעה מרכזיים: זרימות ETF Spot Bitcoin, החלטות ריבית של הפד, סנטימנט גאופוליטי. מערכת אקולוגית: תשתית Lightning Network, אימוץ מוסדי דרך MicroStrategy ו-BlackRock. רקע מאקרו: BTC ב-$76,092.27 (+0.42%), ETH ב-$2,259.20 (+0.33%), DXY $98.82 (-0.18%). מומלץ מעקב אחר רמות תמיכה והתנגדות סביב המחיר הנוכחי $76,093.57, וכן נפחי מסחר בבורסות הספוט המובילות במהלך 24 השעות הבאות.",
-      "price": "$76,093.57",
-      "change_24h": "+0.42%"
+      "price": "$79,847.03",
+      "change_24h": "-1.95%"
     },
     {
       "ticker": "ETH",
       "note": "את'ריום (ETH) נסחר במחיר $2,260.03 עם שינוי 24 שעות של +0.36%. פעילות whale-accumulation ניכרת ב-ETH; פירוט ב-on-chain metrics. את'ריום מתפקד כפלטפורמת החוזים החכמים המובילה. גורמי השפעה מרכזיים: אישור ETF ספוט אתריום, gas fees, צמיחה ב-L2 (Arbitrum, Base, Optimism). מערכת אקולוגית: DeFi TVL, staking yields סביב 3-4%, ערך נעול ב-restaking (EigenLayer). מצב שווקים: DXY $98.82 (-0.18%), תשואת 10Y 4.42%, VIX 18.53. מומלץ מעקב אחר רמות תמיכה והתנגדות סביב המחיר הנוכחי $2,260.03, וכן נפחי מסחר בבורסות הספוט המובילות במהלך 24 השעות הבאות.",
-      "price": "$2,260.03",
-      "change_24h": "+0.36%"
+      "price": "$2,293.55",
+      "change_24h": "-2.43%"
     },
     {
       "ticker": "SOL",
       "note": "סולנה (SOL) נסחר במחיר $83.19 עם שינוי 24 שעות של +0.20%. SOL בנקודת בחינה טכנית; RSI נוטה ל-overbought, ATR מוגבר. סולנה מתפקד כL1 בעל ביצועי throughput גבוהים. גורמי השפעה מרכזיים: פעילות memecoins, נפח DEX (Jupiter, Raydium), אימוץ Solana Mobile. מערכת אקולוגית: ספירת מטבעות חדשים יומית, MEV revenue, פיתוחי Firedancer client. מדדי מקרו: BTC ב-$76,092.27 (+0.42%), תשואת 10Y 4.42%, VIX 18.53. מומלץ מעקב אחר רמות תמיכה והתנגדות סביב המחיר הנוכחי $83.19, וכן נפחי מסחר בבורסות הספוט המובילות במהלך 24 השעות הבאות.",
-      "price": "$83.19",
-      "change_24h": "+0.20%"
+      "price": "$88.33",
+      "change_24h": "-0.92%"
     },
     {
       "ticker": "LINK",
       "note": "צ'יינלינק (LINK) נסחר במחיר $9.12 עם שינוי 24 שעות של +0.15%. תמהיל של staking-yields ו-DeFi TVL מספק ל-LINK תזה ארוכת-טווח. צ'יינלינק מתפקד כתשתית oracles המרכזית של DeFi. גורמי השפעה מרכזיים: אימוץ CCIP, שותפויות SWIFT, צמיחת ערך מאובטח (TVS). מערכת אקולוגית: אינטגרציות ברשתות multi-chain, staking v0.2, פיתוח Functions. אינדיקטורים: ETH ב-$2,259.20 (+0.33%), DXY $98.82 (-0.18%), VIX 18.53. מומלץ מעקב אחר רמות תמיכה והתנגדות סביב המחיר הנוכחי $9.12, וכן נפחי מסחר בבורסות הספוט המובילות במהלך 24 השעות הבאות.",
-      "price": "$9.12",
-      "change_24h": "+0.15%"
+      "price": "$9.87",
+      "change_24h": "-1.30%"
     },
     {
       "ticker": "XRP",
       "note": "ריפל (XRP) נסחר במחיר $1.37 עם שינוי 24 שעות של +0.33%. narrative shift לטובת layer-2 / scaling solutions תומך ב-XRP. ריפל מתפקד כפלטפורמת תשלומים בין-בנקאיים. גורמי השפעה מרכזיים: התקדמות תיק SEC, שותפויות ODL, אימוץ CBDC. מערכת אקולוגית: ascending נזילות בקורידורים LATAM ואסיה, פיילוטים בנקאיים. סביבת מסחר: BTC ב-$76,092.27 (+0.42%), ETH ב-$2,259.20 (+0.33%), תשואת 10Y 4.42%. מומלץ מעקב אחר רמות תמיכה והתנגדות סביב המחיר הנוכחי $1.37, וכן נפחי מסחר בבורסות הספוט המובילות במהלך 24 השעות הבאות.",
-      "price": "$1.37",
-      "change_24h": "+0.33%"
+      "price": "$1.39",
+      "change_24h": "-2.40%"
     },
     {
       "ticker": "ADA",
       "note": "קרדנו (ADA) נסחר במחיר $0.2469 עם שינוי 24 שעות של +0.98%. macroeconomic backdrop (DXY/yields) משפיע על מחיר ADA בטווח קצר. קרדנו מתפקד כL1 מבוסס מחקר אקדמי peer-reviewed. גורמי השפעה מרכזיים: התקדמות שדרוגי Hydra, אימוץ באפריקה, פיתוח smart contracts ב-Plutus. מערכת אקולוגית: staking ratio גבוה (~60% מההיצע), DeFi TVL בצמיחה איטית. תמונת על: DXY $98.82 (-0.18%), VIX 18.53, BTC ב-$76,092.27 (+0.42%). מומלץ מעקב אחר רמות תמיכה והתנגדות סביב המחיר הנוכחי $0.2469, וכן נפחי מסחר בבורסות הספוט המובילות במהלך 24 השעות הבאות.",
-      "price": "$0.2469",
-      "change_24h": "+0.98%"
+      "price": "$0.2619",
+      "change_24h": "-1.87%"
     },
     {
       "ticker": "TAO",
       "note": "ביטנסור (TAO) נסחר במחיר $249.94 עם שינוי 24 שעות של -4.03%. outflows מוסדיים מ-spot-products לחצו על TAO; key support בבחינה. ביטנסור מתפקד כAI-on-chain decentralized intelligence network. גורמי השפעה מרכזיים: צמיחת subnets, פעילות emissions, ביקוש משקיעים מוסדיים. מערכת אקולוגית: הקצאת בלוקים בין subnets, פיתוח dTAO upgrade. כיוון השוק: ETH ב-$2,259.20 (+0.33%), תשואת 10Y 4.42%, DXY $98.82 (-0.18%). מומלץ מעקב אחר רמות תמיכה והתנגדות סביב המחיר הנוכחי $249.94, וכן נפחי מסחר בבורסות הספוט המובילות במהלך 24 השעות הבאות.",
-      "price": "$249.94",
-      "change_24h": "-4.03%"
+      "price": "$305.83",
+      "change_24h": "-3.93%"
     },
     {
       "ticker": "KAS",
       "note": "קספה (KAS) נסחר במחיר $0.0325 עם שינוי 24 שעות של -0.32%. KAS נסחר ב-range; חבירה ל-key levels תקבע את הכיוון הבא. קספה מתפקד כBlockDAG L1 מהיר עם 10 בלוקים בשנייה. גורמי השפעה מרכזיים: מעבר ל-Rust Crescendo, הליסטינג בבורסות, growth של hashrate. מערכת אקולוגית: פיתוח smart contracts (KIP-9), אימוץ mining מבוזר. פרספקטיבה כוללת: BTC ב-$76,092.27 (+0.42%), DXY $98.82 (-0.18%), VIX 18.53. מומלץ מעקב אחר רמות תמיכה והתנגדות סביב המחיר הנוכחי $0.0325, וכן נפחי מסחר בבורסות הספוט המובילות במהלך 24 השעות הבאות.",
-      "price": "$0.0325",
-      "change_24h": "-0.32%"
+      "price": "$0.0359",
+      "change_24h": "-1.80%"
     }
   ],
   "section_4_crypto_brief": {
@@ -269,130 +269,130 @@
     {
       "ticker": "NVDA",
       "note": "NVDA מציגה צמיחה דו-ספרתית ברווחי AI accelerators; backlog חזק לרבעונים הקרובים.",
-      "price": "$209.25",
-      "change": "-0.89%"
+      "price": "$212.69",
+      "change": "+2.62%"
     },
     {
       "ticker": "TSM",
       "note": "TSM נהנית מתחזיות מוגדלות לרבעון; valuation מתוח אבל מוצדק על ידי earnings revisions.",
-      "price": "$393.83",
-      "change": "-1.10%"
+      "price": "$414.29",
+      "change": "-0.89%"
     },
     {
       "ticker": "AMD",
       "note": "AMD מתמודדת עם תחרות חזקה; margins תחת לחץ אבל volume מפצה.",
-      "price": "$337.11",
-      "change": "-3.13%"
+      "price": "$407.54",
+      "change": "-1.80%"
     },
     {
       "ticker": "AVGO",
       "note": "AVGO מציגה execution טוב; design wins חדשים תומכים בצמיחה ב-2026.",
-      "price": "$405.45",
-      "change": "-2.07%"
+      "price": "$419.52",
+      "change": "-1.09%"
     },
     {
       "ticker": "MU",
       "note": "MU בנקודת מפנה טכנולוגי; node migration ל-3nm מהווה הזדמנות.",
-      "price": "$518.46",
-      "change": "-0.91%"
+      "price": "$648.91",
+      "change": "-1.53%"
     },
     {
       "ticker": "ASML",
       "note": "ASML מתבססת על מחזור capex של hyperscalers; נראות תזרים מזומנים גבוהה.",
-      "price": "$1,394.08",
-      "change": "-0.14%"
+      "price": "$1,520.42",
+      "change": "-1.42%"
     },
     {
       "ticker": "QCOM",
       "note": "QCOM מציעה pure-play exposure ל-AI infrastructure; multiple expansion ממשיך.",
-      "price": "$156.00",
-      "change": "-11.81%"
+      "price": "$207.93",
+      "change": "+8.83%"
     },
     {
       "ticker": "ARM",
       "note": "ARM מאזנת בין consumer ל-enterprise; חולשה צרכנית מתקזזת מ-AI demand.",
-      "price": "$201.69",
-      "change": "-2.33%"
+      "price": "$214.74",
+      "change": "-3.32%"
     },
     {
       "ticker": "MRVL",
       "note": "MRVL מצליחה ב-IDM 2.0 strategy; foundry business מתבסס בהדרגה.",
-      "price": "$156.57",
-      "change": "-2.06%"
+      "price": "$164.22",
+      "change": "-3.72%"
     },
     {
       "ticker": "LRCX",
       "note": "LRCX עם חוזים גדולים ב-defense ו-aerospace; backlog רב-שנתי.",
-      "price": "$248.75",
-      "change": "-0.90%"
+      "price": "$286.41",
+      "change": "-3.24%"
     },
     {
       "ticker": "AMAT",
       "note": "AMAT בולטת ב-power-management; AI servers מגדילים ביקוש משמעותית.",
-      "price": "$382.59",
-      "change": "+0.15%"
+      "price": "$411.48",
+      "change": "-3.81%"
     }
   ],
   "section_6_software": [
     {
       "ticker": "MSFT",
       "note": "MSFT מציגה ARR צמיחה של 25%+; net retention rate חזק תומך בתזה ארוכת טווח.",
-      "price": "$424.46",
-      "change": "-0.34%"
+      "price": "$425.50",
+      "change": "+2.91%"
     },
     {
       "ticker": "GOOGL",
       "note": "GOOGL משלבת AI features ב-core platform; pricing power מתבסס.",
-      "price": "$349.94",
-      "change": "-6.69%"
+      "price": "$395.03",
+      "change": "-0.58%"
     },
     {
       "ticker": "META",
       "note": "META בעמדה תחרותית מובילה ב-תחום; moat מתחזק לאורך זמן.",
-      "price": "$669.12",
-      "change": "+7.53%"
+      "price": "$622.19",
+      "change": "+1.70%"
     },
     {
       "ticker": "AMZN",
       "note": "AMZN מתמודדת עם AI-disruption של תחום; שינוי כיוון מוצרי בעיצומו.",
-      "price": "$263.04",
-      "change": "-2.69%"
+      "price": "$273.60",
+      "change": "-0.47%"
     },
     {
       "ticker": "CRM",
       "note": "CRM מציעה consolidation play ב-tech stack של enterprise customers.",
-      "price": "$181.22",
-      "change": "+0.68%"
+      "price": "$187.93",
+      "change": "+3.63%"
     },
     {
       "ticker": "NOW",
       "note": "NOW עם growth-margin profile חזק; rule-of-40 גבוה מהממוצע.",
-      "price": "$88.89",
-      "change": "+0.66%"
+      "price": "$94.77",
+      "change": "+6.44%"
     },
     {
       "ticker": "ORCL",
       "note": "ORCL בעמדה דפנסיבית; cash-flow stability מצדיק premium valuation.",
-      "price": "$163.83",
-      "change": "-0.79%"
+      "price": "$195.39",
+      "change": "+1.94%"
     },
     {
       "ticker": "ADBE",
       "note": "ADBE מציגה execution על international expansion; TAM מתרחב.",
-      "price": "$243.57",
-      "change": "+0.65%"
+      "price": "$258.40",
+      "change": "+3.16%"
     },
     {
       "ticker": "PLTR",
       "note": "PLTR משלבת AI agents ב-workflow; productivity gains מצדיקים upgrades.",
-      "price": "$137.97",
-      "change": "-0.35%"
+      "price": "$138.77",
+      "change": "+4.01%"
     },
     {
       "ticker": "SNOW",
       "note": "SNOW שותפויות אסטרטגיות עם hyperscalers מחזקות את הnetwork-effect.",
-      "price": "$141.22",
-      "change": "+0.16%"
+      "price": "$152.72",
+      "change": "+9.55%"
     }
   ],
   "section_7_ai": [
@@ -402,7 +402,9 @@
       "updates": [
         "המודל המוביל של Anthropic ממשיך להוביל את שוק ה-AI הגנרטיבי. מתחרים מנסים לסגור פערים אך החברה שומרת על יתרון משמעותי בביצועים ובאיכות הפלט. תחזית: המשך מובילות בטווח הקצר. (מקור: ניתוח שוק). הדבר משפיע על המיצוב התחרותי של Anthropic בשוק ה-AI הגנרטיבי. (מקור: ניתוח שוק)",
         "תחרות מואצת בקטגוריה בה פועלת Anthropic. נתח השוק יציב כרגע אך לחץ מצד מתחרים גובר בהתמדה. נדרש מעקב צמוד על אסטרטגיית התמחור, הפיצ'רים החדשים ומהלכי הגיוס. (מקור: ניתוח שוק). הדבר משפיע על המיצוב התחרותי של Anthropic בשוק ה-AI הגנרטיבי. (מקור: ניתוח שוק)",
-        "השקעות מו\"פ של Anthropic ממשיכות בעקביות. מודלים חדשים נמצאים בשלבי פיתוח מתקדמים. הצוות מורחב בתחומי הליבה. צפי לעדכוני מוצר משמעותיים בחודשים הקרובים על פי דיווחים בתעשייה. (מקור: ניתוח שוק). הדבר משפיע על המיצוב התחרותי של Anthropic בשוק ה-AI הגנרטיבי. (מקור: ניתוח שוק)"
+        "השקעות מו\"פ של Anthropic ממשיכות בעקביות. מודלים חדשים נמצאים בשלבי פיתוח מתקדמים. הצוות מורחב בתחומי הליבה. צפי לעדכוני מוצר משמעותיים בחודשים הקרובים על פי דיווחים בתעשייה. (מקור: ניתוח שוק). הדבר משפיע על המיצוב התחרותי של Anthropic בשוק ה-AI הגנרטיבי. (מקור: ניתוח שוק)",
+        "Higher usage limits for Claude and a compute deal with SpaceX - Anthropic. Higher usage limits for Claude and a compute deal with SpaceX&nbsp;&nbsp;AnthropicCreators of Grok, the AI Chatbot&nbsp;&nbsp;xAIAnthropic, SpaceX announce compute deal that includes space development (מקור: GNews Anthropic)",
+        "Anthropic Is Making Its Claude Chatbot More Appealing to Consumers - Yahoo Finance. Anthropic Is Making Its Claude Chatbot More Appealing to Consumers&nbsp;&nbsp;Yahoo Finance (מקור: GNews Anthropic). מגמה זו צפויה להמשיך ולהשפיע על הסנטימנט בשוק ה-AI הגנרטיבי."
       ],
       "last_known_update": "30/04/2026",
       "status": "GA"
@@ -413,7 +415,9 @@
       "updates": [
         "המודל המוביל של OpenAI ממשיך להוביל את שוק ה-AI הגנרטיבי. מתחרים מנסים לסגור פערים אך החברה שומרת על יתרון משמעותי בביצועים ובאיכות הפלט. תחזית: המשך מובילות בטווח הקצר. (מקור: ניתוח שוק). הדבר משפיע על המיצוב התחרותי של OpenAI בשוק ה-AI הגנרטיבי. (מקור: ניתוח שוק)",
         "תחרות מואצת בקטגוריה בה פועלת OpenAI. נתח השוק יציב כרגע אך לחץ מצד מתחרים גובר בהתמדה. נדרש מעקב צמוד על אסטרטגיית התמחור, הפיצ'רים החדשים ומהלכי הגיוס. (מקור: ניתוח שוק). הדבר משפיע על המיצוב התחרותי של OpenAI בשוק ה-AI הגנרטיבי. (מקור: ניתוח שוק)",
-        "השקעות מו\"פ של OpenAI ממשיכות בעקביות. מודלים חדשים נמצאים בשלבי פיתוח מתקדמים. הצוות מורחב בתחומי הליבה. צפי לעדכוני מוצר משמעותיים בחודשים הקרובים על פי דיווחים בתעשייה. (מקור: ניתוח שוק). הדבר משפיע על המיצוב התחרותי של OpenAI בשוק ה-AI הגנרטיבי. (מקור: ניתוח שוק)"
+        "השקעות מו\"פ של OpenAI ממשיכות בעקביות. מודלים חדשים נמצאים בשלבי פיתוח מתקדמים. הצוות מורחב בתחומי הליבה. צפי לעדכוני מוצר משמעותיים בחודשים הקרובים על פי דיווחים בתעשייה. (מקור: ניתוח שוק). הדבר משפיע על המיצוב התחרותי של OpenAI בשוק ה-AI הגנרטיבי. (מקור: ניתוח שוק)",
+        "Elon Musk tried to hire OpenAI founders to start AI unit inside Tesla. Musk was “prepared to do the for-profit, provided he would get control.”. השוק עוקב מקרוב אחר ההתפתחות. (מקור: ArsTechnica). מגמה זו צפויה להמשיך ולהשפיע על הסנטימנט בשוק ה-AI הגנרטיבי.",
+        "Parloa builds service agents customers want to talk to. Parloa leverages OpenAI models to power scalable, voice-driven AI customer service agents, enabling enterprises to design, simulate, and deploy reliable, real-time interactions. (מקור: OpenAI Blog)"
       ],
       "last_known_update": "30/04/2026",
       "status": "GA"
@@ -424,7 +428,9 @@
       "updates": [
         "המודל המוביל של Google ממשיך להוביל את שוק ה-AI הגנרטיבי. מתחרים מנסים לסגור פערים אך החברה שומרת על יתרון משמעותי בביצועים ובאיכות הפלט. תחזית: המשך מובילות בטווח הקצר. (מקור: ניתוח שוק). הדבר משפיע על המיצוב התחרותי של Google בשוק ה-AI הגנרטיבי. (מקור: ניתוח שוק)",
         "תחרות מואצת בקטגוריה בה פועלת Google. נתח השוק יציב כרגע אך לחץ מצד מתחרים גובר בהתמדה. נדרש מעקב צמוד על אסטרטגיית התמחור, הפיצ'רים החדשים ומהלכי הגיוס. (מקור: ניתוח שוק). הדבר משפיע על המיצוב התחרותי של Google בשוק ה-AI הגנרטיבי. (מקור: ניתוח שוק)",
-        "השקעות מו\"פ של Google ממשיכות בעקביות. מודלים חדשים נמצאים בשלבי פיתוח מתקדמים. הצוות מורחב בתחומי הליבה. צפי לעדכוני מוצר משמעותיים בחודשים הקרובים על פי דיווחים בתעשייה. (מקור: ניתוח שוק). הדבר משפיע על המיצוב התחרותי של Google בשוק ה-AI הגנרטיבי. (מקור: ניתוח שוק)"
+        "השקעות מו\"פ של Google ממשיכות בעקביות. מודלים חדשים נמצאים בשלבי פיתוח מתקדמים. הצוות מורחב בתחומי הליבה. צפי לעדכוני מוצר משמעותיים בחודשים הקרובים על פי דיווחים בתעשייה. (מקור: ניתוח שוק). הדבר משפיע על המיצוב התחרותי של Google בשוק ה-AI הגנרטיבי. (מקור: ניתוח שוק)",
+        "AlphaEvolve. How our Gemini-powered coding agent is scaling impact across fields: Explore how AlphaEvolve's Gemini-powered algorithms are driving impact across business, infrastructure, and science. (מקור: Google DeepMind)",
+        "Google Chrome Might Have Installed an AI Model Onto Your Device Without You Knowing - CNET. Google Chrome Might Have Installed an AI Model Onto Your Device Without You Knowing&nbsp;&nbsp;CNET (מקור: GNews Gemini)"
       ],
       "last_known_update": "30/04/2026",
       "status": "GA"
@@ -435,7 +441,9 @@
       "updates": [
         "המודל המוביל של xAI/Grok ממשיך להוביל את שוק ה-AI הגנרטיבי. מתחרים מנסים לסגור פערים אך החברה שומרת על יתרון משמעותי בביצועים ובאיכות הפלט. תחזית: המשך מובילות בטווח הקצר. (מקור: ניתוח שוק). הדבר משפיע על המיצוב התחרותי של xAI/Grok בשוק ה-AI הגנרטיבי. (מקור: ניתוח שוק)",
         "תחרות מואצת בקטגוריה בה פועלת xAI/Grok. נתח השוק יציב כרגע אך לחץ מצד מתחרים גובר בהתמדה. נדרש מעקב צמוד על אסטרטגיית התמחור, הפיצ'רים החדשים ומהלכי הגיוס. (מקור: ניתוח שוק). הדבר משפיע על המיצוב התחרותי של xAI/Grok בשוק ה-AI הגנרטיבי. (מקור: ניתוח שוק)",
-        "השקעות מו\"פ של xAI/Grok ממשיכות בעקביות. מודלים חדשים נמצאים בשלבי פיתוח מתקדמים. הצוות מורחב בתחומי הליבה. צפי לעדכוני מוצר משמעותיים בחודשים הקרובים על פי דיווחים בתעשייה. (מקור: ניתוח שוק). הדבר משפיע על המיצוב התחרותי של xAI/Grok בשוק ה-AI הגנרטיבי. (מקור: ניתוח שוק)"
+        "השקעות מו\"פ של xAI/Grok ממשיכות בעקביות. מודלים חדשים נמצאים בשלבי פיתוח מתקדמים. הצוות מורחב בתחומי הליבה. צפי לעדכוני מוצר משמעותיים בחודשים הקרובים על פי דיווחים בתעשייה. (מקור: ניתוח שוק). הדבר משפיע על המיצוב התחרותי של xAI/Grok בשוק ה-AI הגנרטיבי. (מקור: ניתוח שוק)",
+        "Elon Musk tried to hire OpenAI founders to start AI unit inside Tesla. Musk was “prepared to do the for-profit, provided he would get control.”. השוק עוקב מקרוב אחר ההתפתחות. (מקור: ArsTechnica). מגמה זו צפויה להמשיך ולהשפיע על הסנטימנט בשוק ה-AI הגנרטיבי.",
+        "Higher usage limits for Claude and a compute deal with SpaceX - Anthropic. Higher usage limits for Claude and a compute deal with SpaceX&nbsp;&nbsp;AnthropicCreators of Grok, the AI Chatbot&nbsp;&nbsp;xAIAnthropic, SpaceX announce compute deal that includes space development (מקור: GNews Anthropic)"
       ],
       "last_known_update": "30/04/2026",
       "status": "GA"
@@ -446,7 +454,9 @@
       "updates": [
         "המודל המוביל של Meta/Llama ממשיך להוביל את שוק ה-AI הגנרטיבי. מתחרים מנסים לסגור פערים אך החברה שומרת על יתרון משמעותי בביצועים ובאיכות הפלט. תחזית: המשך מובילות בטווח הקצר. (מקור: ניתוח שוק). הדבר משפיע על המיצוב התחרותי של Meta/Llama בשוק ה-AI הגנרטיבי. (מקור: ניתוח שוק)",
         "תחרות מואצת בקטגוריה בה פועלת Meta/Llama. נתח השוק יציב כרגע אך לחץ מצד מתחרים גובר בהתמדה. נדרש מעקב צמוד על אסטרטגיית התמחור, הפיצ'רים החדשים ומהלכי הגיוס. (מקור: ניתוח שוק). הדבר משפיע על המיצוב התחרותי של Meta/Llama בשוק ה-AI הגנרטיבי. (מקור: ניתוח שוק)",
-        "השקעות מו\"פ של Meta/Llama ממשיכות בעקביות. מודלים חדשים נמצאים בשלבי פיתוח מתקדמים. הצוות מורחב בתחומי הליבה. צפי לעדכוני מוצר משמעותיים בחודשים הקרובים על פי דיווחים בתעשייה. (מקור: ניתוח שוק). הדבר משפיע על המיצוב התחרותי של Meta/Llama בשוק ה-AI הגנרטיבי. (מקור: ניתוח שוק)"
+        "השקעות מו\"פ של Meta/Llama ממשיכות בעקביות. מודלים חדשים נמצאים בשלבי פיתוח מתקדמים. הצוות מורחב בתחומי הליבה. צפי לעדכוני מוצר משמעותיים בחודשים הקרובים על פי דיווחים בתעשייה. (מקור: ניתוח שוק). הדבר משפיע על המיצוב התחרותי של Meta/Llama בשוק ה-AI הגנרטיבי. (מקור: ניתוח שוק)",
+        "Publishers and Authors Sue Meta, Alleging ‘Massive’ Copyright Infringement Behind Its Llama AI Service - Publishing Perspectives. Publishers and Authors Sue Meta, Alleging ‘Massive’ Copyright Infringement Behind Its Llama AI Service&nbsp;&nbsp;Publishing Perspectives (מקור: GNews Llama)",
+        "Mark Zuckerberg ‘personally authorized’ Meta’s copyright infringement, publishers allege - AP News. Mark Zuckerberg ‘personally authorized’ Meta’s copyright infringement, publishers allege&nbsp;&nbsp;AP News (מקור: GNews Llama)"
       ],
       "last_known_update": "30/04/2026",
       "status": "GA"
@@ -457,7 +467,9 @@
       "updates": [
         "המודל המוביל של Perplexity ממשיך להוביל את שוק ה-AI הגנרטיבי. מתחרים מנסים לסגור פערים אך החברה שומרת על יתרון משמעותי בביצועים ובאיכות הפלט. תחזית: המשך מובילות בטווח הקצר. (מקור: ניתוח שוק). הדבר משפיע על המיצוב התחרותי של Perplexity בשוק ה-AI הגנרטיבי. (מקור: ניתוח שוק)",
         "תחרות מואצת בקטגוריה בה פועלת Perplexity. נתח השוק יציב כרגע אך לחץ מצד מתחרים גובר בהתמדה. נדרש מעקב צמוד על אסטרטגיית התמחור, הפיצ'רים החדשים ומהלכי הגיוס. (מקור: ניתוח שוק). הדבר משפיע על המיצוב התחרותי של Perplexity בשוק ה-AI הגנרטיבי. (מקור: ניתוח שוק)",
-        "השקעות מו\"פ של Perplexity ממשיכות בעקביות. מודלים חדשים נמצאים בשלבי פיתוח מתקדמים. הצוות מורחב בתחומי הליבה. צפי לעדכוני מוצר משמעותיים בחודשים הקרובים על פי דיווחים בתעשייה. (מקור: ניתוח שוק). הדבר משפיע על המיצוב התחרותי של Perplexity בשוק ה-AI הגנרטיבי. (מקור: ניתוח שוק)"
+        "השקעות מו\"פ של Perplexity ממשיכות בעקביות. מודלים חדשים נמצאים בשלבי פיתוח מתקדמים. הצוות מורחב בתחומי הליבה. צפי לעדכוני מוצר משמעותיים בחודשים הקרובים על פי דיווחים בתעשייה. (מקור: ניתוח שוק). הדבר משפיע על המיצוב התחרותי של Perplexity בשוק ה-AI הגנרטיבי. (מקור: ניתוח שוק)",
+        "Snap says its $400M deal with Perplexity ‘amicably ended’ - TechCrunch. Snap says its $400M deal with Perplexity ‘amicably ended’&nbsp;&nbsp;TechCrunch. השוק עוקב מקרוב אחר ההתפתחות. (מקור: GNews Perplexity)",
+        "Snap issues cautious guidance as Perplexity deal ends, Middle East 'geopolitical situation' causes uncertainty - CNBC. Snap issues cautious guidance as Perplexity deal ends, Middle East 'geopolitical situation' causes uncertainty&nbsp;&nbsp;CNBC (מקור: GNews Perplexity)"
       ],
       "last_known_update": "30/04/2026",
       "status": "GA"
@@ -468,7 +480,9 @@
       "updates": [
         "המודל המוביל של Microsoft/Copilot ממשיך להוביל את שוק ה-AI הגנרטיבי. מתחרים מנסים לסגור פערים אך החברה שומרת על יתרון משמעותי בביצועים ובאיכות הפלט. תחזית: המשך מובילות בטווח הקצר. (מקור: ניתוח שוק). הדבר משפיע על המיצוב התחרותי של Microsoft/Copilot בשוק ה-AI הגנרטיבי. (מקור: ניתוח שוק)",
         "תחרות מואצת בקטגוריה בה פועלת Microsoft/Copilot. נתח השוק יציב כרגע אך לחץ מצד מתחרים גובר בהתמדה. נדרש מעקב צמוד על אסטרטגיית התמחור, הפיצ'רים החדשים ומהלכי הגיוס. (מקור: ניתוח שוק). הדבר משפיע על המיצוב התחרותי של Microsoft/Copilot בשוק ה-AI הגנרטיבי. (מקור: ניתוח שוק)",
-        "השקעות מו\"פ של Microsoft/Copilot ממשיכות בעקביות. מודלים חדשים נמצאים בשלבי פיתוח מתקדמים. הצוות מורחב בתחומי הליבה. צפי לעדכוני מוצר משמעותיים בחודשים הקרובים על פי דיווחים בתעשייה. (מקור: ניתוח שוק)"
+        "השקעות מו\"פ של Microsoft/Copilot ממשיכות בעקביות. מודלים חדשים נמצאים בשלבי פיתוח מתקדמים. הצוות מורחב בתחומי הליבה. צפי לעדכוני מוצר משמעותיים בחודשים הקרובים על פי דיווחים בתעשייה. (מקור: ניתוח שוק)",
+        "Microsoft gives up on Xbox Copilot AI - The Verge. Microsoft gives up on Xbox Copilot AI&nbsp;&nbsp;The Verge. הדבר משפיע על המיצוב התחרותי בשוק ה-AI. משקיעים ומפתחים עוקבים מקרוב אחר ההתפתחויות. (מקור: GNews Copilot)",
+        "Xbox Is Ditching Microsoft's Copilot AI - Engadget. Xbox Is Ditching Microsoft's Copilot AI&nbsp;&nbsp;Engadget. הדבר משפיע על המיצוב התחרותי בשוק ה-AI. משקיעים ומפתחים עוקבים מקרוב אחר ההתפתחויות. (מקור: GNews Copilot)"
       ],
       "last_known_update": "30/04/2026",
       "status": "GA"
@@ -479,7 +493,9 @@
       "updates": [
         "המודל המוביל של Anthropic/Claude ממשיך להוביל את שוק ה-AI הגנרטיבי. מתחרים מנסים לסגור פערים אך החברה שומרת על יתרון משמעותי בביצועים ובאיכות הפלט. תחזית: המשך מובילות בטווח הקצר. (מקור: ניתוח שוק). הדבר משפיע על המיצוב התחרותי של Anthropic/Claude בשוק ה-AI הגנרטיבי. (מקור: ניתוח שוק)",
         "תחרות מואצת בקטגוריה בה פועלת Anthropic/Claude. נתח השוק יציב כרגע אך לחץ מצד מתחרים גובר בהתמדה. נדרש מעקב צמוד על אסטרטגיית התמחור, הפיצ'רים החדשים ומהלכי הגיוס. (מקור: ניתוח שוק). הדבר משפיע על המיצוב התחרותי של Anthropic/Claude בשוק ה-AI הגנרטיבי. (מקור: ניתוח שוק)",
-        "השקעות מו\"פ של Anthropic/Claude ממשיכות בעקביות. מודלים חדשים נמצאים בשלבי פיתוח מתקדמים. הצוות מורחב בתחומי הליבה. צפי לעדכוני מוצר משמעותיים בחודשים הקרובים על פי דיווחים בתעשייה. (מקור: ניתוח שוק). הדבר משפיע על המיצוב התחרותי של Anthropic/Claude בשוק ה-AI הגנרטיבי. (מקור: ניתוח שוק)"
+        "השקעות מו\"פ של Anthropic/Claude ממשיכות בעקביות. מודלים חדשים נמצאים בשלבי פיתוח מתקדמים. הצוות מורחב בתחומי הליבה. צפי לעדכוני מוצר משמעותיים בחודשים הקרובים על פי דיווחים בתעשייה. (מקור: ניתוח שוק). הדבר משפיע על המיצוב התחרותי של Anthropic/Claude בשוק ה-AI הגנרטיבי. (מקור: ניתוח שוק)",
+        "Higher usage limits for Claude and a compute deal with SpaceX - Anthropic. Higher usage limits for Claude and a compute deal with SpaceX&nbsp;&nbsp;AnthropicCreators of Grok, the AI Chatbot&nbsp;&nbsp;xAIAnthropic, SpaceX announce compute deal that includes space development (מקור: GNews Anthropic)",
+        "Anthropic Is Making Its Claude Chatbot More Appealing to Consumers - Yahoo Finance. Anthropic Is Making Its Claude Chatbot More Appealing to Consumers&nbsp;&nbsp;Yahoo Finance (מקור: GNews Anthropic). מגמה זו צפויה להמשיך ולהשפיע על הסנטימנט בשוק ה-AI הגנרטיבי."
       ],
       "last_known_update": "30/04/2026",
       "status": "GA"
@@ -490,7 +506,9 @@
       "updates": [
         "המודל המוביל של Anthropic/Claude Code ממשיך להוביל את שוק ה-AI הגנרטיבי. מתחרים מנסים לסגור פערים אך החברה שומרת על יתרון משמעותי בביצועים ובאיכות הפלט. תחזית: המשך מובילות בטווח הקצר. (מקור: ניתוח שוק)",
         "תחרות מואצת בקטגוריה בה פועלת Anthropic/Claude Code. נתח השוק יציב כרגע אך לחץ מצד מתחרים גובר בהתמדה. נדרש מעקב צמוד על אסטרטגיית התמחור, הפיצ'רים החדשים ומהלכי הגיוס. (מקור: ניתוח שוק). הדבר משפיע על המיצוב התחרותי של Anthropic/Claude Code בשוק ה-AI הגנרטיבי. (מקור: ניתוח שוק)",
-        "השקעות מו\"פ של Anthropic/Claude Code ממשיכות בעקביות. מודלים חדשים נמצאים בשלבי פיתוח מתקדמים. הצוות מורחב בתחומי הליבה. צפי לעדכוני מוצר משמעותיים בחודשים הקרובים על פי דיווחים בתעשייה. (מקור: ניתוח שוק)"
+        "השקעות מו\"פ של Anthropic/Claude Code ממשיכות בעקביות. מודלים חדשים נמצאים בשלבי פיתוח מתקדמים. הצוות מורחב בתחומי הליבה. צפי לעדכוני מוצר משמעותיים בחודשים הקרובים על פי דיווחים בתעשייה. (מקור: ניתוח שוק)",
+        "Higher usage limits for Claude and a compute deal with SpaceX - Anthropic. Higher usage limits for Claude and a compute deal with SpaceX&nbsp;&nbsp;AnthropicCreators of Grok, the AI Chatbot&nbsp;&nbsp;xAIAnthropic, SpaceX announce compute deal that includes space development (מקור: GNews Anthropic)",
+        "Anthropic Is Making Its Claude Chatbot More Appealing to Consumers - Yahoo Finance. Anthropic Is Making Its Claude Chatbot More Appealing to Consumers&nbsp;&nbsp;Yahoo Finance (מקור: GNews Anthropic). מגמה זו צפויה להמשיך ולהשפיע על הסנטימנט בשוק ה-AI הגנרטיבי."
       ],
       "last_known_update": "30/04/2026",
       "status": "GA"
@@ -501,7 +519,9 @@
       "updates": [
         "המודל המוביל של Anthropic/Claude Co-work ממשיך להוביל את שוק ה-AI הגנרטיבי. מתחרים מנסים לסגור פערים אך החברה שומרת על יתרון משמעותי בביצועים ובאיכות הפלט. תחזית: המשך מובילות בטווח הקצר. (מקור: ניתוח שוק)",
         "תחרות מואצת בקטגוריה בה פועלת Anthropic/Claude Co-work. נתח השוק יציב כרגע אך לחץ מצד מתחרים גובר בהתמדה. נדרש מעקב צמוד על אסטרטגיית התמחור, הפיצ'רים החדשים ומהלכי הגיוס. (מקור: ניתוח שוק). הדבר משפיע על המיצוב התחרותי של Anthropic/Claude Co-work בשוק ה-AI הגנרטיבי. (מקור: ניתוח שוק)",
-        "השקעות מו\"פ של Anthropic/Claude Co-work ממשיכות בעקביות. מודלים חדשים נמצאים בשלבי פיתוח מתקדמים. הצוות מורחב בתחומי הליבה. צפי לעדכוני מוצר משמעותיים בחודשים הקרובים על פי דיווחים בתעשייה. (מקור: ניתוח שוק)"
+        "השקעות מו\"פ של Anthropic/Claude Co-work ממשיכות בעקביות. מודלים חדשים נמצאים בשלבי פיתוח מתקדמים. הצוות מורחב בתחומי הליבה. צפי לעדכוני מוצר משמעותיים בחודשים הקרובים על פי דיווחים בתעשייה. (מקור: ניתוח שוק)",
+        "Higher usage limits for Claude and a compute deal with SpaceX - Anthropic. Higher usage limits for Claude and a compute deal with SpaceX&nbsp;&nbsp;AnthropicCreators of Grok, the AI Chatbot&nbsp;&nbsp;xAIAnthropic, SpaceX announce compute deal that includes space development (מקור: GNews Anthropic)",
+        "Anthropic Is Making Its Claude Chatbot More Appealing to Consumers - Yahoo Finance. Anthropic Is Making Its Claude Chatbot More Appealing to Consumers&nbsp;&nbsp;Yahoo Finance (מקור: GNews Anthropic). מגמה זו צפויה להמשיך ולהשפיע על הסנטימנט בשוק ה-AI הגנרטיבי."
       ],
       "last_known_update": "30/04/2026",
       "status": "Beta"
@@ -512,7 +532,9 @@
       "updates": [
         "המודל המוביל של OpenAI/ChatGPT ממשיך להוביל את שוק ה-AI הגנרטיבי. מתחרים מנסים לסגור פערים אך החברה שומרת על יתרון משמעותי בביצועים ובאיכות הפלט. תחזית: המשך מובילות בטווח הקצר. (מקור: ניתוח שוק). הדבר משפיע על המיצוב התחרותי של OpenAI/ChatGPT בשוק ה-AI הגנרטיבי. (מקור: ניתוח שוק)",
         "תחרות מואצת בקטגוריה בה פועלת OpenAI/ChatGPT. נתח השוק יציב כרגע אך לחץ מצד מתחרים גובר בהתמדה. נדרש מעקב צמוד על אסטרטגיית התמחור, הפיצ'רים החדשים ומהלכי הגיוס. (מקור: ניתוח שוק). הדבר משפיע על המיצוב התחרותי של OpenAI/ChatGPT בשוק ה-AI הגנרטיבי. (מקור: ניתוח שוק)",
-        "השקעות מו\"פ של OpenAI/ChatGPT ממשיכות בעקביות. מודלים חדשים נמצאים בשלבי פיתוח מתקדמים. הצוות מורחב בתחומי הליבה. צפי לעדכוני מוצר משמעותיים בחודשים הקרובים על פי דיווחים בתעשייה. (מקור: ניתוח שוק). הדבר משפיע על המיצוב התחרותי של OpenAI/ChatGPT בשוק ה-AI הגנרטיבי. (מקור: ניתוח שוק)"
+        "השקעות מו\"פ של OpenAI/ChatGPT ממשיכות בעקביות. מודלים חדשים נמצאים בשלבי פיתוח מתקדמים. הצוות מורחב בתחומי הליבה. צפי לעדכוני מוצר משמעותיים בחודשים הקרובים על פי דיווחים בתעשייה. (מקור: ניתוח שוק). הדבר משפיע על המיצוב התחרותי של OpenAI/ChatGPT בשוק ה-AI הגנרטיבי. (מקור: ניתוח שוק)",
+        "Elon Musk tried to hire OpenAI founders to start AI unit inside Tesla. Musk was “prepared to do the for-profit, provided he would get control.”. השוק עוקב מקרוב אחר ההתפתחות. (מקור: ArsTechnica). מגמה זו צפויה להמשיך ולהשפיע על הסנטימנט בשוק ה-AI הגנרטיבי.",
+        "Parloa builds service agents customers want to talk to. Parloa leverages OpenAI models to power scalable, voice-driven AI customer service agents, enabling enterprises to design, simulate, and deploy reliable, real-time interactions. (מקור: OpenAI Blog)"
       ],
       "last_known_update": "30/04/2026",
       "status": "GA"
@@ -523,7 +545,9 @@
       "updates": [
         "המודל המוביל של OpenAI/Codex ממשיך להוביל את שוק ה-AI הגנרטיבי. מתחרים מנסים לסגור פערים אך החברה שומרת על יתרון משמעותי בביצועים ובאיכות הפלט. תחזית: המשך מובילות בטווח הקצר. (מקור: ניתוח שוק). הדבר משפיע על המיצוב התחרותי של OpenAI/Codex בשוק ה-AI הגנרטיבי. (מקור: ניתוח שוק)",
         "תחרות מואצת בקטגוריה בה פועלת OpenAI/Codex. נתח השוק יציב כרגע אך לחץ מצד מתחרים גובר בהתמדה. נדרש מעקב צמוד על אסטרטגיית התמחור, הפיצ'רים החדשים ומהלכי הגיוס. (מקור: ניתוח שוק). הדבר משפיע על המיצוב התחרותי של OpenAI/Codex בשוק ה-AI הגנרטיבי. (מקור: ניתוח שוק)",
-        "השקעות מו\"פ של OpenAI/Codex ממשיכות בעקביות. מודלים חדשים נמצאים בשלבי פיתוח מתקדמים. הצוות מורחב בתחומי הליבה. צפי לעדכוני מוצר משמעותיים בחודשים הקרובים על פי דיווחים בתעשייה. (מקור: ניתוח שוק). הדבר משפיע על המיצוב התחרותי של OpenAI/Codex בשוק ה-AI הגנרטיבי. (מקור: ניתוח שוק)"
+        "השקעות מו\"פ של OpenAI/Codex ממשיכות בעקביות. מודלים חדשים נמצאים בשלבי פיתוח מתקדמים. הצוות מורחב בתחומי הליבה. צפי לעדכוני מוצר משמעותיים בחודשים הקרובים על פי דיווחים בתעשייה. (מקור: ניתוח שוק). הדבר משפיע על המיצוב התחרותי של OpenAI/Codex בשוק ה-AI הגנרטיבי. (מקור: ניתוח שוק)",
+        "Elon Musk tried to hire OpenAI founders to start AI unit inside Tesla. Musk was “prepared to do the for-profit, provided he would get control.”. השוק עוקב מקרוב אחר ההתפתחות. (מקור: ArsTechnica). מגמה זו צפויה להמשיך ולהשפיע על הסנטימנט בשוק ה-AI הגנרטיבי.",
+        "Parloa builds service agents customers want to talk to. Parloa leverages OpenAI models to power scalable, voice-driven AI customer service agents, enabling enterprises to design, simulate, and deploy reliable, real-time interactions. (מקור: OpenAI Blog)"
       ],
       "last_known_update": "30/04/2026",
       "status": "Beta"
@@ -534,7 +558,9 @@
       "updates": [
         "המודל המוביל של Google/Gemini ממשיך להוביל את שוק ה-AI הגנרטיבי. מתחרים מנסים לסגור פערים אך החברה שומרת על יתרון משמעותי בביצועים ובאיכות הפלט. תחזית: המשך מובילות בטווח הקצר. (מקור: ניתוח שוק). הדבר משפיע על המיצוב התחרותי של Google/Gemini בשוק ה-AI הגנרטיבי. (מקור: ניתוח שוק)",
         "תחרות מואצת בקטגוריה בה פועלת Google/Gemini. נתח השוק יציב כרגע אך לחץ מצד מתחרים גובר בהתמדה. נדרש מעקב צמוד על אסטרטגיית התמחור, הפיצ'רים החדשים ומהלכי הגיוס. (מקור: ניתוח שוק). הדבר משפיע על המיצוב התחרותי של Google/Gemini בשוק ה-AI הגנרטיבי. (מקור: ניתוח שוק)",
-        "השקעות מו\"פ של Google/Gemini ממשיכות בעקביות. מודלים חדשים נמצאים בשלבי פיתוח מתקדמים. הצוות מורחב בתחומי הליבה. צפי לעדכוני מוצר משמעותיים בחודשים הקרובים על פי דיווחים בתעשייה. (מקור: ניתוח שוק). הדבר משפיע על המיצוב התחרותי של Google/Gemini בשוק ה-AI הגנרטיבי. (מקור: ניתוח שוק)"
+        "השקעות מו\"פ של Google/Gemini ממשיכות בעקביות. מודלים חדשים נמצאים בשלבי פיתוח מתקדמים. הצוות מורחב בתחומי הליבה. צפי לעדכוני מוצר משמעותיים בחודשים הקרובים על פי דיווחים בתעשייה. (מקור: ניתוח שוק). הדבר משפיע על המיצוב התחרותי של Google/Gemini בשוק ה-AI הגנרטיבי. (מקור: ניתוח שוק)",
+        "AlphaEvolve. How our Gemini-powered coding agent is scaling impact across fields: Explore how AlphaEvolve's Gemini-powered algorithms are driving impact across business, infrastructure, and science. (מקור: Google DeepMind)",
+        "Google Chrome Might Have Installed an AI Model Onto Your Device Without You Knowing - CNET. Google Chrome Might Have Installed an AI Model Onto Your Device Without You Knowing&nbsp;&nbsp;CNET (מקור: GNews Gemini)"
       ],
       "last_known_update": "30/04/2026",
       "status": "GA"
@@ -545,7 +571,9 @@
       "updates": [
         "המודל המוביל של Google/AI Studio ממשיך להוביל את שוק ה-AI הגנרטיבי. מתחרים מנסים לסגור פערים אך החברה שומרת על יתרון משמעותי בביצועים ובאיכות הפלט. תחזית: המשך מובילות בטווח הקצר. (מקור: ניתוח שוק). הדבר משפיע על המיצוב התחרותי של Google/AI Studio בשוק ה-AI הגנרטיבי. (מקור: ניתוח שוק)",
         "תחרות מואצת בקטגוריה בה פועלת Google/AI Studio. נתח השוק יציב כרגע אך לחץ מצד מתחרים גובר בהתמדה. נדרש מעקב צמוד על אסטרטגיית התמחור, הפיצ'רים החדשים ומהלכי הגיוס. (מקור: ניתוח שוק). הדבר משפיע על המיצוב התחרותי של Google/AI Studio בשוק ה-AI הגנרטיבי. (מקור: ניתוח שוק)",
-        "השקעות מו\"פ של Google/AI Studio ממשיכות בעקביות. מודלים חדשים נמצאים בשלבי פיתוח מתקדמים. הצוות מורחב בתחומי הליבה. צפי לעדכוני מוצר משמעותיים בחודשים הקרובים על פי דיווחים בתעשייה. (מקור: ניתוח שוק). הדבר משפיע על המיצוב התחרותי של Google/AI Studio בשוק ה-AI הגנרטיבי. (מקור: ניתוח שוק)"
+        "השקעות מו\"פ של Google/AI Studio ממשיכות בעקביות. מודלים חדשים נמצאים בשלבי פיתוח מתקדמים. הצוות מורחב בתחומי הליבה. צפי לעדכוני מוצר משמעותיים בחודשים הקרובים על פי דיווחים בתעשייה. (מקור: ניתוח שוק). הדבר משפיע על המיצוב התחרותי של Google/AI Studio בשוק ה-AI הגנרטיבי. (מקור: ניתוח שוק)",
+        "AlphaEvolve. How our Gemini-powered coding agent is scaling impact across fields: Explore how AlphaEvolve's Gemini-powered algorithms are driving impact across business, infrastructure, and science. (מקור: Google DeepMind)",
+        "Google Chrome Might Have Installed an AI Model Onto Your Device Without You Knowing - CNET. Google Chrome Might Have Installed an AI Model Onto Your Device Without You Knowing&nbsp;&nbsp;CNET (מקור: GNews Gemini)"
       ],
       "last_known_update": "30/04/2026",
       "status": "GA"
@@ -606,58 +634,58 @@
   },
   "markets": {
     "sp500": {
-      "price": "$7,135.95",
-      "change": "-0.04%"
+      "price": "$7,363.23",
+      "change": "-0.01%"
     },
     "nasdaq": {
-      "price": "$27,186.98",
-      "change": "+0.58%"
+      "price": "$28,661.02",
+      "change": "+0.22%"
     },
     "yield_10y": {
-      "value": "4.42%",
-      "change": "+1.47%"
+      "value": "4.36%",
+      "change": "+0.14%"
     },
     "dji": {
-      "price": "$48,861.81",
-      "change": "-0.57%"
+      "price": "$49,817.28",
+      "change": "-0.19%"
     },
     "vix": {
-      "value": "18.53",
-      "change": "-1.33%"
+      "value": "17.24",
+      "change": "-0.86%"
     },
     "gold": {
-      "price": "$4,629.10",
-      "change": "+1.34%"
+      "price": "$4,744.90",
+      "change": "+0.76%"
     },
     "silver": {
-      "price": "$73.92",
-      "change": "+2.01%"
+      "price": "$81.39",
+      "change": "+4.13%"
     },
     "oil": {
-      "price": "$108.00",
-      "change": "-0.98%"
+      "price": "$92.26",
+      "change": "-3.67%"
     },
     "btc": {
-      "price": "$76,092.27",
-      "change": "+0.42%"
+      "price": "$79,868.43",
+      "change": "-1.93%"
     },
     "eth": {
-      "price": "$2,259.20",
-      "change": "+0.33%"
+      "price": "$2,293.90",
+      "change": "-2.41%"
     },
     "dxy": {
-      "price": "$98.82",
-      "change": "-0.18%"
+      "price": "$97.92",
+      "change": "-0.12%"
     }
   },
   "crypto_global": {
-    "market_cap_usd": 2624508354517.2783,
-    "btc_dominance": 58.0,
-    "eth_dominance": 10.4,
-    "volume_24h": 102181920535.29419,
-    "change_24h": -1.25
+    "market_cap_usd": 2742534667628.558,
+    "btc_dominance": 58.4,
+    "eth_dominance": 10.1,
+    "volume_24h": 101051802419.60281,
+    "change_24h": -1.7
   },
-  "generated_by": "use_existing_fallback",
+  "generated_by": "deterministic_refresher_v1",
   "_processing_log": [
     "section_1_situation.analysis: padded +20ch to reach 400ch min"
   ]
