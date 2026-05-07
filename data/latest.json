@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-07T17:03:57Z",
+  "generated_at": "2026-05-07T17:25:37Z",
   "section_1_situation": {
     "headline": "שוק המניות נוטה לכיוון סולידיות בעוד מחירי הנפט נמשכים לעלות",
     "analysis": "היום נרשם תנודתיות מתונה בשוק המניות, עם סיכון נמוך אך סנטימנט אופטימי עקב ציפיות להמשך יציבות הריבית. מחירי הנפט ממשיכים לעלות בעקבות דוחות על אפשרות של פעולות צבאיות באיראן, מה שמחזק את תחושת הסיכון הגאופוליטי. האינדיקטור VIX נותר במצב בינוני, מה שמצביע על חוסר ודאות אך לא על פאניקה כללית. סנטימנט בקריפטו נוטה להתרדמות, עם רמת פחד גבוהה יחסית, מה שמוביל לירידות במגוון מטבעות. (ניתוח זה משלים נתו",
@@ -28,7 +28,7 @@
         "zone": "medium",
         "label": "VIX במצב בינוני",
         "description": "רמת ה-VIX נותרת במישור בינוני, מה שמצביע על אי ודאות אך לא על פאניקה כללית. גורמים כגון ציפיות ריבית וחדשות גאופוליטיות משפיעים על רמת התסכול של המשקיעים.",
-        "value": "17.35"
+        "value": "17.32"
       },
       "fear_greed_stock": {
         "label": "חמדנות",
@@ -49,55 +49,64 @@
       "title": "התפתחויות שוטפות בשוקי ההון הגלובליים",
       "body": "המסחר היום מתאפיין בתנועות מאוזנות תוך עיכול נתונים חדשים מענפי המאקרו והגיאופוליטיקה. המשקיעים בוחנים מחדש את הנחות העבודה לטווח הקצר והבינוני בהתאם להתפתחויות. הסקטורים הדפנסיביים מציגים יציבות יחסית בעוד סקטורי הצמיחה רגישים יותר לתנודתיות. המגמה הכוללת תלויה בהמשך שיפור התמונה המאקרו-כלכלית בשבועות הקרובים.",
       "so_what": "הסביבה הנוכחית מצדיקה גישה מאוזנת עם דגש על איכות ההחזקות. מומלץ ניהול סיכונים פרואקטיבי תוך שמירה על נזילות סבירה.",
-      "source": "BBC Business"
+      "source": "BBC Business",
+      "image_url": "https://images.unsplash.com/photo-1590283603385-17ffb3a7f29f?w=400&h=200&fit=crop"
     },
     {
       "title": "מתח גיאופוליטי משפיע על שוקי האנרגיה והמטבעות",
       "body": "המתחים הגיאופוליטיים ממשיכים להעיב על שוקי האנרגיה והמטבעות החזקים. המסחר מתאפיין בעלייה במחירי הנפט ובהזרמת כספים לנכסי מקלט כגון זהב ובדולר. המשקיעים עוקבים אחר ההתפתחויות הדיפלומטיות ומעריכים מחדש סיכונים בתיקי ההשקעות. השפעה אפשרית על מדדי המניות הבינלאומיים בטווח הקצר עד הבינוני.",
       "so_what": "תרחיש זה מחייב הקצאה מוגברת לנכסי מקלט והפחתת חשיפה לשווקים מתעוררים. מומלץ לבחון פוזיציות באנרגיה ובזהב בחלון 24-72 השעות הקרובות.",
-      "source": "BBC Business"
+      "source": "BBC Business",
+      "image_url": "https://images.unsplash.com/photo-1532375810709-75b1da00537c?w=400&h=200&fit=crop"
     },
     {
       "title": "התפתחויות גיאופוליטיות מזיזות את שוקי הסחורות",
       "body": "דיווחים נוספים מציינים: המתחים הגיאופוליטיים ממשיכים להעיב על שוקי האנרגיה והמטבעות החזקים. המסחר מתאפיין בעלייה במחירי הנפט ובהזרמת כספים לנכסי מקלט כגון זהב ובדולר. המשקיעים עוקבים אחר ההתפתחויות הדיפלומטיות ומעריכים מחדש סיכונים בתיקי ההשקעות. השפעה אפשרית על מדדי המניות הבינלאומיים בטווח הקצר עד הבינוני. מקור הדיווח (BBC Business) מצביע על המשך מעקב נדרש.",
       "so_what": "תרחיש זה מחייב הקצאה מוגברת לנכסי מקלט והפחתת חשיפה לשווקים מתעוררים. מומלץ לבחון פוזיציות באנרגיה ובזהב בחלון 24-72 השעות הקרובות. ההתפתחות הזו (BBC Business) מחזקת את הצורך בערנות.",
-      "source": "BBC Business"
+      "source": "BBC Business",
+      "image_url": "https://images.unsplash.com/photo-1611273426858-450d8e3c9fce?w=400&h=200&fit=crop"
     },
     {
       "title": "התפתחויות בתחום הבינה המלאכותית משפיעות על מניות הטכנולוגיה",
       "body": "התפתחויות חדשות בתחום הבינה המלאכותית הגנרטיבית ממשיכות להניע את שוק הטכנולוגיה. החברות המובילות מדווחות על השקעות מסיביות בתשתיות חישוב ומרכזי נתונים. האנליסטים מעריכים שמחזור הצמיחה בתחום נמשך, אך מציינים סימני זהירות לגבי הערכות שווי. התלות במספר חברות מוביל הגדיל את הריכוזיות בתיקי המעקב הפסיביים.",
       "so_what": "ההתפתחויות מצדיקות בחינה מחודשת של חשיפה למניות הענן והשבבים. מומלץ לבחון איזון בין מניות הענק למניות תשתית בענף.",
-      "source": "BBC Business"
+      "source": "BBC Business",
+      "image_url": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=400&h=200&fit=crop"
     },
     {
       "title": "אי-יציבות בינלאומית מעלה ביקוש לנכסי מקלט",
       "body": "דיווחים נוספים מציינים: המתחים הגיאופוליטיים ממשיכים להעיב על שוקי האנרגיה והמטבעות החזקים. המסחר מתאפיין בעלייה במחירי הנפט ובהזרמת כספים לנכסי מקלט כגון זהב ובדולר. המשקיעים עוקבים אחר ההתפתחויות הדיפלומטיות ומעריכים מחדש סיכונים בתיקי ההשקעות. השפעה אפשרית על מדדי המניות הבינלאומיים בטווח הקצר עד הבינוני. מקור הדיווח (CNBC Top) מצביע על המשך מעקב נדרש.",
       "so_what": "תרחיש זה מחייב הקצאה מוגברת לנכסי מקלט והפחתת חשיפה לשווקים מתעוררים. מומלץ לבחון פוזיציות באנרגיה ובזהב בחלון 24-72 השעות הקרובות. ההתפתחות הזו (CNBC Top) מחזקת את הצורך בערנות.",
-      "source": "CNBC Top"
+      "source": "CNBC Top",
+      "image_url": "https://images.unsplash.com/photo-1473042904451-00171c69419d?w=400&h=200&fit=crop"
     },
     {
       "title": "השקעות בתשתיות בינה מלאכותית ממשיכות להניע את ענף הטכנולוגיה",
       "body": "דיווחים נוספים מציינים: התפתחויות חדשות בתחום הבינה המלאכותית הגנרטיבית ממשיכות להניע את שוק הטכנולוגיה. החברות המובילות מדווחות על השקעות מסיביות בתשתיות חישוב ומרכזי נתונים. האנליסטים מעריכים שמחזור הצמיחה בתחום נמשך, אך מציינים סימני זהירות לגבי הערכות שווי. התלות במספר חברות מוביל הגדיל את הריכוזיות בתיקי המעקב הפסיביים. מקור הדיווח (CNBC Top) מצביע על המשך מעקב נדרש.",
       "so_what": "ההתפתחויות מצדיקות בחינה מחודשת של חשיפה למניות הענן והשבבים. מומלץ לבחון איזון בין מניות הענק למניות תשתית בענף. ההתפתחות הזו (CNBC Top) מחזקת את הצורך בערנות.",
-      "source": "CNBC Top"
+      "source": "CNBC Top",
+      "image_url": "https://images.unsplash.com/photo-1620712943543-bcc4688e7485?w=400&h=200&fit=crop"
     },
     {
       "title": "מירוץ הבינה המלאכותית מעלה את הערכות השווי של חברות מובילות",
       "body": "דיווחים נוספים מציינים: התפתחויות חדשות בתחום הבינה המלאכותית הגנרטיבית ממשיכות להניע את שוק הטכנולוגיה. החברות המובילות מדווחות על השקעות מסיביות בתשתיות חישוב ומרכזי נתונים. האנליסטים מעריכים שמחזור הצמיחה בתחום נמשך, אך מציינים סימני זהירות לגבי הערכות שווי. התלות במספר חברות מוביל הגדיל את הריכוזיות בתיקי המעקב הפסיביים. מקור הדיווח (CNBC Top) מצביע על המשך מעקב נדרש.",
       "so_what": "ההתפתחויות מצדיקות בחינה מחודשת של חשיפה למניות הענן והשבבים. מומלץ לבחון איזון בין מניות הענק למניות תשתית בענף. ההתפתחות הזו (CNBC Top) מחזקת את הצורך בערנות.",
-      "source": "CNBC Top"
+      "source": "CNBC Top",
+      "image_url": "https://images.unsplash.com/photo-1655720828018-edd2daec9349?w=400&h=200&fit=crop"
     },
     {
       "title": "חששות גיאופוליטיים מעצבים מחדש את הסנטימנט הגלובלי",
       "body": "דיווחים נוספים מציינים: המתחים הגיאופוליטיים ממשיכים להעיב על שוקי האנרגיה והמטבעות החזקים. המסחר מתאפיין בעלייה במחירי הנפט ובהזרמת כספים לנכסי מקלט כגון זהב ובדולר. המשקיעים עוקבים אחר ההתפתחויות הדיפלומטיות ומעריכים מחדש סיכונים בתיקי ההשקעות. השפעה אפשרית על מדדי המניות הבינלאומיים בטווח הקצר עד הבינוני. מקור הדיווח (CNBC Top) מצביע על המשך מעקב נדרש.",
       "so_what": "תרחיש זה מחייב הקצאה מוגברת לנכסי מקלט והפחתת חשיפה לשווקים מתעוררים. מומלץ לבחון פוזיציות באנרגיה ובזהב בחלון 24-72 השעות הקרובות. ההתפתחות הזו (CNBC Top) מחזקת את הצורך בערנות.",
-      "source": "CNBC Top"
+      "source": "CNBC Top",
+      "image_url": "https://images.unsplash.com/photo-1521295121783-8a321d551ad2?w=400&h=200&fit=crop"
     },
     {
       "title": "חברות בינה מלאכותית מציגות יוזמות חדשות בענף הטכנולוגיה",
       "body": "דיווחים נוספים מציינים: התפתחויות חדשות בתחום הבינה המלאכותית הגנרטיבית ממשיכות להניע את שוק הטכנולוגיה. החברות המובילות מדווחות על השקעות מסיביות בתשתיות חישוב ומרכזי נתונים. האנליסטים מעריכים שמחזור הצמיחה בתחום נמשך, אך מציינים סימני זהירות לגבי הערכות שווי. התלות במספר חברות מוביל הגדיל את הריכוזיות בתיקי המעקב הפסיביים. מקור הדיווח (CNBC Finance) מצביע על המשך מעקב נדרש.",
       "so_what": "ההתפתחויות מצדיקות בחינה מחודשת של חשיפה למניות הענן והשבבים. מומלץ לבחון איזון בין מניות הענק למניות תשתית בענף. ההתפתחות הזו (CNBC Finance) מחזקת את הצורך בערנות.",
-      "source": "CNBC Finance"
+      "source": "CNBC Finance",
+      "image_url": "https://images.unsplash.com/photo-1633265486064-086b219458ec?w=400&h=200&fit=crop"
     }
   ],
   "section_3_sectors": [
@@ -105,10 +114,10 @@
       "etf": "XLK",
       "name": "טכנולוגיה",
       "name_en": "Technology",
-      "flow_direction": "in",
+      "flow_direction": "neutral",
       "note": "שוק הטכנולוגיה ממשיך להצטבר, עם גידול משמעותי במניות AI וחברות ענק",
-      "change": "+0.37%",
-      "flow_amount": "+$427M"
+      "change": "+0.12%",
+      "flow_amount": "+$146M"
     },
     {
       "etf": "XLF",
@@ -116,8 +125,8 @@
       "name_en": "Financials",
       "flow_direction": "out",
       "note": "שוק הפיננסים נשאר יציב, עם גידול קבוע במניות בנקיות",
-      "change": "-0.34%",
-      "flow_amount": "-$184M"
+      "change": "-0.30%",
+      "flow_amount": "-$129M"
     },
     {
       "etf": "XLE",
@@ -125,8 +134,8 @@
       "name_en": "Energy",
       "flow_direction": "out",
       "note": "שוק האנרגיה מאבד משקיעים בעקבות עליית מחירי הנפט",
-      "change": "-1.85%",
-      "flow_amount": "-$788M"
+      "change": "-1.89%",
+      "flow_amount": "-$799M"
     },
     {
       "etf": "XLY",
@@ -134,8 +143,8 @@
       "name_en": "Consumer Discretionary",
       "flow_direction": "out",
       "note": "שוק הצריכה מחזורית נשאר יציב",
-      "change": "-0.34%",
-      "flow_amount": "-$65M"
+      "change": "-0.41%",
+      "flow_amount": "-$81M"
     },
     {
       "etf": "XLU",
@@ -143,8 +152,8 @@
       "name_en": "Utilities",
       "flow_direction": "out",
       "note": "שוק התשתיות נשאר יציב",
-      "change": "-1.42%",
-      "flow_amount": "-$344M"
+      "change": "-1.36%",
+      "flow_amount": "-$329M"
     },
     {
       "etf": "XLB",
@@ -152,7 +161,7 @@
       "name_en": "Materials",
       "flow_direction": "out",
       "note": "שוק החומרים נשאר יציב",
-      "change": "-1.47%",
+      "change": "-1.51%",
       "flow_amount": "-$109M"
     },
     {
@@ -161,17 +170,17 @@
       "name_en": "Real Estate",
       "flow_direction": "out",
       "note": "שוק הנדל\"ן נשאר יציב",
-      "change": "-0.87%",
-      "flow_amount": "-$65M"
+      "change": "-0.84%",
+      "flow_amount": "-$60M"
     },
     {
       "etf": "XLP",
       "name": "צריכה בסיסית",
       "name_en": "Consumer Staples",
-      "flow_direction": "out",
+      "flow_direction": "neutral",
       "note": "שוק הצריכה הבסיסית נשאר יציב",
-      "change": "-0.35%",
-      "flow_amount": "-$48M"
+      "change": "-0.06%",
+      "flow_amount": "-$5M"
     },
     {
       "etf": "XLC",
@@ -179,8 +188,8 @@
       "name_en": "Communication",
       "flow_direction": "neutral",
       "note": "שוק התקשורת נשאר יציב",
-      "change": "-0.07%",
-      "flow_amount": "-$1M"
+      "change": "-0.02%",
+      "flow_amount": "-$7M"
     },
     {
       "etf": "XLV",
@@ -188,8 +197,8 @@
       "name_en": "Healthcare",
       "flow_direction": "out",
       "note": "שוק נוטע עם ירידה ב-VIX",
-      "change": "-0.57%",
-      "flow_amount": "-$217M"
+      "change": "-0.43%",
+      "flow_amount": "-$142M"
     },
     {
       "etf": "XLI",
@@ -197,40 +206,40 @@
       "name_en": "Industrials",
       "flow_direction": "out",
       "note": "שוק נוטע עם ירידה ב-VIX",
-      "change": "-1.52%",
-      "flow_amount": "-$453M"
+      "change": "-1.45%",
+      "flow_amount": "-$421M"
     }
   ],
   "section_4_crypto": [
     {
       "ticker": "BTC",
       "note": "ביטקוין (BTC) נסחר במחיר $79,813.05 עם שינוי 24 שעות של -2.00%. ביטקוין מתפקד כהנכס המרכזי בקטגוריית הקריפטו. גורמי השפעה מרכזיים: תזרימי קרנות הסל הספוט, החלטות הריבית של הפדרל ריזרב, הסנטימנט הגיאופוליטי. מערכת אקולוגית: תשתית רשת ברק לתשלומים מהירים, אימוץ מוסדי הולך וגובר. רקע מאקרו: BTC ב-$79,789.79 (-2.02%), ETH ב-$2,291.61 (-2.51%), מדד הדולר $97.99 (-0.04%). מומלץ מעקב אחר רמות תמיכה והתנגדות סביב המחיר הנוכחי $79,813.05, וכן נפחי מסחר בבורסות הספוט המובילות במהלך 24 השעות הבאות.",
-      "price": "$79,813.05",
-      "change_24h": "-2.00%"
+      "price": "$79,848.06",
+      "change_24h": "-1.95%"
     },
     {
       "ticker": "ETH",
       "note": "את'ריום (ETH) נסחר במחיר $2,292.69 עם שינוי 24 שעות של -2.47%. את'ריום מתפקד כפלטפורמת החוזים החכמים המובילה. גורמי השפעה מרכזיים: אישור קרנות סל ספוט, עמלות עיבוד עסקאות, צמיחה ברשתות שכבה שנייה. מערכת אקולוגית: מערכת מימון מבוזר, תשואות נעילה סביב שלושה עד ארבעה אחוזים, פלטפורמות נעילה משנית. מצב שווקים: מדד הדולר $97.99 (-0.04%), תשואת אג\"ח עשר שנים 4.38%, מדד התנודתיות 17.35. מומלץ מעקב אחר רמות תמיכה והתנגדות סביב המחיר הנוכחי $2,292.69, וכן נפחי מסחר בבורסות הספוט המובילות במהלך 24 השעות הבאות.",
-      "price": "$2,292.69",
+      "price": "$2,292.70",
       "change_24h": "-2.47%"
     },
     {
       "ticker": "SOL",
       "note": "סולנה (SOL) נסחר במחיר $88.46 עם שינוי 24 שעות של -0.77%. סולנה מתפקד כרשת בלוקצ'יין שכבה ראשונה בעלת תפוקה גבוהה. גורמי השפעה מרכזיים: פעילות מטבעות מם, נפח מסחר בבורסות מבוזרות, אימוץ סולנה מובייל. מערכת אקולוגית: השקות מטבעות חדשים יומית, הכנסות ממכירות בלוקים, פיתוח לקוח הצמתים החדש. מדדי מקרו: BTC ב-$79,789.79 (-2.02%), תשואת אג\"ח עשר שנים 4.38%, מדד התנודתיות 17.35. מומלץ מעקב אחר רמות תמיכה והתנגדות סביב המחיר הנוכחי $88.46, וכן נפחי מסחר בבורסות הספוט המובילות במהלך 24 השעות הבאות.",
-      "price": "$88.46",
-      "change_24h": "-0.77%"
+      "price": "$88.44",
+      "change_24h": "-0.80%"
     },
     {
       "ticker": "LINK",
       "note": "צ'יינלינק (LINK) נסחר במחיר $9.87 עם שינוי 24 שעות של -1.24%. צ'יינלינק מתפקד כתשתית האורקלים המרכזית של המימון המבוזר. גורמי השפעה מרכזיים: אימוץ פרוטוקול תקשורת בין רשתות, שותפויות עם בנקים גלובליים, צמיחת הערך המאובטח. מערכת אקולוגית: אינטגרציות ברשתות מרובות, שכבה שנייה של נעילה, פיתוח פונקציות חיצוניות. אינדיקטורים: ETH ב-$2,291.61 (-2.51%), מדד הדולר $97.99 (-0.04%), מדד התנודתיות 17.35. מומלץ מעקב אחר רמות תמיכה והתנגדות סביב המחיר הנוכחי $9.87, וכן נפחי מסחר בבורסות הספוט המובילות במהלך 24 השעות הבאות.",
-      "price": "$9.87",
-      "change_24h": "-1.24%"
+      "price": "$9.88",
+      "change_24h": "-1.13%"
     },
     {
       "ticker": "XRP",
       "note": "ריפל (XRP) נסחר במחיר $1.39 עם שינוי 24 שעות של -2.45%. ריפל מתפקד כפלטפורמת תשלומים בין-בנקאיים. גורמי השפעה מרכזיים: התקדמות התיק מול הרגולטור האמריקאי, שותפויות עם בנקים, אימוץ מטבעות דיגיטליים מרכזיים. מערכת אקולוגית: נזילות גוברת בקורידורים אמריקה הלטינית ואסיה, פיילוטים בנקאיים פעילים. סביבת מסחר: BTC ב-$79,789.79 (-2.02%), ETH ב-$2,291.61 (-2.51%), תשואת אג\"ח עשר שנים 4.38%. מומלץ מעקב אחר רמות תמיכה והתנגדות סביב המחיר הנוכחי $1.39, וכן נפחי מסחר בבורסות הספוט המובילות במהלך 24 השעות הבאות.",
       "price": "$1.39",
-      "change_24h": "-2.45%"
+      "change_24h": "-2.38%"
     },
     {
       "ticker": "ADA",
@@ -241,14 +250,14 @@
     {
       "ticker": "TAO",
       "note": "ביטנסור (TAO) נסחר במחיר $309.15 עם שינוי 24 שעות של -2.60%. ביטנסור מתפקד כרשת בינה מלאכותית מבוזרת על שרשרת בלוקים. גורמי השפעה מרכזיים: צמיחת תתי-רשתות, פעילות הנפקת מטבעות, ביקוש מצד משקיעים מוסדיים. מערכת אקולוגית: הקצאת בלוקים בין תתי-רשתות, שדרוג מנגנון ההצבעה. כיוון השוק: ETH ב-$2,291.61 (-2.51%), תשואת אג\"ח עשר שנים 4.38%, מדד הדולר $97.99 (-0.04%). מומלץ מעקב אחר רמות תמיכה והתנגדות סביב המחיר הנוכחי $309.15, וכן נפחי מסחר בבורסות הספוט המובילות במהלך 24 השעות הבאות.",
-      "price": "$309.15",
-      "change_24h": "-2.60%"
+      "price": "$309.47",
+      "change_24h": "-1.67%"
     },
     {
       "ticker": "KAS",
       "note": "קספה (KAS) נסחר במחיר $0.0358 עם שינוי 24 שעות של -2.09%. קספה מתפקד כרשת בלוקים מקבילה מהירה עם עשרה בלוקים בשנייה. גורמי השפעה מרכזיים: שדרוג ליבת הקוד בשפת ראסט, רישום בבורסות נוספות, צמיחת קצב הכרייה. מערכת אקולוגית: פיתוח חוזים חכמים, אימוץ כרייה מבוזרת. פרספקטיבה כוללת: BTC ב-$79,789.79 (-2.02%), מדד הדולר $97.99 (-0.04%), מדד התנודתיות 17.35. מומלץ מעקב אחר רמות תמיכה והתנגדות סביב המחיר הנוכחי $0.0358, וכן נפחי מסחר בבורסות הספוט המובילות במהלך 24 השעות הבאות.",
-      "price": "$0.0358",
-      "change_24h": "-2.09%"
+      "price": "$0.0357",
+      "change_24h": "-2.20%"
     }
   ],
   "section_4_crypto_brief": {
@@ -258,141 +267,141 @@
     "conclusion": "היום נרשמה ירידה קלה במגוון מטבעות קריפטו, אך נותרו מעל רמות התמיכה הראשית. המשקיעים נוטים להימנע מהשקעות בסיכון גבוה, מה שמוביל לירידות במגוון מטבעות."
   },
   "section_4_bitcoin": {
-    "market_overview": "ביטקוין נסחר במחיר $79,789.79 עם שינוי יומי של -2.02%. המחיר נע בטווח שמשקף תנודתיות מתונה תוך עיכול נתוני המאקרו האחרונים. הסנטימנט הכללי בקרב המשקיעים המוסדיים נותר זהיר. הנפח היומי במסחר הספוט מצביע על השתתפות מתונה.",
+    "market_overview": "ביטקוין נסחר במחיר $79,827.93 עם שינוי יומי של -1.98%. המחיר נע בטווח שמשקף תנודתיות מתונה תוך עיכול נתוני המאקרו האחרונים. הסנטימנט הכללי בקרב המשקיעים המוסדיים נותר זהיר. הנפח היומי במסחר הספוט מצביע על השתתפות מתונה.",
     "etf_flows": "תזרימי קרנות הסל הספוט על הביטקוין מציגים תמונה מעורבת בימים האחרונים. BlackRock ו-Fidelity ממשיכות להוביל בנפחי המסחר, עם תזרימים שמשקפים סנטימנט מוסדי משתנה. התזרים המצטבר מתחילת השנה נותר חיובי, אך קצב הצמיחה התמתן ביחס לרבעון הקודם.",
     "whale_movements": "פעילות לוויתנים (ארנקים עם החזקה משמעותית) מציגה תנועה זהירה השבוע. מספר העברות גדולות בין ארנקים ירד יחסית לשבוע שעבר, בעוד שיעור ההחזקה הארוכת-טווח עלה במעט. האינדיקטור מצביע על העדפה לאחזקה במקום מימוש.",
     "institutional": "הזרם המוסדי לביטקוין נותר יציב יחסית. MicroStrategy ו-Tesla שומרות על אחזקות הליבה שלהן. חברות פיננסים מסורתיות ממשיכות לבחון מוצרים מובנים על בסיס ביטקוין. החקיקה הצפויה ברבעון הקרוב צפויה להשפיע על קצב ההצטרפות של גופים מוסדיים נוספים.",
-    "key_levels": "רמות מפתח לביטקוין סביב המחיר הנוכחי $79,789.79: תמיכה ראשונית ברמות הפסיכולוגיות התחתונות, התנגדות ראשונית באזור השיא הקרוב. פריצה מעלה תפתח דיון בנושא יעדי המשך, בעוד שבירה מטה תפתח שאלה לגבי תיקון עומק.",
+    "key_levels": "רמות מפתח לביטקוין סביב המחיר הנוכחי $79,827.93: תמיכה ראשונית ברמות הפסיכולוגיות התחתונות, התנגדות ראשונית באזור השיא הקרוב. פריצה מעלה תפתח דיון בנושא יעדי המשך, בעוד שבירה מטה תפתח שאלה לגבי תיקון עומק.",
     "outlook": "תחזית קצרת-טווח לביטקוין: השוק נמצא בתקופה של איזון לפני המהלך הבא. האינדיקטורים הטכניים מציגים תמונה מעורבת — תבנית המסחר התעלמותית בטווח הקצר. הסביבה המאקרו (ריבית, דולר, תזרימי ETF) תכריע את הכיוון בשבועות הקרובים."
   },
   "section_5_semis": [
     {
       "ticker": "NVDA",
       "note": "NVDA מציגה צמיחה דו-ספרתית ברווחי AI accelerators; backlog חזק לרבעונים הקרובים.",
-      "price": "$212.29",
-      "change": "+2.43%"
+      "price": "$212.04",
+      "change": "+2.31%"
     },
     {
       "ticker": "TSM",
       "note": "TSM נהנית מתחזיות מוגדלות לרבעון; valuation מתוח אבל מוצדק על ידי earnings revisions.",
-      "price": "$411.73",
-      "change": "-1.50%"
+      "price": "$410.52",
+      "change": "-1.79%"
     },
     {
       "ticker": "AMD",
       "note": "AMD מתמודדת עם תחרות חזקה; margins תחת לחץ אבל volume מפצה.",
-      "price": "$406.19",
-      "change": "-2.13%"
+      "price": "$404.14",
+      "change": "-2.62%"
     },
     {
       "ticker": "AVGO",
       "note": "AVGO מציגה execution טוב; design wins חדשים תומכים בצמיחה ב-2026.",
-      "price": "$417.58",
-      "change": "-1.55%"
+      "price": "$415.59",
+      "change": "-2.02%"
     },
     {
       "ticker": "MU",
       "note": "MU בנקודת מפנה טכנולוגי; node migration ל-3nm מהווה הזדמנות.",
-      "price": "$647.01",
-      "change": "-1.82%"
+      "price": "$642.57",
+      "change": "-2.49%"
     },
     {
       "ticker": "ASML",
       "note": "ASML מתבססת על מחזור capex של hyperscalers; נראות תזרים מזומנים גבוהה.",
-      "price": "$1,514.11",
-      "change": "-1.82%"
+      "price": "$1,510.11",
+      "change": "-2.08%"
     },
     {
       "ticker": "QCOM",
       "note": "QCOM מציעה pure-play exposure ל-AI infrastructure; multiple expansion ממשיך.",
-      "price": "$208.11",
-      "change": "+8.92%"
+      "price": "$200.12",
+      "change": "+4.74%"
     },
     {
       "ticker": "ARM",
       "note": "ARM מאזנת בין consumer ל-enterprise; חולשה צרכנית מתקזזת מ-AI demand.",
-      "price": "$213.52",
-      "change": "-3.87%"
+      "price": "$211.81",
+      "change": "-4.64%"
     },
     {
       "ticker": "MRVL",
       "note": "MRVL מצליחה ב-IDM 2.0 strategy; foundry business מתבסס בהדרגה.",
-      "price": "$161.74",
-      "change": "-5.17%"
+      "price": "$161.11",
+      "change": "-5.54%"
     },
     {
       "ticker": "LRCX",
       "note": "LRCX עם חוזים גדולים ב-defense ו-aerospace; backlog רב-שנתי.",
-      "price": "$286.99",
-      "change": "-3.04%"
+      "price": "$286.49",
+      "change": "-3.21%"
     },
     {
       "ticker": "AMAT",
       "note": "AMAT בולטת ב-power-management; AI servers מגדילים ביקוש משמעותית.",
-      "price": "$410.33",
-      "change": "-4.07%"
+      "price": "$410.05",
+      "change": "-4.14%"
     }
   ],
   "section_6_software": [
     {
       "ticker": "MSFT",
       "note": "MSFT מציגה ARR צמיחה של 25%+; net retention rate חזק תומך בתזה ארוכת טווח.",
-      "price": "$421.27",
-      "change": "+1.89%"
+      "price": "$421.77",
+      "change": "+2.01%"
     },
     {
       "ticker": "GOOGL",
       "note": "GOOGL משלבת AI features ב-core platform; pricing power מתבסס.",
-      "price": "$394.66",
-      "change": "-0.67%"
+      "price": "$396.46",
+      "change": "-0.22%"
     },
     {
       "ticker": "META",
       "note": "META בעמדה תחרותית מובילה ב-תחום; moat מתחזק לאורך זמן.",
-      "price": "$616.63",
-      "change": "+0.79%"
+      "price": "$616.16",
+      "change": "+0.72%"
     },
     {
       "ticker": "AMZN",
       "note": "AMZN מתמודדת עם AI-disruption של תחום; שינוי כיוון מוצרי בעיצומו.",
-      "price": "$272.87",
-      "change": "-0.74%"
+      "price": "$272.18",
+      "change": "-0.99%"
     },
     {
       "ticker": "CRM",
       "note": "CRM מציעה consolidation play ב-tech stack של enterprise customers.",
-      "price": "$185.95",
-      "change": "+2.53%"
+      "price": "$185.69",
+      "change": "+2.39%"
     },
     {
       "ticker": "NOW",
       "note": "NOW עם growth-margin profile חזק; rule-of-40 גבוה מהממוצע.",
-      "price": "$93.68",
-      "change": "+5.21%"
+      "price": "$93.32",
+      "change": "+4.81%"
     },
     {
       "ticker": "ORCL",
       "note": "ORCL בעמדה דפנסיבית; cash-flow stability מצדיק premium valuation.",
-      "price": "$193.82",
-      "change": "+1.12%"
+      "price": "$193.76",
+      "change": "+1.09%"
     },
     {
       "ticker": "ADBE",
       "note": "ADBE מציגה execution על international expansion; TAM מתרחב.",
-      "price": "$256.62",
-      "change": "+2.45%"
+      "price": "$256.38",
+      "change": "+2.36%"
     },
     {
       "ticker": "PLTR",
       "note": "PLTR משלבת AI agents ב-workflow; productivity gains מצדיקים upgrades.",
-      "price": "$137.71",
-      "change": "+3.21%"
+      "price": "$137.15",
+      "change": "+2.79%"
     },
     {
       "ticker": "SNOW",
       "note": "SNOW שותפויות אסטרטגיות עם hyperscalers מחזקות את הnetwork-effect.",
-      "price": "$152.64",
-      "change": "+9.49%"
+      "price": "$152.05",
+      "change": "+9.07%"
     }
   ],
   "section_7_ai": [
@@ -412,8 +421,8 @@
         "Live updates from Elon Musk and Sam Altman’s court battle over the future of OpenAI. Sam Altman and Elon Musk are facing off in a high-stakes trial that could alter the future of OpenAI and its most well-known product, ChatGPT. In 2024, Musk filed a lawsuit accusing OpenAI of abandoni (מקור: The Verge)",
         "Elon Musk tried to hire OpenAI founders to start AI unit inside Tesla. Musk was “prepared to do the for-profit, provided he would get control.”. השוק עוקב מקרוב אחר ההתפתחות. (מקור: ArsTechnica). מגמה זו צפויה להמשיך ולהשפיע על הסנטימנט בשוק ה-AI הגנרטיבי.",
         "Parloa builds service agents customers want to talk to. Parloa leverages OpenAI models to power scalable, voice-driven AI customer service agents, enabling enterprises to design, simulate, and deploy reliable, real-time interactions. (מקור: OpenAI Blog)",
-        "Singular Bank helps bankers move fast with ChatGPT and Codex. Singular Bank built Singularity, an internal assistant using ChatGPT and Codex to help bankers save 60–90 minutes daily on meeting prep, portfolio analysis, and follow-up. (מקור: OpenAI Blog)",
-        "Uber uses OpenAI to help people earn smarter and book faster. Uber uses OpenAI to power AI assistants and voice features that help drivers earn smarter and riders book faster across a global real-time marketplace. (מקור: OpenAI Blog)"
+        "Advancing voice intelligence with new models in the API. Explore new realtime voice models in the OpenAI API that can reason, translate, and transcribe speech, enabling more natural and intelligent voice experiences. (מקור: OpenAI Blog)",
+        "Singular Bank helps bankers move fast with ChatGPT and Codex. Singular Bank built Singularity, an internal assistant using ChatGPT and Codex to help bankers save 60–90 minutes daily on meeting prep, portfolio analysis, and follow-up. (מקור: OpenAI Blog)"
       ]
     },
     {
@@ -431,9 +440,9 @@
       "updates": [
         "Publishers and Authors Sue Meta, Alleging ‘Massive’ Copyright Infringement Behind Its Llama AI Service - Publishing Perspectives. Publishers and Authors Sue Meta, Alleging ‘Massive’ Copyright Infringement Behind Its Llama AI Service&nbsp;&nbsp;Publishing Perspectives (מקור: GNews Llama)",
         "Mark Zuckerberg ‘personally authorized’ Meta’s copyright infringement, publishers allege - AP News. Mark Zuckerberg ‘personally authorized’ Meta’s copyright infringement, publishers allege&nbsp;&nbsp;AP News (מקור: GNews Llama)",
-        "Publishers, author Scott Turow accuse Meta and Mark Zuckerberg of training AI on copyrighted works - CBS News. Publishers, author Scott Turow accuse Meta and Mark Zuckerberg of training AI on copyrighted works&nbsp;&nbsp;CBS News (מקור: GNews Llama)",
         "Major publishers book again Meta’s Llama over AI training - Digital Watch Observatory. Major publishers book again Meta’s Llama over AI training&nbsp;&nbsp;Digital Watch Observatory (מקור: GNews Llama)",
-        "Publishers sue Meta, claiming it violated copyrights in training AI with their books - The Washington Post. Publishers sue Meta, claiming it violated copyrights in training AI with their books&nbsp;&nbsp;The Washington Post (מקור: GNews Llama)"
+        "Publishers sue Meta, claiming it violated copyrights in training AI with their books - The Washington Post. Publishers sue Meta, claiming it violated copyrights in training AI with their books&nbsp;&nbsp;The Washington Post (מקור: GNews Llama)",
+        "Publishers sue Meta for copyright infringement over AI training - qz.com. Publishers sue Meta for copyright infringement over AI training&nbsp;&nbsp;qz.com. השוק עוקב מקרוב אחר ההתפתחות. (מקור: GNews Llama)"
       ]
     },
     {
@@ -452,16 +461,18 @@
         "Inside the return of Xbox. Two weeks ago there was a buzz in the air inside Microsoft's studio D building. Hundreds of Xbox employees gathered early on a Thursday morning, packed into the hallways and atrium, to hear from Xbox (מקור: The Verge)",
         "Microsoft gives up on Xbox Copilot AI - The Verge. Microsoft gives up on Xbox Copilot AI&nbsp;&nbsp;The Verge. הדבר משפיע על המיצוב התחרותי בשוק ה-AI. משקיעים ומפתחים עוקבים מקרוב אחר ההתפתחויות. (מקור: GNews Copilot)",
         "Xbox Is Ditching Microsoft's Copilot AI - Engadget. Xbox Is Ditching Microsoft's Copilot AI&nbsp;&nbsp;Engadget. הדבר משפיע על המיצוב התחרותי בשוק ה-AI. משקיעים ומפתחים עוקבים מקרוב אחר ההתפתחויות. (מקור: GNews Copilot)",
-        "Gamers Cheer as Microsoft Pulls Copilot AI Out of Xbox Entirely - Futurism. Gamers Cheer as Microsoft Pulls Copilot AI Out of Xbox Entirely&nbsp;&nbsp;Futurism. השוק עוקב מקרוב אחר ההתפתחות. (מקור: GNews Copilot)",
-        "Xbox scraps Microsoft Copilot in yet another win for new CEO Asha Sharma - PCGamesN. Xbox scraps Microsoft Copilot in yet another win for new CEO Asha Sharma&nbsp;&nbsp;PCGamesN (מקור: GNews Copilot). מגמה זו צפויה להמשיך ולהשפיע על הסנטימנט בשוק ה-AI הגנרטיבי."
+        "Microsoft commits to removing Copilot where it doesn't deliver, as Windows 11 scales back AI - Windows Latest. Microsoft commits to removing Copilot where it doesn't deliver, as Windows 11 scales back AI&nbsp;&nbsp;Windows Latest (מקור: GNews Copilot)",
+        "Gamers Cheer as Microsoft Pulls Copilot AI Out of Xbox Entirely - Futurism. Gamers Cheer as Microsoft Pulls Copilot AI Out of Xbox Entirely&nbsp;&nbsp;Futurism. השוק עוקב מקרוב אחר ההתפתחות. (מקור: GNews Copilot)"
       ]
     },
     {
       "company": "Perplexity",
       "updates": [
-        "המודל המוביל של Perplexity ממשיך להוביל את שוק ה-AI הגנרטיבי. מתחרים מנסים לסגור פערים אך החברה שומרת על יתרון משמעותי בביצועים ובאיכות הפלט. תחזית: המשך מובילות בטווח הקצר. (מקור: ניתוח שוק). הדבר משפיע על המיצוב התחרותי של Perplexity בשוק ה-AI הגנרטיבי. (מקור: ניתוח שוק)",
-        "תחרות מואצת בקטגוריה בה פועלת Perplexity. נתח השוק יציב כרגע אך לחץ מצד מתחרים גובר בהתמדה. נדרש מעקב צמוד על אסטרטגיית התמחור, הפיצ'רים החדשים ומהלכי הגיוס. (מקור: ניתוח שוק). הדבר משפיע על המיצוב התחרותי של Perplexity בשוק ה-AI הגנרטיבי. (מקור: ניתוח שוק)",
-        "השקעות מו\"פ של Perplexity ממשיכות בעקביות. מודלים חדשים נמצאים בשלבי פיתוח מתקדמים. הצוות מורחב בתחומי הליבה. צפי לעדכוני מוצר משמעותיים בחודשים הקרובים על פי דיווחים בתעשייה. (מקור: ניתוח שוק). הדבר משפיע על המיצוב התחרותי של Perplexity בשוק ה-AI הגנרטיבי. (מקור: ניתוח שוק)"
+        "Snap says its $400M deal with Perplexity ‘amicably ended’ - TechCrunch. Snap says its $400M deal with Perplexity ‘amicably ended’&nbsp;&nbsp;TechCrunch. השוק עוקב מקרוב אחר ההתפתחות. (מקור: GNews Perplexity)",
+        "Snap issues cautious guidance as Perplexity deal ends, Middle East 'geopolitical situation' causes uncertainty - CNBC. Snap issues cautious guidance as Perplexity deal ends, Middle East 'geopolitical situation' causes uncertainty&nbsp;&nbsp;CNBC (מקור: GNews Perplexity)",
+        "Snap, Perplexity Mutually End AI Deal - WSJ. Snap, Perplexity Mutually End AI Deal&nbsp;&nbsp;WSJ. הדבר משפיע על המיצוב התחרותי בשוק ה-AI. משקיעים ומפתחים עוקבים מקרוב אחר ההתפתחויות. (מקור: GNews Perplexity)",
+        "Snap and Perplexity Cancel AI Integration Plans - PYMNTS.com. Snap and Perplexity Cancel AI Integration Plans&nbsp;&nbsp;PYMNTS.com. השוק עוקב מקרוב אחר ההתפתחות. (מקור: GNews Perplexity). מגמה זו צפויה להמשיך ולהשפיע על הסנטימנט בשוק ה-AI הגנרטיבי.",
+        "Snap's $400 Million Deal With Perplexity Is Dead - Engadget. Snap's $400 Million Deal With Perplexity Is Dead&nbsp;&nbsp;Engadget. השוק עוקב מקרוב אחר ההתפתחות. (מקור: GNews Perplexity). מגמה זו צפויה להמשיך ולהשפיע על הסנטימנט בשוק ה-AI הגנרטיבי."
       ]
     },
     {
@@ -756,56 +767,56 @@
   },
   "markets": {
     "sp500": {
-      "price": "$7,342.59",
-      "change": "-0.29%"
+      "price": "$7,341.41",
+      "change": "-0.30%"
     },
     "nasdaq": {
-      "price": "$28,576.89",
-      "change": "-0.08%"
+      "price": "$28,543.40",
+      "change": "-0.20%"
     },
     "yield_10y": {
       "value": "4.38%",
-      "change": "+0.51%"
+      "change": "+0.55%"
     },
     "dji": {
-      "price": "$49,622.99",
-      "change": "-0.58%"
+      "price": "$49,663.18",
+      "change": "-0.50%"
     },
     "vix": {
-      "value": "17.35",
-      "change": "-0.23%"
+      "value": "17.32",
+      "change": "-0.40%"
     },
     "gold": {
-      "price": "$4,724.30",
-      "change": "+0.32%"
+      "price": "$4,722.70",
+      "change": "+0.29%"
     },
     "silver": {
-      "price": "$80.39",
-      "change": "+2.85%"
+      "price": "$80.19",
+      "change": "+2.60%"
     },
     "oil": {
-      "price": "$95.65",
-      "change": "-0.13%"
+      "price": "$95.72",
+      "change": "-0.05%"
     },
     "btc": {
-      "price": "$79,789.79",
-      "change": "-2.02%"
+      "price": "$79,827.93",
+      "change": "-1.98%"
     },
     "eth": {
-      "price": "$2,291.61",
-      "change": "-2.51%"
+      "price": "$2,292.15",
+      "change": "-2.49%"
     },
     "dxy": {
-      "price": "$97.99",
+      "price": "$98.00",
       "change": "-0.04%"
     }
   },
   "crypto_global": {
-    "market_cap_usd": 2739429529755.773,
+    "market_cap_usd": 2736893808454.3877,
     "btc_dominance": 58.4,
     "eth_dominance": 10.1,
-    "volume_24h": 102823296561.59697,
-    "change_24h": -1.76
+    "volume_24h": 102220747614.36247,
+    "change_24h": -1.65
   },
   "generated_by": "deterministic_refresher_v1",
   "_processing_log": [
