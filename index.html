@@ -241,10 +241,13 @@
         .ai-news-text { flex: 1; min-width: 0; line-height: 1.6; }
         .ai-news-headline { color: #0f172a; font-size: 12px; font-weight: 700; }
         .ai-news-detail { color: #475569; font-size: 11.5px; font-weight: 400; }
-        /* v4.8.8 REQ-30BB PERMANENT: bull always green, bear always red */
-        /* day-traders-* / swing-traders-* selectors removed 2026-05-04 (REQ-30X). */
-        .scenario-bull { color: #047857 !important; background: linear-gradient(135deg, rgba(5,150,105,0.10) 0%, rgba(255,255,255,0.6) 80%) !important; border-left: 3px solid #10b981 !important; padding: 12px !important; border-radius: 12px !important; }
-        .scenario-bear { color: #b91c1c !important; background: linear-gradient(135deg, rgba(239,68,68,0.10) 0%, rgba(255,255,255,0.6) 80%) !important; border-left: 3px solid #f43f5e !important; padding: 12px !important; border-radius: 12px !important; }
+        /* v4.8.8 REQ-30BB PERMANENT: bull always green, bear always red — crypto traders */
+        .scenario-bull,
+        #day-traders-bull, #swing-traders-bull,
+        .day-traders-bull, .swing-traders-bull { color: #047857 !important; background: linear-gradient(135deg, rgba(5,150,105,0.10) 0%, rgba(255,255,255,0.6) 80%) !important; border-left: 3px solid #10b981 !important; padding: 12px !important; border-radius: 12px !important; }
+        .scenario-bear,
+        #day-traders-bear, #swing-traders-bear,
+        .day-traders-bear, .swing-traders-bear { color: #b91c1c !important; background: linear-gradient(135deg, rgba(239,68,68,0.10) 0%, rgba(255,255,255,0.6) 80%) !important; border-left: 3px solid #f43f5e !important; padding: 12px !important; border-radius: 12px !important; }
         h3.bull-h, .bull-h { color: #047857 !important; }
         h3.bear-h, .bear-h { color: #b91c1c !important; }
         /* Sector bars */
@@ -972,18 +975,64 @@
                     </div>
                 </section>
 
-                <!-- Day Traders + Swing Traders sections PERMANENTLY DELETED 2026-05-02 (REQ-30X). -->
-                <!-- Re-adding ANY of: <section> with day-trader-* / swing-trader-* IDs -->
-                <!-- OR "סוחרים יומיים" / "סוחרי סווינג" headings = IRON LAW VIOLATION. -->
-                <!-- HARD validator check_no_deleted_sections gates JSON; this comment + index_html_forbidden_html_guard gates template. -->
+                <!-- Day Traders Section (crypto page — iron law from PREFERENCES.md 2026-04-17, restored 2026-05-07 REQ-30X reversal) -->
+                <section class="glass-card rounded-[3rem] p-8 md:p-10">
+                    <div class="flex flex-row items-center gap-3 mb-6">
+                        <span class="material-symbols-outlined text-red-600 page-h2-icon">speed</span>
+                        <h2 class="page-h2 !text-red-700 !decoration-red-500/20">סוחרים יומיים — מה לעקוב היום</h2>
+                    </div>
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                        <div class="scenario-bull p-5 rounded-[2rem]">
+                            <h3 class="text-sm font-black bull-h mb-3 pb-2" style="border-bottom:1px solid #10b98166">תרחיש שורי</h3>
+                            <div id="day-trader-bull" class="text-xs text-slate-800 leading-relaxed space-y-2">
+                                <p>טוען נתונים...</p>
+                            </div>
+                        </div>
+                        <div class="scenario-bear p-5 rounded-[2rem]">
+                            <h3 class="text-sm font-black bear-h mb-3 pb-2" style="border-bottom:1px solid #f43f5e66">תרחיש דובי</h3>
+                            <div id="day-trader-bear" class="text-xs text-slate-800 leading-relaxed space-y-2">
+                                <p>טוען נתונים...</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="day-trader-watchlist" class="mt-6 bg-slate-50 p-5 rounded-[2rem] border border-slate-200">
+                        <h3 class="text-sm font-black text-slate-600 mb-3">מניות מעקב ליום המסחר</h3>
+                        <div id="day-trader-tickers" class="grid grid-cols-1 sm:grid-cols-2 gap-3"><!-- JS --></div>
+                    </div>
+                </section>
 
-                <!-- Screenshot button preserved (PREFERENCES.md iron law 2026-04-17) -->
-                <div class="mt-8 flex justify-center">
-                    <button onclick="screenshotCryptoPage()" class="flex items-center gap-2 px-6 py-3 bg-purple-600 text-white text-sm font-black rounded-2xl hover:bg-purple-700 transition-all shadow-lg shadow-purple-500/20">
-                        <span class="material-symbols-outlined text-base">sync_saved_locally</span>
-                        צלם תמונת דף קריפטו
-                    </button>
-                </div>
+                <!-- Swing Traders Section (crypto page — iron law from PREFERENCES.md 2026-04-17, restored 2026-05-07 REQ-30X reversal) -->
+                <section class="glass-card rounded-[3rem] p-8 md:p-10">
+                    <div class="flex flex-row items-center gap-3 mb-6">
+                        <span class="material-symbols-outlined text-indigo-600 page-h2-icon">trending_up</span>
+                        <h2 class="page-h2 !text-indigo-700 !decoration-indigo-500/20">סוחרי סווינג — סטאפים ל-3–7 ימים</h2>
+                    </div>
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                        <div class="scenario-bull p-5 rounded-[2rem]">
+                            <h3 class="text-sm font-black bull-h mb-3 pb-2" style="border-bottom:1px solid #10b98166">תרחיש שורי</h3>
+                            <div id="swing-trader-bull" class="text-xs text-slate-800 leading-relaxed space-y-2">
+                                <p>טוען נתונים...</p>
+                            </div>
+                        </div>
+                        <div class="scenario-bear p-5 rounded-[2rem]">
+                            <h3 class="text-sm font-black bear-h mb-3 pb-2" style="border-bottom:1px solid #f43f5e66">תרחיש דובי</h3>
+                            <div id="swing-trader-bear" class="text-xs text-slate-700 leading-relaxed space-y-2">
+                                <p>טוען נתונים...</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="swing-trader-watchlist" class="mt-6 bg-slate-50 p-5 rounded-[2rem] border border-slate-200">
+                        <h3 class="text-sm font-black text-slate-600 mb-3">סטאפים לסווינג השבוע</h3>
+                        <div id="swing-trader-tickers" class="grid grid-cols-1 sm:grid-cols-2 gap-3"><!-- JS --></div>
+                    </div>
+                    <!-- Screenshot button for crypto page (PREFERENCES.md iron law 2026-04-17) -->
+                    <div class="mt-8 flex justify-center">
+                        <button onclick="screenshotCryptoPage()" class="flex items-center gap-2 px-6 py-3 bg-purple-600 text-white text-sm font-black rounded-2xl hover:bg-purple-700 transition-all shadow-lg shadow-purple-500/20">
+                            <span class="material-symbols-outlined text-base">sync_saved_locally</span>
+                            צלם תמונת דף קריפטו
+                        </button>
+                    </div>
+                </section>
             </div>
 
             <!-- PAGE: AI -->
@@ -1330,9 +1379,38 @@
             // never rendered as a standalone "watchlist" / ticker-tracking section.
             const wl = d.section_8_watchlist;
 
-            // Day Traders + Swing Traders rendering DELETED 2026-05-04 (REQ-30X enforcement).
-            // Sections removed from template; data fields section_9_day_traders + section_10_swing_traders are
-            // permanently null per check_no_deleted_sections HARD validator.
+            // Day Traders + Swing Traders (restored 2026-05-07 — REQ-30X reversed per PREFERENCES.md iron law)
+            {
+                const seenStrings = new Set();
+                document.querySelectorAll('#crypto-news-cards p, #bitcoin-card p, #crypto-brief p, [data-crypto-coin] p').forEach(el => {
+                    const t = (el.textContent || '').trim();
+                    if (t.length > 40) seenStrings.add(t.substring(0, 80));
+                });
+                const dt = d.section_9_day_traders;
+                const sw = d.section_10_swing_traders;
+                const dtBull = document.getElementById('day-trader-bull');
+                const dtBear = document.getElementById('day-trader-bear');
+                const dtTickers = document.getElementById('day-trader-tickers');
+                const swBull = document.getElementById('swing-trader-bull');
+                const swBear = document.getElementById('swing-trader-bear');
+                const swTickers = document.getElementById('swing-trader-tickers');
+                if (dt) {
+                    if (dtBull) dtBull.innerHTML = dt.bull_case ? `<p>${formatSubheadings(dt.bull_case)}</p>` : '<p class="text-slate-400">אין תרחיש זמין לעדכון זה</p>';
+                    if (dtBear) dtBear.innerHTML = dt.bear_case ? `<p>${formatSubheadings(dt.bear_case)}</p>` : '<p class="text-slate-400">אין תרחיש זמין לעדכון זה</p>';
+                    const tickersArr = dt.tickers || dt.watchlist || [];
+                    if (dtTickers && tickersArr.length) {
+                        dtTickers.innerHTML = tickersArr.map(i => `<div class="flex justify-between items-center p-2 rounded-xl bg-white border border-slate-100"><span class="font-black text-sm">${i.symbol||i.ticker||''}</span><span class="text-[10px] text-green-600 font-bold">כניסה: ${i.level_in||i.entry||'—'}</span><span class="text-[10px] text-blue-600">יציאה: ${i.level_out||i.target||'—'}</span></div>`).join('');
+                    }
+                }
+                if (sw) {
+                    if (swBull) swBull.innerHTML = sw.bull_case ? `<p>${formatSubheadings(sw.bull_case)}</p>` : '<p class="text-slate-400">אין תרחיש זמין לעדכון זה</p>';
+                    if (swBear) swBear.innerHTML = sw.bear_case ? `<p>${formatSubheadings(sw.bear_case)}</p>` : '<p class="text-slate-400">אין תרחיש זמין לעדכון זה</p>';
+                    const setupsArr = sw.tickers || sw.setups || [];
+                    if (swTickers && setupsArr.length) {
+                        swTickers.innerHTML = setupsArr.map(i => `<div class="flex justify-between items-center p-2 rounded-xl bg-white border border-slate-100"><span class="font-black text-sm">${i.symbol||i.ticker||''}</span><span class="text-[10px] text-indigo-600 font-bold">${i.momentum_note||i.pattern||''}</span></div>`).join('');
+                    }
+                }
+            }
 
             // Page 2: Sectors
             const s3 = d.section_3_sectors;
