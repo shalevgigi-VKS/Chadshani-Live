@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-09T10:56:11Z",
+  "generated_at": "2026-05-09T11:29:33Z",
   "section_1_situation": {
     "headline": "שוק המניות נוטה לכיוון סולידיות בעוד מחירי הנפט נמשכים לעלות",
     "analysis": "המסחר היום מתאפיין בתנודתיות מתונה תוך עיכול נתוני המאקרו האחרונים, ציפיות לגבי החלטות הריבית של הפדרל ריזרב, וההתפתחויות הגיאופוליטיות שמשפיעות על שוק האנרגיה והנכסים הסחירים. מדדי המניות נעים בטווח צר עם תזרימי קנייה למניות הענק בטכנולוגיה, ובמקביל סקטורים דפנסיביים מציגים יציבות יחסית. שוק הקריפטו ממשיך להיות מושפע מסנטימנט המשקיעים, רגולציה, ואיתותי ה-ETF Spot Bitcoin. בטווח הקצר, יש לעקוב אחר נתוני התעסוקה, מדדי האינפלציה, וכן התבטאויות חברי ועדת ה-FOMC לקבלת תמונה ברורה יותר על מסלול המדיניות המוניטרית.",
@@ -95,11 +95,11 @@
       "image_url": "https://images.unsplash.com/photo-1518546305927-5a555bb7020d?w=400&h=200&fit=crop"
     },
     {
-      "title": "התפתחויות שוטפות בשוקי ההון הגלובליים",
-      "body": "ניתוח של פעילות בלוקצ'יין מראה שהמסחר היום מתאפיין בתנועות מאוזנות תוך עיכול נתונים חדשים מענפי המאקרו והגיאופוליטיקה. המשקיעים בוחנים מחדש את הנחות העבודה לטווח הקצר והבינוני בהתאם להתפתחויות. הסקטורים הדפנסיביים מציגים יציבות יחסית בעוד סקטורי הצמיחה רגישים יותר לתנודתיות. המגמה הכוללת תלויה בהמשך שיפור התמונה המאקרו-כלכלית בשבועות הקרובים.",
+      "title": "אי-יציבות בינלאומית מעלה ביקוש לנכסי מקלט",
+      "body": "ניתוח של פעילות בלוקצ'יין מראה שדיווחים נוספים מציינים: המתחים הגיאופוליטיים ממשיכים להעיב על שוקי האנרגיה והמטבעות החזקים. המסחר מתאפיין בעלייה במחירי הנפט ובהזרמת כספים לנכסי מקלט כגון זהב ובדולר. המשקיעים עוקבים אחר ההתפתחויות הדיפלומטיות ומעריכים מחדש סיכונים בתיקי ההשקעות. השפעה אפשרית על מדדי המניות הבינלאומיים בטווח הקצר עד הבינוני. מקור הדיווח (CNBC Top) מצביע על המשך מעקב נדרש.",
       "so_what": "מציע לבחון מעבר ממניות צמיחה למניות ערך באיזון התיק הקרוב.",
       "source": "CNBC Top",
-      "image_url": "https://images.unsplash.com/photo-1590283603385-17ffb3a7f29f?w=400&h=200&fit=crop"
+      "image_url": "https://images.unsplash.com/photo-1473042904451-00171c69419d?w=400&h=200&fit=crop"
     },
     {
       "title": "צמיחת תשתית הבינה המלאכותית משפיעה על מניות השבבים",
@@ -214,50 +214,50 @@
     {
       "ticker": "BTC",
       "note": "ביטקוין (BTC) נסחר במחיר $79,713.68 עם שינוי 24 שעות של -2.12%. מומנטום חיובי על רקע זרימות ETF מוסדיות; רמת תמיכה BTC ב-$$76,093.57. ביטקוין מתפקד כהנכס המרכזי בקטגוריית הקריפטו. גורמי השפעה מרכזיים: תזרימי קרנות הסל הספוט, החלטות הריבית של הפדרל ריזרב, הסנטימנט הגיאופוליטי. מערכת אקולוגית: תשתית רשת ברק לתשלומים מהירים, אימוץ מוסדי הולך וגובר. רקע מאקרו: BTC ב-$79,701.45 (-2.13%), ETH ב-$2,287.33 (-2.69%), מדד הדולר $98.00 (-0.03%). מומלץ מעקב אחר רמות תמיכה והתנגדות סביב המחיר הנוכחי $79,713.68, וכן נפחי מסחר בבורסות הספוט המובילות במהלך 24 השעות הבאות.",
-      "price": "$80,270.71",
-      "change_24h": "+0.10%"
+      "price": "$80,338.21",
+      "change_24h": "+0.19%"
     },
     {
       "ticker": "ETH",
       "note": "את'ריום (ETH) נסחר במחיר $2,287.90 עם שינוי 24 שעות של -2.67%. את'ריום מתפקד כפלטפורמת החוזים החכמים המובילה. גורמי השפעה מרכזיים: אישור קרנות סל ספוט, עמלות עיבוד עסקאות, צמיחה ברשתות שכבה שנייה. מערכת אקולוגית: מערכת מימון מבוזר, תשואות נעילה סביב שלושה עד ארבעה אחוזים, פלטפורמות נעילה משנית. מצב שווקים: מדד הדולר $98.00 (-0.03%), תשואת אג\"ח עשר שנים 4.38%, מדד התנודתיות 17.38. מומלץ מעקב אחר רמות תמיכה והתנגדות סביב המחיר הנוכחי $2,287.90, וכן נפחי מסחר בבורסות הספוט המובילות במהלך 24 השעות הבאות.",
-      "price": "$2,312.54",
-      "change_24h": "+0.23%"
+      "price": "$2,314.92",
+      "change_24h": "+0.33%"
     },
     {
       "ticker": "SOL",
       "note": "סולנה (SOL) נסחר במחיר $88.24 עם שינוי 24 שעות של -1.02%. סולנה מתפקד כרשת בלוקצ'יין שכבה ראשונה בעלת תפוקה גבוהה. גורמי השפעה מרכזיים: פעילות מטבעות מם, נפח מסחר בבורסות מבוזרות, אימוץ סולנה מובייל. מערכת אקולוגית: השקות מטבעות חדשים יומית, הכנסות ממכירות בלוקים, פיתוח לקוח הצמתים החדש. מדדי מקרו: BTC ב-$79,701.45 (-2.13%), תשואת אג\"ח עשר שנים 4.38%, מדד התנודתיות 17.38. מומלץ מעקב אחר רמות תמיכה והתנגדות סביב המחיר הנוכחי $88.24, וכן נפחי מסחר בבורסות הספוט המובילות במהלך 24 השעות הבאות.",
-      "price": "$93.42",
-      "change_24h": "+1.52%"
+      "price": "$93.66",
+      "change_24h": "+1.78%"
     },
     {
       "ticker": "LINK",
       "note": "צ'יינלינק (LINK) נסחר במחיר $9.86 עם שינוי 24 שעות של -1.34%. צ'יינלינק מתפקד כתשתית האורקלים המרכזית של המימון המבוזר. גורמי השפעה מרכזיים: אימוץ פרוטוקול תקשורת בין רשתות, שותפויות עם בנקים גלובליים, צמיחת הערך המאובטח. מערכת אקולוגית: אינטגרציות ברשתות מרובות, שכבה שנייה של נעילה, פיתוח פונקציות חיצוניות. אינדיקטורים: ETH ב-$2,287.33 (-2.69%), מדד הדולר $98.00 (-0.03%), מדד התנודתיות 17.38. מומלץ מעקב אחר רמות תמיכה והתנגדות סביב המחיר הנוכחי $9.86, וכן נפחי מסחר בבורסות הספוט המובילות במהלך 24 השעות הבאות.",
-      "price": "$10.43",
-      "change_24h": "+0.82%"
+      "price": "$10.46",
+      "change_24h": "+1.15%"
     },
     {
       "ticker": "XRP",
       "note": "ריפל (XRP) נסחר במחיר $1.39 עם שינוי 24 שעות של -2.53%. ריפל מתפקד כפלטפורמת תשלומים בין-בנקאיים. גורמי השפעה מרכזיים: התקדמות התיק מול הרגולטור האמריקאי, שותפויות עם בנקים, אימוץ מטבעות דיגיטליים מרכזיים. מערכת אקולוגית: נזילות גוברת בקורידורים אמריקה הלטינית ואסיה, פיילוטים בנקאיים פעילים. סביבת מסחר: BTC ב-$79,701.45 (-2.13%), ETH ב-$2,287.33 (-2.69%), תשואת אג\"ח עשר שנים 4.38%. מומלץ מעקב אחר רמות תמיכה והתנגדות סביב המחיר הנוכחי $1.39, וכן נפחי מסחר בבורסות הספוט המובילות במהלך 24 השעות הבאות.",
       "price": "$1.42",
-      "change_24h": "+0.23%"
+      "change_24h": "+0.32%"
     },
     {
       "ticker": "ADA",
       "note": "קרדנו (ADA) נסחר במחיר $0.2616 עם שינוי 24 שעות של -1.99%. קרדנו מתפקד כרשת בלוקצ'יין מבוססת מחקר אקדמי. גורמי השפעה מרכזיים: התקדמות שדרוגי הסקיילינג, אימוץ באפריקה, פיתוח חוזים חכמים. מערכת אקולוגית: יחס נעילה גבוה כשישים אחוזים מההיצע, צמיחה איטית במימון מבוזר. תמונת על: מדד הדולר $98.00 (-0.03%), מדד התנודתיות 17.38, BTC ב-$79,701.45 (-2.13%). מומלץ מעקב אחר רמות תמיכה והתנגדות סביב המחיר הנוכחי $0.2616, וכן נפחי מסחר בבורסות הספוט המובילות במהלך 24 השעות הבאות.",
-      "price": "$0.2731",
-      "change_24h": "-0.15%"
+      "price": "$0.2734",
+      "change_24h": "-0.04%"
     },
     {
       "ticker": "TAO",
       "note": "ביטנסור (TAO) נסחר במחיר $309.77 עם שינוי 24 שעות של -1.31%. ביטנסור מתפקד כרשת בינה מלאכותית מבוזרת על שרשרת בלוקים. גורמי השפעה מרכזיים: צמיחת תתי-רשתות, פעילות הנפקת מטבעות, ביקוש מצד משקיעים מוסדיים. מערכת אקולוגית: הקצאת בלוקים בין תתי-רשתות, שדרוג מנגנון ההצבעה. כיוון השוק: ETH ב-$2,287.33 (-2.69%), תשואת אג\"ח עשר שנים 4.38%, מדד הדולר $98.00 (-0.03%). מומלץ מעקב אחר רמות תמיכה והתנגדות סביב המחיר הנוכחי $309.77, וכן נפחי מסחר בבורסות הספוט המובילות במהלך 24 השעות הבאות.",
-      "price": "$311.18",
-      "change_24h": "-0.01%"
+      "price": "$311.13",
+      "change_24h": "+0.65%"
     },
     {
       "ticker": "KAS",
       "note": "קספה (KAS) נסחר במחיר $0.0358 עם שינוי 24 שעות של -1.94%. KAS נסחר ב-range; חבירה ל-key levels תקבע את הכיוון הבא. קספה מתפקד כרשת בלוקים מקבילה מהירה עם עשרה בלוקים בשנייה. גורמי השפעה מרכזיים: שדרוג ליבת הקוד בשפת ראסט, רישום בבורסות נוספות, צמיחת קצב הכרייה. מערכת אקולוגית: פיתוח חוזים חכמים, אימוץ כרייה מבוזרת. פרספקטיבה כוללת: BTC ב-$79,701.45 (-2.13%), מדד הדולר $98.00 (-0.03%), מדד התנודתיות 17.38. מומלץ מעקב אחר רמות תמיכה והתנגדות סביב המחיר הנוכחי $0.0358, וכן נפחי מסחר בבורסות הספוט המובילות במהלך 24 השעות הבאות.",
-      "price": "$0.0365",
-      "change_24h": "+0.26%"
+      "price": "$0.0366",
+      "change_24h": "+0.44%"
     }
   ],
   "section_4_crypto_brief": {
@@ -267,11 +267,11 @@
     "conclusion": "היום נרשמה ירידה קלה במגוון מטבעות קריפטו, אך נותרו מעל רמות התמיכה הראשית. המשקיעים נוטים להימנע מהשקעות בסיכון גבוה, מה שמוביל לירידות במגוון מטבעות."
   },
   "section_4_bitcoin": {
-    "market_overview": "ביטקוין נסחר במחיר $80,270.27 עם שינוי יומי של +0.10%. המחיר נע בטווח שמשקף תנודתיות מתונה תוך עיכול נתוני המאקרו האחרונים. הסנטימנט הכללי בקרב המשקיעים המוסדיים נותר זהיר. הנפח היומי במסחר הספוט מצביע על השתתפות מתונה.",
+    "market_overview": "ביטקוין נסחר במחיר $80,333.56 עם שינוי יומי של +0.18%. המחיר נע בטווח שמשקף תנודתיות מתונה תוך עיכול נתוני המאקרו האחרונים. הסנטימנט הכללי בקרב המשקיעים המוסדיים נותר זהיר. הנפח היומי במסחר הספוט מצביע על השתתפות מתונה.",
     "etf_flows": "תזרימי קרנות הסל הספוט על הביטקוין מציגים תמונה מעורבת בימים האחרונים. BlackRock ו-Fidelity ממשיכות להוביל בנפחי המסחר, עם תזרימים שמשקפים סנטימנט מוסדי משתנה. התזרים המצטבר מתחילת השנה נותר חיובי, אך קצב הצמיחה התמתן ביחס לרבעון הקודם.",
     "whale_movements": "פעילות לוויתנים (ארנקים עם החזקה משמעותית) מציגה תנועה זהירה השבוע. מספר העברות גדולות בין ארנקים ירד יחסית לשבוע שעבר, בעוד שיעור ההחזקה הארוכת-טווח עלה במעט. האינדיקטור מצביע על העדפה לאחזקה במקום מימוש.",
     "institutional": "הזרם המוסדי לביטקוין נותר יציב יחסית. MicroStrategy ו-Tesla שומרות על אחזקות הליבה שלהן. חברות פיננסים מסורתיות ממשיכות לבחון מוצרים מובנים על בסיס ביטקוין. החקיקה הצפויה ברבעון הקרוב צפויה להשפיע על קצב ההצטרפות של גופים מוסדיים נוספים.",
-    "key_levels": "רמות מפתח לביטקוין סביב המחיר הנוכחי $80,270.27: תמיכה ראשונית ברמות הפסיכולוגיות התחתונות, התנגדות ראשונית באזור השיא הקרוב. פריצה מעלה תפתח דיון בנושא יעדי המשך, בעוד שבירה מטה תפתח שאלה לגבי תיקון עומק.",
+    "key_levels": "רמות מפתח לביטקוין סביב המחיר הנוכחי $80,333.56: תמיכה ראשונית ברמות הפסיכולוגיות התחתונות, התנגדות ראשונית באזור השיא הקרוב. פריצה מעלה תפתח דיון בנושא יעדי המשך, בעוד שבירה מטה תפתח שאלה לגבי תיקון עומק.",
     "outlook": "תחזית קצרת-טווח לביטקוין: השוק נמצא בתקופה של איזון לפני המהלך הבא. האינדיקטורים הטכניים מציגים תמונה מעורבת — תבנית המסחר התעלמותית בטווח הקצר. הסביבה המאקרו (ריבית, דולר, תזרימי ETF) תכריע את הכיוון בשבועות הקרובים."
   },
   "section_5_semis": [
@@ -422,7 +422,7 @@
         "DOGE used ChatGPT in a way that was both dumb and illegal, judge rules. The Department of Government Efficiency's cancellation of over $100 million in grants was unconstitutional, according to a ruling on Thursday. In the 143-page decision, US District Judge Colleen McMah (מקור: The Verge)",
         "Running Codex safely at OpenAI. How OpenAI runs Codex securely with sandboxing, approvals, network policies, and agent-native telemetry to support safe and compliant coding agent adoption. (מקור: OpenAI Blog)",
         "Scaling Trusted Access for Cyber with GPT-5.5 and GPT-5.5-Cyber. OpenAI expands Trusted Access for Cyber with GPT-5.5 and GPT-5.5-Cyber, helping verified defenders accelerate vulnerability research and protect critical infrastructure. (מקור: OpenAI Blog)",
-        "Parloa builds service agents customers want to talk to. Parloa leverages OpenAI models to power scalable, voice-driven AI customer service agents, enabling enterprises to design, simulate, and deploy reliable, real-time interactions. (מקור: OpenAI Blog)"
+        "Meet Anthropic’s ‘Perfect Wingman’ for Its Race Against OpenAI - WSJ. Meet Anthropic’s ‘Perfect Wingman’ for Its Race Against OpenAI&nbsp;&nbsp;WSJ. השוק עוקב מקרוב אחר ההתפתחות. (מקור: GNews Anthropic)"
       ]
     },
     {
@@ -430,9 +430,9 @@
       "updates": [
         "You Can Disable Gemini in Chrome if It’s Freaking You Out - WIRED. You Can Disable Gemini in Chrome if It’s Freaking You Out&nbsp;&nbsp;WIRED. השוק עוקב מקרוב אחר ההתפתחות. (מקור: GNews Gemini). מגמה זו צפויה להמשיך ולהשפיע על הסנטימנט בשוק ה-AI הגנרטיבי.",
         "Google Chrome May Have Quietly Installed a 4GB AI Model Onto Your Device - CNET. Google Chrome May Have Quietly Installed a 4GB AI Model Onto Your Device&nbsp;&nbsp;CNET (מקור: GNews Gemini). מגמה זו צפויה להמשיך ולהשפיע על הסנטימנט בשוק ה-AI הגנרטיבי.",
+        "Here’s how I finally got Google’s uninvited 4GB AI model off my Mac - Fast Company. Here’s how I finally got Google’s uninvited 4GB AI model off my Mac&nbsp;&nbsp;Fast Company (מקור: GNews Gemini). מגמה זו צפויה להמשיך ולהשפיע על הסנטימנט בשוק ה-AI הגנרטיבי.",
         "Google I/O 2026 Announcements and AI Expectations - Mashable. Google I/O 2026 Announcements and AI Expectations&nbsp;&nbsp;Mashable. השוק עוקב מקרוב אחר ההתפתחות. (מקור: GNews Gemini). מגמה זו צפויה להמשיך ולהשפיע על הסנטימנט בשוק ה-AI הגנרטיבי.",
-        "7 Hidden Gemini Live AI Models Revealed Ahead Of Google I/O 2026 - Forbes. 7 Hidden Gemini Live AI Models Revealed Ahead Of Google I/O 2026&nbsp;&nbsp;Forbes. השוק עוקב מקרוב אחר ההתפתחות. (מקור: GNews Gemini)",
-        "Gemini may finally leap out of the chatbox at Google I/O - PCWorld. Gemini may finally leap out of the chatbox at Google I/O&nbsp;&nbsp;PCWorld. השוק עוקב מקרוב אחר ההתפתחות. (מקור: GNews Gemini). מגמה זו צפויה להמשיך ולהשפיע על הסנטימנט בשוק ה-AI הגנרטיבי."
+        "7 Hidden Gemini Live AI Models Revealed Ahead Of Google I/O 2026 - Forbes. 7 Hidden Gemini Live AI Models Revealed Ahead Of Google I/O 2026&nbsp;&nbsp;Forbes. השוק עוקב מקרוב אחר ההתפתחות. (מקור: GNews Gemini)"
       ]
     },
     {
@@ -456,11 +456,11 @@
     {
       "company": "Microsoft",
       "updates": [
+        "Microsoft Cuts Copilot Bloat - The Information. Microsoft Cuts Copilot Bloat&nbsp;&nbsp;The Information. הדבר משפיע על המיצוב התחרותי בשוק ה-AI. משקיעים ומפתחים עוקבים מקרוב אחר ההתפתחויות. (מקור: GNews Copilot)",
+        "Windows 11 is free of AI. Microsoft removes Copilot - modernetdigital.cat: Windows 11 is free of AI: Microsoft removes Copilot&nbsp;&nbsp;modernetdigital.cat. השוק עוקב מקרוב אחר ההתפתחות. (מקור: GNews Copilot)",
         "Introducing Consent‑Based Recording for Voice Agents and CSR Interactions in Dynamics 365 Contact Center - Microsoft. Introducing Consent‑Based Recording for Voice Agents and CSR Interactions in Dynamics 365 Contact Center&nbsp;&nbsp;Microsoft (מקור: GNews Copilot)",
         "Your AI steering committee’s 2026 checklist. Sovereignty - Microsoft: Your AI steering committee’s 2026 checklist: Sovereignty&nbsp;&nbsp;Microsoft. השוק עוקב מקרוב אחר ההתפתחות. (מקור: GNews Copilot)",
-        "When prompts become shells. RCE vulnerabilities in AI agent frameworks - Microsoft: When prompts become shells: RCE vulnerabilities in AI agent frameworks&nbsp;&nbsp;Microsoft (מקור: GNews Copilot). מגמה זו צפויה להמשיך ולהשפיע על הסנטימנט בשוק ה-AI הגנרטיבי.",
-        "Winning at the Curve. Navien drives AI-powered process excellence on Microsoft Azure - Microsoft: Winning at the Curve: Navien drives AI-powered process excellence on Microsoft Azure&nbsp;&nbsp;Microsoft (מקור: GNews Copilot)",
-        "Transforming IT support across Microsoft with the Employee Self-Service Agent - Inside Track Blog - Microsoft. Transforming IT support across Microsoft with the Employee Self-Service Agent - Inside Track Blog&nbsp;&nbsp;Microsoft (מקור: GNews Copilot)"
+        "When prompts become shells. RCE vulnerabilities in AI agent frameworks - Microsoft: When prompts become shells: RCE vulnerabilities in AI agent frameworks&nbsp;&nbsp;Microsoft (מקור: GNews Copilot). מגמה זו צפויה להמשיך ולהשפיע על הסנטימנט בשוק ה-AI הגנרטיבי."
       ]
     },
     {
@@ -468,9 +468,9 @@
       "updates": [
         "Perplexity’s Personal Computer is now available to everyone on Mac - TechCrunch. Perplexity’s Personal Computer is now available to everyone on Mac&nbsp;&nbsp;TechCrunch (מקור: GNews Perplexity). מגמה זו צפויה להמשיך ולהשפיע על הסנטימנט בשוק ה-AI הגנרטיבי.",
         "Perplexity Launches Personal Computer AI Agent for All Mac Users to Rival Local AI Assistants - AI Insider. Perplexity Launches Personal Computer AI Agent for All Mac Users to Rival Local AI Assistants&nbsp;&nbsp;AI Insider (מקור: GNews Perplexity)",
+        "Perplexity AI app introduces ‘all-new native Mac experience’ for Personal Computer - 9to5Mac. Perplexity AI app introduces ‘all-new native Mac experience’ for Personal Computer&nbsp;&nbsp;9to5Mac (מקור: GNews Perplexity)",
         "Perplexity's New Mac App Brings Personal Computer to Pro Users - MacRumors. Perplexity's New Mac App Brings Personal Computer to Pro Users&nbsp;&nbsp;MacRumors. השוק עוקב מקרוב אחר ההתפתחות. (מקור: GNews Perplexity)",
-        "Perplexity’s Personal Computer is Now Available for All Mac Users - Thurrott.com. Perplexity’s Personal Computer is Now Available for All Mac Users&nbsp;&nbsp;Thurrott.com (מקור: GNews Perplexity). מגמה זו צפויה להמשיך ולהשפיע על הסנטימנט בשוק ה-AI הגנרטיבי.",
-        "Perplexity AI app introduces ‘all-new native Mac experience’ for Personal Computer - 9to5Mac. Perplexity AI app introduces ‘all-new native Mac experience’ for Personal Computer&nbsp;&nbsp;9to5Mac (מקור: GNews Perplexity)"
+        "Perplexity’s Personal Computer is Now Available for All Mac Users - Thurrott.com. Perplexity’s Personal Computer is Now Available for All Mac Users&nbsp;&nbsp;Thurrott.com (מקור: GNews Perplexity). מגמה זו צפויה להמשיך ולהשפיע על הסנטימנט בשוק ה-AI הגנרטיבי."
       ]
     },
     {
@@ -797,12 +797,12 @@
       "change": "-0.28%"
     },
     "btc": {
-      "price": "$80,270.27",
-      "change": "+0.10%"
+      "price": "$80,333.56",
+      "change": "+0.18%"
     },
     "eth": {
-      "price": "$2,312.28",
-      "change": "+0.22%"
+      "price": "$2,314.77",
+      "change": "+0.33%"
     },
     "dxy": {
       "price": "$97.84",
@@ -810,11 +810,11 @@
     }
   },
   "crypto_global": {
-    "market_cap_usd": 2764496377613.733,
+    "market_cap_usd": 2765269590764.0166,
     "btc_dominance": 58.2,
     "eth_dominance": 10.1,
-    "volume_24h": 88213628100.04077,
-    "change_24h": 0.65
+    "volume_24h": 86111580041.87701,
+    "change_24h": 0.62
   },
   "generated_by": "deterministic_refresher_v1",
   "section_9_day_traders": {
