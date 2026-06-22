@@ -898,5 +898,6 @@
       "change": "-0.15%"
     }
   ],
-  "_use_existing_frozen": true
+  "_use_existing_frozen": true,
+  "btc_funding_rates": "+0.010%"
 }
