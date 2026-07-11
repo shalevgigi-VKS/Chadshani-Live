@@ -22,7 +22,10 @@
     <link rel="icon" type="image/png" sizes="16x16" href="assets/CHADSHANI_LOGO_v4.png">
     <link rel="shortcut icon" href="assets/CHADSHANI_LOGO_v4.png" type="image/png">
     <link rel="apple-touch-icon" href="assets/CHADSHANI_LOGO_v4.png">
-    
+    <!-- PWA (v5.3 B5): add-to-home-screen = personal news app -->
+    <link rel="manifest" href="assets/site.webmanifest">
+    <meta name="theme-color" content="#2563eb">
+
     <!-- Preconnect for font CDN — eliminates DNS+TLS latency -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -751,7 +754,7 @@
         <div class="clock-chip text-left">
           <span class="live-dot"></span>
           <span class="text-[10px] md:text-xs font-black text-slate-500">עדכון אחרון נכון ל:</span>
-          <span class="text-xs md:text-base font-headline font-black tabular-nums text-slate-900">11.07.2026 14:18</span>
+          <span class="text-xs md:text-base font-headline font-black tabular-nums text-slate-900">11.07.2026 14:55</span>
         </div>
       </div>
       <nav id="unified-nav" class="split-nav items-stretch px-2 md:px-6 pb-2 md:pb-3">
@@ -773,7 +776,7 @@
       
     <section class="home-hero rounded-[2rem] p-6 md:p-8 bg-white/90 border border-slate-100 shadow-sm">
       <h1 class="text-3xl md:text-5xl font-black font-headline mb-3" style="color:var(--section-accent)">מה השתנה עכשיו</h1>
-      <p class="text-base md:text-lg text-slate-600 font-bold leading-relaxed">מאז העדכון הקודם: 0 פריטים חדשים · 21 עודכנו. הפירוט המלא — בעמודים העמוקים.</p>
+      <p class="text-base md:text-lg text-slate-600 font-bold leading-relaxed">מאז העדכון הקודם: 2 פריטים חדשים · 18 עודכנו. הפירוט המלא — בעמודים העמוקים.</p>
     </section>
     
 <section class="section-shell glass-card bg-white/90 rounded-[2rem] p-6 md:p-8 shadow-sm border border-slate-100">
@@ -787,7 +790,7 @@
             <span class="text-[11px] font-black" style="color:var(--section-accent)">שוק</span>
             
           </div>
-          <h3 class="text-sm md:text-base font-black text-slate-900 leading-snug">תודעת השוק: ניטרלי (F&amp;G 49); תקשורת מוביל, בריאות נחלש</h3>
+          <h3 class="text-sm md:text-base font-black text-slate-900 leading-snug">מדד פחד-וחמדנות 49 (ניטרלי) — תקשורת מוביל, מוקד מאקרו-כלכלה בולט</h3>
           <p class="text-xs md:text-sm text-slate-600 leading-relaxed mt-2">מדד פחד-וחמדנות במניות עומד על 49 (ניטרלי), המשקף אי-ודאות וחוסר כיוון. הרוטציה הסקטוריאלית ברורה: תקשורת מקבל את…</p>
         </a>
         
@@ -796,8 +799,8 @@
             <span class="text-[11px] font-black" style="color:var(--section-accent)">AI</span>
             
           </div>
-          <h3 class="text-sm md:text-base font-black text-slate-900 leading-snug">Anthropic</h3>
-          <p class="text-xs md:text-sm text-slate-600 leading-relaxed mt-2">חוקרים מצאו מרחב נסתר שבו המודל מעבד מושגים. חברת הבינה המלאכותית גילתה אזור פנימי במערכת שבו המודל מתמודד עם רעיו…</p>
+          <h3 class="text-sm md:text-base font-black text-slate-900 leading-snug">Anthropic/Claude</h3>
+          <p class="text-xs md:text-sm text-slate-600 leading-relaxed mt-2">חוקרים מצאו מרחב נסתר בו המודל של חברת הבינה המלאכותית מתלבט מושגים. חברת הבינה המלאכותית מצאה מרחב נסתר שבו המודל…</p>
         </a>
         
         <a href="ai.html" class="block bg-white rounded-2xl p-4 border border-slate-100 shadow-sm hover:shadow-md transition">
@@ -805,8 +808,8 @@
             <span class="text-[11px] font-black" style="color:var(--section-accent)">AI</span>
             
           </div>
-          <h3 class="text-sm md:text-base font-black text-slate-900 leading-snug">OpenAI</h3>
-          <p class="text-xs md:text-sm text-slate-600 leading-relaxed mt-2">אפל תובעת את החברה המפתחת של הבינה המלאכותית על גניבת סודות מסחריים. ענקית הטכנולוגיה טוענת כי חלה הפרה של סודות ע…</p>
+          <h3 class="text-sm md:text-base font-black text-slate-900 leading-snug">Anthropic/Claude Co-work</h3>
+          <p class="text-xs md:text-sm text-slate-600 leading-relaxed mt-2">חברת פרפלקסיטי כיוונה מודל בינה מלאכותית סיני לביצועים גבוהים. החברה ביצעה כוונון מדויק למודל בינה מלאכותית ממקור…</p>
         </a>
         
         <a href="ai.html" class="block bg-white rounded-2xl p-4 border border-slate-100 shadow-sm hover:shadow-md transition">
@@ -814,8 +817,8 @@
             <span class="text-[11px] font-black" style="color:var(--section-accent)">AI</span>
             
           </div>
-          <h3 class="text-sm md:text-base font-black text-slate-900 leading-snug">Google</h3>
-          <p class="text-xs md:text-sm text-slate-600 leading-relaxed mt-2">פירוט דגמי הבינה המלאכותית של גוגל: גמיני, ויאו ועוד. סקירה מפורטת מסבירה את דגמי הבינה המלאכותית השונים של חברת ג…</p>
+          <h3 class="text-sm md:text-base font-black text-slate-900 leading-snug">Anthropic/Claude Code</h3>
+          <p class="text-xs md:text-sm text-slate-600 leading-relaxed mt-2">חשיפת מרחב נסתר במודל הבינה המלאכותית מעלה שאלות על שקיפות ומסחר. חברת אנתרופיק חשפה מרחב פנימי נסתר בתוך מודל הקל…</p>
         </a>
         
         <a href="crypto.html" class="block bg-white rounded-2xl p-4 border border-slate-100 shadow-sm hover:shadow-md transition">
@@ -823,7 +826,7 @@
             <span class="text-[11px] font-black" style="color:var(--section-accent)">קריפטו</span>
             
           </div>
-          <h3 class="text-sm md:text-base font-black text-slate-900 leading-snug">מדד הפחד-וחמדנות בקריפטו עומד על 26 (פחד); סנטימנט הקהילה מאופיין ב-חשש וחוסר אמון. ביטקוין נסחר סביב רמת 64,100 עם עלייה של 0.00% ביממה האחרונה. המוביל היומי TAO בתנועת ירידה של 0.81%. המסחר מצביע על מעורבות גוברת של שחקנים מוסדיים.</h3>
+          <h3 class="text-sm md:text-base font-black text-slate-900 leading-snug">מדד הפחד-וחמדנות בקריפטו עומד על 26 (פחד); סנטימנט הקהילה מאופיין ב-חשש וחוסר אמון. ביטקוין נסחר סביב רמת 64,100 עם עלייה של 0.00% ביממה האחרונה. המוביל היומי ADA בתנועת עלייה של 0.84%. הקורלציה למדדי המניות נותרה גבוהה ומעצבת את הסנטימנט.</h3>
           <p class="text-xs md:text-sm text-slate-600 leading-relaxed mt-2">ההון החכם ממקם משקל לכיוון סקטורים מובילים, כאשר תקשורת מציג עוצמה יחסית (+0.93%). ברקע מדד פחד-וחמדנות 26 (פחד),…</p>
         </a>
         
@@ -842,7 +845,7 @@
             
           </div>
           <h3 class="text-sm md:text-base font-black text-slate-900 leading-snug">אודות חדשני</h3>
-          <p class="text-xs md:text-sm text-slate-600 leading-relaxed mt-2">האתר עודכן לאחרונה ב-11.07.2026 11:18 IST. מקיף מאקרו · קריפטו · 9 כתבות · 24 חברות AI · טריידרס. מערכת אוטונומית…</p>
+          <p class="text-xs md:text-sm text-slate-600 leading-relaxed mt-2">האתר עודכן לאחרונה ב-11.07.2026 11:55 IST. מקיף מאקרו · קריפטו · 9 כתבות · 24 חברות AI · טריידרס. מערכת אוטונומית…</p>
         </a>
         
         <a href="history.html" class="block bg-white rounded-2xl p-4 border border-slate-100 shadow-sm hover:shadow-md transition">
@@ -859,61 +862,61 @@
 <section data-section-key="section_2_news" class="section-shell glass-card bg-white/90 rounded-[2rem] p-6 md:p-8 shadow-sm border border-slate-100">
   <div class="flex items-center gap-3 mb-5">
     <span class="material-symbols-outlined page-h2-icon" style="color:var(--section-accent)">newspaper</span>
-    <h2 data-fresh="section_2_news" class="page-h2 m-0">חדשות חדשות<span class="fresh-badge">עודכן 11.07.2026 14:18</span></h2>
+    <h2 data-fresh="section_2_news" class="page-h2 m-0">חדשות חדשות<span class="fresh-badge">עודכן 11.07.2026 14:55</span></h2>
   </div>
   <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
         <article class="bg-white rounded-2xl p-5 border border-slate-100 shadow-sm">
           <div class="flex items-start justify-between gap-3 mb-3"><span class="delta-badge rounded-full px-2 py-1 text-[10px] font-black">עודכן</span><span class="text-[10px] font-black text-slate-400">CoinDesk</span></div>
-          <h3 class="text-base md:text-lg font-black leading-snug text-slate-900">תחזיות לעליות חדות במטבע הביטקוין בסכומים גבוהים עומדות בספק</h3>
-          <p class="mt-3 text-sm text-slate-600 leading-relaxed">מומחים צופים כי ערך המטבע יגיע לטווח שבין 300,000 ל-500,000 דולר עד שנת 2029. עם זאת, הנתונים מצביעים על כך שהצמיחה המה…</p>
+          <h3 class="text-base md:text-lg font-black leading-snug text-slate-900">תחזיות לזינוק במטבע הביטקוין בסכום של מאתיים וחמישים אלף דולר בספקית</h3>
+          <p class="mt-3 text-sm text-slate-600 leading-relaxed">מומחים חוזים כי שווי המטבע יגיע לבין שלוש מאות אלף לחמש מאות אלף דולר עד שנת אלפיים תשע ועשר. עם זאת, הנתונים והמתמטיקה…</p>
         </article>
         
         <article class="bg-white rounded-2xl p-5 border border-slate-100 shadow-sm">
           <div class="flex items-start justify-between gap-3 mb-3"><span class="delta-badge rounded-full px-2 py-1 text-[10px] font-black">עודכן</span><span class="text-[10px] font-black text-slate-400">CoinDesk</span></div>
-          <h3 class="text-base md:text-lg font-black leading-snug text-slate-900">מסוף הנתונים של מטא חוזה: מסחר מבוסס סוכנים הוא השלב הבא בעולם העסקי</h3>
-          <p class="mt-3 text-sm text-slate-600 leading-relaxed">מנהל הנתונים של מטא צופה כי סוכני בינה מלאכותית ינהלו פעילות עסקית רחבה, החל מתזמון אירועים ועד למשא ומתן בשרשרת האספקה…</p>
+          <h3 class="text-base md:text-lg font-black leading-snug text-slate-900">מנהל הנתונים במטא חוזה: המסחר המבוסס על סוכנים הוא השלב הבא בעולם העסקי</h3>
+          <p class="mt-3 text-sm text-slate-600 leading-relaxed">בשיחה עם קוינדסק, אלכס שולץ ציין כי חברת מטא בונה סוכני עסקים עבור מיליון עסקים פעילים. הטכנולוגיה תאפשר ניהול לוגיסטיק…</p>
         </article>
         
         <article class="bg-white rounded-2xl p-5 border border-slate-100 shadow-sm">
           <div class="flex items-start justify-between gap-3 mb-3"><span class="delta-badge rounded-full px-2 py-1 text-[10px] font-black">עודכן</span><span class="text-[10px] font-black text-slate-400">CoinDesk</span></div>
-          <h3 class="text-base md:text-lg font-black leading-snug text-slate-900">איסור זמני על הנפקת דולר דיגיטלי ממשלתי בארצות הברית</h3>
-          <p class="mt-3 text-sm text-slate-600 leading-relaxed">חוק הדיור החדש ייכנס לתוקף בלילה ויכלול איסור של ארבע שנים על הנפקת מטבע דיגיטלי של הבנק המרכזי. ההגבלה תמנע מהבנק הפדר…</p>
+          <h3 class="text-base md:text-lg font-black leading-snug text-slate-900">איסור זמני על הנפקת דולר דיגיטלי ממשלתי ייכנס לתוקף הלילה</h3>
+          <p class="mt-3 text-sm text-slate-600 leading-relaxed">חוק המגורים החדש יכנס לתוקף בחצות ויכלול איסור של ארבע שנים על הבנק המרכזי להנפיק מטבע דיגיטלי. ההגבלה נועדה למנוע מעקב…</p>
         </article>
         
         <article class="bg-white rounded-2xl p-5 border border-slate-100 shadow-sm">
           <div class="flex items-start justify-between gap-3 mb-3"><span class="delta-badge rounded-full px-2 py-1 text-[10px] font-black">עודכן</span><span class="text-[10px] font-black text-slate-400">CoinDesk</span></div>
-          <h3 class="text-base md:text-lg font-black leading-snug text-slate-900">היונדאי מובילה מהפכה: החברה הדרום-קוריאנית הראשונה להעברות כספים פנימיות במטבע יציב</h3>
-          <p class="mt-3 text-sm text-slate-600 leading-relaxed">יצרנית הרכב העולמית ביצעה העברת סכום של $20,000 בין היחידות שלה בארצות הברית ומקסיקו באמצעות יו-אס-די-טי. השימוש ברשת א…</p>
+          <h3 class="text-base md:text-lg font-black leading-snug text-slate-900">היונדאי היא החברה הגדולה הראשונה מדרום קוריאה המשתמשת במטבע יציב להעברות</h3>
+          <p class="mt-3 text-sm text-slate-600 leading-relaxed">יצרנית הרכב ביצעה העברת כספים של $20,000 בין היחידות בארה&quot;ב ומקסיקו באמצעות יו-אס-די-טי על גבי רשת אוולאנץ&#x27;. המהלך קיצר…</p>
         </article>
         
         <article class="bg-white rounded-2xl p-5 border border-slate-100 shadow-sm">
           <div class="flex items-start justify-between gap-3 mb-3"><span class="delta-badge rounded-full px-2 py-1 text-[10px] font-black">עודכן</span><span class="text-[10px] font-black text-slate-400">CoinTelegraph</span></div>
-          <h3 class="text-base md:text-lg font-black leading-snug text-slate-900">מטבעות יציבים בדולר: שיפור הנגישות למטבע חוץ אך הגברת הסיכון למשברים</h3>
-          <p class="mt-3 text-sm text-slate-600 leading-relaxed">נייר עבודה של קרן המטבע הבינלאומית מצביע על כך שמטבעות דיגיטליים צמודים לדולר מקלים על גישה למטבע זר. עם זאת, הם עלולים…</p>
+          <h3 class="text-base md:text-lg font-black leading-snug text-slate-900">עליית הביטקוין ביולי מעוררת חשש מפני הידרדרות בשוק בדומה לשנת 2022</h3>
+          <p class="mt-3 text-sm text-slate-600 leading-relaxed">מחיר הביטקוין רשם עלייה של 9.5% בחצי החודש, אך מומחים מזהירים מהיפוך מגמה. למרות השאיפה לרף 70,000 דולר, דפוסים היסטורי…</p>
+        </article>
+        
+        <article class="bg-white rounded-2xl p-5 border border-slate-100 shadow-sm">
+          <div class="flex items-start justify-between gap-3 mb-3"><span class="delta-badge rounded-full px-2 py-1 text-[10px] font-black">עודכן</span><span class="text-[10px] font-black text-slate-400">CoinTelegraph</span></div>
+          <h3 class="text-base md:text-lg font-black leading-snug text-slate-900">מטבעות דיגיטליים צמודים לדולר עלולים להקל גישה למטבע חוץ אך להגביר משברים</h3>
+          <p class="mt-3 text-sm text-slate-600 leading-relaxed">נייר עבודה של קרן המטבע הבינלאומית מצביע כי מטבעות יציבים עשויים לסייע במצבי מחסור בדולרים. עם זאת, הם עלולים להאיץ ברי…</p>
         </article>
         
         <article class="bg-white rounded-2xl p-5 border border-slate-100 shadow-sm">
           <div class="flex items-start justify-between gap-3 mb-3"><span class="text-[10px] font-black text-slate-400">CoinTelegraph</span></div>
           <h3 class="text-base md:text-lg font-black leading-snug text-slate-900">השקעות בתשתיות בינה מלאכותית ממשיכות להניע את ענף הטכנולוגיה</h3>
-          <p class="mt-3 text-sm text-slate-600 leading-relaxed">השקעות בתשתיות בינה מלאכותית ממשיכות להניע את ענף הטכנולוגיה. ההקשר הרחב מצביע על המשך אי-ודאות, מה שמעלה את הפרמיה על…</p>
+          <p class="mt-3 text-sm text-slate-600 leading-relaxed">השקעות בתשתיות בינה מלאכותית ממשיכות להניע את ענף הטכנולוגיה. המהלך משתלב בתמונה שבה רוטציה סקטוריאלית ושינויי סנטימנט…</p>
         </article>
         
         <article class="bg-white rounded-2xl p-5 border border-slate-100 shadow-sm">
           <div class="flex items-start justify-between gap-3 mb-3"><span class="text-[10px] font-black text-slate-400">CoinTelegraph</span></div>
           <h3 class="text-base md:text-lg font-black leading-snug text-slate-900">מירוץ הבינה המלאכותית מעלה את הערכות השווי של חברות מובילות</h3>
-          <p class="mt-3 text-sm text-slate-600 leading-relaxed">מירוץ הבינה המלאכותית מעלה את הערכות השווי של חברות מובילות. המהלך משתלב בתמונה שבה רוטציה סקטוריאלית ושינויי סנטימנט מ…</p>
-        </article>
-        
-        <article class="bg-white rounded-2xl p-5 border border-slate-100 shadow-sm">
-          <div class="flex items-start justify-between gap-3 mb-3"><span class="text-[10px] font-black text-slate-400">CoinTelegraph</span></div>
-          <h3 class="text-base md:text-lg font-black leading-snug text-slate-900">חברות בינה מלאכותית מציגות יוזמות חדשות בענף הטכנולוגיה</h3>
-          <p class="mt-3 text-sm text-slate-600 leading-relaxed">חברות בינה מלאכותית מציגות יוזמות חדשות בענף הטכנולוגיה. הגורמים הפונדמנטליים והטכניים נבחנים יחד, כאשר רמות תמיכה והתנ…</p>
+          <p class="mt-3 text-sm text-slate-600 leading-relaxed">מירוץ הבינה המלאכותית מעלה את הערכות השווי של חברות מובילות. הגורמים הפונדמנטליים והטכניים נבחנים יחד, כאשר רמות תמיכה…</p>
         </article>
         
         <article class="bg-white rounded-2xl p-5 border border-slate-100 shadow-sm">
           <div class="flex items-start justify-between gap-3 mb-3"><span class="text-[10px] font-black text-slate-400">Decrypt</span></div>
-          <h3 class="text-base md:text-lg font-black leading-snug text-slate-900">צמיחת תשתית הבינה המלאכותית משפיעה על מניות השבבים</h3>
-          <p class="mt-3 text-sm text-slate-600 leading-relaxed">צמיחת תשתית הבינה המלאכותית משפיעה על מניות השבבים. ההתפתחות מתווספת לרצף הנתונים שהשוק מתמחר, ומחייבת בחינה מחודשת של…</p>
+          <h3 class="text-base md:text-lg font-black leading-snug text-slate-900">חברות בינה מלאכותית מציגות יוזמות חדשות בענף הטכנולוגיה</h3>
+          <p class="mt-3 text-sm text-slate-600 leading-relaxed">חברות בינה מלאכותית מציגות יוזמות חדשות בענף הטכנולוגיה. ההתפתחות מתווספת לרצף הנתונים שהשוק מתמחר, ומחייבת בחינה מחודש…</p>
         </article>
         </div>
 </section>
@@ -921,7 +924,7 @@
 <section data-section-key="section_8_conclusion" class="section-shell glass-card bg-white/90 rounded-[2rem] p-6 md:p-8 shadow-sm border border-slate-100">
   <div class="flex items-center gap-3 mb-5">
     <span class="material-symbols-outlined page-h2-icon" style="color:var(--section-accent)">lightbulb</span>
-    <h2 data-fresh="section_8_conclusion" class="page-h2 m-0">תזה וסיכונים<span class="fresh-badge">עודכן 11.07.2026 14:18</span></h2>
+    <h2 data-fresh="section_8_conclusion" class="page-h2 m-0">תזה וסיכונים<span class="fresh-badge">עודכן 11.07.2026 14:55</span></h2>
   </div>
   <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
         <div class="bg-slate-50 rounded-2xl p-5 border border-slate-100">
@@ -931,7 +934,7 @@
         
         <div class="bg-slate-50 rounded-2xl p-5 border border-slate-100">
           <h3 class="text-xs font-black bear-text mb-2">סיכונים</h3>
-          <p class="text-sm md:text-base text-slate-700 leading-relaxed text-justify">גורם הסיכון הבולט כעת הוא אי-ודאות סביב מסלול הריבית של הפדרל ריזרב. בנוסף, היחלשות בריאות (-0.83%) מאותתת על חולשת רוחב אפשרית, ומדד פחד-וחמדנות 49 (ניטרלי) עלול להתהפך במהירות אם הסנטימנט ישתנה. ריכוז 9 כותרות חדשותיות סביב מאקרו-כלכלה מגדיל את רגישות השוק להפתעות, ופוזיציות עם מינוף גבוה חשופות במיוחד לתנודתיות פתאומית בנכסי הסיכון.</p>
+          <p class="text-sm md:text-base text-slate-700 leading-relaxed text-justify">גורם הסיכון הבולט כעת הוא סימני האטה בנתוני התעסוקה והצריכה. בנוסף, היחלשות בריאות (-0.83%) מאותתת על חולשת רוחב אפשרית, ומדד פחד-וחמדנות 49 (ניטרלי) עלול להתהפך במהירות אם הסנטימנט ישתנה. ריכוז 9 כותרות חדשותיות סביב מאקרו-כלכלה מגדיל את רגישות השוק להפתעות, ופוזיציות עם מינוף גבוה חשופות במיוחד לתנודתיות פתאומית בנכסי הסיכון.</p>
         </div>
         
         <div class="bg-slate-50 rounded-2xl p-5 border border-slate-100">
