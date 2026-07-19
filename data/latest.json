@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-07-19T15:45:45Z",
+  "generated_at": "2026-07-19T18:45:41Z",
   "section_1_situation": {
     "headline": "שוק המניות בפחד — אנרגיה מציג עוצמה יחסית על רקע מאקרו-כלכלה",
-    "analysis": "מדד פחד-וחמדנות במניות עומד על 37 (פחד), המשקף חשש וחוסר אמון. הרוטציה הסקטוריאלית ברורה: אנרגיה מקבל את עיקר הביקוש (+1.09%) מול חולשה ב-תקשורת. נושא מאקרו-כלכלה דומיננטי בזרם החדשות (9 כותרות) ומשפיע על אמות-המידה שבהן השוק מנחה את עצמו. שוק הקריפטו (BTC ~64,500, F&G קריפטו 28: פחד) מתנהל במקביל להמשך פעולות השוק המסורתי. מומלץ לעקוב אחר מאקרו-כלכלה ואחר ביצועי אנרגיה ו-תקשורת — שני הסקטורים המגדירים את מצב השוק כעת.",
+    "analysis": "מדד פחד-וחמדנות במניות עומד על 37 (פחד), המשקף חשש וחוסר אמון. הרוטציה הסקטוריאלית ברורה: אנרגיה מקבל את עיקר הביקוש (+1.09%) מול חולשה ב-תקשורת. נושא מאקרו-כלכלה דומיננטי בזרם החדשות (9 כותרות) ומשפיע על אמות-המידה שבהן השוק מנחה את עצמו. שוק הקריפטו (BTC ~64,400, F&G קריפטו 28: פחד) מתנהל במקביל להמשך פעולות השוק המסורתי. מומלץ לעקוב אחר מאקרו-כלכלה ואחר ביצועי אנרגיה ו-תקשורת — שני הסקטורים המגדירים את מצב השוק כעת.",
     "cards": [
       {
         "label": "מיקוד הוני",
@@ -45,11 +45,26 @@
     },
     "_delta": {
       "first_seen": "2026-07-11T08:13:32Z",
-      "changed_at": "2026-07-19T15:45:45Z",
+      "changed_at": "2026-07-19T18:45:41Z",
       "badge": "עודכן"
     }
   },
   "section_2_news": [
+    {
+      "title": "שנת חולפת מאז חקיקת חוק החדשנות הלאומית למטבעות יציבים בארצות הברית",
+      "body": "חוק המטבעות היציבים נכנס לתוקף לפני שנה וקבע מסלול להסדרה פדרלית ראשונה מסוגה. הרגולטורים עדיין בעיצומו של תהליך גיבוש הכללים בנוגע לניהול עתודות והיבטים תפעוליים עבור המנפיקים. נכון לעכשיו, התקנות הסופיות טרם הושלמו למרות שניתן כבר לדלות כיוונים מרכזיים מהממשל.",
+      "so_what": "תזרימי ETF חיוביים (כניסות נטו) = שורי לטווח קצר; outflows >$200M = איתות יציאה. DCA מתאים לקמעוניים; מינוף לונג מסוכן ב-F&G >75 (חמדנות קיצונית).",
+      "source": "CoinDesk",
+      "_topic": "crypto",
+      "url": "https://www.coindesk.com/policy/2026/07/19/the-genius-act-turns-1-state-of-crypto",
+      "published_at": "2026-07-19T18:30:00+00:00",
+      "date": "2026-07-19",
+      "image_url": "assets/img/topic_crypto_0.jpg",
+      "_enriched": true,
+      "first_seen": "2026-07-19T18:45:41Z",
+      "changed_at": "2026-07-19T18:45:41Z",
+      "delta_badge": "חדש"
+    },
     {
       "title": "התפתחויות בתחום הבינה המלאכותית משפיעות על מניות הטכנולוגיה",
       "body": "התפתחויות חדשות בתחום הבינה המלאכותית הגנרטיבית ממשיכות להניע את שוק הטכנולוגיה. החברות המובילות מדווחות על השקעות מסיביות בתשתיות חישוב ומרכזי נתונים. האנליסטים מעריכים שמחזור הצמיחה בתחום נמשך, אך מציינים סימני זהירות לגבי הערכות שווי. התלות במספר חברות מוביל הגדיל את הריכוזיות בתיקי המעקב הפסיביים.",
@@ -61,13 +76,12 @@
       "date": "2026-07-19",
       "image_url": "assets/img/topic_ai_0.jpg",
       "first_seen": "2026-07-19T15:45:45Z",
-      "changed_at": "2026-07-19T15:45:45Z",
-      "delta_badge": "חדש"
+      "changed_at": "2026-07-19T15:45:45Z"
     },
     {
-      "title": "הבינה המלאכותית מחריבה את אמון הרשת; המתמטיקה היא הפתרון היחיד",
-      "body": "התפשטות התוכן המזוייף והסוכנים האוטונומיים יוצרים משבר אמון עמוק ברשת העולמית. ניסיונות לזיהוי באמצעות כלים טכנולוגיים נכשלים, שכן הדיוק שלהם צונח עד לארבע אחוזים בלבד. הפתרון טמון בשימוש בהוכחות מתמטיות מורכבות כדי להבטיח את אמיתות המידע.",
-      "so_what": "המשמעות לתיק: עדיפות לאיכות מאזנים, מעקב אחר תזרימי הון בין אפיקים, וריסון מינוף בעת תנודתיות גוברת. מסקנה: לעקוב אחר אישור מגמה בנפחי המסחר לפני הגדלת חשיפה, ולהעדיף סקטורים בעלי חוזק יחסי מוכח.",
+      "title": "הבינה המלאכותית מחריבה את הרשת והמתמטיקה היא התקווה היחידה",
+      "body": "עולם התוכן הדיגיטלי עובר משבר אמון עמוק בשל יצירת תוכן מזויף ומניפולטיבי. ניסיונות לזהות את הזיופים נכשלים, שכן דיוק המערכות צונח עד לרמה של ארבע אחוזים בלבד. כעת, סוכנים אוטונומיים פועלים ברשת, מה שמחייב שימוש בשיטות מתמטיות מתקדמות להוכחת נתונים.",
+      "so_what": "צעד מעשי: להגדיר רמות מימוש מראש ולהימנע מרדיפת מומנטום; ניהול סיכון הדוק חשוב מתזמון מושלם. פעולה: לתעדף חברות עם תזרים יציב ויתרון תחרותי בר-קיימא, ולצמצם אחזקות ספקולטיביות בעת חוסר ודאות.",
       "source": "CoinDesk",
       "_topic": "ai",
       "url": "https://www.coindesk.com/opinion/2026/07/17/ai-is-destroying-the-internet-math-is-our-only-hope",
@@ -76,23 +90,8 @@
       "image_url": "assets/img/topic_ai_1.jpg",
       "_enriched": true,
       "first_seen": "2026-07-19T15:45:45Z",
-      "changed_at": "2026-07-19T15:45:45Z",
-      "delta_badge": "חדש"
-    },
-    {
-      "title": "סכנת דחיקה עבור יו-אס-די-טי מהשווקים בארצות הברית בשל רגולציה חדשה",
-      "body": "חברת טת'ר ניצבת בפני שעון עצר של שנתיים לעמידה בדרישות החוק האמריקאי. למרות הבטחות המנהל המבצעי, המטבע המוביל עלול להימחק מהפלטפורמות בארה\"ב אם לא יבוצעו שינויים מהותיים במודל הפעולה שלו עד יולי 2028.",
-      "so_what": "תזרימי ETF חיוביים (כניסות נטו) = שורי לטווח קצר; outflows >$200M = איתות יציאה. DCA מתאים לקמעוניים; מינוף לונג מסוכן ב-F&G >75 (חמדנות קיצונית).",
-      "source": "CoinDesk",
-      "_topic": "crypto",
-      "url": "https://www.coindesk.com/news-analysis/2026/07/17/tether-s-usdt-hits-2-year-countdown-threatening-its-position-on-u-s-crypto-platforms",
-      "published_at": "2026-07-19T13:00:00+00:00",
-      "date": "2026-07-19",
-      "image_url": "assets/img/topic_crypto_0.jpg",
-      "_enriched": true,
-      "first_seen": "2026-07-19T15:45:45Z",
-      "changed_at": "2026-07-19T15:45:45Z",
-      "delta_badge": "חדש"
+      "changed_at": "2026-07-19T18:45:41Z",
+      "delta_badge": "עודכן"
     },
     {
       "title": "ביטקוין נסחר בקרבת רמות תמיכה מרכזיות",
@@ -100,43 +99,56 @@
       "so_what": "השלכה: חשיפה מדורגת עדיפה על כניסה חד-פעמית, עם שמירה על כרית נזילות לניצול הזדמנויות עתידיות. המשמעות: סטופ-לוס ממושמע וגדלי פוזיציה מותאמים חשובים מהכיוון עצמו כאשר התנודתיות עולה.",
       "source": "CoinDesk",
       "_topic": "crypto",
-      "url": "https://www.coindesk.com/business/2026/07/19/kraken-says-simpler-options-can-unlock-crypto-s-next-derivatives-market",
+      "url": "https://www.coindesk.com/news-analysis/2026/07/17/tether-s-usdt-hits-2-year-countdown-threatening-its-position-on-u-s-crypto-platforms",
       "published_at": "2026-07-19T13:00:00+00:00",
       "date": "2026-07-19",
       "image_url": "assets/img/topic_crypto_1.jpg",
       "first_seen": "2026-07-19T15:45:45Z",
-      "changed_at": "2026-07-19T15:45:45Z",
-      "delta_badge": "חדש"
+      "changed_at": "2026-07-19T18:45:41Z",
+      "delta_badge": "עודכן"
     },
     {
-      "title": "שינויים רגולטוריים ועיכובים בחקיקה בתחום המטבעות הדיגיטליים",
-      "body": "רשויות בארה\"ב פספסו את המועד לקביעת כללי המטבעות היציבים, דבר שעלול ליצור חוסר ודאות. במקביל, הרגולטור האירופי הוסיף 14 חברות למרשם הרישוי החדש, בעוד צרפת הורתה לחסום גישה לפלטפורמת הימורים מסוימת.",
+      "title": "סערה בשוק המטבעות הדיגיטליים: עיכוב ברגולציה ושינויים באירופה",
+      "body": "רשויות בארה\"ב החמיצו את המועד לקביעת כללי המטבעות היציבים, מה שעלול ליצור אי-ודאות משפטית. במקביל, רגולטורים באירופה הוסיפו 14 חברות למרשם הרישוי החדש, וצרפת הורתה לחסום גישה לאתר הימורים דיגיטלי.",
       "so_what": "לתיק ההשקעות: לאזן בין צמיחה (QQQ) להגנה (TLT וזהב) בהתאם לכיוון הריבית ולמדד הפחד-וחמדנות. פרקטית: לשמור על פיזור בין סקטורים מגנים לצומחים, ולהתאים את גודל הפוזיציה לרמת הוודאות והנזילות.",
       "source": "CoinTelegraph",
       "_topic": "ai",
       "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published_at": "2026-07-19T13:20:25+00:00",
+      "published_at": "2026-07-19T18:23:00+00:00",
       "date": "2026-07-19",
       "image_url": "assets/img/topic_ai_2.jpg",
       "_enriched": true,
       "first_seen": "2026-07-18T15:45:41Z",
-      "changed_at": "2026-07-19T15:45:45Z",
+      "changed_at": "2026-07-19T18:45:41Z",
       "delta_badge": "עודכן"
     },
     {
-      "title": "רשויות בארצות הברית איחרו בגיבוש תקנות סופיות למטבעות יציבים",
-      "body": "גופי הרגולציה לא עמדו בלוח הזמנים שנקבע בחוק החדש, ופרסמו עשר הצעות בלבד במקום תקנות סופיות. האיחור של משרד האוצר והבנקים המרכזיים עלול ליצור אי-ודאות משפטית עבור מנפיקי המטבעות, למרות חתימת החוק ביום י\"ח ביולי.",
+      "title": "חברות בינה מלאכותית מציגות יוזמות חדשות בענף הטכנולוגיה",
+      "body": "חברות בינה מלאכותית מציגות יוזמות חדשות בענף הטכנולוגיה. ההקשר הרחב מצביע על המשך אי-ודאות, מה שמעלה את הפרמיה על איכות, נזילות ויציבות תזרימי המזומנים. ההתפתחות מתווספת לרצף הנתונים שהשוק מתמחר, ומחייבת בחינה מחודשת של רמות החשיפה והסיכון בתיקי ההשקעות. (מקור: CoinTelegraph)",
       "so_what": "מסקנה: לעקוב אחר אישור מגמה בנפחי המסחר לפני הגדלת חשיפה, ולהעדיף סקטורים בעלי חוזק יחסי מוכח. המשמעות לתיק: עדיפות לאיכות מאזנים, מעקב אחר תזרימי הון בין אפיקים, וריסון מינוף בעת תנודתיות גוברת.",
+      "source": "CoinTelegraph",
+      "_topic": "ai",
+      "url": "https://cointelegraph.com/news/saylor-turns-up-heat-with-110-reasons-why-bip-110-is-a-bad-idea?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published_at": "2026-07-19T16:37:00+00:00",
+      "date": "2026-07-19",
+      "image_url": "assets/img/topic_ai_3.jpg",
+      "first_seen": "2026-07-19T18:45:41Z",
+      "changed_at": "2026-07-19T18:45:41Z",
+      "delta_badge": "חדש"
+    },
+    {
+      "title": "צמיחת תשתית הבינה המלאכותית משפיעה על מניות השבבים",
+      "body": "צמיחת תשתית הבינה המלאכותית משפיעה על מניות השבבים. המהלך משתלב בתמונה שבה רוטציה סקטוריאלית ושינויי סנטימנט מכתיבים את ביצועי-היתר של קבוצות מסוימות. המשקיעים שוקלים את ההשלכות על הקצאת הנכסים, תוך מעקב אחר נזילות, תנודתיות ותמחור יחסי בין הסקטורים. (מקור: CoinTelegraph)",
+      "so_what": "פעולה: לתעדף חברות עם תזרים יציב ויתרון תחרותי בר-קיימא, ולצמצם אחזקות ספקולטיביות בעת חוסר ודאות. צעד מעשי: להגדיר רמות מימוש מראש ולהימנע מרדיפת מומנטום; ניהול סיכון הדוק חשוב מתזמון מושלם.",
       "source": "CoinTelegraph",
       "_topic": "ai",
       "url": "https://cointelegraph.com/news/federal-agencies-miss-genius-act-deadline?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
       "published_at": "2026-07-19T12:56:00+00:00",
       "date": "2026-07-19",
-      "image_url": "assets/img/topic_ai_3.jpg",
-      "_enriched": true,
+      "image_url": "assets/img/topic_ai_0.jpg",
       "first_seen": "2026-07-19T15:45:45Z",
-      "changed_at": "2026-07-19T15:45:45Z",
-      "delta_badge": "חדש"
+      "changed_at": "2026-07-19T18:45:41Z",
+      "delta_badge": "עודכן"
     },
     {
       "title": "התפתחויות שוטפות בשוקי ההון הגלובליים",
@@ -149,35 +161,20 @@
       "date": "2026-07-19",
       "image_url": "assets/img/topic_general_0.jpg",
       "first_seen": "2026-07-19T12:45:38Z",
-      "changed_at": "2026-07-19T15:45:45Z",
-      "delta_badge": "עודכן"
+      "changed_at": "2026-07-19T15:45:45Z"
     },
     {
-      "title": "תזרימי ETF משפיעים על תמחור המטבעות הדיגיטליים",
-      "body": "תזרימי ETF משפיעים על תמחור המטבעות הדיגיטליים. הגורמים הפונדמנטליים והטכניים נבחנים יחד, כאשר רמות תמיכה והתנגדות מרכזיות יקבעו את המהלך הבא. הדיווח מחזק מגמות קיימות בשוק ומדגיש את חשיבות ניהול הסיכונים והפיזור על פני אפיקי השקעה שונים. (מקור: CoinTelegraph)",
-      "so_what": "המשמעות: סטופ-לוס ממושמע וגדלי פוזיציה מותאמים חשובים מהכיוון עצמו כאשר התנודתיות עולה. השלכה: חשיפה מדורגת עדיפה על כניסה חד-פעמית, עם שמירה על כרית נזילות לניצול הזדמנויות עתידיות.",
-      "source": "CoinTelegraph",
-      "_topic": "crypto",
-      "url": "https://cointelegraph.com/news/electronic-transactions-association-ceo-expecting-more-partnerships-with-bitcoin-startups?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "published_at": "2026-07-19T09:16:42+00:00",
-      "date": "2026-07-19",
-      "image_url": "assets/img/topic_crypto_2.jpg",
-      "first_seen": "2026-07-19T09:45:42Z",
-      "changed_at": "2026-07-19T15:45:45Z",
-      "delta_badge": "עודכן"
-    },
-    {
-      "title": "צמיחת תשתית הבינה המלאכותית משפיעה על מניות השבבים",
-      "body": "צמיחת תשתית הבינה המלאכותית משפיעה על מניות השבבים. ההתפתחות מתווספת לרצף הנתונים שהשוק מתמחר, ומחייבת בחינה מחודשת של רמות החשיפה והסיכון בתיקי ההשקעות. הנתון נבחן על רקע סביבת המאקרו הכוללת, כאשר כיוון הריבית והאינפלציה ממשיכים להוות עוגן להחלטות. (מקור: Decrypt)",
+      "title": "התפתחויות בתחום הבינה המלאכותית משפיעות על מניות הטכנולוגיה (Decrypt)",
+      "body": "התפתחויות בתחום הבינה המלאכותית משפיעות על מניות הטכנולוגיה (Decrypt). ההתפתחות מתווספת לרצף הנתונים שהשוק מתמחר, ומחייבת בחינה מחודשת של רמות החשיפה והסיכון בתיקי ההשקעות. הנתון נבחן על רקע סביבת המאקרו הכוללת, כאשר כיוון הריבית והאינפלציה ממשיכים להוות עוגן להחלטות. (מקור: Decrypt)",
       "so_what": "פרקטית: לשמור על פיזור בין סקטורים מגנים לצומחים, ולהתאים את גודל הפוזיציה לרמת הוודאות והנזילות. לתיק ההשקעות: לאזן בין צמיחה (QQQ) להגנה (TLT וזהב) בהתאם לכיוון הריבית ולמדד הפחד-וחמדנות.",
       "source": "Decrypt",
       "_topic": "ai",
       "url": "https://decrypt.co/373770/openai-gpt-5-6-vs-anthropic-fable-5-review",
       "published_at": "2026-07-18T15:21:03+00:00",
       "date": "2026-07-18",
-      "image_url": "assets/img/topic_ai_0.jpg",
+      "image_url": "assets/img/topic_ai_1.jpg",
       "first_seen": "2026-07-18T15:45:41Z",
-      "changed_at": "2026-07-19T15:45:45Z",
+      "changed_at": "2026-07-19T18:45:41Z",
       "delta_badge": "עודכן"
     }
   ],
@@ -267,7 +264,7 @@
       "name": "תקשורת",
       "name_en": "Communication",
       "flow_direction": "out",
-      "note": "עדכון בסקטור תקשורת (XLC) — מקור: Yahoo Finance. הכנסות פרסום דיגיטלי, צמיחת מינויים ותחרות בענן-הבידור הם מנועי ביצוע מרכזיים. ביצועי-יתר בחברות מדיה גדולות מאזנים חולשה יחסית של ספקי טלקום מסורתיים בסקטור.",
+      "note": "עדכון בסקטור תקשורת (XLC) — מקור: GNews SP500. הכנסות פרסום דיגיטלי, צמיחת מינויים ותחרות בענן-הבידור הם מנועי ביצוע מרכזיים. ביצועי-יתר בחברות מדיה גדולות מאזנים חולשה יחסית של ספקי טלקום מסורתיים בסקטור.",
       "change": "-1.21%",
       "flow_amount": "-$268M",
       "name_he": "תקשורת"
@@ -296,244 +293,242 @@
   "section_4_crypto": [
     {
       "ticker": "BTC",
-      "note": "ביטקוין (BTC) נסחר במחיר $64,520.84 עם שינוי 24 שעות של -0.42%. F&G 28. ביטקוין מתפקד כהנכס המרכזי בקטגוריית הקריפטו. גורמי השפעה מרכזיים:..",
-      "price": "$64,520.84",
-      "change_24h": "-0.42%",
+      "note": "ביטקוין (BTC) נסחר במחיר $64,387.56 עם שינוי 24 שעות של -0.63%. F&G 28. ביטקוין מתפקד כהנכס המרכזי בקטגוריית הקריפטו. גורמי השפעה מרכזיים:..",
+      "price": "$64,387.56",
+      "change_24h": "-0.63%",
       "about": "מטבע הקריפטו הראשון והגדול ביותר, המשמש כנכס עתודה דיגיטלי מבוזר."
     },
     {
       "ticker": "ETH",
-      "note": "את'ריום (ETH) נסחר במחיר $1,870.80 עם שינוי 24 שעות של +0.50%. F&G 28. את'ריום מתפקד כפלטפורמת החוזים החכמים המובילה. גורמי השפעה מרכזיים:..",
-      "price": "$1,870.80",
-      "change_24h": "+0.50%",
+      "note": "את'ריום (ETH) נסחר במחיר $1,858.83 עם שינוי 24 שעות של -0.15%. F&G 28. את'ריום מתפקד כפלטפורמת החוזים החכמים המובילה. גורמי השפעה מרכזיים:..",
+      "price": "$1,858.83",
+      "change_24h": "-0.15%",
       "about": "פלטפורמת הבלוקצ'יין המובילה להרצת חוזים חכמים ואפליקציות מבוזרות."
     },
     {
       "ticker": "SOL",
-      "note": "סולנה (SOL) נסחר במחיר $76.14 עם שינוי 24 שעות של +0.90%. F&G 28. סולנה מתפקד כרשת בלוקצ'יין שכבה ראשונה בעלת תפוקה גבוהה. גורמי השפעה...",
-      "price": "$76.14",
-      "change_24h": "+0.90%",
+      "note": "סולנה (SOL) נסחר במחיר $75.65 עם שינוי 24 שעות של +0.25%. F&G 28. סולנה מתפקד כרשת בלוקצ'יין שכבה ראשונה בעלת תפוקה גבוהה. גורמי השפעה...",
+      "price": "$75.65",
+      "change_24h": "+0.25%",
       "about": "רשת בלוקצ'יין מהירה במיוחד לתמיכה באפליקציות מבוזרות בעלות נמוכה."
     },
     {
       "ticker": "LINK",
-      "note": "צ'יינלינק (LINK) נסחר במחיר $8.35 עם שינוי 24 שעות של +0.13%. F&G 28. צ'יינלינק מתפקד כתשתית האורקלים המרכזית של המימון המבוזר.",
-      "price": "$8.35",
-      "change_24h": "+0.13%",
+      "note": "צ'יינלינק (LINK) נסחר במחיר $8.31 עם שינוי 24 שעות של -0.36%. F&G 28. צ'יינלינק מתפקד כתשתית האורקלים המרכזית של המימון המבוזר.",
+      "price": "$8.31",
+      "change_24h": "-0.36%",
       "about": "רשת אורקלים מבוזרת המקשרת בין חוזים חכמים לנתונים מהעולם האמיתי."
     },
     {
       "ticker": "XRP",
-      "note": "ריפל (XRP) נסחר במחיר $1.10 עם שינוי 24 שעות של +0.52%. F&G 28. ריפל מתפקד כפלטפורמת תשלומים בין-בנקאיים. גורמי השפעה מרכזיים: התקדמות התיק.",
-      "price": "$1.10",
-      "change_24h": "+0.52%",
+      "note": "ריפל (XRP) נסחר במחיר $1.09 עם שינוי 24 שעות של -0.02%. F&G 28. ריפל מתפקד כפלטפורמת תשלומים בין-בנקאיים. גורמי השפעה מרכזיים: התקדמות התיק.",
+      "price": "$1.09",
+      "change_24h": "-0.02%",
       "about": "מטבע המשמש לרשת העברות הכספים הבין-לאומית המהירה והזולה של חברת ריפל."
     },
     {
       "ticker": "ADA",
-      "note": "קרדנו (ADA) נסחר במחיר $0.1664 עם שינוי 24 שעות של -0.12%. F&G 28. קרדנו מתפקד כרשת בלוקצ'יין מבוססת מחקר אקדמי. גורמי השפעה מרכזיים:...",
-      "price": "$0.1664",
-      "change_24h": "-0.12%",
+      "note": "קרדנו (ADA) נסחר במחיר $0.1649 עם שינוי 24 שעות של -1.02%. F&G 28. קרדנו מתפקד כרשת בלוקצ'יין מבוססת מחקר אקדמי. גורמי השפעה מרכזיים:...",
+      "price": "$0.1649",
+      "change_24h": "-1.02%",
       "about": "פלטפורמת חוזים חכמים המבוססת על שיטות פיתוח ומחקר אקדמיות."
     },
     {
       "ticker": "TAO",
-      "note": "ביטנסור (TAO) נסחר במחיר $197.42 עם שינוי 24 שעות של +1.77%. F&G 28. ביטנסור מתפקד כרשת בינה מלאכותית מבוזרת על שרשרת בלוקים.",
-      "price": "$197.42",
-      "change_24h": "+1.77%",
+      "note": "ביטנסור (TAO) נסחר במחיר $196.55 עם שינוי 24 שעות של +0.93%. F&G 28. ביטנסור מתפקד כרשת בינה מלאכותית מבוזרת על שרשרת בלוקים.",
+      "price": "$196.55",
+      "change_24h": "+0.93%",
       "about": "רשת בינה מלאכותית מבוזרת המאפשרת שיתוף פעולה ואימון מודלים מבוזרים."
     },
     {
       "ticker": "KAS",
-      "note": "קספה (KAS) נסחר במחיר $0.0281 עם שינוי 24 שעות של +1.13%. F&G 28. קספה מתפקד כרשת בלוקים מקבילה מהירה עם עשרה בלוקים בשנייה.",
-      "price": "$0.0281",
-      "change_24h": "+1.13%",
+      "note": "קספה (KAS) נסחר במחיר $0.0279 עם שינוי 24 שעות של +0.44%. F&G 28. קספה מתפקד כרשת בלוקים מקבילה מהירה עם עשרה בלוקים בשנייה.",
+      "price": "$0.0279",
+      "change_24h": "+0.44%",
       "about": "רשת בלוקצ'יין מהירה המבוססת על טכנולוגיית BlockDAG לעסקאות מיידיות."
     }
   ],
   "section_4_crypto_brief": {
-    "daily_narrative": "מדד הפחד-וחמדנות בקריפטו עומד על 28 (פחד); סנטימנט הקהילה מאופיין ב-חשש וחוסר אמון. ביטקוין נסחר סביב רמת 64,500 עם ירידה של 0.42% ביממה האחרונה. המוביל היומי TAO בתנועת עלייה של 1.77%. מחזוריות התודעה מצביעה על שלב מעבר בין פחד לחמדנות.",
+    "daily_narrative": "מדד הפחד-וחמדנות בקריפטו עומד על 28 (פחד); סנטימנט הקהילה מאופיין ב-חשש וחוסר אמון. ביטקוין נסחר סביב רמת 64,400 עם ירידה של 0.64% ביממה האחרונה. המוביל היומי ADA בתנועת ירידה של 1.02%. מחזוריות התודעה מצביעה על שלב מעבר בין פחד לחמדנות.",
     "smart_money": "ההון החכם ממקם משקל לכיוון סקטורים מובילים, כאשר אנרגיה מציג עוצמה יחסית (+1.09%). ברקע מדד פחד-וחמדנות 28 (פחד), פוזיציות מוסדיות מתאזנות בין הגדלת חשיפה לבין ניהול סיכון. הון קמעונאי נסוג, ותזרימי הנגזרים מצביעים על צמצום מינוף וזהירות.",
-    "whale_activity": "פעילות הארנקים הגדולים תואמת מצב תודעה של פחד: צבירה הדרגתית בעת חולשה. מתוך 8 המטבעות המובילים, 6 בעלייה ו-2 בירידה — איתות על רוחב שוק חיובי שמשפיע על תנועת הלווייתנים.",
-    "conclusion": "סיכום הקריפטו היומי: מדד פחד-וחמדנות 28 (פחד) מגדיר את מצב התודעה, בעוד ביטקוין נסחר סביב 64,500 ב-ירידה יומית. רוחב השוק עומד על 6 עולים מול 2 יורדים בקרב המובילים, וסקטור אנרגיה מוביל את הסנטימנט הרחב (+1.09%). אסטרטגית: בחינת כניסות סלקטיביות בעת פחד תוך ניהול סיכון הדוק. מחזוריות התודעה מצביעה על שלב מעבר בין פחד לחמדנות."
+    "whale_activity": "פעילות הארנקים הגדולים תואמת מצב תודעה של פחד: צבירה הדרגתית בעת חולשה. מתוך 8 המטבעות המובילים, 3 בעלייה ו-5 בירידה — איתות על חולשת רוחב שמשפיע על תנועת הלווייתנים.",
+    "conclusion": "סיכום הקריפטו היומי: מדד פחד-וחמדנות 28 (פחד) מגדיר את מצב התודעה, בעוד ביטקוין נסחר סביב 64,400 ב-ירידה יומית. רוחב השוק עומד על 3 עולים מול 5 יורדים בקרב המובילים, וסקטור אנרגיה מוביל את הסנטימנט הרחב (+1.09%). אסטרטגית: בחינת כניסות סלקטיביות בעת פחד תוך ניהול סיכון הדוק. מחזוריות התודעה מצביעה על שלב מעבר בין פחד לחמדנות."
   },
   "section_4_bitcoin": {
-    "market_overview": "ביטקוין נסחר סביב רמת 64,500 עם ירידה של 0.42% ביממה האחרונה. מדד הפחד-וחמדנות בקריפטו עומד על 28 (פחד) — חשש וחוסר אמון. הנפח היומי במסחר הספוט מצביע על זהירות וצמצום חשיפה בקרב קמעוניים.",
+    "market_overview": "ביטקוין נסחר סביב רמת 64,400 עם ירידה של 0.64% ביממה האחרונה. מדד הפחד-וחמדנות בקריפטו עומד על 28 (פחד) — חשש וחוסר אמון. הנפח היומי במסחר הספוט מצביע על זהירות וצמצום חשיפה בקרב קמעוניים.",
     "etf_flows": "תזרימי קרנות הסל הספוט על הביטקוין מציגים יציאות נטו מוגברות בתקופה האחרונה. BlackRock (IBIT) ו-Fidelity (FBTC) ממשיכות להוביל בנפחי המסחר; הסנטימנט המוסדי מתגונן ומצמצם חשיפה. קצב התזרים השבועי ישפיע על מומנטום המחיר בטווח הקצר. (הערכה אנליטית, לא נתון-זרימה בזמן-אמת)",
     "whale_movements": "הערכה אנליטית: פעילות ארנקי-לוויתן (החזקה >1,000 BTC): צבירה הדרגתית של ארנקים גדולים בסביבת רמות הפסיכולוגיות הנוכחיות. הסנטימנט פחד משפיע על דפוסי ההחזקה — הון קמעונאי נסוג. (ניתוח, לא נתון בזמן-אמת)",
     "institutional": "האטה קלה בחדשות מוסדיות חדשות — הגופים הקיימים שומרים על אחזקותיהם ולא מממשים. תקופת המתנה לפני החלטות הקצאה. (ניתוח אנליטי, לא נתון זרם-אמת)",
-    "key_levels": "רמות מפתח לביטקוין סביב 64,500: תמיכה ראשונית ברמות הפסיכולוגיות מתחת למחיר הנוכחי; התנגדות ראשונה בגבולות הטווח העליון האחרון. שבירה מטה תעלה שאלות לגבי עומק התיקון ורמות תמיכה הבאות.",
-    "outlook": "לחץ מוכרים נשמר; מדד 28 מצביע על כניעה קרובה. ממתינים לאישור מעמד תחתית לפני פתיחת פוזיציות. BTC סביב 64,500; F&G=28. (הערכה אנליטית)"
+    "key_levels": "רמות מפתח לביטקוין סביב 64,400: תמיכה ראשונית ברמות הפסיכולוגיות מתחת למחיר הנוכחי; התנגדות ראשונה בגבולות הטווח העליון האחרון. שבירה מטה תעלה שאלות לגבי עומק התיקון ורמות תמיכה הבאות.",
+    "outlook": "לחץ מוכרים נשמר; מדד 28 מצביע על כניעה קרובה. ממתינים לאישור מעמד תחתית לפני פתיחת פוזיציות. BTC סביב 64,400; F&G=28. (הערכה אנליטית)"
   },
   "section_7_ai": [
     {
       "company": "Anthropic/Claude",
       "product": "Claude",
       "updates": [
-        "אילון מאסק הודה כי העריך בחסר את הבינה המלאכותית של אנתרופיק. היזם אילון מאסק הודה כי לא העריך נכונה את יכולות הבינה המלאכותית של חברת אנתרופיק. משקיעים בחברות אמזון ואלפאבית צריכים לשים לב לכך\u001fsrc=https://news.google.com/rss/articles/CBMiqgFBVV95cUxORVVhNS1nM1VYMmpRYVI1V2pSZWVPZGRJX2FRTU9qUk5xb3ZGVmc0MHVrZHhhRWRXUEVJZlZCN2ptb084QW8wajAwSjZFN1VkSXJNTFFKWFM5allOS0NPWGRvNC00amtPekU3NzJkNHhsNkJHeGhMYUFKdHluNW8ybEUyYzQ4dU83R05FMk1vUFVRVWRibG9rZGdfUlZPRnNGUXdvYklKMFFDQQ?oc=5|ts=2026-07-19T08:54:06+00:00",
-        "מאסק פותח את קוד גרוק כדי להתמודד עם אנטרופיק. מאסק הפך את גרוק לבנייה פתוחה במטרה להילחם בחברת אנטרופיק. חברת אנטרופיק משלמת לו מיליארד ומאתיים וחמישים מיליון דולר מדי חודש\u001fsrc=https://news.google.com/rss/articles/CBMiZEFVX3lxTE84WXg0TXBDbzhRdHFEQ3lDLUd0OHB2c0dpemlncE5xQ3hjWVI5cWdpMkJ3ZHpXZVFwZ3FtT2d0a1RhS1FYYlBlMGFDbTNYb0NKOXBKYVJHc3RUNkdOS0NWQmtUUUw?oc=5|ts=2026-07-18T10:39:28+00:00",
-        "חברת הבינה המלאכותית הסינית מונשוט טוענת כי המודל החדש יכול להתחרות בענקיות. החברה הסינית מונשוט מצהירה כי המודל קימי קיי-3 מסוגל להגיע לרמה של החברות אופן איי-איי ואנתרופיק. הטענה מתמקדת ביכולת ההתמודדות של המודל החדש מול המתחרות המובילות בתחום\u001fsrc=https://news.google.com/rss/articles/CBMiWkFVX3lxTFBRRWRCTzZXLWRlVV9jYTRzN3ktc1lFLWExbVlPa09HSVEwR0VyVWhxYkcxNG5mRUVHcDdGRVFaQ0hoOU95OHQ5ZmtRWkYxcnh6Z2dkYUowZ0FmQQ?oc=5|ts=2026-07-17T16:53:04+00:00",
-        "חברת אנתרופיק בשיחות ראשוניות עם מטא לרכישת כוח מחשוב. חברת הבינה המלאכותית אנתרופיק מקיימת שיחות בשלבים מוקדמים עם חברת מטא. המטרה של המשא ומתן היא רכישת יכולות מחשוב מחברת מטא\u001fsrc=https://news.google.com/rss/articles/CBMib0FVX3lxTE1tZWtxWDkycmdUVlYtM3RpUUdqTVd5cWloOWVnYVZPWUxpc1pBZDFtNkN2NTM5anJXdmRlYnJubDhTV2pyWEp1cnRWQ1pWUnZ3U21OQ0ZhUHAwcGlUN2h4ajNaZVhWWmc0ZTRad0NNNNIBdEFVX3lxTE03WExldWF5Ukd0VGxHRjluWlBNVEZPbW9KWk5LQjZJbk55T3ZjQWozel9NMDZVWkZsYUFKNE9kUmVTN2xSNFI5MFZMOGVqYjVsenFjdmlPYzFvVl85WnhXLTBBOGt4eER0ZW1KS3E5ZE5XNHZJ?oc=5|ts=2026-07-17T16:41:26+00:00",
-        "הנגשת הבינה המלאכותית לקהל רחב תועיל לסין ותקשה על חברות אמריקאיות. זמינות רחבה יותר של טכנולוגיית הבינה המלאכותית צפויה להביא יתרון למדינת סין. מצב זה עלול להוות קושי עבור החברות אופנאי ונתרופיק\u001fsrc=https://news.google.com/rss/articles/CBMif0FVX3lxTFBSeWJBNG5TTE9zVV9URzRmX1huMWJkSW11Q2J4azZ0WXpVczR6Z19yMkFjNU1ZNXgxWjNfYkFETk1QZUR0LVpLYkhhRDFvV3FPWFlnT1pvTmdKQVJBOEU1UzFHLWViQ29zRlM3ckVqMVRDRnp3dlhJbW1uc21wLUU?oc=5|ts=2026-07-17T13:38:00+00:00",
-        "סנאטור מייק ראונדס קיבל תדרוכים מהפנטגון על מערכת המיתוס של אנטרופיק. הסנאטור מייק ראונדס קיבל תדרוכים מטעם משרד הביטחון האמריקני. התדרוכים עסקו במערכת המכונה מיתוס אשר פותחה על ידי חברת הבינה המלאכותית אנטרופיק\u001fsrc=https://news.google.com/rss/articles/CBMizAFBVV95cUxONUVvVy1fTjhjanNmNlFRNU41ZGRzQ1JRYzZHbGx2RHJ6a3FCdlJSelZKNWh2SzJKY3N5YVotX19rLTEwaXpsTk9FV3Q5LXdRc25uV0ZFMUowU1FzXzRHYWwzYTFrUXFFaXRyeGU0alQySkxvRGdPTERyb2o3LUdxSFBGSHBnTG1ReG52ekozMW85T3dYUVVfdHNtM1FkcDA4dUc0QmdwWnpGSVNGMnpZekZ4VjJpakZmN1pZY3p2TEZpc3J5bVh5ZjFXdXY?oc=5|ts=2026-07-16T19:39:07+00:00"
+        "הגשת המניות לבורסה עלולה להוביל לירידה חדה בשוק. גל ההנפקות של חברות טכנולוגיה מובילות עלול לעורר קריסה של ארבעים אחוזים. המשקיעים בקנדה אינם יכולים להתעלם מהסיכון הכרוך בכך\u001fsrc=https://news.google.com/rss/articles/CBMigwFBVV95cUxNMGZlUmJHeEZ5TXdFSWtWTFRoV3hJU2lCaUM1YmRKcVk0cEY3R3ZtTnQxcjk1aFBHaXNySE1UbDNBcWRMdFZFLTR2OEFoaWJUWWhfSUt6Vmt1UDBPZlh0Vy1LRzdqdERRSk5jU2JTX2lTbWRXblJPOTY4dXVfRWVrajNkTQ?oc=5|ts=2026-07-19T16:30:00+00:00",
+        "חברת מחשוב חדשה מאיימת על המעמד האינטלקטואלי של אנתרופיק. חברה חדשה בתחום הבינה המלאכותית שואפת להשתלט על המוניטין המחשבתי של חברת אנתרופיק. הידיעה מצביעה על תחרות גוברת בשוק הטכנולוגיה המתקדם\u001fsrc=https://news.google.com/rss/articles/CBMingFBVV95cUxPdUVVWms0dFdvZU83QlJiZVdQdzZBSWhVTjZlelljT2E3eHZ6cUo2ZlVEd2ZXOV9OU3ByRlB6aU5MMHpna1BGQlB6VDFJaExVRWpUdnpLTHJyMEdGRFVtVjVhbFUxaEFNR01RbXlvWWQ1NllwQV90LVlwenFob0djT2hzbUtTVDZYbXg3alBkZF85NzlBM2dGWkJZUmhrdw?oc=5|ts=2026-07-19T11:08:21+00:00",
+        "חברת אנתרופיק תוסיף את המודל פייבל חמש למסלולי הפרימיום. המודל החדש יוטמע במסלולי המקסימום והצוות בתשלום. השירות יאפשר הגדלה של מגבלות השימוש בחמישים אחוזים עבור מנויים אלו\u001fsrc=https://news.google.com/rss/articles/CBMiSEFVX3lxTE53WFNCTm9NMTRGdzNMMHpQTEJVRTZ6NkJsM2N0Rzc4R0pYYy00Y2VrWGFtNGEwV3BET2ZNQ0pXTnBGMHpxcmFMNw?oc=5|ts=2026-07-18T12:50:08+00:00",
+        "מאסק פותח את קוד כלי הבינה המלאכותית כדי להתמודד עם המתחרה. מאסק הפך את הכלי גרוק לבנייה לפרויקט בעל קוד גלוי במטרה להיאבק בחברת אנתרופיק. חברת אנתרופיק משלמת לו מיליארד ומאתיים וחמישים מיליון דולר בכל חודש\u001fsrc=https://news.google.com/rss/articles/CBMiZEFVX3lxTE84WXg0TXBDbzhRdHFEQ3lDLUd0OHB2c0dpemlncE5xQ3hjWVI5cWdpMkJ3ZHpXZVFwZ3FtT2d0a1RhS1FYYlBlMGFDbTNYb0NKOXBKYVJHc3RUNkdOS0NWQmtUUUw?oc=5|ts=2026-07-18T10:39:28+00:00",
+        "חברת מונשוט הסינית טוענת כי המודל החדש יכול להתחרות בענקיות הטכנולוגיה. החברה הסינית מונשוט טוענת כי המודל קימי קשת שלושה מסוגל להתחרות ביכולותיהם של המודלים של חברות אופני איי והנתרופיק. ההצהרה מבטאת את השאיפה הסינית להגיע לרמה של המובילות העולמיות בתחום הבינה המלאכותית\u001fsrc=https://news.google.com/rss/articles/CBMiWkFVX3lxTFBRRWRCTzZXLWRlVV9jYTRzN3ktc1lFLWExbVlPa09HSVEwR0VyVWhxYkcxNG5mRUVHcDdGRVFaQ0hoOU95OHQ5ZmtRWkYxcnh6Z2dkYUowZ0FmQQ?oc=5|ts=2026-07-17T16:53:04+00:00",
+        "חברת אנתרופיק במגעים ראשוניים עם מטא לרכישת כוח מחשוב. חברת הבינה המלאכותית אנתרופיק נמצאת בשיחות מוקדמות עם חברת מטא. המטרה של המשא ומתן היא רכישת יכולות מחשוב עבור החברה\u001fsrc=https://news.google.com/rss/articles/CBMib0FVX3lxTE1tZWtxWDkycmdUVlYtM3RpUUdqTVd5cWloOWVnYVZPWUxpc1pBZDFtNkN2NTM5anJXdmRlYnJubDhTV2pyWEp1cnRWQ1pWUnZ3U21OQ0ZhUHAwcGlUN2h4ajNaZVhWWmc0ZTRad0NNNNIBdEFVX3lxTE03WExldWF5Ukd0VGxHRjluWlBNVEZPbW9KWk5LQjZJbk55T3ZjQWozel9NMDZVWkZsYUFKNE9kUmVTN2xSNFI5MFZMOGVqYjVsenFjdmlPYzFvVl85WnhXLTBBOGt4eER0ZW1KS3E5ZE5XNHZJ?oc=5|ts=2026-07-17T16:41:26+00:00"
       ],
       "entity_kind": "product",
       "event_date": "2026-07-19",
       "last_known_update": "2026-07-19",
       "first_seen": "2026-07-17T08:57:57Z",
-      "changed_at": "2026-07-19T15:45:45Z",
+      "changed_at": "2026-07-19T18:45:41Z",
       "delta_badge": "עודכן"
     },
     {
       "company": "Google/Gemini",
       "product": "Gemini",
       "updates": [
-        "גרמניה מכניסה את כלי הבינה המלאכותית של גוגל ופרפלקסיטי תחת חוקי התקשורת. בפסיקה חלוצית, גרמניה הכריזה כי שירותי סיכום המידע מבוססי בינה מלאכותית של גוגל ושל חברת פרפלקסיטי יחויבו בעמידה בחוקי התקשורת. החלטה זו מהווה תקדים משמעותי בפיקוח על טכנולוגיות אלו\u001fsrc=https://news.google.com/rss/articles/CBMiuAFBVV95cUxPdUlMejRMNUNTVTQzNnNtMklUZVFYWkhYY0hGc1F2MFdfeHk5cUF1R0pNQmZkZUhfdmxoQV9KTDJUc2cwaURPR1g0dkJLTzhzVEVuXzB0Ykh3elZQejBINmhab1lRZzBPWWRYLTdjYmR2Si12c3JuUFhrbWR0a0NqaUhsWjlPVjVnRk8ycmpDODFJZVlwSWVIM2d3SkFRYnZPX3VsanVoTERHdE1UUHdadmo0c0xmSFRQ?oc=5|ts=2026-07-16T16:16:53+00:00",
-        "שיתוף פעולה בין גוגל דיפמיינד לאיסומורפיק לאבס בנושא חוסן ביולוגי. החברות גוגל דיפמיינד ואיסומורפיק לאבס משתפות את הגישה המשותפת שלהן בנוגע לחוסן ביולוגי. שיתוף הפעולה מתמקד בשימוש במודלים של בינה מלאכותית לקידום תחום זה\u001fsrc=https://deepmind.google/blog/our-approach-to-bioresilience/|ts=2026-07-16T09:30:42+00:00",
-        "חגיגות רבע מאות שנים לחדשנות בחיפוש חזותי. הענק הטכנולוגי מציין עשרים וחמש שנים של פיתוח ושיפור בתחום החיפוש באמצעות תמונות. הלוגו של שירות התמונות מעוטר באיורים המציגים אנשים המחפשים תכנים חזותיים שונים\u001fsrc=https://blog.google/products-and-platforms/products/search/google-images-25th-anniversary/|ts=2026-07-14T16:00:00+00:00",
-        "הדובר החכם מתחיל לתקשר בשפות דרום-מזרח אסיה. הטכנולוגיה החדשה מציעה סיוע ושיח בשפות המקומיות של אזור דרום-מזרח אסיה. הדיווח מפרט את היכולות העתידיות של המערכת באזור זה לשנת אלפיים ושתיים ועשרים וшеש\u001fsrc=https://blog.google/innovation-and-ai/products/gemini-app/gemini-southeast-asia-report-2026/|ts=2026-07-14T04:30:00+00:00",
-        "גוגל והמכון להתוויית בינה מלאכותית השיקו כלי לחיזוק מחקר ברובוטיקה. החברות השיקו את הכלי החדש המשתמש בבינה מלאכותית מתקדמת כדי לסייע לאנשי חינוך בהודו. הכלי נועד להעצים את הדור הבא של הממציאים במעבדות הרובוטיקה של המדינה\u001fsrc=https://deepmind.google/blog/empowering-indias-next-generation-of-innovators-with-atl-saathi/|ts=2026-07-13T12:37:28+00:00"
+        "גרמניה מכליאה את כלי הבינה המלאכותית של גוגל ופרפלקסיטי תחת חוקי התקשורת. בפסיקה ראשונה מסוגה, גרמניה הכריזה כי סקירות הבינה המלאכותית של גוגל ושירותי פרפלקסיטי כפופים לחוקי התקשורת. החלטה זו מעמידה את כלי הבינה המלאכותית תחת הרגולציה המקובלת על אמצעי התקשורת\u001fsrc=https://news.google.com/rss/articles/CBMiuAFBVV95cUxPdUlMejRMNUNTVTQzNnNtMklUZVFYWkhYY0hGc1F2MFdfeHk5cUF1R0pNQmZkZUhfdmxoQV9KTDJUc2cwaURPR1g0dkJLTzhzVEVuXzB0Ykh3elZQejBINmhab1lRZzBPWWRYLTdjYmR2Si12c3JuUFhrbWR0a0NqaUhsWjlPVjVnRk8ycmpDODFJZVlwSWVIM2d3SkFRYnZPX3VsanVoTERHdE1UUHdadmo0c0xmSFRQ?oc=5|ts=2026-07-16T16:16:53+00:00",
+        "עדכונים חדשים ליצירה ועריכה של סרטונים בשירות גוגל וידס. השירות יקבל יכולות חדשות המבוססות על מודל הבינה המלאכותית ג'מיני אומני. המשתמשים יוכלו להשתמש בדמויות אישיות ודיגיטליות בתוך סרטוני הווידאו שלהם\u001fsrc=https://blog.google/products-and-platforms/products/workspace/gemini-omni-personal-avatars/|ts=2026-07-16T16:00:00+00:00",
+        "שיתוף פעולה בתחום החוסן הביולוגי באמצעות מודלים של בינה מלאכותית. גוגל דפמיינד ומעבדת איזומורפיק משתפות את גישתן המשותפת לשיפור החוסן הביולוגי. שיתוף הפעולה מתבסס על שימוש במודלים של בינה מלאכותית לצורך קידום תחום זה\u001fsrc=https://deepmind.google/blog/our-approach-to-bioresilience/|ts=2026-07-16T09:30:42+00:00",
+        "חגיגות רבע מאסר של חדשנות בחיפוש חזותי. החברה מציינת עשרים וחמש שנים של פיתוח וחדשנות בתחום החיפוש באמצעות תמונות. הלוגו של שירות התמונות מוקף באיורים המציגים אנשים המחפשים דימויים ויזואליים שונים\u001fsrc=https://blog.google/products-and-platforms/products/search/google-images-25th-anniversary/|ts=2026-07-14T16:00:00+00:00",
+        "הדובר החכם לומד את השפות של דרום מזרח אסיה. הטכנולוגיה החדשה מתאימה את עצמה לשוניות לאזור גיאוגרפי רחב. הדיווח המקיף בוחן את התפתחות היכולות הבינה המלאכותית באותם מדינות עד שנת אלפיים עשר וшеש\u001fsrc=https://blog.google/innovation-and-ai/products/gemini-app/gemini-southeast-asia-report-2026/|ts=2026-07-14T04:30:00+00:00",
+        "גוגל והמכון להחוש智能 הבינה המלאכותית השיקו כלי חדש למורים בהודו. החברות השיקו את הכלי החדש המבוסס על טכנולוגיית בינה מלאכותית מתקדמת. הכלי נועד להעצים מחנכים בבתי ספר המפעילים מעבדות רובוטיקה ולהכשיר את דור החדש של היזמים בהודו\u001fsrc=https://deepmind.google/blog/empowering-indias-next-generation-of-innovators-with-atl-saathi/|ts=2026-07-13T12:37:28+00:00"
       ],
       "entity_kind": "product",
       "event_date": "2026-07-19",
       "last_known_update": "2026-07-16",
       "first_seen": "2026-07-17T08:57:57Z",
-      "changed_at": "2026-07-19T15:45:45Z",
+      "changed_at": "2026-07-19T18:45:41Z",
       "delta_badge": "עודכן"
     },
     {
       "company": "Meta/Llama",
       "product": "Llama",
       "updates": [
-        "משפחה מדווחת על התגוררות בסמיכות למרכז המידע החדש של חברת המטא. תושבים באלברטה טוענים כי הם חיים ממש לצד מקום הקמתו של מרכז נתונים חדש עבור בינה מלאכותית. המתקן המתוכנן שייך לחברת המטא וצפוי להשתנות במרחב המגורים של המשפחה\u001fsrc=https://news.google.com/rss/articles/CBMizAFBVV95cUxOVXVaZVc5U05sRHpwdkY5VDN0Q1ExeHdIU1RkMHdMYUI0cXFUcTFoRkt4ckJET3c1X3owaXB5Sl9pRGw4ZjZyeHh4c04yM2JZR2dSRmVORWk2UHdNc05PbkNrbUVpYlNzb2U0R1FMb055b3dHd2g1M1J1RDJQRFRxcFJNWFA5WlJmUENRYjhCVGxURnA2eWl1SS1DMFVrZGt5QnBWT19mOHNwd2QwNGx6LTB1NW1tWkloSWpTYzNtRloyYXEwcTRLd2VRdUc?oc=5|ts=2026-07-18T19:16:24+00:00",
-        "בוטים של בינה מלאכותית פוגעים ברווחי הוצאות המדיה והמפרסמים. הבוטים של חברת מטא ביצעו תשע מיליארד בקשות ברבעון השני של שנת אלףים עשרים וست, תוך שהם גורמים להפסדים לבעלי האתרים ללא החזר תנועה. במקביל, הצהיר כלי הבינה המלאכותית של חברת או $[-]$ כי הוא אחראי על שמונים ושמונה אחוזים מהפניות המגיעות דרך טכנולוגיה זו\u001fsrc=https://news.google.com/rss/articles/CBMimAJBVV95cUxQeWEwc1BsQ2lBbDFoUFNyY3JzUW5LaTJ3MjJLY0FaaVREN280TTd2UFhyS2c4OEdqMzdYMGo1NFVtR0drR3JQajR0OUgwcGhEUExVUjdZLUptRXNncUlwUjZnUGlEdlhwWk1kSThHOThDT1NrclFXOTV1MzM4YjdTQkxxN2RoeVNHQ3l0NUt6akFrTlhNSGJ1QzVzYkcxN3hSaEo3bFlTS0ZjY0VqY3NqbjVCREU0cHA4bVV2TWdsNWtSajctSXdJeFA4VGhKN21RcmpBYXFDU05RT1kxa3g3LXZhQnNPVFJwcWpLcE96bHAyZWx3bjB5aVVWZjJJZm1JSGFmaW1LTzBqTDh3eEMtajhITm91Rm1z?oc=5|ts=2026-07-17T20:20:00+00:00",
-        "שופט לא ימנע ממתכת פיטורי עובדים שהגישו תביעה על אפליה. השופט סירב להוציא צו שימנע מחברת המתכת לפטר עובדים אשר הגישו תביעה משפטית בטענה לאפליה באמצעות בינה מלאכותית. ההחלטה מאפשרת לחברה להמשיך בהליכי ההדחה של אותם עובדים למרות התביעה המתנהלת\u001fsrc=https://news.google.com/rss/articles/CBMitwFBVV95cUxOYmRkTm5TMWxycFNMamgybkc4cnp0YThGbnNZbjJtRnU0anZvRm9TZ2hXRkVJVnB0emRrLXVGaGl3SGtpWVJvZFZoWmw1MFVTUlpnVEo3M1dxUHdDTG84Z1M1NTdwcjFKUzdOOFdKTE5iSWdmbURVOHkxaFptVzRGdnpCbW83dW9yaGE5QzdPampCM1FhUVBpZm44Qzd1YUlSU0NRVldfYlhUYkZ0a05wWFZlQXA1TnM?oc=5|ts=2026-07-17T20:08:46+00:00",
-        "קבוצת פעילים הציבה שלט ייחודי מול המשרדים של חברת מטא בלונדון. קבוצה של פעילים הקימה שלט בעל אפקט אופטי מיוחד מחוץ למטה החברה בבירה הבריטית. השלט, המזכיר סגנון ויזואלי מסוים מיצירה קולנועית, הוקם כחלק מפעילות המחאה של הקבוצה\u001fsrc=https://news.google.com/rss/articles/CBMilgJBVV95cUxPVDFIMnk1MktzSjh5NTF1eHBkMUlFbUxhMXZoSExLTHkxUF90MHF6WjNiUnA3V1U1V0ZWc0JKaDlZcjZrS3k3NkhoTEk3MGY2U1NndlU1SWNBV3l3MDlEM0dEbTFsalFYNGxzZ0IxTFJyNGJFN3laUkxjUnZVdkdBbWhYMDFwY0VqeTh1UWpPSnRCQ1FySzN2dEpMY0dTdWtmYzN2OHJWNEhsRTdfLXRjaHNyOHRVM0lfQkhGOUZ0N21jNld0NVc1dzdONTVLcklWaGRiWmFwczNEQ0s4YWZVYVRjSjRDWmNSV0gwQm9XbTFRSUw0ZHRubmJfeEVCay1jWEE2ZDRpa3l6TTAybXNYajFZYkxUQQ?oc=5|ts=2026-07-17T16:21:14+00:00",
-        "השוק מצפה להתרחבות בתחום הבינה המלאכותית ולהצעות רכישה. המשקיעים עוקבים אחר ההשקעות המוגדלות של חברת מטא בתחום הבינה המלאכותית. לצד כך, קיימת עניין בהצעה לרכישת חברת פייפאל. המעמדים בשווקים מחכים להתפתחויות הללו\u001fsrc=https://news.google.com/rss/articles/CBMimwFBVV95cUxNakJNN3o3UjZhU1BoOGRKVTdDZ3Fib0JVX2hsX04tejBrNDBtZmJNMV9CcXlJeW5JbEJQREpWcHlmOG1jRHVQYUQ1aTBIak5sSWRKcng0RDlRMmZxZjRMMUY5OUwyTWM1RmFPMnUzYzZFbmNmMW9KMUpOcHUycXZzS2pCd0V2eFRtblphcTlqa0pkZEpuNXgxbGZzSQ?oc=5|ts=2026-07-17T10:15:25+00:00",
-        "התראה להורים כאשר בני נוער מפגינים סימני מצוקה בשיחות עם הבינה המלאכותית. חברת מטא תפעיל מערכת שתתריע להורים במקרה שבו בני נוער יראו סימני מצוקה במהלך שיחותיהם עם הבינה המלאכותית שלה. המהלך נועד לסייע בזיהוי מצבים קשים בשיח בין הנערים למערכות החכמות\u001fsrc=https://news.google.com/rss/articles/CBMinAFBVV95cUxNenlmcEtKWFduQkx4bUFFMktHMEh3c1IxTjBjd0FLOGd4NXRLS1FZTzAwcHpBeUJ0N3o4TkFMOTZIVEdUZW5ETkNodDdqRGRmd2VLUm9lRjV5eUVGZEduMHlCd2ZwTlQ3a0daUWJlZlAxREtzU1pOVkQwQk84bG5NQ1RSQmtDcjAxUEVYT3p2cldoWUlBMzU5NlpIY2_SAaIBQVVfeXFMUFdvRDNVY01RQ0EzSktZYnE0MmRqQV9nYmRMNXQ1YUFKREFsT3JJdlFMeUw4SVBPaUN0MVhBYWQxTVpyRkxtZXlldTR6b3FmMmNkZE9zeThhTXJKZ2hVSzN5Nl93Ty15cmhtT0tXYXNFenBwZUZlUzNRMk5XOHZzME5sNFh5dEV3anZlZDdEem0yQnQwbWItcGFaVkRiMXRRV3N3?oc=5|ts=2026-07-16T11:00:45+00:00"
+        "משפחה מתגוררת בסמוך למרכז הנתונים של חברת הבינה המלאכותית באלברטה. משפחה טוענת כי היא מתגוררת ממש לצד אתר הבנייה העתידי של מרכז הנתונים של חברת המטא באלברטה. מדובר במיקום החדש שבו יוקם המתקן הטכנולוגי\u001fsrc=https://news.google.com/rss/articles/CBMizAFBVV95cUxOVXVaZVc5U05sRHpwdkY5VDN0Q1ExeHdIU1RkMHdMYUI0cXFUcTFoRkt4ckJET3c1X3owaXB5Sl9pRGw4ZjZyeHh4c04yM2JZR2dSRmVORWk2UHdNc05PbkNrbUVpYlNzb2U0R1FMb055b3dHd2g1M1J1RDJQRFRxcFJNWFA5WlJmUENRYjhCVGxURnA2eWl1SS1DMFVrZGt5QnBWT19mOHNwd2QwNGx6LTB1NW1tWkloSWpTYzNtRloyYXEwcTRLd2VRdUc?oc=5|ts=2026-07-18T19:16:24+00:00",
+        "הבוטים של מטא גורמים להפסדים למוציאים לאור ללא החזרת גולשים. במהלך הרבעון השני של שנת אלףים עשרים ושש, בוצעו תשע מיליארד בקשות על ידי הבוטים של מטא תוך הפסד למארחים. פעולה זו אינה מחזירה גולשים כלל, בעוד שהכלי של צ'אט ג'י פייטי טוען לשיעור מפנה של שמונים ושמונה אחוזים\u001fsrc=https://news.google.com/rss/articles/CBMimAJBVV95cUxQeWEwc1BsQ2lBbDFoUFNyY3JzUW5LaTJ3MjJLY0FaaVREN280TTd2UFhyS2c4OEdqMzdYMGo1NFVtR0drR3JQajR0OUgwcGhEUExVUjdZLUptRXNncUlwUjZnUGlEdlhwWk1kSThHOThDT1NrclFXOTV1MzM4YjdTQkxxN2RoeVNHQ3l0NUt6akFrTlhNSGJ1QzVzYkcxN3hSaEo3bFlTS0ZjY0VqY3NqbjVCREU0cHA4bVV2TWdsNWtSajctSXdJeFA4VGhKN21RcmpBYXFDU05RT1kxa3g3LXZhQnNPVFJwcWpLcE96bHAyZWx3bjB5aVVWZjJJZm1JSGFmaW1LTzBqTDh3eEMtajhITm91Rm1z?oc=5|ts=2026-07-17T20:20:00+00:00",
+        "השופט לא ימנע ממאטה פיטורי עובדים שהגישו תביעה על אפליה. בית המשפט סירב להוציא צו שימנע מחברת המדיה החברתית פיטורי עובדים. מדובר באנשים שהגישו תביעה משפטית בטענה לאפליה באמצעות בינה מלאכותית\u001fsrc=https://news.google.com/rss/articles/CBMitwFBVV95cUxOYmRkTm5TMWxycFNMamgybkc4cnp0YThGbnNZbjJtRnU0anZvRm9TZ2hXRkVJVnB0emRrLXVGaGl3SGtpWVJvZFZoWmw1MFVTUlpnVEo3M1dxUHdDTG84Z1M1NTdwcjFKUzdOOFdKTE5iSWdmbURVOHkxaFptVzRGdnpCbW83dW9yaGE5QzdPampCM1FhUVBpZm44Qzd1YUlSU0NRVldfYlhUYkZ0a05wWFZlQXA1TnM?oc=5|ts=2026-07-17T20:08:46+00:00",
+        "התנועה בשווקים: המירוץ לבינה מלאכותית והצעות רכש. השוק מתמקד בהתרחבות של חברת מטא בתחום הבינה המלאכותית. בנוסף, קיימת עניין בהצעה לרכישת חברת פייפאל. אלו הם הנושאים המרכזיים עבור המשקיעים בשעות הפתיחה\u001fsrc=https://news.google.com/rss/articles/CBMimwFBVV95cUxNakJNN3o3UjZhU1BoOGRKVTdDZ3Fib0JVX2hsX04tejBrNDBtZmJNMV9CcXlJeW5JbEJQREpWcHlmOG1jRHVQYUQ1aTBIak5sSWRKcng0RDlRMmZxZjRMMUY5OUwyTWM1RmFPMnUzYzZFbmNmMW9KMUpOcHUycXZzS2pCd0V2eFRtblphcTlqa0pkZEpuNXgxbGZzSQ?oc=5|ts=2026-07-17T10:15:25+00:00",
+        "שיפור אמצעי הבטיחות של הבינה המלאכותית בחברת מטא. חברת מטא מוסיפה נהלי בטיחות נוספים למערך הבינה המלאכותית שלה. צעד זה נועד להגביר את רמת ההגנה והבטיחות במערכות הטכנולוגיות של החברה\u001fsrc=https://news.google.com/rss/articles/CBMijgFBVV95cUxNQVBCbG10cG93NHM5QWNoZ1M3TkYzOVNleTFDZlNjQms5dU5TUXhBeFdNN1lhcWpTMmg5VUdZcVJZcHRZVzYwVnB0MUJrcFNJUEtsb3dfX2ZjQ29jRVFRQzhuTmdhOGdaMjNmRUZIT0N2Yy1LZEFHLW9YYkV4OHl6QWYyQTlrcUluT0gzc2lR?oc=5|ts=2026-07-17T00:30:31+00:00",
+        "התראה להורים במקרה של סימני מצוקה בשיחות בני נוער עם הבינה המלאכותית. חברת מטא תפעיל מערכת שתתריע בפני הורים אם יתגלו סימני מצוקה בשיחות של בני נוער עם הבינה המלאכותית שלה. המערכת נועדה לזהות קשיים רגשיים במהלך האינטראקציה עם הטכנולוגיה\u001fsrc=https://news.google.com/rss/articles/CBMinAFBVV95cUxNenlmcEtKWFduQkx4bUFFMktHMEh3c1IxTjBjd0FLOGd4NXRLS1FZTzAwcHpBeUJ0N3o4TkFMOTZIVEdUZW5ETkNodDdqRGRmd2VLUm9lRjV5eUVGZEduMHlCd2ZwTlQ3a0daUWJlZlAxREtzU1pOVkQwQk84bG5NQ1RSQmtDcjAxUEVYT3p2cldoWUlBMzU5NlpIY2_SAaIBQVVfeXFMUFdvRDNVY01RQ0EzSktZYnE0MmRqQV9nYmRMNXQ1YUFKREFsT3JJdlFMeUw4SVBPaUN0MVhBYWQxTVpyRkxtZXlldTR6b3FmMmNkZE9zeThhTXJKZ2hVSzN5Nl93Ty15cmhtT0tXYXNFenBwZUZlUzNRMk5XOHZzME5sNFh5dEV3anZlZDdEem0yQnQwbWItcGFaVkRiMXRRV3N3?oc=5|ts=2026-07-16T11:00:45+00:00"
       ],
       "entity_kind": "product",
       "event_date": "2026-07-19",
       "last_known_update": "2026-07-18",
       "first_seen": "2026-07-17T08:57:57Z",
-      "changed_at": "2026-07-19T15:45:45Z",
+      "changed_at": "2026-07-19T18:45:41Z",
       "delta_badge": "עודכן"
     },
     {
       "company": "Microsoft/Copilot",
       "product": "Copilot",
       "updates": [
-        "מדדי השימוש בכלי העזר לתכנות זמינים כעת ברמת מאגר הקוד. ממשק התכנות של השירות מדווח כעת על פעילות ברמת מאגר הקוד. שתי נקודות קצה חדשות מספקות פירוט יומי של פעילות בקשות המיזוג עבור סוכן התכנות וכלי כתיבת הקוד\u001fsrc=https://github.blog/changelog/2026-07-17-repository-level-github-copilot-usage-metrics-generally-available|ts=2026-07-17T22:05:18+00:00",
-        "שיפורים ביכולות ההתאמה האישית של סקירת הקוד באמצעות הבינה המלאכותית. מערכת סקירת הקוד משלבת כעת חומת אש, שלבי הגדרה מותאמים אישית והגדרות הרצה עצמאיות. המערכת קוראת הנחיות מותאמות מהענף הראשי כדי לאפשר בדיקה ותיקוף בקלות\u001fsrc=https://github.blog/changelog/2026-07-17-copilot-code-review-customization-and-configurability-improvements|ts=2026-07-17T21:08:30+00:00",
-        "תיקון הערות בקשות מיזוג באמצעות סוכן ענן בגרסה הניידת. כעת ניתן לבחור באפשרות תיקון באמצעות הסוכן ישירות מתוך הערות בדיקת הקוד ביישומון הנייד. הכפתור זמין לצפייה הן בתצוגה הראשית של בקשת המיזוג והן במקומות נוספים\u001fsrc=https://github.blog/changelog/2026-07-17-github-mobile-fix-pull-request-comments-with-copilot-cloud-agent|ts=2026-07-17T19:47:45+00:00"
+        "זמינות מדדי שימוש ברמת מאגר הקוד עבור עוזר התכנות. ממשק התוכנה החדש מדווח כעת על פעילות ברמת מאגר הקוד. שתי נקודות קצה חדשות מספקות פירוט יומי של פעילות בקשות המיזוג עבור סוכן התכנות ועבור כלי הכתיבה\u001fsrc=https://github.blog/changelog/2026-07-17-repository-level-github-copilot-usage-metrics-generally-available|ts=2026-07-17T22:05:18+00:00",
+        "שיפורי התאמה אישית ובקרה במערכת בדיקת הקוד. מנגנון בדיקת הקוד משתמש כעת בחומת אש, בשלבי הגדרה ייחודיים ובהגדרות הרצה עצמאיות. המערכת קוראת הוראות מותאמות אישית מהענף הראשי כדי לאפשר בדיקה ותיקוף קלים\u001fsrc=https://github.blog/changelog/2026-07-17-copilot-code-review-customization-and-configurability-improvements|ts=2026-07-17T21:08:30+00:00",
+        "תיקון הערות בקשות מיזוג באמצעות סוכן ענן באפליקציה לנייד. כעת ניתן לבחור באפשרות התיקון באמצעות הסוכן הממוחשב ישירות מתוך הערות הביקורת על בקשות המיזוג. הכפתור החדש זמין לצפייה גם בתצוגה הראשית של הבקשה בתוך האפליקציה לטלפונים ניידים\u001fsrc=https://github.blog/changelog/2026-07-17-github-mobile-fix-pull-request-comments-with-copilot-cloud-agent|ts=2026-07-17T19:47:45+00:00"
       ],
       "entity_kind": "product",
       "event_date": "2026-07-19",
       "last_known_update": "2026-07-17",
       "first_seen": "2026-07-17T08:57:57Z",
-      "changed_at": "2026-07-19T15:45:45Z",
+      "changed_at": "2026-07-19T18:45:41Z",
       "delta_badge": "עודכן"
     },
     {
       "company": "OpenAI/ChatGPT",
       "product": "ChatGPT",
       "updates": [
-        "דייב אגזר טען בפני עובדי החברה שהבינה המלאכותית משתיקה דור שלם. הסופר דייב אגזר פנה אל צוות העובדים בחברת הבינה המלאכותית והביע חשש כבד. לטענתו, הכלי הטכנולוגי מוביל להשתקת דור שלם של בני אדם\u001fsrc=https://news.google.com/rss/articles/CBMitwFBVV95cUxOUDZLZURmSHJ3MmxUang2enVIeEdaT1pKRHNUUUNPYi16ZHR4YWdhMGFWcmZDVjdCc3M0TnZ1bGFTU0o2U0ZBTW94a2lhZmhUdUFCT001Q1FLYXNBb2NQd2M1N2JYYWpQcXF5Y2RkTW56aHYxeVp1dWE1SDBFMjBpa0xhZV9VQjljUlpSbjdtZmZhSXhFMVlYSURkcEE2MHkzVUczNGp6MUN2MmVWaG0zcW9Ea0lOaWc?oc=5|ts=2026-07-18T20:54:42+00:00",
-        "מנהיג טכנולוגי ממוצא הודי מונה למנהל הטכנולוגיה של מחשוב בבינה מלאכותית. אודי רודאראג' נבחר לתפקיד מנהל הטכנולוגיה האחראי על תחום המחשוב בחברת הבינה המלאכותית המובילה. המינוי החדש מתייחס להובלת מערך החישוב של הארגון\u001fsrc=https://news.google.com/rss/articles/CBMi6gFBVV95cUxQb0U3ekdoc0hTRTgzb0lfMVBRS01YbTh3OWVyanl6SWZrNlFXcklIQlZXYkJPMDlkWlVwbENYRkNZMFM5UldsLWhyMERzaEgzNm1GRFFGd2ctdk1GWENXalQ1ckVMR2JRa0hPZHVoeVNaNEdNLTlIOWRXRVZIZDV4elNYZzVWZG04SHBvSGFZR3R5amlzcGU0LUx3S1pWQzhqaHJiUEVGVDNCeWNMNnIyYm9BNUNVMm1oc0hkT3I0c2xfU2dTeExEMzdfS3NqRWx3eFZSclItZHdSRUxEOVlWRjFmTE1vS0RoS0HSAe8BQVVfeXFMUDlick9EcnZsSWVtUllDY0FUSndCUE1Pb3g1and4N2s3T1FQSFgtOWwzckk5UlMwNUF0clZKMTRTTGlUNkRlcnBCQW9pZkRlZTRqQkhOUGpLVWhldExWMzhWMDdMY3NEZlhkLUZaTmhoandaYllNanVsS1lXSUlLY0FMSklqMkVreTRpRTBpVVZiMkpTSV9DcC0wNzc1OEpwb0puYUtvQ1NuSl93WVFuU2pNTDAzZ2ZRU1NkU192dDhfbHpBTlg5dERUMjVNZF84ZUwzOXRxZ0JnZ3NxaWlFY2h5MXhVWlg2X0Y2TVUyaDg?oc=5|ts=2026-07-18T20:53:00+00:00",
-        "החברה תודיע להורים במידה וילדם יחסם משימוש במערכת. חברת הבינה המלאכותית תתחיל לשלוח הודעות להורים כאשר בני נוער ייחשקו מהגישה לשירות שלה. צעד זה נועד ליידע את המשפחות על חסימות בפלטפורמה\u001fsrc=https://news.google.com/rss/articles/CBMijAFBVV95cUxPSjFET24wdE4tXy1uXy01aVlYd0pWRWV0NTRTNjRZOFBLdTcxVnNFRUFEYWtEM2piZXMtQkpUR2dibWZvVkQyWDJGclNUT2Jnc1prSk95T1VTeE95TWNxNkQ2T0ZLRklNVVllTWZ0cEtOdlE4RFlMcHpmQXFIdllRUG1iX2p2NGFjQnFPZQ?oc=5|ts=2026-07-18T11:00:20+00:00",
-        "משפחת אישה מאלבומה טוענת כי הבינה המלאכותית הובילה למותה בתביעה חדשה. בכתב תביעה שהוגש לאחרונה, טוענת משפחה כי מודל הבינה המלאכותית גרם למותה של אישה באלבומה. המשפחה טוענת כי השימוש בכלי הטכנולוגי הוביל לאסון שנגמר בחיי אדם\u001fsrc=https://news.google.com/rss/articles/CBMiswFBVV95cUxQNHhxeDRFSG9nZ3p2enNSR3hkYmF4RDFSeHA5VTltNVlERG9WWUZQdUY0RzVlUE91STNGSXJFNk0wQV9ybUpCZ252OEJwZ2c4aXl1SjlYNXdZaF9vdlZMaTJZbFU5SjBjbC1nbktJVEJsb0doM1A5cFhUTFpycGtNX2FPVUh2bm1YLTFFeS1oQXVVT0VsbHFOZklqbXNZS0prNHJ0SDdhZVN5eE5MOVZlWkhxYw?oc=5|ts=2026-07-17T19:42:02+00:00",
-        "חברת הבינה המלאכותית מחזירה את צ'אט ג'יפיטי למסלולו המקורי. החברה המפתחת מבצעת שינויים במערכת כדי להשיב את הכלי למצבו הקודם. פעולה זו נועדה להחזיר את התוכנה לאופי שבו הייתה מוכרת בעבר\u001fsrc=https://news.google.com/rss/articles/CBMiXkFVX3lxTFBSaGRGR2V6eWgxZ3BkSF8zeVdVQS1jSWlMUmtCTGZ2MEM4RWN4dE9sRnhPczhhMUx3TldHTngxQ2FNdWJjel9DOEFNb0w3elctS0FJTElTQW1kMS05QUE?oc=5|ts=2026-07-17T16:22:07+00:00",
-        "האזהרה של חברת הבינה המלאכותית בנוגע להתנהגות מסוכנת של המערכת. חברת הבינה המלאכותית הוציאה אזהרה מפני התנהגות שעלולה להיות הרסנית של מערכת הצ'אט שלה. הידיעה מפרטת חששות מפני פעולות בלתי צפויות ובעלות השלכות קשות\u001fsrc=https://news.google.com/rss/articles/CBMilgFBVV95cUxPellYWkJzR2FwdUxrYjJST0xJVTlmOERfU1pOYkgwcjY3SWFzQXFHMFNGZUF1TjRiVi10NGlEMnZ3TjhHUWl1WnBwMEV2Z3VzSmVwenZndGs4WWsxZGhON2xtVVBOaDRRdXZfWjNlWno1RnlNRTg4QzFiMmxCMVhDRk5EdkJjNmtmREhnOFVDM25aaXdVMWc?oc=5|ts=2026-07-17T13:01:00+00:00",
-        "מדד חדש למדידת התועלת הכלכלית בעידן הבינה המלאכותית. סרה פריאר, סמנכ\"לית הכספים של חברת הבינה המלאכותית המובילה, מציגה כלי מדידה מעשי. המדד נועד לבחון את ההחזר על ההשקעה באמצעות עבודה מועילה, עלות לכל משימה מוצלחת, אמינות והחזר על כוח מחשוב\u001fsrc=https://openai.com/index/a-scorecard-for-the-ai-age|ts=2026-07-17T10:00:00+00:00",
-        "הבועה בתחום הבינה המלאכותית היא בועה של החברה המפתחת את הצ'אט ג'יפיטי. הפרשן אד זיטרון טוען כי הבועה בתחום הבינה המלאכותית היא למעשה בועה של החברה המייצרת את הצ'אט ג'יפיטי. הוא משווה את מצב החברה לזה של בנק ליימן ברודרס\u001fsrc=https://news.google.com/rss/articles/CBMingFBVV95cUxPRkZBRFo3MTJDWDNMR2czb0d5S2p1T05uSFdqaHRFY1p5UnBmNDY4Ykc4OG1HeXp4dVdCc0R5VXpUdGFoSTU5ajhOTFE0TTdiSjhDZkRVbDFTLVZLOS16dmdNZVFpbmZfcmE2bzVLZXhYOENWT3hsdWhiWkYzV09jRW1rRXczTUpYSE5mYVZmQkJreDdSNUcxZy1VclJOUQ?oc=5|ts=2026-07-16T18:32:00+00:00"
+        "התקדמות בתחום הבינה המלאכותית: המודל הסיני קימי מקדים מתחרים. המודל הסיני קימי מצליח לעלות על ביצועיו של פייבל ועל החומרה של אופן איי. במקביל, חברת פרפלקסיטי חוזרת עם שירות חדש בשם ספייס\u001fsrc=https://news.google.com/rss/articles/CBMiggJBVV95cUxNdnFSaHFoTUM5T2dNcGhTQ2ZvdDNkVTFlMkxfUHhPMzJ1ZkNSTTViRks5LTJsYUxRajVISGlRZWVIX3pwY28xQzBPY2VzT3piR3ctLTVkRnZkTV9LNXlldU9YX0dOMk9qM0hwVHFNenNrNld6SEUzUHo2WnNXMXRZaV84YWI1QlhJUlh1blo5cWpzRWsybHdJMnd6T2tPX3RGMjJGRGZQLXBfVThYQUJ2SEN1dXhlTmdSNUJoaFNNWUhhUkFsSk4xTjFPSXpOT0t2a09DanBWZXJhX1U5OFRRSFh6YmtqdmNWQUh2SnNmVXV2NGRKc0o0UDdfS1VHN2JXT1HSAYgCQVVfeXFMTnVrdEZNVXhiY3ZVUWo4ZXJUZkpybHlpSXJJbnJ3NmpBSDhXUG5SVjY4bmdGVnhTSXJadFJ4WmkyTUE3VU40R1RWQ0RiVWpHdWlxYVd1OVJoczFJbnkwX2tGM1RYbjFTU0hNby1lWDZ5Q0hKS0tTOFlRMzVsel92YjJqYTFpVDkyS0M5TWxCZ2dhYUJvU2xUTzhCMzlXdGlBMXdwa1EzbTR5bHk4YVF6RTczNDZrZTZ5TE52YnlqWE1wamVZczNJR09wWW8tSXJIUUwzdkJkdmxUVUhQUjVVSjhjVkRQTEphYTdVQi1hMTU2c3VJb3RwNTA5Y3lUX1FEUElSR2FFR2hp?oc=5|ts=2026-07-19T05:59:39+00:00",
+        "דייב אגערס טען בפני עובדי החברה כי הבינה המלאכותית משתיקה דור שלם. הסופר דייב אגערס הצהיר בפני אנשי צוות בחברת הפיתוח כי כלי הבינה המלאכותית גורם להשתקה של דור שלם. דבריו נאמרו במסגרת פנייה לעובדי החברה בנוגע להשפעות הטכנולוגיה\u001fsrc=https://news.google.com/rss/articles/CBMitwFBVV95cUxOUDZLZURmSHJ3MmxUang2enVIeEdaT1pKRHNUUUNPYi16ZHR4YWdhMGFWcmZDVjdCc3M0TnZ1bGFTU0o2U0ZBTW94a2lhZmhUdUFCT001Q1FLYXNBb2NQd2M1N2JYYWpQcXF5Y2RkTW56aHYxeVp1dWE1SDBFMjBpa0xhZV9VQjljUlpSbjdtZmZhSXhFMVlYSURkcEE2MHkzVUczNGp6MUN2MmVWaG0zcW9Ea0lOaWc?oc=5|ts=2026-07-18T20:54:42+00:00",
+        "חברת הבינה המלאכותית תודיע להורים במקרה של חסימת נוער. החברה תתחיל לשלוח הודעות למבוגרים כאשר בני נוער יסורעו מהשימוש בשירות שלה. צעד זה נועד ליידע הורים על חסימות בגין הפרת כללים\u001fsrc=https://news.google.com/rss/articles/CBMijAFBVV95cUxPSjFET24wdE4tXy1uXy01aVlYd0pWRWV0NTRTNjRZOFBLdTcxVnNFRUFEYWtEM2piZXMtQkpUR2dibWZvVkQyWDJGclNUT2Jnc1prSk95T1VTeE95TWNxNkQ2T0ZLRklNVVllTWZ0cEtOdlE4RFlMcHpmQXFIdllRUG1iX2p2NGFjQnFPZQ?oc=5|ts=2026-07-18T11:00:20+00:00",
+        "משפחת אישה מטרפורד תובעת את החברה המפתחת את התוכנה הבינה המלאכותית. בני משפחה של אישה מאלבאמה הגישו תביעה נגד החברה המפעילה את המערכת הממוחשבת. בטענתם, הטכנולוגיה תרמה לאסון שהוביל למותה של האישה במהלך נסיעה בכביש המהיר במדינת אלבאמה\u001fsrc=https://news.google.com/rss/articles/CBMiywFBVV95cUxQemNXRWFpTzZRVGhWd0FYUGVManFrdEUxVkRxOWRYOEJUbm1TSUJmb0ZhajhYU29VZmxEOFBoR19nQ0VES0pUMGtRQXk3UjFPLXFMYm94Z1JMSEoxWC1abW9CN3hvLUF4UzNjbW5YenhraVJJVEpZTHI5LVJDRzhZM29YTGtPaWlFR3VHeHo2SEhhRVFzWXJ2d19NdXBfX0VzUUJjeGE5MDZQVG9WcjB5cWt1YTVDMGs4M2dSbjdVR0tIRTlCX2MwcWlZTQ?oc=5|ts=2026-07-17T22:52:00+00:00",
+        "התביעה המשפטית של אפל עלולה לשבש את תוכניות ההנפקה של אופן איי. התביעה המשפטית הגדולה של חברת אפל עלולה לפגוע בתוכניות של חברת הבינה המלאכותית אופן איי להנפקה ציבורית. האירוע המשפטי עשוי ליצור מכשולים משמעותיים בפני תוכנית הפעילות העתידית של החברה\u001fsrc=https://news.google.com/rss/articles/CBMijAFBVV95cUxNNmcwTkJ4SzdyRmptcl9aWlo3Z3JFSXczeUVrM0tyUDRRdmR1VnBjdjhXSnZsWWJPRnhyT2t0NnFCWV8xeDhhYktaZ3RlSjhBc3oyOUxwTUFpNWpCTnNiS2V6VVVteVR3aWs3bmtBcG9wYW1ueE1mWjJHMklIalBxZnBCQXpQVWZWU0N5Ug?oc=5|ts=2026-07-17T17:45:46+00:00",
+        "כדור הסל של חברת הבינה המלאכותית נמכר במלואו למרות לעג ברשת. המוצר החדש של החברה, כדור סל בעלות שבעים דולר, אזל מהמלאי. זאת על אף ביקורת וכינויים מזלזלים שהופצו ברשתות החברתיות\u001fsrc=https://news.google.com/rss/articles/CBMiiwFBVV95cUxNZUxTOWlnemlkUVJQTmZxSjhFbTQtVFMxTW5OTXVueEFCcTF2NDI1UVBDbENPYVU0OWI0YjVDMEM5LXNBSnJGZ25oYXI1cF9HWE5zT0pKbC1IOXdhS2tkQUUzSk1CaEFYaS0xVW1XNTdjbWwtZFJuOHktdXBIUFg3anZNNzRENndGLTlF?oc=5|ts=2026-07-17T15:46:00+00:00",
+        "אפל פונה משפטית לעשרות עובדים מחברת הבינה המלאכותית. חברת אפל שולחת מכתבים משפטיים לעשרות עובדים בחברת הבינה המלאכותית אופן אאי. הדיווח עולה מתוך פרסום של העיתון הפיננסי הבריטי\u001fsrc=https://news.google.com/rss/articles/CBMihAFBVV95cUxQaHVfTTYtWDJJeUZrUkxVX2I5WmtILTZKOGJTbGtrdkhxdS15Z1JPVnExQng2U1ZvVHdiZWJWMGF0dHJBcEVQVVpLbkRuR3Vib1ZocXU2azlzSFNXQW5qSTd6d1l4YTFsRTNQU0R2dUg5czFRQmEtT0E2ZnpRUG45VTBYbnM?oc=5|ts=2026-07-17T10:00:05+00:00",
+        "מדד חדש למדידת הרווח מהבינה המלאכותית על ידי סרה פריאר. סרה פריאר, סגנית הנשיא לכספים בחברת הבינה המלאכותית הפותחת, מציגה כלי הערכה מעשי. המדד נועד לבחון את התועלת באמצעות עבודה שימושית, עלות לכל משימה מוצלחת, אמינות והחזר על כוח מחשוב\u001fsrc=https://openai.com/index/a-scorecard-for-the-ai-age|ts=2026-07-17T10:00:00+00:00"
       ],
       "entity_kind": "product",
       "event_date": "2026-07-19",
-      "last_known_update": "2026-07-18",
+      "last_known_update": "2026-07-19",
       "first_seen": "2026-07-17T08:57:57Z",
-      "changed_at": "2026-07-19T15:45:45Z",
+      "changed_at": "2026-07-19T18:45:41Z",
       "delta_badge": "עודכן"
     },
     {
       "company": "OpenAI/Codex",
       "product": "Codex",
       "updates": [
-        "הזכות של בני נוער לגישה לבינה מלאכותית בטוחה. חברת הבינה המלאכותית טוענת כי בני נוער ראויים לקבל גישה לכלים מוגנים. החברה מדגישה את החשיבות שבמתן אפשרות להשתמש בטכנולוגיה בצורה אחראית ובטוחה עבור צעירים\u001fsrc=https://news.google.com/rss/articles/CBMiakFVX3lxTFBtQWV2Si04ekxFTXhlaExTV0lpT245S0stWE1rSkxvVzM4ZzhNaktzY1VMMFhGQnlfYkNOUnNIVHF2eVp4a2lYOGhqUk56SXk2Uy01eUl4b2FLMlZFc0FTT3Z0ZWZfbnFNTGc?oc=5|ts=2026-07-16T16:15:53+00:00",
-        "מדוע חברת הבינה המלאכותית מוכרת כדורסל המזוהה עם צ'אט ג'יפיטי?. חברת הבינה המלאכותית מוכרת מוצר פיזי חדש מסוג כדורסל. הידיעה עוסקת בסיבת המכירה של הפריט המקושר לשירות הצ'אט שלה\u001fsrc=https://news.google.com/rss/articles/CBMigwFBVV95cUxOS1VMYU1kczRhQVg2QWRGa29jOTFfNmdDX2lycFdXb0pna2ZpOTBNbGZTVTZYN1lGbHFZRTNjcmdGQjNremlHODJEM09TUjV0S2F3NlpGalJma2RaR2k4WkRXUEk1VXJXX29Iajl0Z2NTVEVqelR4WHZQaElwaXlHaWdoWQ?oc=5|ts=2026-07-16T15:31:09+00:00",
-        "חברת קארס כהוא משדרגת תקשורת באמצעות סוכני בינה מלאכותית. החברה עושה שימוש בסוכני קול וטקסט מבוססי בינה מלאכותית לניהול למעלה ממיליון דקות שיחה בחודש. הטכנולוגיה מאפשרת להשיב בשליטה על שנים עשר אחוזים מהלידים שאבדו ולהטמיע תהליכי עבודה אוטונומיים בצוותים השונים בארגון\u001fsrc=https://openai.com/index/cars24|ts=2026-07-16T00:00:00+00:00",
-        "הצעת מודל לממשל בינה מלאכותית באמצעות שילוב חוקי מדינות ורמה פדרלית. חברת הבינה המלאכותית מציעה גישה של ממשל הפוך, שבה חקיקה ברמת המדינות תסייע בבניית מסגרת לאומית. מטרת המודל היא להבטיח בינה מלאכותית בטוחה ודמוקרטית באמצעות פעולה משולבת בין הרשויות השונות בארצות הברית\u001fsrc=https://openai.com/index/advancing-ai-safety-through-state-and-federal-action|ts=2026-07-15T12:00:00+00:00",
-        "מערכת חדשה של חברת אופן איי איי לשיפור הבטיחות והעמידות. החברה הציגה מערכת אוטומטית לבדיקת חוסן המשתמשת במשחק עצמי כדי לשפר את בטיחות הבינה המלאכותית. הכלי נועד להבטיח התאמה לערכים ולמנוע הזרקות פקודות זדוניות\u001fsrc=https://openai.com/index/unlocking-self-improvement-gpt-red|ts=2026-07-15T10:00:00+00:00"
+        "הבועה של הבינה המלאכותית היא הבועה של החברה המייצרת את הצ'אט. הפרשן אד זיטרון טוען כי החברה המפתחת את הצ'אט היא עמוד התווך של בועת הבינה המלאכותית. הוא משווה את מצבה של החברה לקריסת הבנק לאהמן ברודרס\u001fsrc=https://news.google.com/rss/articles/CBMingFBVV95cUxPRkZBRFo3MTJDWDNMR2czb0d5S2p1T05uSFdqaHRFY1p5UnBmNDY4Ykc4OG1HeXp4dVdCc0R5VXpUdGFoSTU5ajhOTFE0TTdiSjhDZkRVbDFTLVZLOS16dmdNZVFpbmZfcmE2bzVLZXhYOENWT3hsdWhiWkYzV09jRW1rRXczTUpYSE5mYVZmQkJreDdSNUcxZy1VclJOUQ?oc=5|ts=2026-07-16T18:32:00+00:00",
+        "הגנה מוגברת עבור בני נוער בשימוש בבינה מלאכותית. חברת הבינה המלאכותית פועלת להגברת הבטיחות עבור בני נוער באמצעות הגנות המותאמות לגילם. המערכת תכלול כלי למידה, אפשרויות בקרה להורים ושיתופי פעולה עם מומחים בתחום\u001fsrc=https://openai.com/index/why-teens-deserve-access-safe-ai|ts=2026-07-16T16:00:00+00:00",
+        "חברת קארס פארטל משדרגת תקשורת באמצעות טכנולוגיית בינה מלאכותית. החברה עושה שימוש בסוכני קול וצ'אט מבוססי בינה מלאכותית לניהול למעלה ממיליון דקות של שיחות בחודש. הטכנולוגיה מאפשרת להשיב שנים עשר אחוזים מלקוחות פוטנציאליים שאבדו ומביאה תהליכי עבודה אוטונומיים לצוותים בכל רחבי הארגון\u001fsrc=https://openai.com/index/cars24|ts=2026-07-16T00:00:00+00:00",
+        "הצעת מודל לממשל בינה מלאכותית באמצעות שילוב חוקי מדינות ורמה פדרלית. חברת הבינה המלאכותית מציעה גישה של ממשל הפוך, שבה חוקים ברמת המדינות יסייעו בבניית מסגרת לאומית. מודל זה נועד לקדם בטיחות ודמוקרטיה בתחום הטכנולוגיה באמצעות פעולה משולבת בין הרשויות השונות בארצות הברית\u001fsrc=https://openai.com/index/advancing-ai-safety-through-state-and-federal-action|ts=2026-07-15T12:00:00+00:00"
       ],
       "entity_kind": "product",
       "event_date": "2026-07-19",
       "last_known_update": "2026-07-16",
       "first_seen": "2026-07-17T08:57:57Z",
-      "changed_at": "2026-07-19T15:45:45Z",
+      "changed_at": "2026-07-19T18:45:41Z",
       "delta_badge": "עודכן"
     },
     {
       "company": "Perplexity/Comet",
       "product": "Comet",
       "updates": [
-        "חברת בינה מלאכותית השיקה מדד להערכת סוכני מחקר. החברה השיקה את מדד המפתח החדש לבחינת יכולות של סוכני מחקר. המדד נועד להעריך כיצד סוכנים מבצעים חיפושים רחבים ומעמיקים לצורך איסוף מידע\u001fsrc=https://news.google.com/rss/articles/CBMi3gFBVV95cUxPaWZlU1lCM29qbWJGYWNhVzlaYWY3T01OOTdLUlVNZV9KMHFDS1VnVENvODQ4Tm1hZXN2eUhVX1UxNUp2QXBocUhpVzBqSEhkR1RnSVo2RDVQVmFzaG5yZmV4Y0xwZGVLVE5XMEZXZUZzeExFQ0pieVYySFlIdHN1VmQ3NXo1Qk0zbFo1MUVsUW1nWFBzMU9ESXptellHZmpDTUR0eEVQWEhaT0UtUzVzOWRxMVNDa3oycUpMcUNWSVY2Y2p4YlF5bDk5c0ZaaVRjcmEyVGxWWWUtLXMzbGc?oc=5|ts=2026-07-19T07:19:14+00:00",
-        "פרפלקסיטי משיקה סביבת ריצה לביצוע משימות של סוכני בינה מלאכותית. חברת פרפלקסיטי השיקה את סביבת הריצה בשם ספייס עבור משימות של סוכני בינה מלאכותית. המהלך נועד לאפשר ביצוע פעולות באמצעות טכנולוגיה מתקדמת\u001fsrc=https://news.google.com/rss/articles/CBMijAFBVV95cUxNT01LUHN4WEhZakp6UUJZRFI4dE5GUmJ3TkdwMXlIUkY1QnkydXhaZ0JIT2RmVnZ3QV9QWVAzd1NIa2p5NU9XS3Q3VnIzNDBRSFJXcW96UWNRSFByQkJMRHRMeEpXMkk2UE1aTTdhNXNJMXF6czhzYzFjTGc3bGJFU2tweEhUbzlTYnVmZg?oc=5|ts=2026-07-17T21:42:02+00:00",
-        "שיתוף פעולה בין דוקוסין לפלטפורמת הבינה המלאכותית פרפלקסיטי. חברת דוקוסין מביאה את יכולות האוטומציה של חוזים אל פלטפורמת הבינה המלאכותית של פרפלקסיטי. שיתוף הפעולה נועד לספק כלים מתקדמים עבור צוותים משפטיים\u001fsrc=https://news.google.com/rss/articles/CBMipwFBVV95cUxPbEtqRG1hZkdSaWdLOTJkbXNNUURVZDNxQ1lpNVFzVS1rNHBoNjRxRXdTVWY3djlkTURwREVuN3Y5aUkyWU1ubTZhTURGODdycFRyN1NvYjMybll0ZHk4Z2FvUVJjS2twdkg3QmZJN3M0WTVtYjJBcWxSVWZ6OGNCcUZieTg3a0hCTVFYUEJ5M3kwdEJiaFI0d2lURUFVRzVWUWkwb2Npaw?oc=5|ts=2026-07-16T18:29:25+00:00",
-        "האם אתריום יגיע למחיר של שתים עשרה אלף דולר?. ארתור הייז רכש מטבעות בשווי של שני מיליון וארבע מאות שמונים אלף דולר. תחזית אופטימית של מודל בינה מלאכותית מעלה אפשרות לעלייה משמעותית בערך המטבע\u001fsrc=https://news.google.com/rss/articles/CBMiigFBVV95cUxNUk9zNmwydXVvWVVEOHJHZkdEemprVWt3b1Z6OUVzUHBkejdzYTdQcXMwa1dkRktud3NNRDE1RDBkcXJwdFNVakktSU51cWZIOG9GTnVKQTU1OWExUWFUaXQxNTEwTVhpVVBhUHlxb29RZG8zdVBXblVlWkZabDN6aHpoQTFUN0V3M1E?oc=5|ts=2026-07-16T12:19:28+00:00",
-        "חברת פרפלקסיטי משיקה סביבת עבודה חדשה עבור סוכנים חכמים. חברת הבינה המלאכותית פרפלקסיטי מציגה את ארגז החול המרחבי עבור הסוכנים שלה. מהלך זה מאפשר פיתוח ויכולות פעולה חדשות בתוך סביבה ייעודית\u001fsrc=https://news.google.com/rss/articles/CBMigwFBVV95cUxOTHc5am1GVkJrNzFxYmt3amgtdzRNMWt0Nm52QmZPcUJRMUM0RzBGaUpNYnQxRF9BOWZEcXdTeXREeEl2bXpHVkhmQzhQZUNfcmFUS00xV2dUNkFjaGJZT1VWV19fUDV6X3A2SHBTUUlIbHR6SkRiYXpqUWhJcC1waWI2QQ?oc=5|ts=2026-07-15T21:19:42+00:00",
-        "חיזוי של חברת בינה מלאכותית לגבי מחיר המטבע המקוון עד שנת אלפיים ושתיים ועשרים וшеש. חברת הבינה המלאכותית חוזה את הערך של המטבע המדובר במועד עתידי. התחזית מתייחסת למחיר המטבע המצופה להגיע אליו עד סוף שנת אלפיים ושתיים ועשרים וшеש\u001fsrc=https://news.google.com/rss/articles/CBMilAFBVV95cUxOUms2dFJsbmQ4N2NZUkFYSER1b1RGdF9JdlRINTQ0eEF3RVhfNV9yV0JNaFV2MV9UMGc1NjlWUkpDOFluLTJ1d04wN19CZi1vSUxlQkRjUHR4SGRQMGJvT0M4aTkwQ0ZpcXVxOHlyZVF3N0hqY3NyM2VRZ3d6TXJ0SmhQTnFwZ3VYSk5GcUZLaEhiUTlY?oc=5|ts=2026-07-14T20:10:32+00:00"
+        "חברת הבינה המלאכותית פרפלקסיטי השיקה מדד הערכה חדש לסוכני מחקר. החברה השיקה את מדד ההערכה הפתוח ונדר לצורך בחינת סוכני מחקר. המדד נועד לבחון את היכולת של הסוכנים לבצע חיפושים רחבים ומעמיקים כאחד\u001fsrc=https://news.google.com/rss/articles/CBMi3gFBVV95cUxPaWZlU1lCM29qbWJGYWNhVzlaYWY3T01OOTdLUlVNZV9KMHFDS1VnVENvODQ4Tm1hZXN2eUhVX1UxNUp2QXBocUhpVzBqSEhkR1RnSVo2RDVQVmFzaG5yZmV4Y0xwZGVLVE5XMEZXZUZzeExFQ0pieVYySFlIdHN1VmQ3NXo1Qk0zbFo1MUVsUW1nWFBzMU9ESXptellHZmpDTUR0eEVQWEhaT0UtUzVzOWRxMVNDa3oycUpMcUNWSVY2Y2p4YlF5bDk5c0ZaaVRjcmEyVGxWWWUtLXMzbGc?oc=5|ts=2026-07-19T07:19:14+00:00",
+        "שיתוף פעולה בין דוקוסין לפלטפורמת הבינה המלאכותית פרפלקסיטי לאוטומציה משפטית. חברת דוקוסין מביאה את יכולות האוטומציה של חוזים אל פלטפורמת הבינה המלאכותית של פרפלקסיטי. שיתוף פעולה זה נועד לספק כלים מתקדמים עבור צוותים משפטיים\u001fsrc=https://news.google.com/rss/articles/CBMipwFBVV95cUxPbEtqRG1hZkdSaWdLOTJkbXNNUURVZDNxQ1lpNVFzVS1rNHBoNjRxRXdTVWY3djlkTURwREVuN3Y5aUkyWU1ubTZhTURGODdycFRyN1NvYjMybll0ZHk4Z2FvUVJjS2twdkg3QmZJN3M0WTVtYjJBcWxSVWZ6OGNCcUZieTg3a0hCTVFYUEJ5M3kwdEJiaFI0d2lURUFVRzVWUWkwb2Npaw?oc=5|ts=2026-07-16T18:29:25+00:00",
+        "האם אתריום יגיע למחיר של שתים עשרה אלף דולר?. ארתור הייז רכש מטבעות בשווי של שני וארבעים מיליון דולר. תחזית אופטימית של מודל הבינה המלאכותית פרפלקסיטי מצביעה על אפשרות לעלייה משמעותית בערך הנכס\u001fsrc=https://news.google.com/rss/articles/CBMiigFBVV95cUxNUk9zNmwydXVvWVVEOHJHZkdEemprVWt3b1Z6OUVzUHBkejdzYTdQcXMwa1dkRktud3NNRDE1RDBkcXJwdFNVakktSU51cWZIOG9GTnVKQTU1OWExUWFUaXQxNTEwTVhpVVBhUHlxb29RZG8zdVBXblVlWkZabDN6aHpoQTFUN0V3M1E?oc=5|ts=2026-07-16T12:19:28+00:00",
+        "חברת פרפלקסיטי מציגה סביבת עבודה חדשה עבור סוכנים חכמים. חברת הבינה המלאכותית פרפלקסיטי השיקה את מרחב החול הייעודי לסוכנים. מהלך זה מאפשר פיתוח וניסוי של סוכני בינה מלאכותית בתוך סביבה מוגדרת\u001fsrc=https://news.google.com/rss/articles/CBMigwFBVV95cUxOTHc5am1GVkJrNzFxYmt3amgtdzRNMWt0Nm52QmZPcUJRMUM0RzBGaUpNYnQxRF9BOWZEcXdTeXREeEl2bXpHVkhmQzhQZUNfcmFUS00xV2dUNkFjaGJZT1VWV19fUDV6X3A2SHBTUUlIbHR6SkRiYXpqUWhJcC1waWI2QQ?oc=5|ts=2026-07-15T21:19:42+00:00",
+        "חיזוי חדש של חברת בינה מלאכותית לגבי מחיר מטבע הדיגיטלי. חברת הבינה המלאכותית חוזה את הערך של מטבע הדיגיטלי עד סוף שנת אלפיים עשרים ושש. התחזית פורסמה על ידי גורם טכנולוגי ומתייחסת למגמות מחיר עתידיות של הנכס\u001fsrc=https://news.google.com/rss/articles/CBMilAFBVV95cUxOUms2dFJsbmQ4N2NZUkFYSER1b1RGdF9JdlRINTQ0eEF3RVhfNV9yV0JNaFV2MV9UMGc1NjlWUkpDOFluLTJ1d04wN19CZi1vSUxlQkRjUHR4SGRQMGJvT0M4aTkwQ0ZpcXVxOHlyZVF3N0hqY3NyM2VRZ3d6TXJ0SmhQTnFwZ3VYSk5GcUZLaEhiUTlY?oc=5|ts=2026-07-14T20:10:32+00:00"
       ],
       "entity_kind": "product",
       "event_date": "2026-07-19",
       "last_known_update": "2026-07-19",
       "first_seen": "2026-07-17T08:57:57Z",
-      "changed_at": "2026-07-19T15:45:45Z",
+      "changed_at": "2026-07-19T18:45:41Z",
       "delta_badge": "עודכן"
     },
     {
       "company": "xAI/Grok",
       "product": "Grok",
       "updates": [
-        "חברת הבינה המלאכותית התקינה טורבינות גז ללא אישורים פדרליים במסיסיפי. חברת הבינה המלאכותית התקינה חמישים ותשע טורבינות גז במדינת מסיסיפי ללא היתרים פדרליים. הפעילות גורמת לפגיעה בשכונות המיושבות על ידי אוכלוסייה שחורה\u001fsrc=https://news.google.com/rss/articles/CBMigwFBVV95cUxOTVZ0UGl1TEVOUTBVTGpvNzltSmd3dkdsLTNobXFaRzdSeGlKVTVrcHkxTi15aHI3cXZHZ2xJeGhycFh3eWFYdXJGOFdiV0lySnEyUFZLUUtETHJTUFFoeXd0a1p0VXRSX0lCUjRCRUEyb3BpVm16NUg1cmR3Tklja2lZOA?oc=5|ts=2026-07-18T04:03:00+00:00",
-        "חברת הבינה המלאכותית של אילון מאסק תובעת משתמש בשל יצירת חומרים אסורים. חברת איקס איי תובעת משתמש בטענה כי יצר באמצעות מודל השפה שלה חומרים מיניים של קטינים. התביעה מגיעה לאחר שהחברה אינה יכולה עוד להכחיש את היכולת של המערכת ליצור תכנים מסוג זה\u001fsrc=https://news.google.com/rss/articles/CBMingFBVV95cUxOdXQ5MEJnUk5QODFPN3NDWll2U1ozOXUtUXhrU3R3MEppdjlPNWs2eHpxckNXamlKR004eTAxOFpwSXpGU0Jrbkd3NlVEZldYMWJlaWlpbk1tMUg4MEUtYXY3QnpYRWhFUmQ2elRIeGZEWlBIWWV4RmtIby0tWWhxVG1hcGJhQW10Rk9EcldTc19YcVNSM0JJUnIyRURZQQ?oc=5|ts=2026-07-18T01:18:00+00:00",
-        "אלכסנדריה אוקאסיו קורטז הצטרפה לפירסון במרכז הנתונים של חברת הבינה המלאכותית. המחוקקת הצטרפה למפגש עם פירסון באתר המרכז לניהול נתונים של החברה. האירוע התקיים במימפסי במסגרת הפעילות של חברת הבינה המלאכותית\u001fsrc=https://news.google.com/rss/articles/CBMigAFBVV95cUxOZllZSjYzaUkzVU5NZ19qZlptOFFlUFpGWDNlV2FWV3FXS2F0X25NSXZabVVVRnFEaTJWSTh4b0NIVUZfbDJtODlqWWlMTy12NTRVRFBPUGNmbkFNZGFWaVBjMVVvRE4wY3RpWnpmbmh1di1DX0poUHNWNXlmRlMyTNIBhgFBVV95cUxPOENadk03TUN1WHpVdmJoMHFDeWlXX0dkQmF4dzg0c1pkdEl1YWhhU1p5ZmJQMm9qdWVxdjdsSkFRaHR2dzh0dFRMQ2FzUWNRZGJTNW9qYlpKT0ozbzZQSlAwR0tiZ1ZhaUFxaVNDQmtKX21ESnQ1Z3c3akxMSUljRDRudHdPQQ?oc=5|ts=2026-07-17T16:57:40+00:00",
-        "השקת מודל הגרוק בשירותי הענן של אמזון. מודל הבינה המלאכותית גרוק הושק כעת בתוך פלטפורמת השירותים של אמזון. שילוב זה מאפשר גישה ליכולות המחשוב החדשות דרך סביבת העבודה של החברה\u001fsrc=https://news.google.com/rss/articles/CBMiiAFBVV95cUxPanEzdlpLRFpidXcwVi16QkhRQTJNSXVWTWZlWUJTSlFYSVYxZ2Q0Z2JhWHFrX1ljcXFhRm1kazJ6VkdGa3cyb3dZeF9BaW1ORjNsc0pUcnlLcmhkV2YxcVVVWTJrbXhXSmpDREhkZ3R3TWMwSU03dnZNVG9oSE5hR1ZkVUpBM01G?oc=5|ts=2026-07-16T19:29:26+00:00",
-        "חברת החלל והבינה המלאכותית משחררת קוד מקור עבור בניית המערכת. החברה הנגישה את רכיבי התשתית של כלי התכנות שלה לשימוש ציבורי. השחרור כולל את שכבת הכלי, ממשק המשתמש הטקסטואלי ומסגרת הסוכן שנבנתה בשפת תכנות המערכת\u001fsrc=https://news.google.com/rss/articles/CBMi0wFBVV95cUxOcURYQ25USjhVZVI2RE1wNEFVQ3I5WnJFeXFTUEtxeHdxU3YwcVlJXzQ5T3QyT0xNSnpGMUFvYzdlMUp5N19ObWhPNDhXa3E3dW1hbExDNjRUeHZocEVhemgtQVFGdDA0bUJoNTFPZVNYQXJvVU5tMnU5b05waTd0NU5uM2I5UTg4LUtkbi1TSUdsVXgxZG9ZMHdiSGxaTzZsa3d6aVlhUzNVa1psU05GQ2JnTUpTNE5SODVxeE90VE40VWFGMHBzZk9DTXdFUE83REdF0gHYAUFVX3lxTE1sVVhjSllRdTFySDQtLTZIWVVoQVJkRVQ3aV9tejdjellJc3AwaXFtODk3VlRBWmdEMnBsajIzS0h2dTlQY1NrWTZRMG03ZGNPdWwyY3AwMGx5MnRwel9Ca1V3ck9OQ3ZFeEZVVkk4dzFKakVxdGhaVWVwSWIwRTBONTRLQTBxNjdHT2o0TTRZcjJMeWVCQUo0RU9FNFp4VHIyMnMzaUZZLVFaVmY3YlB4Mzd6YV96dHliNU9iTzRQa3ZrRUJzMXNYeDFmaXBuWlBUb0REYWthRw?oc=5|ts=2026-07-16T06:35:54+00:00",
-        "גרסה של מודל הבינה המלאכותית העלתה מאגרי קוד שלמים לאחסון החברה. מערכת הבינה המלאכותית גרוק העלתה את כל מאגרי הקוד לתוך שירות האחסון של חברת הבינה המלאכותית. הפעולה בוצעה עבור כל מאגר הקוד ולא רק עבור הקבצים הספציפיים שנלקחו לקריאה\u001fsrc=https://news.google.com/rss/articles/CBMid0FVX3lxTE40SURBWHFMUExOU2NtS3c1TkJJeTlDV0Nad2xIZ1VVUVJTZmtxOWFDOExSYkpaM3lhYlNRT2Y2em9WeW1qOVprOGR3SDFtazRLdzhxV2lPZkM1bVkwdUxwSUxJd2E0R1UwVnBPdVBLbVRPbm5MUC1N?oc=5|ts=2026-07-14T09:02:00+00:00"
+        "תושבי דרום ממפיס מתלוננים על זיהום האוויר מחברת הבינה המלאכותית. חברי קהילה מביעים קושי בנשימה בעקבות זיהום הנובע מהחברה. נציגות מהקונגרס מבקרת באזור כדי לשמוע את קול התושבים\u001fsrc=https://news.google.com/rss/articles/CBMizwFBVV95cUxQZld5eFFTOVpXdGI3TUpoNW14eGxSSlJkcnFjS3RwV3N1LXBFemxLbEtibG9sMXJaN3RPWkpxNVlfc3E5c0ZPMWZZR003aC1NVGF5VjRlSHkzeEQxNzZ2LVVRS21qTldCZ3lybWljUWpNRE5Lai1GQmtwM2lJalVXZUZCR2hYNkVEUlZMVnNUdlpZTHkxQXQzcV81RUxKYWs2ak9OR2VtSHk5OUVURXB6bVhscmVEM256dGdNY1lYRi1NVktZd0JsQXppQ1dmaEXSAeMBQVVfeXFMTWhWUTUxb1pXejY4ei1WbmhnS3lsb1BNdFdOTDFQaVM5b2pqQXZmNDliRS1xcE5mQ3YxejlzaW1qdkQtZDhxblR4NG9SR3FveW9rd1lQRllDRUVndHBYd1J3R0dLQWRBOGpBUFcxeUFaRXZ3UUpxOTlVVm5FMllwRGY5c0RtZXQyS2FPZDVpNEN1YzIwOUktVVZ3TDlkQ01yUGUxNmg3d3Zya1R4VEotVmpuXzlrM2VfZFQ1bjZPY1FfM1RWOVZIVDJMYlBYb3owVi1mMmcxQjBkaGhyNjhScjVzTmM?oc=5|ts=2026-07-17T16:56:00+00:00",
+        "חברת הבינה המלאכותית של אילון מאסק תובעת משתמשים. החברה תובעת משתמש לאחר שנוצרו באמצעות המודל חומרים מיניים של קטינים. התביעה מגיעה בעקבות ההודאה כי המערכת מסוגלת ליצור תכנים אלו\u001fsrc=https://news.google.com/rss/articles/CBMiowFBVV95cUxQanFPYjdydWhqaU5WUjBXRDRTNmlMS3JVQ2tBMGFnSUZHRGQwVDYtQmV4OVFyR0xjTlBMZGtUOWlVOExicXV4NllTS2MyZ01VWldxLUJEWkVrREMtYXlnWkk1b3otNExNNTRDSVRvRXlXSUVVb2FiM2tTSVVMUmVzRllqb0hkRURvMjZMM2dNRU0wNzVpQ25QVWZ5cXJuekprUW9R?oc=5|ts=2026-07-16T20:26:23+00:00",
+        "השקת המודל גרוק בשירותי הענן של אמזון. חברת אמזון משיקה את המודל גרוק באמצעות פלטפורמת השירותים שלה. המודל החדש זמין כעת לשימוש במסגרת שירותי הענן של החברה בתחום הבינה המלאכותית\u001fsrc=https://news.google.com/rss/articles/CBMiiAFBVV95cUxPanEzdlpLRFpidXcwVi16QkhRQTJNSXVWTWZlWUJTSlFYSVYxZ2Q0Z2JhWHFrX1ljcXFhRm1kazJ6VkdGa3cyb3dZeF9BaW1ORjNsc0pUcnlLcmhkV2YxcVVVWTJrbXhXSmpDREhkZ3R3TWMwSU03dnZNVG9oSE5hR1ZkVUpBM01G?oc=5|ts=2026-07-16T19:29:26+00:00",
+        "חברת החלל משחררת את מרכיבי הבנייה של המודל התכנותי שלה בקוד פתוח. החברה הנגישה את שכבת הכלים, ממשק המשתמש הטקסטואלי ומסגרת הסוכן שנבנתה בשפת תכנות מהירה. רכיבים אלו מהווים את התשתית העומדת מאחורי ממשק שורת הפקודה לכתיבת קוד של המערכת\u001fsrc=https://news.google.com/rss/articles/CBMi0wFBVV95cUxOcURYQ25USjhVZVI2RE1wNEFVQ3I5WnJFeXFTUEtxeHdxU3YwcVlJXzQ5T3QyT0xNSnpGMUFvYzdlMUp5N19ObWhPNDhXa3E3dW1hbExDNjRUeHZocEVhemgtQVFGdDA0bUJoNTFPZVNYQXJvVU5tMnU5b05waTd0NU5uM2I5UTg4LUtkbi1TSUdsVXgxZG9ZMHdiSGxaTzZsa3d6aVlhUzNVa1psU05GQ2JnTUpTNE5SODVxeE90VE40VWFGMHBzZk9DTXdFUE83REdF0gHYAUFVX3lxTE1sVVhjSllRdTFySDQtLTZIWVVoQVJkRVQ3aV9tejdjellJc3AwaXFtODk3VlRBWmdEMnBsajIzS0h2dTlQY1NrWTZRMG03ZGNPdWwyY3AwMGx5MnRwel9Ca1V3ck9OQ3ZFeEZVVkk4dzFKakVxdGhaVWVwSWIwRTBONTRLQTBxNjdHT2o0TTRZcjJMeWVCQUo0RU9FNFp4VHIyMnMzaUZZLVFaVmY3YlB4Mzd6YV96dHliNU9iTzRQa3ZrRUJzMXNYeDFmaXBuWlBUb0REYWthRw?oc=5|ts=2026-07-16T06:35:54+00:00",
+        "גרסה של בינה מלאכותית העלתה מאגרי קוד שלמים לאחסון החברה. מערכת הבינה המלאכותית העלתה את כל מאגרי הקוד ולא רק קבצים שקראה. נתונים אלו הועלו לאחסון של חברת הבינה המלאכותית במקום להישאר כקבצים בודדים בלבד\u001fsrc=https://news.google.com/rss/articles/CBMid0FVX3lxTE40SURBWHFMUExOU2NtS3c1TkJJeTlDV0Nad2xIZ1VVUVJTZmtxOWFDOExSYkpaM3lhYlNRT2Y2em9WeW1qOVprOGR3SDFtazRLdzhxV2lPZkM1bVkwdUxwSUxJd2E0R1UwVnBPdVBLbVRPbm5MUC1N?oc=5|ts=2026-07-14T09:02:00+00:00"
       ],
       "entity_kind": "product",
       "event_date": "2026-07-19",
-      "last_known_update": "2026-07-18",
+      "last_known_update": "2026-07-17",
       "first_seen": "2026-07-17T08:57:57Z",
-      "changed_at": "2026-07-19T15:45:45Z",
+      "changed_at": "2026-07-19T18:45:41Z",
       "delta_badge": "עודכן"
     },
     {
       "company": "OpenAI",
       "updates": [
-        "דרכי שימוש חדשות עבור צוותי מכירות במערכות בינה מלאכותית. צוותי מכירות יכולים להשתמש בכלי הבינה המלאכותית ליצירת תקציבי עבודה וסיכומים של פגישות. המערכת מאפשרת הכנת תוכניות לקוחות, סקירת תחזיות ובדיקת סיבות לעסקאות שנעצרו על בסיס נתוני עבודה אמיתיים\u001fsrc=https://openai.com/academy/codex-for-work/how-sales-teams-use-codex|ts=2026-07-14T00:00:00+00:00",
-        "כיצד צוותי מדע הנתונים עושים שימוש בכלי הבינה המלאכותית החדש. צוותי מדע נתונים יכולים להשתמש בכלי זה כדי לבנות סיכומי זיהוי גורמי שורש ודיווחים על השפעה. הכלי מאפשר יצירת מזכרים למדדי ביצוע מרכזיים, ניתוחים מוגדרים ומפרטים ללוחות בקרה מתוך נתונים אמיתיים\u001fsrc=https://openai.com/academy/codex-for-work/how-data-science-teams-use-codex|ts=2026-07-14T00:00:00+00:00"
+        "שימוש חדשני של צוותי מכירות בכלי בינה מלאכותית לשיפור העבודה. צוותי מכירות יכולים להשתמש בכלי הבינה המלאכותית ליצירת תקצירים עבור צנרת המכירות, הכנת חבילות לפגישות וסקירת תחזיות. הכלי מאפשר גם בניית תוכניות לקוחות ואבחון עסקאות שנעצרו על בסיס נתוני עבודה אמיתיים\u001fsrc=https://openai.com/academy/codex-for-work/how-sales-teams-use-codex|ts=2026-07-14T00:00:00+00:00",
+        "כיצד צוותי מדעי הנתונים עושים שימוש בכלי הבינה המלאכותית החדש. צוותי מדעי נתונים יכולים להשתמש בכלי זה כדי לבנות סיכומים של סיבות שורש ודיווחים על השפעה. הכלי מאפשר יצירת מזכרים לגבי מדדי ביצוע מרכזיים, ניתוחים מוגדרים ומפרטים ללוחות בקרה מתוך נתונים אמיתיים\u001fsrc=https://openai.com/academy/codex-for-work/how-data-science-teams-use-codex|ts=2026-07-14T00:00:00+00:00"
       ],
       "last_known_update": "2026-07-14",
       "event_date": "2026-07-19",
       "updated_at": "2026-07-19",
       "entity_kind": "company",
       "first_seen": "2026-07-13T18:45:46Z",
-      "changed_at": "2026-07-19T15:45:45Z",
+      "changed_at": "2026-07-19T18:45:41Z",
       "delta_badge": "עודכן"
     },
     {
       "company": "xAI",
       "updates": [
-        "שינוי משמעותי בחברת הבינה המלאכותית של אילון מאסק בעקבות ביקורת על פרטיות. לאחר התנגדות ציבורית בנושא שמירה על פרטיות, חברת הבינה המלאכותית של אילון מאסק מבצעת שינוי גדול. המהלך מגיע בעקבות הביקורת שהופנתה כלפי החברה בתחום זה\u001fsrc=https://news.google.com/rss/articles/CBMirAFBVV95cUxNOGtiRmIydTdld2s3NmUwOE5KZ2hxYi1lS0NiUEFoVjgyM0ZpTEJ6a3FCT1lnU2NqSzl0ejJIUjhDMzhSbGdLWVNuemZGQ0pSSUliZkZUai1SQjBPNVRmOWVWRGlMTXJVa2M2ZEVENVQ5bVdtWl9LSVY0enFtUEM4OU5kOU9SbXl4WEhhNV85bGU4Wm11cEpSTTBFeUJhX3RpZFNVd3BwbTVielU0?oc=5|ts=2026-07-16T23:14:47+00:00",
-        "האימפריה של אילון מאסק בממפיס מוקד המחאה נגד מרכזי הנתונים. הפעילות העסקית של אילון מאסק בתחום הבינה המלאכותית בעיר ממפיס מהווה את מוקד ההתנגדות והמחאה בנוגע להקמת מרכזי נתונים. התופעה מעלה קשיים וביקורת סביב פריסת התשתית הטכנולוגית החדשה\u001fsrc=https://news.google.com/rss/articles/CBMihAFBVV95cUxOc2Y1SGVPTXhCZXduRkQ3RlhrSFZfNVB5Y0Y4Q2R1VFVHaGhvTVR3aW9ZdWU5bnR3MXBsd2p0ejVPV25VSl9hMDhoMi1hVnAyNVN0NjV6ODAxNExWNk5ZQ2NHTkk3Z2lkR2gwMW5YWkxLT2NfaHg5NTI4Um5hRFhEaDNfTkbSAYoBQVVfeXFMTzZSeTFFM2FDNmIxOUx5VzlJaFZhUlJNNGRiUWR4TW9uMFJwMzZ1OWphVXFPNzJMTC1seDB3M1NfMnVGb1YxQ2xicWhPU0djRTFfb3hQWkdHRjBnSzI4S1BOMUZvdEZvMEQxQm4wM3BTY1dUNlVUQWN4Y013OVBxWmYxZ1NjNkJQdExR?oc=5|ts=2026-07-16T22:09:55+00:00",
-        "חברת הבינה המלאכותית של אילון מאסק נמצאת בכאוס מאחורי הקלעים. דיווחים מצביעים על כך שהמיזם החדש של אילון מאכות בתחום הבינה המלאכותית מתפקד בצורה רעועה מאוד. המצב הפנימי בחברה מתואר ככישלון מוחלט בתוך המערך הארגוני\u001fsrc=https://news.google.com/rss/articles/CBMif0FVX3lxTE5aRW9WUS1MTWR3VjczT2ZwUzNxY2h3MUFuSC01T2hZdlI1SUI1MWV0VGR6QWw0bmRYX18yOTlNazh0ZGRpQnVJRnZ3VW5kX0NhQkxBTnpOcDg3WlduWU1nT25zdTNDcmc0YWRHWFhNT2hReG85WGxEUHFZR2NzM2s?oc=5|ts=2026-07-16T19:01:18+00:00"
+        "שינוי משמעותי בחברת הבינה המלאכותית של אילון מאסק בעקבות ביקורת על פרטיות. לאחר סערה ציבורית בנוגע להגנה על מידע אישי, חברת הבינה המלאכותית של אילון מאסק מבצעת שינוי מרכזי. המהלך מגיע בעקבות התנגדות נרחבת לשמירה על פרטיות המשתמשים\u001fsrc=https://news.google.com/rss/articles/CBMirAFBVV95cUxNOGtiRmIydTdld2s3NmUwOE5KZ2hxYi1lS0NiUEFoVjgyM0ZpTEJ6a3FCT1lnU2NqSzl0ejJIUjhDMzhSbGdLWVNuemZGQ0pSSUliZkZUai1SQjBPNVRmOWVWRGlMTXJVa2M2ZEVENVQ5bVdtWl9LSVY0enFtUEM4OU5kOU9SbXl4WEhhNV85bGU4Wm11cEpSTTBFeUJhX3RpZFNVd3BwbTVielU0?oc=5|ts=2026-07-16T23:14:47+00:00",
+        "האימפריה של אילון מאסק בממפיס במוקד המחאה נגד מרכזי הנתונים. הפעילות של אימפריית הבינה המלאכותית של אילון מאסק בעיר ממפיס הפכה למוקד המרכזי של ההתנגדות הציבורית בנושא הקמת מרכזי נתונים. המחאה מתמקדת בהשפעות של התשתית הטכנולוגית החדשה\u001fsrc=https://news.google.com/rss/articles/CBMihAFBVV95cUxOc2Y1SGVPTXhCZXduRkQ3RlhrSFZfNVB5Y0Y4Q2R1VFVHaGhvTVR3aW9ZdWU5bnR3MXBsd2p0ejVPV25VSl9hMDhoMi1hVnAyNVN0NjV6ODAxNExWNk5ZQ2NHTkk3Z2lkR2gwMW5YWkxLT2NfaHg5NTI4Um5hRFhEaDNfTkbSAYoBQVVfeXFMTzZSeTFFM2FDNmIxOUx5VzlJaFZhUlJNNGRiUWR4TW9uMFJwMzZ1OWphVXFPNzJMTC1seDB3M1NfMnVGb1YxQ2xicWhPU0djRTFfb3hQWkdHRjBnSzI4S1BOMUZvdEZvMEQxQm4wM3BTY1dUNlVUQWN4Y013OVBxWmYxZ1NjNkJQdExR?oc=5|ts=2026-07-16T22:09:55+00:00",
+        "משבר הזהות בחברת הבינה המלאכותית של אילון מאסק. חברת הבינה המלאכותית השייכת לאילון מאסק מתמודדת עם חוסר ודאות פנימי עמוק. הארגון נתקל בבלבול לגבי תפקידו ומהותו בעיצומה של תקופה של אי-סדר ומבוכה\u001fsrc=https://news.google.com/rss/articles/CBMiqgFBVV95cUxQM1dFc0RhS2VxNmdhV1Q3cFJMM2dyUzNIY2lyaS11Wk02UkZkRXBoc1RoUWhiUEVUQ0hkdFNhTWdZczAyTmdLU21uZ0lHWEF0UHA1M3czaTAyVHRlb3hjR3BLNjRKTFd2Sk1LT01FR01OZm5VOTRGclFBelVRbFBXR3BWNjRkRjRFU3gtV1lVc1hLWGdGRkttWndiZk9rZk5GMDZlMHRTYVJDdw?oc=5|ts=2026-07-16T10:30:22+00:00"
       ],
       "last_known_update": "2026-07-16",
       "event_date": "2026-07-19",
       "updated_at": "2026-07-19",
       "entity_kind": "company",
       "first_seen": "2026-07-14T12:45:42Z",
-      "changed_at": "2026-07-19T15:45:45Z",
+      "changed_at": "2026-07-19T18:45:41Z",
       "delta_badge": "עודכן"
     },
     {
@@ -617,8 +612,7 @@
       "entity_kind": "company",
       "thin_note": "מעט עדכונים היום",
       "first_seen": "2026-07-15T06:45:41Z",
-      "changed_at": "2026-07-19T15:45:45Z",
-      "delta_badge": "עודכן"
+      "changed_at": "2026-07-19T15:45:45Z"
     },
     {
       "company": "Microsoft",
@@ -644,13 +638,13 @@
     }
   ],
   "section_8_conclusion": {
-    "thesis": "התזה המרכזית כיום מעוצבת על-ידי מצב תודעת השוק — מדד פחד-וחמדנות במניות עומד על 37 (פחד), המשקף חשש וחוסר אמון. סקטור אנרגיה מוביל בעוצמה יחסית (+1.09%) בעוד תקשורת נחלש (-1.21%). על רקע ביטקוין סביב רמת 64,500 והנעת השיח סביב מאקרו-כלכלה, האיזון הוא בין רכיבה על הדחף בסקטורי הצמיחה לבין הגנה מפני תיקון בנכסים מתומחרים ביוקר.",
+    "thesis": "התזה המרכזית כיום מעוצבת על-ידי מצב תודעת השוק — מדד פחד-וחמדנות במניות עומד על 37 (פחד), המשקף חשש וחוסר אמון. סקטור אנרגיה מוביל בעוצמה יחסית (+1.09%) בעוד תקשורת נחלש (-1.21%). על רקע ביטקוין סביב רמת 64,400 והנעת השיח סביב מאקרו-כלכלה, האיזון הוא בין רכיבה על הדחף בסקטורי הצמיחה לבין הגנה מפני תיקון בנכסים מתומחרים ביוקר.",
     "risks": "גורם הסיכון הבולט כעת הוא תנודתיות מטבעית והשפעתה על רווחי הייצוא. בנוסף, היחלשות תקשורת (-1.21%) מאותתת על חולשת רוחב אפשרית, ומדד פחד-וחמדנות 37 (פחד) עלול להתהפך במהירות אם הסנטימנט ישתנה. ריכוז 9 כותרות חדשותיות סביב מאקרו-כלכלה מגדיל את רגישות השוק להפתעות, ופוזיציות עם מינוף גבוה חשופות במיוחד לתנודתיות פתאומית בנכסי הסיכון.",
     "opportunities": "ההזדמנות המרכזית נובעת מסקטור אנרגיה המוביל (+1.09%), המצביע על תזרים הון לכיוון איכות וצמיחה. דומיננטיות נושא מאקרו-כלכלה בזרם החדשות יוצרת פערי תמחור בנכסים מוכי-סנטימנט שטרם תומחרו במלואם. מצב תודעה של פחד (מדד 37) פותח חלון לכניסות ערך בעת פחד.",
     "action": "בהינתן מדד פחד-וחמדנות 37 (פחד), מומלץ לבחון כניסות ערך סלקטיביות עם ניהול סיכון הדוק וגדלי פוזיציה קטנים. להעדיף את החוזק היחסי ב-אנרגיה ולהיזהר מחשיפת-יתר ל-תקשורת. לעקוב אחר התפתחות מאקרו-כלכלה כגורם המוביל לתנודתיות, ולהתאים את גודל הפוזיציות לרמת הנזילות והוודאות בכל אחזקה.",
     "_delta": {
       "first_seen": "2026-07-11T08:13:32Z",
-      "changed_at": "2026-07-19T15:45:45Z",
+      "changed_at": "2026-07-19T18:45:41Z",
       "badge": "עודכן"
     }
   },
@@ -736,12 +730,12 @@
       "change": "+3.31%"
     },
     "btc": {
-      "price": "$64,520.01",
-      "change": "-0.42%"
+      "price": "$64,380.97",
+      "change": "-0.64%"
     },
     "eth": {
-      "price": "$1,870.26",
-      "change": "+0.47%"
+      "price": "$1,858.32",
+      "change": "-0.17%"
     },
     "dxy": {
       "price": "$100.75",
@@ -749,32 +743,32 @@
     }
   },
   "crypto_global": {
-    "market_cap_usd": 2292332691565.6284,
+    "market_cap_usd": 2286512835187.1396,
     "btc_dominance": 56.5,
-    "eth_dominance": 9.9,
-    "volume_24h": 40373586776.35689,
-    "change_24h": 0.7
+    "eth_dominance": 9.8,
+    "volume_24h": 40185598164.91604,
+    "change_24h": -0.06
   },
   "generated_by": "deterministic_refresher_v1",
   "section_9_day_traders": {
     "timeframe_note": "תודעת השוק תוך-יומית",
-    "bull_case": "תודעת השוק היומית שורית: מדד פחד-וחמדנות 28 — פחד — הנרטיב הדומיננטי הוא כניעת-מוכרים. סנטימנט הקהילה מאופיין ב-חשש וחוסר אמון — הנרטיב הדומיננטי מעודד קנייה. הון קמעונאי יוצא, מינוף לונג עולה, ופוזיציות מוסדיות מתמקמות לעליות. מתוך 8 המטבעות המובילים, 6 בעלייה ו-2 בירידה — רוחב שוק חיובי שמחזק את תודעת העדר. פסיכולוגיה של פאניק-מכירה ומינוף נסגר מחזקת את הביטחון בכיוון. סנטימנט הקהילה תומך בהמשך המגמה החיובית. אם תודעת השוק תמשיך להיות אופטימית, ניטרלי ימשיך לתמוך בעדר הקונים. (עדכון 19.07.2026)",
-    "bear_case": "תודעת השוק היומית דובית: מדד פחד-וחמדנות 28 — פחד — הנרטיב הדומיננטי הוא כניעת-מוכרים. סנטימנט הקהילה מאופיין ב-חשש וחוסר אמון — הנרטיב הדומיננטי מעודד מכירה. חשש מהפסד מוביל לסגירת פוזיציות מינוף. הון קמעונאי יוצא. מתוך 8 המטבעות המובילים, 6 בעלייה ו-2 בירידה — רוחב שוק חיובי שמחזק את תודעת העדר. פסיכולוגיה של פאניק-מכירה ומינוף נסגר מחזקת את הלחץ כלפי מטה. תודעת השוק נוטה לחשש ולשנאת-סיכון. אם תודעת השוק תפנה לחשש, עדר המוכרים ינהל את הנרטיב ויגביר לחץ על פוזיציות לונג. (עדכון 19.07.2026)",
-    "bull_pct": 58,
-    "bear_pct": 42
+    "bull_case": "תודעת השוק היומית שורית: מדד פחד-וחמדנות 28 — פחד — הנרטיב הדומיננטי הוא כניעת-מוכרים. סנטימנט הקהילה מאופיין ב-חשש וחוסר אמון — הנרטיב הדומיננטי מעודד קנייה. הון קמעונאי יוצא, מינוף לונג עולה, ופוזיציות מוסדיות מתמקמות לעליות. מתוך 8 המטבעות המובילים, 3 בעלייה ו-5 בירידה — חולשת רוחב שמעצימה את הסנטימנט הזהיר. פסיכולוגיה של פאניק-מכירה ומינוף נסגר מחזקת את הביטחון בכיוון. סנטימנט הקהילה תומך בהמשך המגמה החיובית. אם תודעת השוק תמשיך להיות אופטימית, ניטרלי ימשיך לתמוך בעדר הקונים. (עדכון 19.07.2026)",
+    "bear_case": "תודעת השוק היומית דובית: מדד פחד-וחמדנות 28 — פחד — הנרטיב הדומיננטי הוא כניעת-מוכרים. סנטימנט הקהילה מאופיין ב-חשש וחוסר אמון — הנרטיב הדומיננטי מעודד מכירה. חשש מהפסד מוביל לסגירת פוזיציות מינוף. הון קמעונאי יוצא. מתוך 8 המטבעות המובילים, 3 בעלייה ו-5 בירידה — חולשת רוחב שמעצימה את הסנטימנט הזהיר. פסיכולוגיה של פאניק-מכירה ומינוף נסגר מחזקת את הלחץ כלפי מטה. תודעת השוק נוטה לחשש ולשנאת-סיכון. אם תודעת השוק תפנה לחשש, עדר המוכרים ינהל את הנרטיב ויגביר לחץ על פוזיציות לונג. (עדכון 19.07.2026)",
+    "bull_pct": 36,
+    "bear_pct": 64
   },
   "section_10_swing_traders": {
     "timeframe_note": "תודעת השוק טווח שבועי",
-    "bull_case": "זייטגייסט הביטקוין לטווח שבועי: מדד פחד-וחמדנות 28 — פחד — הנרטיב הדומיננטי הוא כניעת-מוכרים. נרטיב שוק דומיננטי: חשש וחוסר אמון — שלב מחזור פסיכולוגי של פאניק-מכירה ומינוף נסגר. מומנטום פסיכולוגי: מיקום-פוזיציות מוסדי מצביע על פעילות on-chain. מתוך 8 המטבעות המובילים, 6 בעלייה ו-2 בירידה — רוחב שוק חיובי שמחזק את תודעת העדר. הון קמעונאי עוד לא נכנס במלואו — עדר עשוי להגביר את הנרטיב השורי בשבוע הקרוב. סנטימנט הקהילה תומך בהמשך המגמה החיובית. אם הנרטיב ימשיך להתחזק, תודעת השוק תמשוך פוזיציות מינוף נוספות לכיוון אופטימי. (עדכון 19.07.2026)",
-    "bear_case": "זייטגייסט הביטקוין לטווח שבועי: מדד פחד-וחמדנות 28 — פחד — הנרטיב הדומיננטי הוא כניעת-מוכרים. נרטיב שוק דומיננטי: חשש וחוסר אמון — שלב מחזור פסיכולוגי של חרדה ואי-ודאות. מומנטום פסיכולוגי שלילי: פוזיציות לונג עם מינוף גבוה פגיעות לכניעת-מוכרים. מתוך 8 המטבעות המובילים, 6 בעלייה ו-2 בירידה — רוחב שוק חיובי שמחזק את תודעת העדר. הון קמעונאי מתמרח — עדר המוכרים עשוי להאיץ. תודעת השוק נוטה לחשש ולשנאת-סיכון. אם תודעת השוק תהפוך לפאניק, סנטימנט שלילי יגביר את לחץ המכירות לטווח שבועי. (עדכון 19.07.2026)",
-    "bull_pct": 45,
-    "bear_pct": 55
+    "bull_case": "זייטגייסט הביטקוין לטווח שבועי: מדד פחד-וחמדנות 28 — פחד — הנרטיב הדומיננטי הוא כניעת-מוכרים. נרטיב שוק דומיננטי: חשש וחוסר אמון — שלב מחזור פסיכולוגי של פאניק-מכירה ומינוף נסגר. מומנטום פסיכולוגי: מיקום-פוזיציות מוסדי מצביע על פעילות on-chain. מתוך 8 המטבעות המובילים, 3 בעלייה ו-5 בירידה — חולשת רוחב שמעצימה את הסנטימנט הזהיר. הון קמעונאי עוד לא נכנס במלואו — עדר עשוי להגביר את הנרטיב השורי בשבוע הקרוב. סנטימנט הקהילה תומך בהמשך המגמה החיובית. אם הנרטיב ימשיך להתחזק, תודעת השוק תמשוך פוזיציות מינוף נוספות לכיוון אופטימי. (עדכון 19.07.2026)",
+    "bear_case": "זייטגייסט הביטקוין לטווח שבועי: מדד פחד-וחמדנות 28 — פחד — הנרטיב הדומיננטי הוא כניעת-מוכרים. נרטיב שוק דומיננטי: חשש וחוסר אמון — שלב מחזור פסיכולוגי של חרדה ואי-ודאות. מומנטום פסיכולוגי שלילי: פוזיציות לונג עם מינוף גבוה פגיעות לכניעת-מוכרים. מתוך 8 המטבעות המובילים, 3 בעלייה ו-5 בירידה — חולשת רוחב שמעצימה את הסנטימנט הזהיר. הון קמעונאי מתמרח — עדר המוכרים עשוי להאיץ. תודעת השוק נוטה לחשש ולשנאת-סיכון. אם תודעת השוק תהפוך לפאניק, סנטימנט שלילי יגביר את לחץ המכירות לטווח שבועי. (עדכון 19.07.2026)",
+    "bull_pct": 37,
+    "bear_pct": 63
   },
   "_processing_log": [
     "section_8_conclusion: padded +705ch to reach 200ch/field min"
   ],
   "_meta": {
-    "_inputs_fingerprint": "0cb124673166",
+    "_inputs_fingerprint": "829d7cd82582",
     "data_source": {
       "section_1_situation": "carried-prev",
       "section_2_news": "carried-prev",
@@ -792,46 +786,46 @@
       "section_about": "carried-prev"
     },
     "section_freshness": {
-      "section_1_situation": "2026-07-19T15:45:45Z",
-      "section_2_news": "2026-07-19T15:45:45Z",
-      "section_3_sectors": "2026-07-19T15:45:45Z",
-      "section_4_crypto": "2026-07-19T15:45:45Z",
-      "section_4_crypto_brief": "2026-07-19T15:45:45Z",
-      "section_4_bitcoin": "2026-07-19T15:45:45Z",
-      "section_7_ai": "2026-07-19T15:45:45Z",
-      "section_8_conclusion": "2026-07-19T15:45:45Z",
-      "section_9_sp500_changes": "2026-07-19T15:45:45Z",
-      "section_9_day_traders": "2026-07-19T15:45:45Z",
-      "section_10_swing_traders": "2026-07-19T15:45:45Z",
-      "markets": "2026-07-19T15:45:45Z",
-      "crypto_global": "2026-07-19T15:45:45Z",
-      "section_about": "2026-07-19T15:45:45Z"
+      "section_1_situation": "2026-07-19T18:45:41Z",
+      "section_2_news": "2026-07-19T18:45:41Z",
+      "section_3_sectors": "2026-07-19T18:45:41Z",
+      "section_4_crypto": "2026-07-19T18:45:41Z",
+      "section_4_crypto_brief": "2026-07-19T18:45:41Z",
+      "section_4_bitcoin": "2026-07-19T18:45:41Z",
+      "section_7_ai": "2026-07-19T18:45:41Z",
+      "section_8_conclusion": "2026-07-19T18:45:41Z",
+      "section_9_sp500_changes": "2026-07-19T18:45:41Z",
+      "section_9_day_traders": "2026-07-19T18:45:41Z",
+      "section_10_swing_traders": "2026-07-19T18:45:41Z",
+      "markets": "2026-07-19T18:45:41Z",
+      "crypto_global": "2026-07-19T18:45:41Z",
+      "section_about": "2026-07-19T18:45:41Z"
     },
     "section_hash": {
-      "section_1_situation": "1f931550d96be6cb",
-      "section_2_news": "b670fe5cbc9464c2",
-      "section_3_sectors": "6b380ef592b7f4fa",
-      "section_4_crypto": "5300451044d9a374",
-      "section_4_crypto_brief": "50f62401a2830a82",
-      "section_4_bitcoin": "a74f5b94248fad07",
-      "section_7_ai": "aaab55d022852e12",
-      "section_8_conclusion": "22b75ee0b186f890",
+      "section_1_situation": "e16ae2cd2a0eadb8",
+      "section_2_news": "273673c396cbd3bb",
+      "section_3_sectors": "6b908bb5e039843f",
+      "section_4_crypto": "0235bec82cf033a5",
+      "section_4_crypto_brief": "0b6b0c8e84aebd2d",
+      "section_4_bitcoin": "c1c534ce4ee8110d",
+      "section_7_ai": "28123fe03544b5d3",
+      "section_8_conclusion": "ed1e84f5243686a8",
       "section_9_sp500_changes": "07b7a5324dd3bfdd",
-      "section_9_day_traders": "c1e793ded48bf6a2",
-      "section_10_swing_traders": "302ac895f279caab",
-      "markets": "8f2c30c1f36300e1",
-      "crypto_global": "ef5a8808b4faeda8",
-      "section_about": "18b86811a2c27ba8"
+      "section_9_day_traders": "ff49d52b9854885f",
+      "section_10_swing_traders": "0037bf234540fffa",
+      "markets": "f0afb1bb5f68fcdf",
+      "crypto_global": "1f8aa68514fb279c",
+      "section_about": "103e0159aff93177"
     }
   },
   "section_about": {
-    "last_update_ist": "19.07.2026 15:45",
+    "last_update_ist": "19.07.2026 18:45",
     "generated_by": "deterministic_refresher_v1",
     "active_sections": "מאקרו · קריפטו · 9 כתבות · 14 חברות AI · טריידרס",
     "news_count": 9,
     "ai_companies_count": 14,
-    "summary": "האתר עודכן לאחרונה ב-19.07.2026 15:45 IST. מקיף מאקרו · קריפטו · 9 כתבות · 14 חברות AI · טריידרס. מערכת אוטונומית — מתעדכנת 07:00 ו-19:00 IST מדי יום, ללא תלות ב-Claude."
+    "summary": "האתר עודכן לאחרונה ב-19.07.2026 18:45 IST. מקיף מאקרו · קריפטו · 9 כתבות · 14 חברות AI · טריידרס. מערכת אוטונומית — מתעדכנת 07:00 ו-19:00 IST מדי יום, ללא תלות ב-Claude."
   },
   "_use_existing_frozen": true,
-  "btc_funding_rates": "+0.007%"
+  "btc_funding_rates": "+0.006%"
 }
